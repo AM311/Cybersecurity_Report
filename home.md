@@ -10,7 +10,7 @@ This laboratory tries to give an overview of the steps that might be performed b
 
 The main characteristics of the hypotetical scenario are the following:
 
- - The organization IT services are based on a Windows Active Directory Domain Service, 
+ - All the computers and devices of the organization are The organization IT services are based on a **Windows Active Directory Domain Service**, which is 
 
 STRUTTURA GENERALE
 
@@ -72,6 +72,6 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NTgyMTUwNiwtNDcyODY5OTM3LC0xMj
+eyJoaXN0b3J5IjpbLTc1NzI4NDQxMiwtNDcyODY5OTM3LC0xMj
 Q3NzA2OTExXX0=
 -->
