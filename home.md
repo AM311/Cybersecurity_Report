@@ -1,7 +1,10 @@
 # DEMO Activity Report
 
+## Scenario
+This cybersecurity laboratory activity requires these
+
 ## Goal
-The mai goal of this cybersecurity labor
+The main goal of this cybersecurity laboratory activity is to gain access to the credentials of a domain administrator account.
 
 ### Creating a local copy of the repository
 
@@ -29,6 +32,6 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MzMwMTkzOSwtNDcyODY5OTM3LC0xMj
+eyJoaXN0b3J5IjpbLTY5MTc0NDkxOSwtNDcyODY5OTM3LC0xMj
 Q3NzA2OTExXX0=
 -->
