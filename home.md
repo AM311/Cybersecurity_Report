@@ -15,8 +15,10 @@ The main characteristics of the hypotetical scenario are the following:
 	 - A server that acts as **Domain Controller** and **DHCP server**;
 	 - Another server that acts as **DNS server** and **File Server**;
  - Domain accounts are divided in two major "groups":
-	 - Domain Administrators, who have "high privileges" on *all* machines;
-	 - Domain users, who have "low privileges";
+	 - Domain Administrators, which have "high privileges";
+	 - Domain users, which have "low privileges";
+ - Also, the following restrictions are :
+	 - ddd
 
 STRUTTURA GENERALE
 
@@ -78,6 +80,6 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDE5Mjc0MTMsLTQ3Mjg2OTkzNywtMT
+eyJoaXN0b3J5IjpbLTE2NzYyNTU2NDEsLTQ3Mjg2OTkzNywtMT
 I0NzcwNjkxMV19
 -->
