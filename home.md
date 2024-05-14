@@ -20,12 +20,11 @@ The main characteristics of the hypotetical scenario are the following:
  - Also, the following restrictions are enforced:
 	 - Domain Administrators are set up to be also **Local Administrators** on *all* the machines;
 	 - The DNS server can be accessed only by a specific user (with administrative privileges), who can access only that specific machine;
- - d
+ - All accounts can **read** a **shared network folder**, which can be written only by administrators;
 
+If not differently specified, all other settings are intented to be the "default" ones.
 
-DEBOLEZZE NELL'INFRASTRUTTURA
-
-REQUISITI MINIMI (ASSUNTI SU CUI SI BASANO LE SEGUENTI AZIONI)
+In orde
 
 
 ### Goal
@@ -81,6 +80,6 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1Njg0Mzc5MywtNDcyODY5OTM3LC0xMj
-Q3NzA2OTExXX0=
+eyJoaXN0b3J5IjpbLTE3MTkwMzc5MjAsLTQ3Mjg2OTkzNywtMT
+I0NzcwNjkxMV19
 -->
