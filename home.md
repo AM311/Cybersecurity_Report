@@ -29,3 +29,6 @@ nothing to commit, working tree clean
 ```
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEyNDc3MDY5MTFdfQ==
+-->
