@@ -1,8 +1,23 @@
-# Cybersec Report
+# Cybersecurity Hacking Lab: Report
 
 
 
-## Scenario
+## Introduction to the activity
+
+### Scenario
+
+SCENARIO CONCETTUALE
+
+### Goal
+The main goal of this cybersecurity laboratory activity is to gain access to the credentials of a domain administrator account.
+
+### Threat Model
+ddd
+
+## Setting up the Virtual Environment
+
+### Installing the Virtual Machines
+
 This cybersecurity laboratory activity requires the set-up of a virtual environment, as better explained below.
 Just for reference
 The following virtual machines are required:
@@ -12,16 +27,6 @@ The following virtual machines are required:
  - **1** VM running **Kali Linux**;
 
 Just for reference, the **VirtualBox** virtualizator has been used for completing this activity.
-
-## Goal
-The main goal of this cybersecurity laboratory activity is to gain access to the credentials of a domain administrator account.
-
-## Threat Model
-ddd
-
-## Setting up the Virtual Environment
-
-llll
 
 ## Let's Begin!
 
@@ -52,6 +57,6 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NjQ5OTUzOSwtNDcyODY5OTM3LC0xMj
+eyJoaXN0b3J5IjpbMTAzMzk4ODI4NywtNDcyODY5OTM3LC0xMj
 Q3NzA2OTExXX0=
 -->
