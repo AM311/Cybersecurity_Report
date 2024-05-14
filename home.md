@@ -35,9 +35,13 @@ The following virtual machines are required:
  - **1** VM running **Windows 7**;
  - **1** VM running **Kali Linux**;
 
+DETTAGLI TECNICI SU CONFIGURAZIONI VIRTUALBOX E VERSIONI SOFTWARE
+
+RIMANDO A CONFIGURAZIONI COME DA SCENARIO --> CITARE PRINCIPALI MODI PER REALIZZARE LO SCENARIO
+
 Just for reference, the **VirtualBox** virtualizator has been used for completing this activity.
 
-## Let's Begin!
+## Let's start Hacking!
 
 
 ### Creating a local copy of the repository
@@ -66,6 +70,6 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyODkzMDc3MywtNDcyODY5OTM3LC0xMj
-Q3NzA2OTExXX0=
+eyJoaXN0b3J5IjpbOTc1MjMxMDI4LC00NzI4Njk5MzcsLTEyND
+c3MDY5MTFdfQ==
 -->
