@@ -6,7 +6,7 @@ This document will present a complete and step-by-step guide to perform a hackin
 
 ### Scenario
 
-This laboratory tries to give an overview of a possible
+This laboratory tries to give an overview of the steps that might be performed by an attacker in a common organization in order to take control of high-privilege accounts and 
 
 
 ### Goal
@@ -58,6 +58,6 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMjQzNTEwLC00NzI4Njk5MzcsLTEyND
-c3MDY5MTFdfQ==
+eyJoaXN0b3J5IjpbMjA5OTg3ODI5NiwtNDcyODY5OTM3LC0xMj
+Q3NzA2OTExXX0=
 -->
