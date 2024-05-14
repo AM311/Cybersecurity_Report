@@ -37,7 +37,7 @@ The main goal of this laboratory is to **gain access to the credentials of a dom
 It is assumed that the attacker:
 
  - is "located" inside the network and owns the credentials of a domain user account (with low privileges);
- - can contact servers, also from a personal devise
+ - can contact servers, also from a personal device which is not part of the domain;
 
 ## Setting up the Virtual Environment
 
@@ -86,6 +86,6 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTQxOTQzNjQsLTQ3Mjg2OTkzNywtMT
+eyJoaXN0b3J5IjpbLTE5Mjc2MTY0MTIsLTQ3Mjg2OTkzNywtMT
 I0NzcwNjkxMV19
 -->
