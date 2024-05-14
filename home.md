@@ -64,7 +64,7 @@ Just for reference, the **VirtualBox** virtualizator has been used for completin
 
 Before we can work locally, we will need to create a clone of the repository.
 
-When you clone a repository you are creating a copy of everything in that repository, including its history. This is one of the benefits of a DVCS like git - rather than being required to query a slow centralized server to review the commit history, queries are run locally and are lightning fast.
+When you clone a repository you are creating a copy of everything in that repository, including its history. This is one of the benefits of a ==DVCS== like git - rather than being required to query a slow centralized server to review the commit history, queries are run locally and are lightning fast.
 
 Let's go ahead and clone the class repository to your local desktop.
 
@@ -86,6 +86,6 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjc2MTY0MTIsLTQ3Mjg2OTkzNywtMT
+eyJoaXN0b3J5IjpbLTIxMTIwMTA1ODgsLTQ3Mjg2OTkzNywtMT
 I0NzcwNjkxMV19
 -->
