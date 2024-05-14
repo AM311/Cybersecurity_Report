@@ -1,5 +1,4 @@
-# [436MI] Cybersecurity - DEMO
-La presente demo è stata redatta dallo studente Alessio MANIÀ durante l'A.A. 2023/24 
+# Report dell'attività di DEMO
 
 ## Obiettivo
 Using the command line, you can easily integrate Git into your current workflow.
@@ -30,5 +29,5 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA4MjEyNzY5LC0xMjQ3NzA2OTExXX0=
+eyJoaXN0b3J5IjpbLTQ3Mjg2OTkzNywtMTI0NzcwNjkxMV19
 -->
