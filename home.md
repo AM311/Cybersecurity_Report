@@ -1,8 +1,10 @@
-# DEMO Activity Report
+# Cybersec Report
+
+
 
 ## Scenario
-This cybersecurity laboratory activity requires the set-up of a virtual envirno of some virtual machines, as better explained below.
-d
+This cybersecurity laboratory activity requires the set-up of a virtual environment, as better explained below.
+Just for reference
 The following virtual machines are required:
 
  - **2** VMs running **Windows Server 2012**;
@@ -16,6 +18,13 @@ The main goal of this cybersecurity laboratory activity is to gain access to the
 
 ## Threat Model
 ddd
+
+## Setting up the Virtual Environment
+
+llll
+
+## Let's Begin!
+
 
 ### Creating a local copy of the repository
 
@@ -43,6 +52,6 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ4OTI2OTU4LC00NzI4Njk5MzcsLTEyND
-c3MDY5MTFdfQ==
+eyJoaXN0b3J5IjpbLTU4NjQ5OTUzOSwtNDcyODY5OTM3LC0xMj
+Q3NzA2OTExXX0=
 -->
