@@ -1,6 +1,6 @@
 # Cybersecurity Hacking Lab: Report
 
-This document will present a complete and step-by-step guide to perform a hacking laboratory activity in a .
+This document will present a complete and step-by-step guide to perform a hacking laboratory activity in a virtualized environment, reproducing a fake but realistic scenario.
 
 ## Introduction to the activity
 
@@ -57,6 +57,6 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5OTg1MzIyNSwtNDcyODY5OTM3LC0xMj
-Q3NzA2OTExXX0=
+eyJoaXN0b3J5IjpbLTE3ODcyNjI1OTgsLTQ3Mjg2OTkzNywtMT
+I0NzcwNjkxMV19
 -->
