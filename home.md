@@ -29,10 +29,14 @@ Where not differently specified, all other settings are intented to be the "defa
 It is assumed that the organization follows a **bad passwords management**, using common and easily predictable passwords, also for administrators accounts.
 
 ### Goal
-The main goal of this aboratory activity is to gain access to the credentials of a domain administrator account.
+
+The main goal of this laboratory is to **gain access to the credentials of a domain administrator account**.
 
 ### Threat Model
-ddd
+
+It is assumed that the attacker:
+
+ - Is "located" inside the network and own the credent
 
 ## Setting up the Virtual Environment
 
@@ -81,6 +85,6 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NTcwMzkyMSwtNDcyODY5OTM3LC0xMj
-Q3NzA2OTExXX0=
+eyJoaXN0b3J5IjpbNzU0ODY1NjA3LC00NzI4Njk5MzcsLTEyND
+c3MDY5MTFdfQ==
 -->
