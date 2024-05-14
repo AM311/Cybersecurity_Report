@@ -11,7 +11,9 @@ This laboratory tries to give an overview of the steps that might be performed b
 The main characteristics of the hypotetical scenario are the following:
 
  - All the computers and devices of the organization are part of a **domain**, based on **Windows Active Directory**;
- - The
+ - The domain mainly relies on two (physically and logically) different servers:
+	 - A server that acts as **Domain Controller** and **DHCP server**;
+	 - Another server that acts as DNS server and **File Server**;
 
 STRUTTURA GENERALE
 
@@ -73,6 +75,6 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcyOTczOTAwLC00NzI4Njk5MzcsLTEyND
-c3MDY5MTFdfQ==
+eyJoaXN0b3J5IjpbMTU3NTExODA5OSwtNDcyODY5OTM3LC0xMj
+Q3NzA2OTExXX0=
 -->
