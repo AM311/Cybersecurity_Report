@@ -6,7 +6,8 @@ This document will present a complete and step-by-step guide to perform a hackin
 
 ### Scenario
 
-SCENARIO CONCETTUALE
+This laboratory tries to give an overview of a possible
+
 
 ### Goal
 The main goal of this cybersecurity laboratory activity is to gain access to the credentials of a domain administrator account.
@@ -57,6 +58,6 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODcyNjI1OTgsLTQ3Mjg2OTkzNywtMT
-I0NzcwNjkxMV19
+eyJoaXN0b3J5IjpbLTkzMjQzNTEwLC00NzI4Njk5MzcsLTEyND
+c3MDY5MTFdfQ==
 -->
