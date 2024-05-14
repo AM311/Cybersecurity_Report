@@ -1,7 +1,7 @@
-# Report dell'attività di DEMO
+# DEMO Activity Report
 
-## Obiettivo
-Using the command line, you can easily integrate Git into your current workflow.
+## Goal
+The mai goal of this cybersecurity labor
 
 ### Creating a local copy of the repository
 
@@ -29,5 +29,6 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3Mjg2OTkzNywtMTI0NzcwNjkxMV19
+eyJoaXN0b3J5IjpbLTM5MzMwMTkzOSwtNDcyODY5OTM3LC0xMj
+Q3NzA2OTExXX0=
 -->
