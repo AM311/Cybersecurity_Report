@@ -1,9 +1,13 @@
 # DEMO Activity Report
 
 ## Scenario
-This cybersecurity laboratory activity requires the installation and the configuration of some virtual machines, as better explained below:
+This cybersecurity laboratory activity requires the set-up of a virtual envirno of some virtual machines, as better explained below.
+d
+The following virtual machines are required:
 
- - 2 VMs running Windows Serve
+ - **2** VMs running **Windows Server 2012**;
+ - **1** VM running **Windows 7**;
+ - **1** VM running **Kali Linux**;
 
 Just for reference, the **VirtualBox** virtualizator has been used for completing this activity.
 
@@ -39,6 +43,6 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk3NDI5MDcxLC00NzI4Njk5MzcsLTEyND
+eyJoaXN0b3J5IjpbMjQ4OTI2OTU4LC00NzI4Njk5MzcsLTEyND
 c3MDY5MTFdfQ==
 -->
