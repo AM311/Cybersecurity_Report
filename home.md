@@ -1,9 +1,11 @@
 # DEMO Activity Report
 
 ## Scenario
-This cybersecurity laboratory activity requires the installation and the configuration of some virtual machines, as better explained below.
+This cybersecurity laboratory activity requires the installation and the configuration of some virtual machines, as better explained below:
 
+ - 2 VMs running Windows Serve
 
+Just for reference, the **VirtualBox** virtualizator has been used for completing this activity.
 
 ## Goal
 The main goal of this cybersecurity laboratory activity is to gain access to the credentials of a domain administrator account.
@@ -37,6 +39,6 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNjg3MzM0OSwtNDcyODY5OTM3LC0xMj
-Q3NzA2OTExXX0=
+eyJoaXN0b3J5IjpbNDk3NDI5MDcxLC00NzI4Njk5MzcsLTEyND
+c3MDY5MTFdfQ==
 -->
