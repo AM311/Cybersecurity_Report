@@ -8,7 +8,9 @@ This document will present a complete and step-by-step guide to perform a hackin
 
 This laboratory tries to give an overview of the steps that might be performed by an attacker in a common organization running **Windows Active Directory** in order to take control of an high-privilege account.
 
-The main characteristics of the hypotized scenario are the following:
+The main characteristics of the hypotetical scenario are the following:
+
+ - The organization IT services are based on a Windows Active Directory Domain Service, 
 
 STRUTTURA GENERALE
 
@@ -70,6 +72,6 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2ODkyNTIyOCwtNDcyODY5OTM3LC0xMj
+eyJoaXN0b3J5IjpbMTg2NTgyMTUwNiwtNDcyODY5OTM3LC0xMj
 Q3NzA2OTExXX0=
 -->
