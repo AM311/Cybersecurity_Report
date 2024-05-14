@@ -18,7 +18,8 @@ The main characteristics of the hypotetical scenario are the following:
 	 - **Domain Administrators**, which have "high privileges" on *all* machines;
 	 - **Domain users**, which have "low privileges" on *all* machines;
  - Also, the following restrictions are enforced:
-	 - **Domain Administrators** ar;
+	 - **Domain Administrators** are set up to be also **Local Administrators** on *all* the machines;
+	 - T
 
 STRUTTURA GENERALE
 
@@ -80,6 +81,6 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NjExNzY1MSwtNDcyODY5OTM3LC0xMj
-Q3NzA2OTExXX0=
+eyJoaXN0b3J5IjpbLTE3ODMyMjkyODEsLTQ3Mjg2OTkzNywtMT
+I0NzcwNjkxMV19
 -->
