@@ -57,7 +57,7 @@ DETTAGLI TECNICI SU CONFIGURAZIONI VIRTUALBOX E VERSIONI SOFTWARE
 
 
 
-### Setting up the environment
+### Configuring the Domain
 
 RIMANDO A CONFIGURAZIONI COME DA SCENARIO --> CITARE PRINCIPALI MODI PER REALIZZARE LO SCENARIO
 
@@ -92,6 +92,6 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTQ1NzI5MDgsLTIxMTIwMTA1ODgsLT
-Q3Mjg2OTkzNywtMTI0NzcwNjkxMV19
+eyJoaXN0b3J5IjpbMTA5NjE4MDExNSwtMTgxNDU3MjkwOCwtMj
+ExMjAxMDU4OCwtNDcyODY5OTM3LC0xMjQ3NzA2OTExXX0=
 -->
