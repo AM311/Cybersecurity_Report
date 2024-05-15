@@ -61,7 +61,7 @@ It is clearly required that all these machines can communicate between each-othe
 
 ## Let's start Hacking!
 
-Once set-up the environment as reported, it is finally possible to start the laboratory!
+Once set-up the environment as reported, it is finally possible to begin the laboratory!
 
 Please notice that, unless it is specifically reported, all the actions are intended to be performed from the **Kali Linux** machine, located in the same network of the other devices but NOT part of the Active Directory Domain Services.
 
@@ -113,7 +113,7 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTc2Nzg4NjMsMTA5NjE4MDExNSwtMT
-gxNDU3MjkwOCwtMjExMjAxMDU4OCwtNDcyODY5OTM3LC0xMjQ3
-NzA2OTExXX0=
+eyJoaXN0b3J5IjpbLTE0NDczODgzNjAsLTIwOTc2Nzg4NjMsMT
+A5NjE4MDExNSwtMTgxNDU3MjkwOCwtMjExMjAxMDU4OCwtNDcy
+ODY5OTM3LC0xMjQ3NzA2OTExXX0=
 -->
