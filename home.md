@@ -49,7 +49,7 @@ This activity requires the set-up of a virtual environment, in which the followi
  - **1** VM running **Kali Linux**;
 
 All machines can be installed as virtual machines; for doing so, any virtualization software is good.
-The vers
+OS versions are not mandatory, but all necessary features must it is required that all needed functionalities are kept the same.
 
 DETTAGLI TECNICI SU CONFIGURAZIONI VIRTUALBOX E VERSIONI SOFTWARE
 
@@ -85,6 +85,6 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDg1NDgzNywtMjExMjAxMDU4OCwtND
-cyODY5OTM3LC0xMjQ3NzA2OTExXX0=
+eyJoaXN0b3J5IjpbLTE0OTA3OTAwMzcsLTIxMTIwMTA1ODgsLT
+Q3Mjg2OTkzNywtMTI0NzcwNjkxMV19
 -->
