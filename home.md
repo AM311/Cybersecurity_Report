@@ -53,10 +53,6 @@ OS versions are not mandatory, but all necessary features must available.
 
 It is clearly required that all these machines can communicate between each-other, so the virtualizator must be set up for allowing this.
 
-DETTAGLI TECNICI SU CONFIGURAZIONI VIRTUALBOX E VERSIONI SOFTWARE
-
-
-
 ### Configuring the Domain
 
 RIMANDO A CONFIGURAZIONI COME DA SCENARIO --> CITARE PRINCIPALI MODI PER REALIZZARE LO SCENARIO
@@ -92,7 +88,7 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNTkxMDkwNCwxMDk2MTgwMTE1LC0xOD
-E0NTcyOTA4LC0yMTEyMDEwNTg4LC00NzI4Njk5MzcsLTEyNDc3
-MDY5MTFdfQ==
+eyJoaXN0b3J5IjpbLTE2MTY2NzcwMjEsMTA5NjE4MDExNSwtMT
+gxNDU3MjkwOCwtMjExMjAxMDU4OCwtNDcyODY5OTM3LC0xMjQ3
+NzA2OTExXX0=
 -->
