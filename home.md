@@ -117,6 +117,10 @@ As first attempt, we ask the DomainController the list of all accounts that can 
 	
     `john --wordlist=/usr/share/wordlists/rockyou.txt --format=krb5asrep ./Desktop/usernames.txt`
 
+	"Fortunately", the password is present in the dictionary, so john finds it immediately:
+
+![Accounts that does not require pre-auth](https://github.com/AM311/Cybersecurity_Report/blob/main/img/asRepRoasting.png?raw=true)
+
  
  5. ff
  6. tt
@@ -131,10 +135,10 @@ As first attempt, we ask the DomainController the list of all accounts that can 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzODIyODI0NiwtMTA4NzMzOTI0MiwtMT
-gxOTgxNTI5MiwyNzE3MzQ0NDYsOTA3MDMyNzgsMTczNjM5Nzk3
-MiwxMjEyMjQ0MTQzLDE1NjU4MDAyODcsLTI5MjU0MzkzNCwtMT
-Q0NzM4ODM2MCwtMjA5NzY3ODg2MywxMDk2MTgwMTE1LC0xODE0
-NTcyOTA4LC0yMTEyMDEwNTg4LC00NzI4Njk5MzcsLTEyNDc3MD
-Y5MTFdfQ==
+eyJoaXN0b3J5IjpbLTM2Njc4MzMwLDEyMzgyMjgyNDYsLTEwOD
+czMzkyNDIsLTE4MTk4MTUyOTIsMjcxNzM0NDQ2LDkwNzAzMjc4
+LDE3MzYzOTc5NzIsMTIxMjI0NDE0MywxNTY1ODAwMjg3LC0yOT
+I1NDM5MzQsLTE0NDczODgzNjAsLTIwOTc2Nzg4NjMsMTA5NjE4
+MDExNSwtMTgxNDU3MjkwOCwtMjExMjAxMDU4OCwtNDcyODY5OT
+M3LC0xMjQ3NzA2OTExXX0=
 -->
