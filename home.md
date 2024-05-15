@@ -65,9 +65,13 @@ Once set-up the environment as reported, it is finally possible to start the lab
 
 Please notice that, unless it is specifically reported, all the actions are intended to be performed from the **Kali Linux** machine, located in the same network of the other devices but NOT part of the Active Directory Domain Services.
 
+==ACCOUNT CONTROLLATO DALL'UTENTE==
+
  1. **Finding the IP address of the Domain Controller**:
  As first step
- trtrtrtrtr
+ 
+    `nmap -p 389 -T4 -A -v -Pn --script ldap-rootdse 10.0.2.0/24`
+    where the 
 
  2. tt
  3. tt
@@ -109,7 +113,7 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMTU1NjkzMSwxMDk2MTgwMTE1LC0xOD
-E0NTcyOTA4LC0yMTEyMDEwNTg4LC00NzI4Njk5MzcsLTEyNDc3
-MDY5MTFdfQ==
+eyJoaXN0b3J5IjpbODQ5NTk2OTY1LDEwOTYxODAxMTUsLTE4MT
+Q1NzI5MDgsLTIxMTIwMTA1ODgsLTQ3Mjg2OTkzNywtMTI0Nzcw
+NjkxMV19
 -->
