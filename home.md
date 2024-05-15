@@ -53,11 +53,11 @@ OS versions are not mandatory, but all necessary features must available.
 
 It is clearly required that all these machines can communicate between each-other, so the virtualizator must be set up for allowing this.
 
-### Configuring the Domain
+### Configuring the Machines
 
 ==RIMANDO A CONFIGURAZIONI COME DA SCENARIO --> CITARE PRINCIPALI MODI PER REALIZZARE LO SCENARIO: utenti e come realizzare le ipotesi di lavoro (a grandi linee)==
 
-
+impacket deve essere installato su Kali (in generale, tutti i pacchetti/coa
 
 ## Let's start Hacking!
 
@@ -84,9 +84,9 @@ Please notice that, unless it is specifically reported, all the actions are inte
 2. **Ask the DC the list of accounts which do not require Kerberos pre-authentication**:
 As first attempt, we ask the DomainController the list of all accounts that can authenticate via Kerberos without pre-authentication: hopefully, we will find a Domain Administrator account using which we will be able to login to the DC.
 
-	For doing this, we run the following command:
+	For doing this, we run a specific LDAP query to the DC using the following command:
 	
-    `nmap -p 389 -T4 -A -v -Pn --script ldap-rootdse 10.0.2.0/24`
+    `impacket-GetNPUsers -dc-ip 10.0.2.200 -ts cybersec.units.it/DomainUser:User00!`
     
     e
     where the **`-p`** option ==...ToDo...==
@@ -135,9 +135,9 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNDM0MTM3OCw5MDcwMzI3OCwxNzM2Mz
-k3OTcyLDEyMTIyNDQxNDMsMTU2NTgwMDI4NywtMjkyNTQzOTM0
-LC0xNDQ3Mzg4MzYwLC0yMDk3Njc4ODYzLDEwOTYxODAxMTUsLT
-E4MTQ1NzI5MDgsLTIxMTIwMTA1ODgsLTQ3Mjg2OTkzNywtMTI0
-NzcwNjkxMV19
+eyJoaXN0b3J5IjpbMTE0NTcwMDI5LDkwNzAzMjc4LDE3MzYzOT
+c5NzIsMTIxMjI0NDE0MywxNTY1ODAwMjg3LC0yOTI1NDM5MzQs
+LTE0NDczODgzNjAsLTIwOTc2Nzg4NjMsMTA5NjE4MDExNSwtMT
+gxNDU3MjkwOCwtMjExMjAxMDU4OCwtNDcyODY5OTM3LC0xMjQ3
+NzA2OTExXX0=
 -->
