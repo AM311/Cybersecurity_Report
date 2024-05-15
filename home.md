@@ -63,7 +63,7 @@ It is clearly required that all these machines can communicate between each-othe
 
 Once set-up the environment as reported, it is finally possible to start the laboratory!
 
-It is notable to remark that
+Please notice that, unless it is specifically reported, all the actions are intended to be performed from the **Kali Linux** machine, located in the same network of the other devices but NOT part of the Active Directory Domain Services.
 
  1. **Finding the IP address of the Domain Controller**:
  As first step
@@ -109,7 +109,7 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzk5NTMzMzYsMTA5NjE4MDExNSwtMT
-gxNDU3MjkwOCwtMjExMjAxMDU4OCwtNDcyODY5OTM3LC0xMjQ3
-NzA2OTExXX0=
+eyJoaXN0b3J5IjpbLTkzMTU1NjkzMSwxMDk2MTgwMTE1LC0xOD
+E0NTcyOTA4LC0yMTEyMDEwNTg4LC00NzI4Njk5MzcsLTEyNDc3
+MDY5MTFdfQ==
 -->
