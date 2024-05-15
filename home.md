@@ -69,13 +69,14 @@ Please notice that, unless it is specifically reported, all the actions are inte
 
  0. **Open a Shell:**
  In order to perform all the following actions, a shell needs to be available on the Kali Linux machine.
- 2. **Finding the IP address of the Domain Controller**:
+ 1. **Finding the IP address of the Domain Controller**:
  To begin, we need to find the IP address of the Domain Controller.
  For doing so, we execute the following command: 
     `nmap -p 389 -T4 -A -v -Pn --script ldap-rootdse 10.0.2.0/24`
-    where the **`-p`** option
+    where the **`-p`** option ==...ToDo...==
 
- 3. tt
+ 2. tt
+ 3. fd
  4. tt
  5. f
  6. f
@@ -115,7 +116,7 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Nzc3MDE3NDMsLTE0NDczODgzNjAsLT
-IwOTc2Nzg4NjMsMTA5NjE4MDExNSwtMTgxNDU3MjkwOCwtMjEx
-MjAxMDU4OCwtNDcyODY5OTM3LC0xMjQ3NzA2OTExXX0=
+eyJoaXN0b3J5IjpbLTI5MjU0MzkzNCwtMTQ0NzM4ODM2MCwtMj
+A5NzY3ODg2MywxMDk2MTgwMTE1LC0xODE0NTcyOTA4LC0yMTEy
+MDEwNTg4LC00NzI4Njk5MzcsLTEyNDc3MDY5MTFdfQ==
 -->
