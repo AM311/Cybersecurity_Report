@@ -75,7 +75,12 @@ Please notice that, unless it is specifically reported, all the actions are inte
     `nmap -p 389 -T4 -A -v -Pn --script ldap-rootdse 10.0.2.0/24`
     where the **`-p`** option ==...ToDo...==
 
- 2. tt
+ 2. **Ask the DC the list of accounts which do not require pre-authentication**:
+ To begin, we need to find the IP address of the Domain Controller.
+ For doing so, we execute the following command: 
+    `nmap -p 389 -T4 -A -v -Pn --script ldap-rootdse 10.0.2.0/24`
+    where the **`-p`** option ==...ToDo...==
+    
  3. fd
  4. tt
  5. f
@@ -116,7 +121,8 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MjU0MzkzNCwtMTQ0NzM4ODM2MCwtMj
-A5NzY3ODg2MywxMDk2MTgwMTE1LC0xODE0NTcyOTA4LC0yMTEy
-MDEwNTg4LC00NzI4Njk5MzcsLTEyNDc3MDY5MTFdfQ==
+eyJoaXN0b3J5IjpbLTE4NTgzNDEzNDQsLTI5MjU0MzkzNCwtMT
+Q0NzM4ODM2MCwtMjA5NzY3ODg2MywxMDk2MTgwMTE1LC0xODE0
+NTcyOTA4LC0yMTEyMDEwNTg4LC00NzI4Njk5MzcsLTEyNDc3MD
+Y5MTFdfQ==
 -->
