@@ -121,7 +121,7 @@ As first attempt, we ask the DomainController the list of all accounts that can 
 	
 	![Result of the offline guessing with John the Ripper](https://github.com/AM311/Cybersecurity_Report/blob/main/img/asRepRoasting.png?raw=true)
 
-	 Thanks to this, we now know the credentials of an Admin account authorized to connect to the DNS/File server, so now we try to do so.
+	 Thanks to this, we now know the credentials of an Admin account authorized to connect to the DNS/File server; so, we now try to do so.
 
 	==VERIFICARE CHE SI POSSA FARE DESKTOP REMOTO==
  
@@ -138,7 +138,7 @@ As first attempt, we ask the DomainController the list of all accounts that can 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMjUxMzMxNiwxMjM4MjI4MjQ2LC0xMD
+eyJoaXN0b3J5IjpbMTIzMTc4MDc0OSwxMjM4MjI4MjQ2LC0xMD
 g3MzM5MjQyLC0xODE5ODE1MjkyLDI3MTczNDQ0Niw5MDcwMzI3
 OCwxNzM2Mzk3OTcyLDEyMTIyNDQxNDMsMTU2NTgwMDI4NywtMj
 kyNTQzOTM0LC0xNDQ3Mzg4MzYwLC0yMDk3Njc4ODYzLDEwOTYx
