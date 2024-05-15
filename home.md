@@ -71,7 +71,7 @@ Please notice that, unless it is specifically reported, all the actions are inte
  As first step
  
     `nmap -p 389 -T4 -A -v -Pn --script ldap-rootdse 10.0.2.0/24`
-    where the 
+    where the **`-p`** option
 
  2. tt
  3. tt
@@ -113,7 +113,7 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ5NTk2OTY1LDEwOTYxODAxMTUsLTE4MT
-Q1NzI5MDgsLTIxMTIwMTA1ODgsLTQ3Mjg2OTkzNywtMTI0Nzcw
-NjkxMV19
+eyJoaXN0b3J5IjpbLTIwOTc2Nzg4NjMsMTA5NjE4MDExNSwtMT
+gxNDU3MjkwOCwtMjExMjAxMDU4OCwtNDcyODY5OTM3LC0xMjQ3
+NzA2OTExXX0=
 -->
