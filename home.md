@@ -72,9 +72,12 @@ Please notice that, unless it is specifically reported, all the actions are inte
  1. **Finding the IP address of the Domain Controller**:
  To begin, we need to find the IP address of the Domain Controller.
  For doing so, we execute the following command: 
-    `nmap -p 389 -T4 -A -v -Pn --script ldap-rootdse 10.0.2.0/24`
+ 
+    `nmap -p 389 -A -v -Pn 10.0.2.0/24`
+    
     where the **`-p`** option ==...ToDo...==
-We find
+
+	From the response, we find out that the DomainController has IPv4 address **`10.0.2.200`**.
 
  2. **Ask the DC the list of accounts which do not require Kerberos pre-authentication**:
 As first attempt, we ask the DomainController the list of all accounts that can authenticate via Kerberos without pre-authentication.
@@ -122,8 +125,8 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NTgwMDI4NywtMjkyNTQzOTM0LC0xND
-Q3Mzg4MzYwLC0yMDk3Njc4ODYzLDEwOTYxODAxMTUsLTE4MTQ1
-NzI5MDgsLTIxMTIwMTA1ODgsLTQ3Mjg2OTkzNywtMTI0NzcwNj
-kxMV19
+eyJoaXN0b3J5IjpbMTIxMjI0NDE0MywxNTY1ODAwMjg3LC0yOT
+I1NDM5MzQsLTE0NDczODgzNjAsLTIwOTc2Nzg4NjMsMTA5NjE4
+MDExNSwtMTgxNDU3MjkwOCwtMjExMjAxMDU4OCwtNDcyODY5OT
+M3LC0xMjQ3NzA2OTExXX0=
 -->
