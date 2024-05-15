@@ -113,7 +113,9 @@ As first attempt, we ask the DomainController the list of all accounts that can 
 
  
  4. **Perform AS-Rep Roasting:**
- As said, we will now try to crack the password used for encoding the response obtained 
+ As said, we will now try to crack the password used for encoding the response obtained together with the TGT, performing a so-called AS-Rep Roasting attack.
+	For doing so, we will use **John the Ripper**, basing the offline-guessing activity on a password.
+	
 
  
  5. ff
@@ -129,10 +131,10 @@ As first attempt, we ask the DomainController the list of all accounts that can 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTkxOTQwMSwtMTA4NzMzOTI0MiwtMT
-gxOTgxNTI5MiwyNzE3MzQ0NDYsOTA3MDMyNzgsMTczNjM5Nzk3
-MiwxMjEyMjQ0MTQzLDE1NjU4MDAyODcsLTI5MjU0MzkzNCwtMT
-Q0NzM4ODM2MCwtMjA5NzY3ODg2MywxMDk2MTgwMTE1LC0xODE0
-NTcyOTA4LC0yMTEyMDEwNTg4LC00NzI4Njk5MzcsLTEyNDc3MD
-Y5MTFdfQ==
+eyJoaXN0b3J5IjpbLTIwODUwMjkxOTksLTEwODczMzkyNDIsLT
+E4MTk4MTUyOTIsMjcxNzM0NDQ2LDkwNzAzMjc4LDE3MzYzOTc5
+NzIsMTIxMjI0NDE0MywxNTY1ODAwMjg3LC0yOTI1NDM5MzQsLT
+E0NDczODgzNjAsLTIwOTc2Nzg4NjMsMTA5NjE4MDExNSwtMTgx
+NDU3MjkwOCwtMjExMjAxMDU4OCwtNDcyODY5OTM3LC0xMjQ3Nz
+A2OTExXX0=
 -->
