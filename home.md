@@ -74,10 +74,11 @@ Please notice that, unless it is specifically reported, all the actions are inte
  For doing so, we execute the following command: 
     `nmap -p 389 -T4 -A -v -Pn --script ldap-rootdse 10.0.2.0/24`
     where the **`-p`** option ==...ToDo...==
+We find
 
  2. **Ask the DC the list of accounts which do not require Kerberos pre-authentication**:
 As first attempt, we ask the DomainController the list of all accounts that can authenticate via Kerberos without pre-authentication.
-Hopefully, we will fi
+Hopefully, we will find a Domain Administrator account using which we will be able to login to the 
     `nmap -p 389 -T4 -A -v -Pn --script ldap-rootdse 10.0.2.0/24`
     where the **`-p`** option ==...ToDo...==
     
@@ -121,7 +122,7 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzk4NjgyOSwtMjkyNTQzOTM0LC0xND
+eyJoaXN0b3J5IjpbMTU2NTgwMDI4NywtMjkyNTQzOTM0LC0xND
 Q3Mzg4MzYwLC0yMDk3Njc4ODYzLDEwOTYxODAxMTUsLTE4MTQ1
 NzI5MDgsLTIxMTIwMTA1ODgsLTQ3Mjg2OTkzNywtMTI0NzcwNj
 kxMV19
