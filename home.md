@@ -87,6 +87,8 @@ Hopefully, we will find a Domain Administrator account using which we will be ab
     `nmap -p 389 -T4 -A -v -Pn --script ldap-rootdse 10.0.2.0/24`
     where the **`-p`** option ==...ToDo...==
     
+	![Accounts that does not require pre-auth](https://github.com/AM311/Cybersecurity_Report/blob/main/img/noPreAuth.png?raw=true)
+	
  3. fd
  4. tt
  5. f
@@ -127,8 +129,9 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNjM5Nzk3MiwxMjEyMjQ0MTQzLDE1Nj
-U4MDAyODcsLTI5MjU0MzkzNCwtMTQ0NzM4ODM2MCwtMjA5NzY3
-ODg2MywxMDk2MTgwMTE1LC0xODE0NTcyOTA4LC0yMTEyMDEwNT
-g4LC00NzI4Njk5MzcsLTEyNDc3MDY5MTFdfQ==
+eyJoaXN0b3J5IjpbOTA3MDMyNzgsMTczNjM5Nzk3MiwxMjEyMj
+Q0MTQzLDE1NjU4MDAyODcsLTI5MjU0MzkzNCwtMTQ0NzM4ODM2
+MCwtMjA5NzY3ODg2MywxMDk2MTgwMTE1LC0xODE0NTcyOTA4LC
+0yMTEyMDEwNTg4LC00NzI4Njk5MzcsLTEyNDc3MDY5MTFdfQ==
+
 -->
