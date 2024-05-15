@@ -55,11 +55,24 @@ It is clearly required that all these machines can communicate between each-othe
 
 ### Configuring the Domain
 
-RIMANDO A CONFIGURAZIONI COME DA SCENARIO --> CITARE PRINCIPALI MODI PER REALIZZARE LO SCENARIO
+==RIMANDO A CONFIGURAZIONI COME DA SCENARIO --> CITARE PRINCIPALI MODI PER REALIZZARE LO SCENARIO: utenti e come realizzare le ipotesi di lavoro (a grandi linee)==
 
 
 
 ## Let's start Hacking!
+
+ 0. ff
+ 1. fff
+ 2. f
+ 3. f
+ 4. f
+ 5. f
+ 6. f
+
+
+
+
+
 
 
 ### Creating a local copy of the repository
@@ -88,7 +101,7 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTY2NzcwMjEsMTA5NjE4MDExNSwtMT
-gxNDU3MjkwOCwtMjExMjAxMDU4OCwtNDcyODY5OTM3LC0xMjQ3
-NzA2OTExXX0=
+eyJoaXN0b3J5IjpbMTkwODg1MTM1MywxMDk2MTgwMTE1LC0xOD
+E0NTcyOTA4LC0yMTEyMDEwNTg4LC00NzI4Njk5MzcsLTEyNDc3
+MDY5MTFdfQ==
 -->
