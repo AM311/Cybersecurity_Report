@@ -75,11 +75,11 @@ Please notice that, unless it is specifically reported, all the actions are inte
  
     `nmap -p 389 -A -v -Pn 10.0.2.0/24`
     
-    where the **`-p`** option ==...ToDo...==
+    which tries to contact all the IP addresses in the range `10.0.2.0 - 10.0.0.255` on port  **389** (LDAP) to check whether i
 
 	From the response, we find out that the DomainController has IPv4 address **`10.0.2.200`**.
 	
-	 ![Response of the nmap reque](https://raw.githubusercontent.com/AM311/Cybersecurity_Report/main/img/nmap_DC.png)
+	 ![Response of the nmap request](https://raw.githubusercontent.com/AM311/Cybersecurity_Report/main/img/nmap_DC.png)
 
 2. **Ask the DC the list of accounts which do not require Kerberos pre-authentication**:
 As first attempt, we ask the DomainController the list of all accounts that can authenticate via Kerberos without pre-authentication.
@@ -127,7 +127,7 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDQwOTI3MiwxMjEyMjQ0MTQzLDE1Nj
+eyJoaXN0b3J5IjpbMjEzMzk5NjkyNiwxMjEyMjQ0MTQzLDE1Nj
 U4MDAyODcsLTI5MjU0MzkzNCwtMTQ0NzM4ODM2MCwtMjA5NzY3
 ODg2MywxMDk2MTgwMTE1LC0xODE0NTcyOTA4LC0yMTEyMDEwNT
 g4LC00NzI4Njk5MzcsLTEyNDc3MDY5MTFdfQ==
