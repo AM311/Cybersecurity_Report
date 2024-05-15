@@ -43,13 +43,16 @@ It is assumed that the attacker:
 
 ### Installing the Virtual Machines
 
-This cybersecurity laboratory activity requires the set-up of a virtual environment, as better explained below.
-Just for reference
+This activity requires the set-up of a virtual environment.
+Any virtualizator can be used
+
 The following virtual machines are required:
 
  - **2** VMs running **Windows Server 2012**;
  - **1** VM running **Windows 7**;
  - **1** VM running **Kali Linux**;
+
+All machines can be installed as virtual machines. For doing so, any virtualization software is g
 
 DETTAGLI TECNICI SU CONFIGURAZIONI VIRTUALBOX E VERSIONI SOFTWARE
 
@@ -86,6 +89,6 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTIwMTA1ODgsLTQ3Mjg2OTkzNywtMT
-I0NzcwNjkxMV19
+eyJoaXN0b3J5IjpbMTc4MTcwMzE0MSwtMjExMjAxMDU4OCwtND
+cyODY5OTM3LC0xMjQ3NzA2OTExXX0=
 -->
