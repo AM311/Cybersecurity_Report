@@ -128,7 +128,8 @@ As first attempt, we ask the DomainController the list of all accounts that can 
  5. **Open a remote connection to the DNS/File Server:**
  ddd
 
-	rdesktop 10.0.2.250 -u DNSoperator -p Qwerty123 -d cybersec.units.it -r disk:share=~/Desktop/share
+    `rdesktop 10.0.2.250 -u DNSoperator -p Qwerty123 -d cybersec.units.it -r disk:share=~/Desktop/share`
+
  
  6. tt
  7. dd
@@ -143,10 +144,10 @@ As first attempt, we ask the DomainController the list of all accounts that can 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY1Njk5Mzk4LDEyMzE3ODA3NDksMTIzOD
-IyODI0NiwtMTA4NzMzOTI0MiwtMTgxOTgxNTI5MiwyNzE3MzQ0
-NDYsOTA3MDMyNzgsMTczNjM5Nzk3MiwxMjEyMjQ0MTQzLDE1Nj
-U4MDAyODcsLTI5MjU0MzkzNCwtMTQ0NzM4ODM2MCwtMjA5NzY3
-ODg2MywxMDk2MTgwMTE1LC0xODE0NTcyOTA4LC0yMTEyMDEwNT
-g4LC00NzI4Njk5MzcsLTEyNDc3MDY5MTFdfQ==
+eyJoaXN0b3J5IjpbMTcwMDUzNDU2MCwxMjMxNzgwNzQ5LDEyMz
+gyMjgyNDYsLTEwODczMzkyNDIsLTE4MTk4MTUyOTIsMjcxNzM0
+NDQ2LDkwNzAzMjc4LDE3MzYzOTc5NzIsMTIxMjI0NDE0MywxNT
+Y1ODAwMjg3LC0yOTI1NDM5MzQsLTE0NDczODgzNjAsLTIwOTc2
+Nzg4NjMsMTA5NjE4MDExNSwtMTgxNDU3MjkwOCwtMjExMjAxMD
+U4OCwtNDcyODY5OTM3LC0xMjQ3NzA2OTExXX0=
 -->
