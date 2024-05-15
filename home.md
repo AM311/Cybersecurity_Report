@@ -61,6 +61,10 @@ It is clearly required that all these machines can communicate between each-othe
 
 ## Let's start Hacking!
 
+Once set-up the environment as reported, it is finally possible to start the laboratory!
+
+It is notable to remark that
+
  1. **Finding the IP address of the Domain Controller**:
  As first step
  trtrtrtrtr
@@ -105,7 +109,7 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAyNzYxNDksMTA5NjE4MDExNSwtMTgxND
-U3MjkwOCwtMjExMjAxMDU4OCwtNDcyODY5OTM3LC0xMjQ3NzA2
-OTExXX0=
+eyJoaXN0b3J5IjpbLTEwNzk5NTMzMzYsMTA5NjE4MDExNSwtMT
+gxNDU3MjkwOCwtMjExMjAxMDU4OCwtNDcyODY5OTM3LC0xMjQ3
+NzA2OTExXX0=
 -->
