@@ -88,7 +88,8 @@ As first attempt, we ask the DomainController the list of all accounts that can 
 	
     `impacket-GetNPUsers -dc-ip 10.0.2.200 -ts cybersec.units.it/DomainUser:User00!`
     
-    As it is shown below, 
+    As it is shown below, there are two domain accounts that soddisfy the requests.
+    We will f
     
 	![Accounts that does not require pre-auth](https://github.com/AM311/Cybersecurity_Report/blob/main/img/noPreAuth.png?raw=true)
 
@@ -134,7 +135,7 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjcyMTkyLDkwNzAzMjc4LDE3MzYzOT
+eyJoaXN0b3J5IjpbOTg0NjA2MzQxLDkwNzAzMjc4LDE3MzYzOT
 c5NzIsMTIxMjI0NDE0MywxNTY1ODAwMjg3LC0yOTI1NDM5MzQs
 LTE0NDczODgzNjAsLTIwOTc2Nzg4NjMsMTA5NjE4MDExNSwtMT
 gxNDU3MjkwOCwtMjExMjAxMDU4OCwtNDcyODY5OTM3LC0xMjQ3
