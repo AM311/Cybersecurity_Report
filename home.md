@@ -61,13 +61,17 @@ It is clearly required that all these machines can communicate between each-othe
 
 ## Let's start Hacking!
 
- 0. ff
- 1. fff
- 2. f
- 3. f
+ 1. **Finding the IP address of the Domain Controller**:
+ As first step
+ trtrtrtrtr
+
+ 2. tt
+ 3. tt
  4. f
  5. f
  6. f
+ 7. f
+ 8. f
 
 
 
@@ -101,7 +105,7 @@ nothing to commit, working tree clean
 
 `git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwODg1MTM1MywxMDk2MTgwMTE1LC0xOD
-E0NTcyOTA4LC0yMTEyMDEwNTg4LC00NzI4Njk5MzcsLTEyNDc3
-MDY5MTFdfQ==
+eyJoaXN0b3J5IjpbNDAyNzYxNDksMTA5NjE4MDExNSwtMTgxND
+U3MjkwOCwtMjExMjAxMDU4OCwtNDcyODY5OTM3LC0xMjQ3NzA2
+OTExXX0=
 -->
