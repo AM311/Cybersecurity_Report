@@ -177,7 +177,9 @@ To open a remote desktop connection, we can use the following command directly f
 
 	![Phishing email sent to the domain administrator](https://github.com/AM311/Cybersecurity_Report/blob/main/img/email.png?raw=true)
 
+	fdfdfdfd
 	
+	![All domain accounts](https://github.com/AM311/Cybersecurity_Report/blob/main/img/allUsers.png?raw=true)
 
 
  9. dd
@@ -192,11 +194,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NDI2ODczOSwtNTYzNjYxMDUsLTE4ND
-MzODI2NjMsLTIxMjA4NjMwMjUsNzY4MzAxNzQ1LDE2NzgzNTI3
-MTQsMTc1ODQ1MzAzNCwtMTc1NzY3ODc3MCwtMTcxNDUxOTQwOS
-w3MzExMDgxNjEsLTEyMjI4MjMzMTksMzc2MTUxMTExLC0yODA0
-MTI5NzMsLTE3MDg4MDQ4NDcsLTE4NjcxMzM0NTIsNzMxNjg1Mz
-E3LDE3MDA1MzQ1NjAsMTIzMTc4MDc0OSwxMjM4MjI4MjQ2LC0x
-MDg3MzM5MjQyXX0=
+eyJoaXN0b3J5IjpbLTI5NzYzNzQ3LC00NTQyNjg3MzksLTU2Mz
+Y2MTA1LC0xODQzMzgyNjYzLC0yMTIwODYzMDI1LDc2ODMwMTc0
+NSwxNjc4MzUyNzE0LDE3NTg0NTMwMzQsLTE3NTc2Nzg3NzAsLT
+E3MTQ1MTk0MDksNzMxMTA4MTYxLC0xMjIyODIzMzE5LDM3NjE1
+MTExMSwtMjgwNDEyOTczLC0xNzA4ODA0ODQ3LC0xODY3MTMzND
+UyLDczMTY4NTMxNywxNzAwNTM0NTYwLDEyMzE3ODA3NDksMTIz
+ODIyODI0Nl19
 -->
