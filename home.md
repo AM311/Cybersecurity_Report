@@ -151,13 +151,19 @@ To open a remote desktop connection, we can use the following command directly f
 	
  7. **Run the reverse shell server:**
 	For allowing us to take control of a machine, we obviously need to start the reverse shell server on our Kali Linux machine.
+	For doing so, we launch the following command:
+	
+	`ee`
+	
+	where `meterpreter.rx` is a script made up of the following commands:
 	
 	```
 	ddd
 	ddd
 	ddd
 	```
-
+	==SCRIPT==
+	
  8. gg
  9. dd
  10. f
@@ -171,11 +177,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTQ1MTk0MDksNzMxMTA4MTYxLC0xMj
-IyODIzMzE5LDM3NjE1MTExMSwtMjgwNDEyOTczLC0xNzA4ODA0
-ODQ3LC0xODY3MTMzNDUyLDczMTY4NTMxNywxNzAwNTM0NTYwLD
-EyMzE3ODA3NDksMTIzODIyODI0NiwtMTA4NzMzOTI0MiwtMTgx
-OTgxNTI5MiwyNzE3MzQ0NDYsOTA3MDMyNzgsMTczNjM5Nzk3Mi
-wxMjEyMjQ0MTQzLDE1NjU4MDAyODcsLTI5MjU0MzkzNCwtMTQ0
-NzM4ODM2MF19
+eyJoaXN0b3J5IjpbOTY4OTMzNzYxLC0xNzE0NTE5NDA5LDczMT
+EwODE2MSwtMTIyMjgyMzMxOSwzNzYxNTExMTEsLTI4MDQxMjk3
+MywtMTcwODgwNDg0NywtMTg2NzEzMzQ1Miw3MzE2ODUzMTcsMT
+cwMDUzNDU2MCwxMjMxNzgwNzQ5LDEyMzgyMjgyNDYsLTEwODcz
+MzkyNDIsLTE4MTk4MTUyOTIsMjcxNzM0NDQ2LDkwNzAzMjc4LD
+E3MzYzOTc5NzIsMTIxMjI0NDE0MywxNTY1ODAwMjg3LC0yOTI1
+NDM5MzRdfQ==
 -->
