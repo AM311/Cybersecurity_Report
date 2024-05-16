@@ -167,7 +167,7 @@ To open a remote desktop connection, we can use the following command directly f
 	The script, basically, starts a generic payload handler and makes it listening on the default port of the current machine for incoming connections from a `windows/meterpreter/reverse_tcp` payload, which is the one that we have injected.
 	
  8. **"Convince" a Domain Administrator to run the executable:**
- ffff
+ 
  
  9. dd
  10. ff 
@@ -181,11 +181,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MzY2MTA1LC0xODQzMzgyNjYzLC0yMT
-IwODYzMDI1LDc2ODMwMTc0NSwxNjc4MzUyNzE0LDE3NTg0NTMw
-MzQsLTE3NTc2Nzg3NzAsLTE3MTQ1MTk0MDksNzMxMTA4MTYxLC
-0xMjIyODIzMzE5LDM3NjE1MTExMSwtMjgwNDEyOTczLC0xNzA4
-ODA0ODQ3LC0xODY3MTMzNDUyLDczMTY4NTMxNywxNzAwNTM0NT
-YwLDEyMzE3ODA3NDksMTIzODIyODI0NiwtMTA4NzMzOTI0Miwt
-MTgxOTgxNTI5Ml19
+eyJoaXN0b3J5IjpbMTcyNzQ1ODE1MSwtNTYzNjYxMDUsLTE4ND
+MzODI2NjMsLTIxMjA4NjMwMjUsNzY4MzAxNzQ1LDE2NzgzNTI3
+MTQsMTc1ODQ1MzAzNCwtMTc1NzY3ODc3MCwtMTcxNDUxOTQwOS
+w3MzExMDgxNjEsLTEyMjI4MjMzMTksMzc2MTUxMTExLC0yODA0
+MTI5NzMsLTE3MDg4MDQ4NDcsLTE4NjcxMzM0NTIsNzMxNjg1Mz
+E3LDE3MDA1MzQ1NjAsMTIzMTc4MDc0OSwxMjM4MjI4MjQ2LC0x
+MDg3MzM5MjQyXX0=
 -->
