@@ -131,7 +131,7 @@ To open a remote desktop connection, we can use the following command directly f
 
     `rdesktop 10.0.2.250 -u DNSoperator -p Qwerty123 -d cybersec.units.it -r disk:share=~/Desktop/share`
 
-	Using the option `-r disk:share=~/Desktop/share` fff
+	Using the option `-r disk:share=~/Desktop/share` we can make the folder
  
  6. tt
  7. dd
@@ -146,11 +146,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMxNjg1MzE3LDE3MDA1MzQ1NjAsMTIzMT
-c4MDc0OSwxMjM4MjI4MjQ2LC0xMDg3MzM5MjQyLC0xODE5ODE1
-MjkyLDI3MTczNDQ0Niw5MDcwMzI3OCwxNzM2Mzk3OTcyLDEyMT
-IyNDQxNDMsMTU2NTgwMDI4NywtMjkyNTQzOTM0LC0xNDQ3Mzg4
-MzYwLC0yMDk3Njc4ODYzLDEwOTYxODAxMTUsLTE4MTQ1NzI5MD
-gsLTIxMTIwMTA1ODgsLTQ3Mjg2OTkzNywtMTI0NzcwNjkxMV19
-
+eyJoaXN0b3J5IjpbLTE4NjcxMzM0NTIsNzMxNjg1MzE3LDE3MD
+A1MzQ1NjAsMTIzMTc4MDc0OSwxMjM4MjI4MjQ2LC0xMDg3MzM5
+MjQyLC0xODE5ODE1MjkyLDI3MTczNDQ0Niw5MDcwMzI3OCwxNz
+M2Mzk3OTcyLDEyMTIyNDQxNDMsMTU2NTgwMDI4NywtMjkyNTQz
+OTM0LC0xNDQ3Mzg4MzYwLC0yMDk3Njc4ODYzLDEwOTYxODAxMT
+UsLTE4MTQ1NzI5MDgsLTIxMTIwMTA1ODgsLTQ3Mjg2OTkzNywt
+MTI0NzcwNjkxMV19
 -->
