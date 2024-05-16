@@ -146,7 +146,7 @@ To open a remote desktop connection, we can use the following command directly f
 	The output of the command execution is a `.exe` file that we will find on the Kali's desktop.
 	The name of the executable (`WorkshiftsManager.exe`) is deliberately misleading since we want not to raise any suspicion.
 	
-	We now need to **inject** the exploit into the systems. For doing so, we can easily rely on the remote desktop connection that we have already opened: 
+	We now need to **inject** the exploit into the systems. For doing so, we can easily rely on the remote desktop connection that we have already opened: we copy the executable file into the folder shared between Kali and the server; then, from the remote desktop window that controls the server, we copy the file into the 
 	
  7. dd
  8. gg
@@ -161,11 +161,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMxMTA4MTYxLC0xMjIyODIzMzE5LDM3Nj
-E1MTExMSwtMjgwNDEyOTczLC0xNzA4ODA0ODQ3LC0xODY3MTMz
-NDUyLDczMTY4NTMxNywxNzAwNTM0NTYwLDEyMzE3ODA3NDksMT
-IzODIyODI0NiwtMTA4NzMzOTI0MiwtMTgxOTgxNTI5MiwyNzE3
-MzQ0NDYsOTA3MDMyNzgsMTczNjM5Nzk3MiwxMjEyMjQ0MTQzLD
-E1NjU4MDAyODcsLTI5MjU0MzkzNCwtMTQ0NzM4ODM2MCwtMjA5
-NzY3ODg2M119
+eyJoaXN0b3J5IjpbNTA1MzE3ODk4LDczMTEwODE2MSwtMTIyMj
+gyMzMxOSwzNzYxNTExMTEsLTI4MDQxMjk3MywtMTcwODgwNDg0
+NywtMTg2NzEzMzQ1Miw3MzE2ODUzMTcsMTcwMDUzNDU2MCwxMj
+MxNzgwNzQ5LDEyMzgyMjgyNDYsLTEwODczMzkyNDIsLTE4MTk4
+MTUyOTIsMjcxNzM0NDQ2LDkwNzAzMjc4LDE3MzYzOTc5NzIsMT
+IxMjI0NDE0MywxNTY1ODAwMjg3LC0yOTI1NDM5MzQsLTE0NDcz
+ODgzNjBdfQ==
 -->
