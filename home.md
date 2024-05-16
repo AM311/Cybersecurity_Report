@@ -165,6 +165,9 @@ To open a remote desktop connection, we can use the following command directly f
 	exploit -j -z
 	```
 	==SCRIPT==
+generic payload handler
+we specify payload
+
 	
  8. **"Convince" a Domain Administrator to run the executable:**
  ffff
@@ -181,11 +184,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY4MzAxNzQ1LDE2NzgzNTI3MTQsMTc1OD
-Q1MzAzNCwtMTc1NzY3ODc3MCwtMTcxNDUxOTQwOSw3MzExMDgx
-NjEsLTEyMjI4MjMzMTksMzc2MTUxMTExLC0yODA0MTI5NzMsLT
-E3MDg4MDQ4NDcsLTE4NjcxMzM0NTIsNzMxNjg1MzE3LDE3MDA1
-MzQ1NjAsMTIzMTc4MDc0OSwxMjM4MjI4MjQ2LC0xMDg3MzM5Mj
-QyLC0xODE5ODE1MjkyLDI3MTczNDQ0Niw5MDcwMzI3OCwxNzM2
-Mzk3OTcyXX0=
+eyJoaXN0b3J5IjpbLTIxMjA4NjMwMjUsNzY4MzAxNzQ1LDE2Nz
+gzNTI3MTQsMTc1ODQ1MzAzNCwtMTc1NzY3ODc3MCwtMTcxNDUx
+OTQwOSw3MzExMDgxNjEsLTEyMjI4MjMzMTksMzc2MTUxMTExLC
+0yODA0MTI5NzMsLTE3MDg4MDQ4NDcsLTE4NjcxMzM0NTIsNzMx
+Njg1MzE3LDE3MDA1MzQ1NjAsMTIzMTc4MDc0OSwxMjM4MjI4Mj
+Q2LC0xMDg3MzM5MjQyLC0xODE5ODE1MjkyLDI3MTczNDQ0Niw5
+MDcwMzI3OF19
 -->
