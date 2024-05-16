@@ -150,7 +150,8 @@ To open a remote desktop connection, we can use the following command directly f
 	Doing so, all the account of the organization will be able to see (and execute) that file.
 	
  7. **Run the reverse shell server:**
-	For allowing us to take control of a machine, we obviou
+	For allowing us to take control of a machine, we obviously need to start the reverse shell server on our Kali Linux machine.
+	
 
 
  8. gg
@@ -166,11 +167,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjY5MDY2OSw3MzExMDgxNjEsLTEyMj
-I4MjMzMTksMzc2MTUxMTExLC0yODA0MTI5NzMsLTE3MDg4MDQ4
-NDcsLTE4NjcxMzM0NTIsNzMxNjg1MzE3LDE3MDA1MzQ1NjAsMT
-IzMTc4MDc0OSwxMjM4MjI4MjQ2LC0xMDg3MzM5MjQyLC0xODE5
-ODE1MjkyLDI3MTczNDQ0Niw5MDcwMzI3OCwxNzM2Mzk3OTcyLD
-EyMTIyNDQxNDMsMTU2NTgwMDI4NywtMjkyNTQzOTM0LC0xNDQ3
-Mzg4MzYwXX0=
+eyJoaXN0b3J5IjpbNDMyNjQ0MjM1LDczMTEwODE2MSwtMTIyMj
+gyMzMxOSwzNzYxNTExMTEsLTI4MDQxMjk3MywtMTcwODgwNDg0
+NywtMTg2NzEzMzQ1Miw3MzE2ODUzMTcsMTcwMDUzNDU2MCwxMj
+MxNzgwNzQ5LDEyMzgyMjgyNDYsLTEwODczMzkyNDIsLTE4MTk4
+MTUyOTIsMjcxNzM0NDQ2LDkwNzAzMjc4LDE3MzYzOTc5NzIsMT
+IxMjI0NDE0MywxNTY1ODAwMjg3LC0yOTI1NDM5MzQsLTE0NDcz
+ODgzNjBdfQ==
 -->
