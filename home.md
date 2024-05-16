@@ -167,7 +167,9 @@ To open a remote desktop connection, we can use the following command directly f
 	The script, basically, starts a generic payload handler and makes it listening on the default port of the current machine for incoming connections from a `windows/meterpreter/reverse_tcp` payload, which is the one that we have injected.
 	
  8. **"Convince" a Domain Administrator to run the executable:**
- In order to make this whole system effectively work, we need to "convince" a domain administrator to run the executable: doing so, we will be able to communicate to a process (the reverse shell client) running with high-privileges (remember: all domain administrators are also local administrators), so we will be able to steal tghe
+ In order to make this whole system effectively work, we need to "convince" a domain administrator to run the executable: doing so, we will be able to communicate to a process (the reverse shell client) running with high-privileges (remember: all domain administrators are also local administrators), so we will be able to **steal the credentials** of the logged account.
+
+![Phishing email sent to the domain administrator](https://github.com/AM311/Cybersecurity_Report/blob/main/img/email.png?raw=true)
  
  9. dd
  10. ff 
@@ -181,11 +183,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyOTcyMDQyMSwtNTYzNjYxMDUsLTE4ND
-MzODI2NjMsLTIxMjA4NjMwMjUsNzY4MzAxNzQ1LDE2NzgzNTI3
-MTQsMTc1ODQ1MzAzNCwtMTc1NzY3ODc3MCwtMTcxNDUxOTQwOS
-w3MzExMDgxNjEsLTEyMjI4MjMzMTksMzc2MTUxMTExLC0yODA0
-MTI5NzMsLTE3MDg4MDQ4NDcsLTE4NjcxMzM0NTIsNzMxNjg1Mz
-E3LDE3MDA1MzQ1NjAsMTIzMTc4MDc0OSwxMjM4MjI4MjQ2LC0x
-MDg3MzM5MjQyXX0=
+eyJoaXN0b3J5IjpbLTE1Nzk3NTU1NzYsLTU2MzY2MTA1LC0xOD
+QzMzgyNjYzLC0yMTIwODYzMDI1LDc2ODMwMTc0NSwxNjc4MzUy
+NzE0LDE3NTg0NTMwMzQsLTE3NTc2Nzg3NzAsLTE3MTQ1MTk0MD
+ksNzMxMTA4MTYxLC0xMjIyODIzMzE5LDM3NjE1MTExMSwtMjgw
+NDEyOTczLC0xNzA4ODA0ODQ3LC0xODY3MTMzNDUyLDczMTY4NT
+MxNywxNzAwNTM0NTYwLDEyMzE3ODA3NDksMTIzODIyODI0Niwt
+MTA4NzMzOTI0Ml19
 -->
