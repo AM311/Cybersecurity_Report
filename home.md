@@ -164,9 +164,11 @@ To open a remote desktop connection, we can use the following command directly f
 	```
 	==SCRIPT==
 	
- 8. gg
+ 8. **"Convince" a Domain Administrator to run the executable:**
+ ffff
+ 
  9. dd
- 10. f
+ 10. ff 
  11. f
  12. f
 
@@ -177,11 +179,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA5MDYzNTg2LC0xNzU3Njc4NzcwLC0xNz
-E0NTE5NDA5LDczMTEwODE2MSwtMTIyMjgyMzMxOSwzNzYxNTEx
-MTEsLTI4MDQxMjk3MywtMTcwODgwNDg0NywtMTg2NzEzMzQ1Mi
-w3MzE2ODUzMTcsMTcwMDUzNDU2MCwxMjMxNzgwNzQ5LDEyMzgy
-MjgyNDYsLTEwODczMzkyNDIsLTE4MTk4MTUyOTIsMjcxNzM0ND
-Q2LDkwNzAzMjc4LDE3MzYzOTc5NzIsMTIxMjI0NDE0MywxNTY1
-ODAwMjg3XX0=
+eyJoaXN0b3J5IjpbMTc1ODQ1MzAzNCwtMTc1NzY3ODc3MCwtMT
+cxNDUxOTQwOSw3MzExMDgxNjEsLTEyMjI4MjMzMTksMzc2MTUx
+MTExLC0yODA0MTI5NzMsLTE3MDg4MDQ4NDcsLTE4NjcxMzM0NT
+IsNzMxNjg1MzE3LDE3MDA1MzQ1NjAsMTIzMTc4MDc0OSwxMjM4
+MjI4MjQ2LC0xMDg3MzM5MjQyLC0xODE5ODE1MjkyLDI3MTczND
+Q0Niw5MDcwMzI3OCwxNzM2Mzk3OTcyLDEyMTIyNDQxNDMsMTU2
+NTgwMDI4N119
 -->
