@@ -167,21 +167,21 @@ To open a remote desktop connection, we can use the following command directly f
 	The script, basically, starts a generic payload handler and makes it listening on the default port of the current machine for incoming connections from a `windows/meterpreter/reverse_tcp` payload, which is the one that we have injected.
 	
  8. **"Convince" a Domain Administrator to run the executable:**
- In order to make this whole system effectively work, we need to "convince" a domain administrator to run the executable: doing so, we will be able to communicate to a process (the reverse shell client) running with high-privileges (remember: all domain administrators are also local administrators), so we will be able to **steal the credentials** of the logged account.
+	In order to make this whole system effectively work, we need to "convince" a domain administrator to run the executable: doing so, we will be able to communicate to a process (the reverse shell client) running with high-privileges (remember: all domain administrators are also local administrators), so we will be able to **steal the credentials** of the logged account.
  
 	 To identify the target account, we run a LDAP query for listing all the domain accounts:
 
 	   `impacket-GetADUsers -dc-ip 10.0.2.200 -all -ts cybersec.units.it/DomainUser:User00!`
 
-	It seems quite ovious that **`DomainAdmin`** will be a good target, so we use the given email to send a spearphishing message:
-
-	![Phishing email sent to the domain administrator](https://github.com/AM311/Cybersecurity_Report/blob/main/img/email.png?raw=true)
-
-	fdfdfdfd
+	Which gives the following output:
 	
 	![All domain accounts](https://github.com/AM311/Cybersecurity_Report/blob/main/img/allUsers.png?raw=true)
+		
+	It seems quite obvious that **`DomainAdmin`** will be a good target, so we use the given email to send a spearphishing message:
+	![Phishing email sent to the domain administrator](https://github.com/AM311/Cybersecurity_Report/blob/main/img/email.png?raw=true)
 
-
+	Hopefully, the user will 
+	
  9. dd
  10. ff 
  11. f
@@ -194,11 +194,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NzYzNzQ3LC00NTQyNjg3MzksLTU2Mz
-Y2MTA1LC0xODQzMzgyNjYzLC0yMTIwODYzMDI1LDc2ODMwMTc0
-NSwxNjc4MzUyNzE0LDE3NTg0NTMwMzQsLTE3NTc2Nzg3NzAsLT
-E3MTQ1MTk0MDksNzMxMTA4MTYxLC0xMjIyODIzMzE5LDM3NjE1
-MTExMSwtMjgwNDEyOTczLC0xNzA4ODA0ODQ3LC0xODY3MTMzND
-UyLDczMTY4NTMxNywxNzAwNTM0NTYwLDEyMzE3ODA3NDksMTIz
-ODIyODI0Nl19
+eyJoaXN0b3J5IjpbLTE1NjExNTE3MzcsLTI5NzYzNzQ3LC00NT
+QyNjg3MzksLTU2MzY2MTA1LC0xODQzMzgyNjYzLC0yMTIwODYz
+MDI1LDc2ODMwMTc0NSwxNjc4MzUyNzE0LDE3NTg0NTMwMzQsLT
+E3NTc2Nzg3NzAsLTE3MTQ1MTk0MDksNzMxMTA4MTYxLC0xMjIy
+ODIzMzE5LDM3NjE1MTExMSwtMjgwNDEyOTczLC0xNzA4ODA0OD
+Q3LC0xODY3MTMzNDUyLDczMTY4NTMxNywxNzAwNTM0NTYwLDEy
+MzE3ODA3NDldfQ==
 -->
