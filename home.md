@@ -164,7 +164,8 @@ To open a remote desktop connection, we can use the following command directly f
 	set ExitOnSession false
 	exploit -j -z
 	```
-	==SCRIPT==
+	ff	
+==SCRIPT==
 generic payload handler
 we specify payload
 
@@ -184,11 +185,11 @@ we specify payload
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjA4NjMwMjUsNzY4MzAxNzQ1LDE2Nz
-gzNTI3MTQsMTc1ODQ1MzAzNCwtMTc1NzY3ODc3MCwtMTcxNDUx
-OTQwOSw3MzExMDgxNjEsLTEyMjI4MjMzMTksMzc2MTUxMTExLC
-0yODA0MTI5NzMsLTE3MDg4MDQ4NDcsLTE4NjcxMzM0NTIsNzMx
-Njg1MzE3LDE3MDA1MzQ1NjAsMTIzMTc4MDc0OSwxMjM4MjI4Mj
-Q2LC0xMDg3MzM5MjQyLC0xODE5ODE1MjkyLDI3MTczNDQ0Niw5
-MDcwMzI3OF19
+eyJoaXN0b3J5IjpbLTE4NDMzODI2NjMsLTIxMjA4NjMwMjUsNz
+Y4MzAxNzQ1LDE2NzgzNTI3MTQsMTc1ODQ1MzAzNCwtMTc1NzY3
+ODc3MCwtMTcxNDUxOTQwOSw3MzExMDgxNjEsLTEyMjI4MjMzMT
+ksMzc2MTUxMTExLC0yODA0MTI5NzMsLTE3MDg4MDQ4NDcsLTE4
+NjcxMzM0NTIsNzMxNjg1MzE3LDE3MDA1MzQ1NjAsMTIzMTc4MD
+c0OSwxMjM4MjI4MjQ2LC0xMDg3MzM5MjQyLC0xODE5ODE1Mjky
+LDI3MTczNDQ0Nl19
 -->
