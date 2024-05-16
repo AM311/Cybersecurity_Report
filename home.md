@@ -169,11 +169,10 @@ To open a remote desktop connection, we can use the following command directly f
  8. **"Convince" a Domain Administrator to run the executable:**
  In order to make this whole system effectively work, we need to "convince" a domain administrator to run the executable: doing so, we will be able to communicate to a process (the reverse shell client) running with high-privileges (remember: all domain administrators are also local administrators), so we will be able to **steal the credentials** of the logged account.
 
+
 	![Phishing email sent to the domain administrator](https://github.com/AM311/Cybersecurity_Report/blob/main/img/email.png?raw=true)
 
-	To identify the target account, we run a LDAP query for listing all the domain accounts:
-
-impacket-GetADUsers -dc-ip 10.0.2.200 -all -ts cybersec.units.it/DomainUser:User00!     
+	
 
 
  9. dd
@@ -188,7 +187,7 @@ impacket-GetADUsers -dc-ip 10.0.2.200 -all -ts cybersec.units.it/DomainUser:User
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTk4MDMwOSwtNTYzNjYxMDUsLTE4ND
+eyJoaXN0b3J5IjpbLTE1NTk3OTUxNCwtNTYzNjYxMDUsLTE4ND
 MzODI2NjMsLTIxMjA4NjMwMjUsNzY4MzAxNzQ1LDE2NzgzNTI3
 MTQsMTc1ODQ1MzAzNCwtMTc1NzY3ODc3MCwtMTcxNDUxOTQwOS
 w3MzExMDgxNjEsLTEyMjI4MjMzMTksMzc2MTUxMTExLC0yODA0
