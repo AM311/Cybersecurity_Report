@@ -134,7 +134,8 @@ To open a remote desktop connection, we can use the following command directly f
 	Using the option `-r disk:share=~/Desktop/share` we can share the folder `share` between the Kali Linux machine and the remote DNS/File Server, so we are able to easily move documents between the two devices.
  
  6. **Generation of a payload for starting a reverse shell and injection**
-	In a different shell window, we now proceed with the generation of an exploit through which we will inject a remote shell client to 
+	In a different shell window, we now proceed with the generation of an exploit through which we will try to inject a remote shell client to the computers of the organization.
+	We will use meterpreter as remote shell; for doing so, we run the following command on the Kali Linux machine to generate a payload that st
 	
  7. dd
  8. gg
@@ -149,11 +150,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMxMjEyMiwtMTg2NzEzMzQ1Miw3MzE2OD
-UzMTcsMTcwMDUzNDU2MCwxMjMxNzgwNzQ5LDEyMzgyMjgyNDYs
-LTEwODczMzkyNDIsLTE4MTk4MTUyOTIsMjcxNzM0NDQ2LDkwNz
-AzMjc4LDE3MzYzOTc5NzIsMTIxMjI0NDE0MywxNTY1ODAwMjg3
-LC0yOTI1NDM5MzQsLTE0NDczODgzNjAsLTIwOTc2Nzg4NjMsMT
-A5NjE4MDExNSwtMTgxNDU3MjkwOCwtMjExMjAxMDU4OCwtNDcy
-ODY5OTM3XX0=
+eyJoaXN0b3J5IjpbLTY0MTA1MzEwNCwtMTg2NzEzMzQ1Miw3Mz
+E2ODUzMTcsMTcwMDUzNDU2MCwxMjMxNzgwNzQ5LDEyMzgyMjgy
+NDYsLTEwODczMzkyNDIsLTE4MTk4MTUyOTIsMjcxNzM0NDQ2LD
+kwNzAzMjc4LDE3MzYzOTc5NzIsMTIxMjI0NDE0MywxNTY1ODAw
+Mjg3LC0yOTI1NDM5MzQsLTE0NDczODgzNjAsLTIwOTc2Nzg4Nj
+MsMTA5NjE4MDExNSwtMTgxNDU3MjkwOCwtMjExMjAxMDU4OCwt
+NDcyODY5OTM3XX0=
 -->
