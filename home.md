@@ -126,7 +126,7 @@ As first attempt, we ask the DomainController the list of all accounts that can 
 	==VERIFICARE CHE SI POSSA FARE DESKTOP REMOTO==
  
  5. **Open a remote connection to the DNS/File Server:**
- ddd
+ Now that we know the credentials for an account that can logon to the DNS/File Server, we can open a connection to that machine and start
 
     `rdesktop 10.0.2.250 -u DNSoperator -p Qwerty123 -d cybersec.units.it -r disk:share=~/Desktop/share`
 
@@ -144,10 +144,11 @@ As first attempt, we ask the DomainController the list of all accounts that can 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMDUzNDU2MCwxMjMxNzgwNzQ5LDEyMz
-gyMjgyNDYsLTEwODczMzkyNDIsLTE4MTk4MTUyOTIsMjcxNzM0
-NDQ2LDkwNzAzMjc4LDE3MzYzOTc5NzIsMTIxMjI0NDE0MywxNT
-Y1ODAwMjg3LC0yOTI1NDM5MzQsLTE0NDczODgzNjAsLTIwOTc2
-Nzg4NjMsMTA5NjE4MDExNSwtMTgxNDU3MjkwOCwtMjExMjAxMD
-U4OCwtNDcyODY5OTM3LC0xMjQ3NzA2OTExXX0=
+eyJoaXN0b3J5IjpbLTI3MDkxNTUzMCwxNzAwNTM0NTYwLDEyMz
+E3ODA3NDksMTIzODIyODI0NiwtMTA4NzMzOTI0MiwtMTgxOTgx
+NTI5MiwyNzE3MzQ0NDYsOTA3MDMyNzgsMTczNjM5Nzk3MiwxMj
+EyMjQ0MTQzLDE1NjU4MDAyODcsLTI5MjU0MzkzNCwtMTQ0NzM4
+ODM2MCwtMjA5NzY3ODg2MywxMDk2MTgwMTE1LC0xODE0NTcyOT
+A4LC0yMTEyMDEwNTg4LC00NzI4Njk5MzcsLTEyNDc3MDY5MTFd
+fQ==
 -->
