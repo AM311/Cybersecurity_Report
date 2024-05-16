@@ -180,7 +180,9 @@ To open a remote desktop connection, we can use the following command directly f
 	It seems quite obvious that **`DomainAdmin`** will be a good target, so we use the given email to send a spearphishing message:
 	![Phishing email sent to the domain administrator](https://github.com/AM311/Cybersecurity_Report/blob/main/img/email.png?raw=true)
 
-	Hopefully, the user will 
+	Hopefully, the user will anywhen run the process as instructed.
+
+	==NOTE SU MOTIVO DI RUN AS ADMIN==
 	
  9. dd
  10. ff 
@@ -194,11 +196,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjExNTE3MzcsLTI5NzYzNzQ3LC00NT
-QyNjg3MzksLTU2MzY2MTA1LC0xODQzMzgyNjYzLC0yMTIwODYz
-MDI1LDc2ODMwMTc0NSwxNjc4MzUyNzE0LDE3NTg0NTMwMzQsLT
-E3NTc2Nzg3NzAsLTE3MTQ1MTk0MDksNzMxMTA4MTYxLC0xMjIy
-ODIzMzE5LDM3NjE1MTExMSwtMjgwNDEyOTczLC0xNzA4ODA0OD
-Q3LC0xODY3MTMzNDUyLDczMTY4NTMxNywxNzAwNTM0NTYwLDEy
-MzE3ODA3NDldfQ==
+eyJoaXN0b3J5IjpbNTE5NTM0NDY4LC0yOTc2Mzc0NywtNDU0Mj
+Y4NzM5LC01NjM2NjEwNSwtMTg0MzM4MjY2MywtMjEyMDg2MzAy
+NSw3NjgzMDE3NDUsMTY3ODM1MjcxNCwxNzU4NDUzMDM0LC0xNz
+U3Njc4NzcwLC0xNzE0NTE5NDA5LDczMTEwODE2MSwtMTIyMjgy
+MzMxOSwzNzYxNTExMTEsLTI4MDQxMjk3MywtMTcwODgwNDg0Ny
+wtMTg2NzEzMzQ1Miw3MzE2ODUzMTcsMTcwMDUzNDU2MCwxMjMx
+NzgwNzQ5XX0=
 -->
