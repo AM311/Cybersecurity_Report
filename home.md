@@ -143,7 +143,9 @@ To open a remote desktop connection, we can use the following command directly f
 
 	 `msfvenom` is a pre-installed payload generator and encoder available on Kali, through which we build a `.exe` file executable on all Windows devices. This payload will spawn a reverse shell client, which will connect to the reverse shell server listening on the Kali machine (`10.0.2.15`).
 
-	The output of the command execution is a `.exe` file that we will find 
+	The output of the command execution is a `.exe` file that we will find on the Kali's desktop.
+	The name of the executable (`WorkshiftsManager.exe`) is deliberately misleading
+	We
 	
  7. dd
  8. gg
@@ -158,7 +160,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3MjI4Njk4LC0xNzA4ODA0ODQ3LC0xOD
+eyJoaXN0b3J5IjpbMzU0MzIwNzgyLC0xNzA4ODA0ODQ3LC0xOD
 Y3MTMzNDUyLDczMTY4NTMxNywxNzAwNTM0NTYwLDEyMzE3ODA3
 NDksMTIzODIyODI0NiwtMTA4NzMzOTI0MiwtMTgxOTgxNTI5Mi
 wyNzE3MzQ0NDYsOTA3MDMyNzgsMTczNjM5Nzk3MiwxMjEyMjQ0
