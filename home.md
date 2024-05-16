@@ -131,7 +131,7 @@ To open a remote desktop connection, we can use the following command directly f
 
     `rdesktop 10.0.2.250 -u DNSoperator -p Qwerty123 -d cybersec.units.it -r disk:share=~/Desktop/share`
 
-	Using the option `-r disk:share=~/Desktop/share` we can make the folder
+	Using the option `-r disk:share=~/Desktop/share` we can share the folder `share` between the Kali Linux machine and the remote DNS/File Server, so we are able to easily move documents between the two devices.
  
  6. tt
  7. dd
@@ -146,11 +146,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjcxMzM0NTIsNzMxNjg1MzE3LDE3MD
-A1MzQ1NjAsMTIzMTc4MDc0OSwxMjM4MjI4MjQ2LC0xMDg3MzM5
-MjQyLC0xODE5ODE1MjkyLDI3MTczNDQ0Niw5MDcwMzI3OCwxNz
-M2Mzk3OTcyLDEyMTIyNDQxNDMsMTU2NTgwMDI4NywtMjkyNTQz
-OTM0LC0xNDQ3Mzg4MzYwLC0yMDk3Njc4ODYzLDEwOTYxODAxMT
-UsLTE4MTQ1NzI5MDgsLTIxMTIwMTA1ODgsLTQ3Mjg2OTkzNywt
-MTI0NzcwNjkxMV19
+eyJoaXN0b3J5IjpbLTU3MzIxNTExLC0xODY3MTMzNDUyLDczMT
+Y4NTMxNywxNzAwNTM0NTYwLDEyMzE3ODA3NDksMTIzODIyODI0
+NiwtMTA4NzMzOTI0MiwtMTgxOTgxNTI5MiwyNzE3MzQ0NDYsOT
+A3MDMyNzgsMTczNjM5Nzk3MiwxMjEyMjQ0MTQzLDE1NjU4MDAy
+ODcsLTI5MjU0MzkzNCwtMTQ0NzM4ODM2MCwtMjA5NzY3ODg2My
+wxMDk2MTgwMTE1LC0xODE0NTcyOTA4LC0yMTEyMDEwNTg4LC00
+NzI4Njk5MzddfQ==
 -->
