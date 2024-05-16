@@ -155,7 +155,7 @@ To open a remote desktop connection, we can use the following command directly f
 	
 	`msfconsole -r ./Desktop/meterpreter.rc`
 	
-	where `msfconsole` is a    and `meterpreter.rx` is a script made up of the following commands:
+	where `msfconsole` is a CLI   and `meterpreter.rx` is a script made up of the following commands:
 	
 	```
 	ddd
@@ -177,11 +177,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTc2Nzg3NzAsLTE3MTQ1MTk0MDksNz
-MxMTA4MTYxLC0xMjIyODIzMzE5LDM3NjE1MTExMSwtMjgwNDEy
-OTczLC0xNzA4ODA0ODQ3LC0xODY3MTMzNDUyLDczMTY4NTMxNy
-wxNzAwNTM0NTYwLDEyMzE3ODA3NDksMTIzODIyODI0NiwtMTA4
-NzMzOTI0MiwtMTgxOTgxNTI5MiwyNzE3MzQ0NDYsOTA3MDMyNz
-gsMTczNjM5Nzk3MiwxMjEyMjQ0MTQzLDE1NjU4MDAyODcsLTI5
-MjU0MzkzNF19
+eyJoaXN0b3J5IjpbMTEzNDg1NjA4OCwtMTc1NzY3ODc3MCwtMT
+cxNDUxOTQwOSw3MzExMDgxNjEsLTEyMjI4MjMzMTksMzc2MTUx
+MTExLC0yODA0MTI5NzMsLTE3MDg4MDQ4NDcsLTE4NjcxMzM0NT
+IsNzMxNjg1MzE3LDE3MDA1MzQ1NjAsMTIzMTc4MDc0OSwxMjM4
+MjI4MjQ2LC0xMDg3MzM5MjQyLC0xODE5ODE1MjkyLDI3MTczND
+Q0Niw5MDcwMzI3OCwxNzM2Mzk3OTcyLDEyMTIyNDQxNDMsMTU2
+NTgwMDI4N119
 -->
