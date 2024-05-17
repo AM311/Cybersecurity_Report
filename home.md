@@ -182,6 +182,9 @@ To open a remote desktop connection, we can use the following command directly f
 
 	Hopefully, the user will anywhen run the process as instructed.
 
+	> 	The ways for sending a phishing message with a
+	> credible/lookalike/spoofed sending address are out of this guide.
+
 	==NOTE SU MOTIVO DI RUN AS ADMIN==
 	
  9. **Steal the credentials of the logged account:**
@@ -198,11 +201,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NjE1NjY3Miw1MTk1MzQ0NjgsLTI5Nz
-YzNzQ3LC00NTQyNjg3MzksLTU2MzY2MTA1LC0xODQzMzgyNjYz
-LC0yMTIwODYzMDI1LDc2ODMwMTc0NSwxNjc4MzUyNzE0LDE3NT
-g0NTMwMzQsLTE3NTc2Nzg3NzAsLTE3MTQ1MTk0MDksNzMxMTA4
-MTYxLC0xMjIyODIzMzE5LDM3NjE1MTExMSwtMjgwNDEyOTczLC
-0xNzA4ODA0ODQ3LC0xODY3MTMzNDUyLDczMTY4NTMxNywxNzAw
-NTM0NTYwXX0=
+eyJoaXN0b3J5IjpbMjEwNjcwMjM0NywtMjg2MTU2NjcyLDUxOT
+UzNDQ2OCwtMjk3NjM3NDcsLTQ1NDI2ODczOSwtNTYzNjYxMDUs
+LTE4NDMzODI2NjMsLTIxMjA4NjMwMjUsNzY4MzAxNzQ1LDE2Nz
+gzNTI3MTQsMTc1ODQ1MzAzNCwtMTc1NzY3ODc3MCwtMTcxNDUx
+OTQwOSw3MzExMDgxNjEsLTEyMjI4MjMzMTksMzc2MTUxMTExLC
+0yODA0MTI5NzMsLTE3MDg4MDQ4NDcsLTE4NjcxMzM0NTIsNzMx
+Njg1MzE3XX0=
 -->
