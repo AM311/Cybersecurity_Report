@@ -189,7 +189,7 @@ To open a remote desktop connection, we can use the following command directly f
  9. **Steal the credentials of the logged account:**
 	 Once the user has followed the instructions and run the exploit, on the Kali machine we should see that a new session (with a given numeric ID) has been opened. Typing `sessions -i <ID>` we launch the `meterpreter` CLI with that endpoint and are ready to communicate.
 
-	Now that we are able to send requests to the infected machine, we firstly check the ident
+	Now that we are able to send requests to the infected machine, we firstly check the identity of the process we a
 	
 
 
@@ -205,7 +205,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjY5MzYyMiwyMzk5NzE4NjMsMTE0Mz
+eyJoaXN0b3J5IjpbMTk2MjU2OTMzOCwyMzk5NzE4NjMsMTE0Mz
 M1NjU0NSwtODMxMzU2MzEwLC0yODYxNTY2NzIsNTE5NTM0NDY4
 LC0yOTc2Mzc0NywtNDU0MjY4NzM5LC01NjM2NjEwNSwtMTg0Mz
 M4MjY2MywtMjEyMDg2MzAyNSw3NjgzMDE3NDUsMTY3ODM1Mjcx
