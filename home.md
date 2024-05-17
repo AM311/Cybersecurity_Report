@@ -187,7 +187,7 @@ To open a remote desktop connection, we can use the following command directly f
 	==NOTE SU MOTIVO DI RUN AS ADMIN==
 	
  9. **Steal the credentials of the logged account:**
-	 Once
+	 Once the user has 
 
 
  10. f
@@ -200,11 +200,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzg4NTM0MywtODMxMzU2MzEwLC0yOD
-YxNTY2NzIsNTE5NTM0NDY4LC0yOTc2Mzc0NywtNDU0MjY4NzM5
-LC01NjM2NjEwNSwtMTg0MzM4MjY2MywtMjEyMDg2MzAyNSw3Nj
-gzMDE3NDUsMTY3ODM1MjcxNCwxNzU4NDUzMDM0LC0xNzU3Njc4
-NzcwLC0xNzE0NTE5NDA5LDczMTEwODE2MSwtMTIyMjgyMzMxOS
-wzNzYxNTExMTEsLTI4MDQxMjk3MywtMTcwODgwNDg0NywtMTg2
-NzEzMzQ1Ml19
+eyJoaXN0b3J5IjpbLTIwNjM2MDI5NTUsLTgzMTM1NjMxMCwtMj
+g2MTU2NjcyLDUxOTUzNDQ2OCwtMjk3NjM3NDcsLTQ1NDI2ODcz
+OSwtNTYzNjYxMDUsLTE4NDMzODI2NjMsLTIxMjA4NjMwMjUsNz
+Y4MzAxNzQ1LDE2NzgzNTI3MTQsMTc1ODQ1MzAzNCwtMTc1NzY3
+ODc3MCwtMTcxNDUxOTQwOSw3MzExMDgxNjEsLTEyMjI4MjMzMT
+ksMzc2MTUxMTExLC0yODA0MTI5NzMsLTE3MDg4MDQ4NDcsLTE4
+NjcxMzM0NTJdfQ==
 -->
