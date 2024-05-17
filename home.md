@@ -182,8 +182,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 	Hopefully, the user will anywhen run the process as instructed.
 
-	> 	The ways for sending a phishing message with a
-	> credible/lookalike/spoofed sending address are out of this guide.
+	> 	The technical details for sending a phishing message with a credible/lookalike/spoofed sending address are out of this guide.
 
 	==NOTE SU MOTIVO DI RUN AS ADMIN==
 	
@@ -201,7 +200,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNjcwMjM0NywtMjg2MTU2NjcyLDUxOT
+eyJoaXN0b3J5IjpbLTgzMTM1NjMxMCwtMjg2MTU2NjcyLDUxOT
 UzNDQ2OCwtMjk3NjM3NDcsLTQ1NDI2ODczOSwtNTYzNjYxMDUs
 LTE4NDMzODI2NjMsLTIxMjA4NjMwMjUsNzY4MzAxNzQ1LDE2Nz
 gzNTI3MTQsMTc1ODQ1MzAzNCwtMTc1NzY3ODc3MCwtMTcxNDUx
