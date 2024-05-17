@@ -189,9 +189,9 @@ To open a remote desktop connection, we can use the following command directly f
  9. **Communication between devices and Privilege Escalation:**
 	 Once the user has followed the instructions and run the exploit, on the Kali machine we should see that a new session (with a given numeric ID) has been opened. Typing `sessions -i <ID>` we launch the `meterpreter` CLI with that endpoint and are ready to communicate.
 
-	Now that we are able to send requests to the infected machine, we firstly check the identity of the process that runs meterpreter on that device invoking the `getuid` command: as shown in the image below, the process is owned by the domain account `DomainAdmin`.
-	Due
-
+	Now that we are able to send requests to the infected machine, we firstly check the identity of the process that runs `meterpreter` on that device invoking the `getuid` command: as shown in the image below, the process is owned by the domain account `DomainAdmin`.
+	
+	In order to complete our future tasks, we need to run the process as SYSTEM. For doi
 
 	![Privilege escalation on msfconsole](https://github.com/AM311/Cybersecurity_Report/blob/main/img/msfconsole_getuid-system.png?raw=true)
 
@@ -205,11 +205,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDQ4ODE0LDIzOTk3MTg2MywxMTQzMz
-U2NTQ1LC04MzEzNTYzMTAsLTI4NjE1NjY3Miw1MTk1MzQ0Njgs
-LTI5NzYzNzQ3LC00NTQyNjg3MzksLTU2MzY2MTA1LC0xODQzMz
-gyNjYzLC0yMTIwODYzMDI1LDc2ODMwMTc0NSwxNjc4MzUyNzE0
-LDE3NTg0NTMwMzQsLTE3NTc2Nzg3NzAsLTE3MTQ1MTk0MDksNz
-MxMTA4MTYxLC0xMjIyODIzMzE5LDM3NjE1MTExMSwtMjgwNDEy
-OTczXX0=
+eyJoaXN0b3J5IjpbMTYwOTY2OTMyMiwyMzk5NzE4NjMsMTE0Mz
+M1NjU0NSwtODMxMzU2MzEwLC0yODYxNTY2NzIsNTE5NTM0NDY4
+LC0yOTc2Mzc0NywtNDU0MjY4NzM5LC01NjM2NjEwNSwtMTg0Mz
+M4MjY2MywtMjEyMDg2MzAyNSw3NjgzMDE3NDUsMTY3ODM1Mjcx
+NCwxNzU4NDUzMDM0LC0xNzU3Njc4NzcwLC0xNzE0NTE5NDA5LD
+czMTEwODE2MSwtMTIyMjgyMzMxOSwzNzYxNTExMTEsLTI4MDQx
+Mjk3M119
 -->
