@@ -200,20 +200,20 @@ To open a remote desktop connection, we can use the following command directly f
  10. **Steal the credentials of the logged account:**
 	 Now that we are running as SYSTEM, we can finally dump the credentials of all the logged-in accounts from the LSASS memory.
 	 
-	 For doing so, we firstly need to run the **kiwi** extension, using the command `load kiwi`, then invoking `creds_all` we are finally able to 
-f
+	 For doing so, we firstly need to run the **kiwi** extension, using the command `load kiwi`, then invoking `creds_all` we are finally able to gain all the available credentials in memory, some in a hashed form while other directly in clear text.
 
+	==MOTIVARE==
 		![All credentials stolen from the memory](https://github.com/AM311/Cybersecurity_Report/blob/main/img/credentials.png?raw=true)
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NTIwMDI2OCwxNjI5NDUzOTkxLDEzMj
-g2Mjc3NiwyMzk5NzE4NjMsMTE0MzM1NjU0NSwtODMxMzU2MzEw
-LC0yODYxNTY2NzIsNTE5NTM0NDY4LC0yOTc2Mzc0NywtNDU0Mj
-Y4NzM5LC01NjM2NjEwNSwtMTg0MzM4MjY2MywtMjEyMDg2MzAy
-NSw3NjgzMDE3NDUsMTY3ODM1MjcxNCwxNzU4NDUzMDM0LC0xNz
-U3Njc4NzcwLC0xNzE0NTE5NDA5LDczMTEwODE2MSwtMTIyMjgy
-MzMxOV19
+eyJoaXN0b3J5IjpbLTE5NzEzOTc1MTIsMTY5NTIwMDI2OCwxNj
+I5NDUzOTkxLDEzMjg2Mjc3NiwyMzk5NzE4NjMsMTE0MzM1NjU0
+NSwtODMxMzU2MzEwLC0yODYxNTY2NzIsNTE5NTM0NDY4LC0yOT
+c2Mzc0NywtNDU0MjY4NzM5LC01NjM2NjEwNSwtMTg0MzM4MjY2
+MywtMjEyMDg2MzAyNSw3NjgzMDE3NDUsMTY3ODM1MjcxNCwxNz
+U4NDUzMDM0LC0xNzU3Njc4NzcwLC0xNzE0NTE5NDA5LDczMTEw
+ODE2MV19
 -->
