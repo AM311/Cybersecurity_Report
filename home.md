@@ -48,8 +48,8 @@ This activity requires the set-up of a virtual environment, in which the followi
  - **1** VM running **Windows 7**;
  - **1** VM running **Kali Linux**;
 
-All machines can be installed as virtual machines; for doing so, any virtualization software is good.
-OS versions are not mandatory, but all necessary features must available.
+Any virtualization software is good: just for reference, this activity has been built using **VirualBox**.
+OS versions are not mandatory, but all the features that will be used must be available.
 
 It is clearly required that all these machines can communicate between each-other, so the virtualizator must be set up for allowing this.
 
@@ -210,11 +210,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNjk4OTYsMTY5NTIwMDI2OCwxNjI5ND
-UzOTkxLDEzMjg2Mjc3NiwyMzk5NzE4NjMsMTE0MzM1NjU0NSwt
-ODMxMzU2MzEwLC0yODYxNTY2NzIsNTE5NTM0NDY4LC0yOTc2Mz
-c0NywtNDU0MjY4NzM5LC01NjM2NjEwNSwtMTg0MzM4MjY2Mywt
-MjEyMDg2MzAyNSw3NjgzMDE3NDUsMTY3ODM1MjcxNCwxNzU4ND
-UzMDM0LC0xNzU3Njc4NzcwLC0xNzE0NTE5NDA5LDczMTEwODE2
-MV19
+eyJoaXN0b3J5IjpbNzQxNzUxNTA5LDE2OTUyMDAyNjgsMTYyOT
+Q1Mzk5MSwxMzI4NjI3NzYsMjM5OTcxODYzLDExNDMzNTY1NDUs
+LTgzMTM1NjMxMCwtMjg2MTU2NjcyLDUxOTUzNDQ2OCwtMjk3Nj
+M3NDcsLTQ1NDI2ODczOSwtNTYzNjYxMDUsLTE4NDMzODI2NjMs
+LTIxMjA4NjMwMjUsNzY4MzAxNzQ1LDE2NzgzNTI3MTQsMTc1OD
+Q1MzAzNCwtMTc1NzY3ODc3MCwtMTcxNDUxOTQwOSw3MzExMDgx
+NjFdfQ==
 -->
