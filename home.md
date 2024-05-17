@@ -184,7 +184,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 	> 	The technical details for sending a phishing message with a credible/lookalike/spoofed sending address are out of this guide.
 
-	==NOTE SU MOTIVO DI RUN AS ADMIN -- COLLEGAMENTO A NOTA==
+	==NOTE SU MOTIVO DI RUN AS ADMIN -- COLLEGAMENTO A NOTA ESPLICATIVA==
 	
  9. **Communication between devices and Privilege Escalation:**
 	 Once the user has followed the instructions and run the exploit, on the Kali machine we should see that a new session (with a given numeric ID) has been opened. Typing `sessions -i <ID>` we launch the `meterpreter` CLI with that endpoint and are ready to communicate.
@@ -192,7 +192,11 @@ To open a remote desktop connection, we can use the following command directly f
 	Now that we are able to send requests to the infected machine, we firstly check the identity of the process that runs `meterpreter` on that device invoking the `getuid` command: as shown in the image below, the process is owned by the domain account `DomainAdmin`.
 	
 	In order to complete our future tasks, we need to run the process as `SYSTEM`. For doing so, [^1]
-	[^1]: This is the footnote.
+	
+|[^1]: This is the footnote.|  |
+|---------------------------|--|
+|                           |  |
+
 
 	![Privilege escalation on msfconsole](https://github.com/AM311/Cybersecurity_Report/blob/main/img/msfconsole_getuid-system.png?raw=true)
 
@@ -206,7 +210,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNzE5Njk2OSwyMzk5NzE4NjMsMTE0Mz
+eyJoaXN0b3J5IjpbLTU2MDk0NzgzMywyMzk5NzE4NjMsMTE0Mz
 M1NjU0NSwtODMxMzU2MzEwLC0yODYxNTY2NzIsNTE5NTM0NDY4
 LC0yOTc2Mzc0NywtNDU0MjY4NzM5LC01NjM2NjEwNSwtMTg0Mz
 M4MjY2MywtMjEyMDg2MzAyNSw3NjgzMDE3NDUsMTY3ODM1Mjcx
