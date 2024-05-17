@@ -17,12 +17,12 @@ The main characteristics of the hypotetical scenario are the following:
  - Domain accounts are divided in two major "groups":
 	 - **Domain Administrators**, which have "high privileges" on *all* machines;
 	 - **Domain users**, which have "low privileges" on *all* machines;
- - Also, the following restrictions are enforced:
+ - Also, the following policies and settings are enforced:
 	 - Domain Administrators are set up to be also **Local Administrators** on *all* the machines;
-	 - The DNS server can be accessed only by a specific user (with administrative privileges), who can access only that specific machine.
+	 - The DNS server can be accessed only by a specific user (with administrative privileges), who can access only that specific machine;
 	 - That last user is configured to perform login **without pre-authentication**;
- -  **Remote Desktop** access is allowed on the DNS server;
- - All accounts can **read** a **shared network folder**, which can be written only by administrators;
+	 -  **Remote Desktop** access is allowed on the DNS server;
+	 - All accounts can **read** a **shared network folder**, which can be written only by administrators;
 
 Where not differently specified, all other settings are intented to be the "default" ones.
 
@@ -210,11 +210,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NjAxODQ1NSwxNjk1MjAwMjY4LDE2Mj
-k0NTM5OTEsMTMyODYyNzc2LDIzOTk3MTg2MywxMTQzMzU2NTQ1
-LC04MzEzNTYzMTAsLTI4NjE1NjY3Miw1MTk1MzQ0NjgsLTI5Nz
-YzNzQ3LC00NTQyNjg3MzksLTU2MzY2MTA1LC0xODQzMzgyNjYz
-LC0yMTIwODYzMDI1LDc2ODMwMTc0NSwxNjc4MzUyNzE0LDE3NT
-g0NTMwMzQsLTE3NTc2Nzg3NzAsLTE3MTQ1MTk0MDksNzMxMTA4
-MTYxXX0=
+eyJoaXN0b3J5IjpbLTE2MzA2NjgyMTEsMTY5NTIwMDI2OCwxNj
+I5NDUzOTkxLDEzMjg2Mjc3NiwyMzk5NzE4NjMsMTE0MzM1NjU0
+NSwtODMxMzU2MzEwLC0yODYxNTY2NzIsNTE5NTM0NDY4LC0yOT
+c2Mzc0NywtNDU0MjY4NzM5LC01NjM2NjEwNSwtMTg0MzM4MjY2
+MywtMjEyMDg2MzAyNSw3NjgzMDE3NDUsMTY3ODM1MjcxNCwxNz
+U4NDUzMDM0LC0xNzU3Njc4NzcwLC0xNzE0NTE5NDA5LDczMTEw
+ODE2MV19
 -->
