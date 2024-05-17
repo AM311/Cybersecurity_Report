@@ -198,7 +198,7 @@ To open a remote desktop connection, we can use the following command directly f
 	![Privilege escalation on msfconsole](https://github.com/AM311/Cybersecurity_Report/blob/main/img/msfconsole_getuid-system.png?raw=true)
 
  10. **Steal the credentials of the logged account:**
-	 Now that we are finally running as SYSTEM
+	 Now that we are running as SYSTEM, we can finally dump the credentials of all aco
  
 
 
@@ -208,11 +208,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyODYyNzc2LDIzOTk3MTg2MywxMTQzMz
-U2NTQ1LC04MzEzNTYzMTAsLTI4NjE1NjY3Miw1MTk1MzQ0Njgs
-LTI5NzYzNzQ3LC00NTQyNjg3MzksLTU2MzY2MTA1LC0xODQzMz
-gyNjYzLC0yMTIwODYzMDI1LDc2ODMwMTc0NSwxNjc4MzUyNzE0
-LDE3NTg0NTMwMzQsLTE3NTc2Nzg3NzAsLTE3MTQ1MTk0MDksNz
-MxMTA4MTYxLC0xMjIyODIzMzE5LDM3NjE1MTExMSwtMjgwNDEy
-OTczXX0=
+eyJoaXN0b3J5IjpbLTIxMDk5ODE2MiwxMzI4NjI3NzYsMjM5OT
+cxODYzLDExNDMzNTY1NDUsLTgzMTM1NjMxMCwtMjg2MTU2Njcy
+LDUxOTUzNDQ2OCwtMjk3NjM3NDcsLTQ1NDI2ODczOSwtNTYzNj
+YxMDUsLTE4NDMzODI2NjMsLTIxMjA4NjMwMjUsNzY4MzAxNzQ1
+LDE2NzgzNTI3MTQsMTc1ODQ1MzAzNCwtMTc1NzY3ODc3MCwtMT
+cxNDUxOTQwOSw3MzExMDgxNjEsLTEyMjI4MjMzMTksMzc2MTUx
+MTExXX0=
 -->
