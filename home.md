@@ -187,7 +187,7 @@ To open a remote desktop connection, we can use the following command directly f
 	==NOTE SU MOTIVO DI RUN AS ADMIN==
 	
  9. **Steal the credentials of the logged account:**
-	 Once the user has 
+	 Once the user has followed the instructions and run the exploit, on the Kali machine we should see that a new session has been opened.
 
 
  10. f
@@ -200,7 +200,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjM2MDI5NTUsLTgzMTM1NjMxMCwtMj
+eyJoaXN0b3J5IjpbLTE1Mjk4NDkyOTYsLTgzMTM1NjMxMCwtMj
 g2MTU2NjcyLDUxOTUzNDQ2OCwtMjk3NjM3NDcsLTQ1NDI2ODcz
 OSwtNTYzNjYxMDUsLTE4NDMzODI2NjMsLTIxMjA4NjMwMjUsNz
 Y4MzAxNzQ1LDE2NzgzNTI3MTQsMTc1ODQ1MzAzNCwtMTc1NzY3
