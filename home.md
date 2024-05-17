@@ -191,16 +191,15 @@ To open a remote desktop connection, we can use the following command directly f
 
 	Now that we are able to send requests to the infected machine, we firstly check the identity of the process that runs `meterpreter` on that device invoking the `getuid` command: as shown in the image below, the process is owned by the domain account `DomainAdmin`.
 	
-	In order to complete our future tasks, we need to run the process as `SYSTEM`. For doing so, we run the `getsystem` command[^1]. If
+	In order to complete our future tasks, we need to run the process as `SYSTEM`. For doing so, we run the `getsystem` command[^1]. If the execution is successfully completed, running again `getuid` we will now be running as `SYSTEM`.
 
-	dd
-
-	[^1]: `getsystem` requires the process to be run as administrator (to be "previously" authorized to run with high privileges, due to Windows UAC); then. More details [here](https://docs.rapid7.com/metasploit/meterpreter-getsystem/).
+	[^1]: `getsystem` requires the process to be run as administrator (to be "previously" authorized to run with high privileges, due to Windows UAC); then, it tries three techniques to achieve Privilege Escalation. More details [here](https://docs.rapid7.com/metasploit/meterpreter-getsystem/).
 
 	![Privilege escalation on msfconsole](https://github.com/AM311/Cybersecurity_Report/blob/main/img/msfconsole_getuid-system.png?raw=true)
 
- 10. Steal the credentials of the logged account
- 11. f
+ 10. **Steal the credentials of the logged account:**
+	 Now that we are
+ 
 
 
 
@@ -209,11 +208,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NDEzNTcyMCwyMzk5NzE4NjMsMTE0Mz
-M1NjU0NSwtODMxMzU2MzEwLC0yODYxNTY2NzIsNTE5NTM0NDY4
-LC0yOTc2Mzc0NywtNDU0MjY4NzM5LC01NjM2NjEwNSwtMTg0Mz
-M4MjY2MywtMjEyMDg2MzAyNSw3NjgzMDE3NDUsMTY3ODM1Mjcx
-NCwxNzU4NDUzMDM0LC0xNzU3Njc4NzcwLC0xNzE0NTE5NDA5LD
-czMTEwODE2MSwtMTIyMjgyMzMxOSwzNzYxNTExMTEsLTI4MDQx
-Mjk3M119
+eyJoaXN0b3J5IjpbLTE3MTE1NjQwMzksMjM5OTcxODYzLDExND
+MzNTY1NDUsLTgzMTM1NjMxMCwtMjg2MTU2NjcyLDUxOTUzNDQ2
+OCwtMjk3NjM3NDcsLTQ1NDI2ODczOSwtNTYzNjYxMDUsLTE4ND
+MzODI2NjMsLTIxMjA4NjMwMjUsNzY4MzAxNzQ1LDE2NzgzNTI3
+MTQsMTc1ODQ1MzAzNCwtMTc1NzY3ODc3MCwtMTcxNDUxOTQwOS
+w3MzExMDgxNjEsLTEyMjI4MjMzMTksMzc2MTUxMTExLC0yODA0
+MTI5NzNdfQ==
 -->
