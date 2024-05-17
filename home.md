@@ -24,7 +24,7 @@ The main characteristics of the hypotetical scenario are the following:
 	 -  **Remote Desktop** access is allowed on the DNS server;
 	 - All accounts can **read** a **shared network folder**, which can be written only by administrators;
 
-Where not differently specified, all other settings are intented to be the "default" ones.
+When not differently specified, all other settings are intented to be the "default" ones.
 
 It is assumed that the organization follows a **bad passwords management**, using common and easily predictable passwords, also for administrators accounts.
 
@@ -210,11 +210,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzA2NjgyMTEsMTY5NTIwMDI2OCwxNj
-I5NDUzOTkxLDEzMjg2Mjc3NiwyMzk5NzE4NjMsMTE0MzM1NjU0
-NSwtODMxMzU2MzEwLC0yODYxNTY2NzIsNTE5NTM0NDY4LC0yOT
-c2Mzc0NywtNDU0MjY4NzM5LC01NjM2NjEwNSwtMTg0MzM4MjY2
-MywtMjEyMDg2MzAyNSw3NjgzMDE3NDUsMTY3ODM1MjcxNCwxNz
-U4NDUzMDM0LC0xNzU3Njc4NzcwLC0xNzE0NTE5NDA5LDczMTEw
-ODE2MV19
+eyJoaXN0b3J5IjpbLTMzNjk4OTYsMTY5NTIwMDI2OCwxNjI5ND
+UzOTkxLDEzMjg2Mjc3NiwyMzk5NzE4NjMsMTE0MzM1NjU0NSwt
+ODMxMzU2MzEwLC0yODYxNTY2NzIsNTE5NTM0NDY4LC0yOTc2Mz
+c0NywtNDU0MjY4NzM5LC01NjM2NjEwNSwtMTg0MzM4MjY2Mywt
+MjEyMDg2MzAyNSw3NjgzMDE3NDUsMTY3ODM1MjcxNCwxNzU4ND
+UzMDM0LC0xNzU3Njc4NzcwLC0xNzE0NTE5NDA5LDczMTEwODE2
+MV19
 -->
