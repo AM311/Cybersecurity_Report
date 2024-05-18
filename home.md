@@ -67,7 +67,8 @@ The **Kali** machine runs a default OS with no changes. The IP address has been 
 
 The **Windows 7** machine, named `WIN7`, joins the domain and receives a dynamical IP address via DHCP.
 
-f
+The **DomainController/DHCP server**, named `SERVER`, has a static IP address set to `10.0.2.200`.
+The DHCP service spawns 
 
 
 
@@ -239,11 +240,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNjUyNTM4LDE2OTk1MTAzNzIsNTUxMj
-A3OTcwLC0xNjI3MzkxMjQxLC0zMzE1NzQyNzAsLTE3MDc1ODcx
-NTAsMTYyMzExMzU5MSw3NDE3NTE1MDksMTY5NTIwMDI2OCwxNj
-I5NDUzOTkxLDEzMjg2Mjc3NiwyMzk5NzE4NjMsMTE0MzM1NjU0
-NSwtODMxMzU2MzEwLC0yODYxNTY2NzIsNTE5NTM0NDY4LC0yOT
-c2Mzc0NywtNDU0MjY4NzM5LC01NjM2NjEwNSwtMTg0MzM4MjY2
-M119
+eyJoaXN0b3J5IjpbLTcxODA2MTcwNywxMTE2NTI1MzgsMTY5OT
+UxMDM3Miw1NTEyMDc5NzAsLTE2MjczOTEyNDEsLTMzMTU3NDI3
+MCwtMTcwNzU4NzE1MCwxNjIzMTEzNTkxLDc0MTc1MTUwOSwxNj
+k1MjAwMjY4LDE2Mjk0NTM5OTEsMTMyODYyNzc2LDIzOTk3MTg2
+MywxMTQzMzU2NTQ1LC04MzEzNTYzMTAsLTI4NjE1NjY3Miw1MT
+k1MzQ0NjgsLTI5NzYzNzQ3LC00NTQyNjg3MzksLTU2MzY2MTA1
+XX0=
 -->
