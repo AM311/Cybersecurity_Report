@@ -69,6 +69,12 @@ The **Windows 7** machine, named `WIN7`, joins the domain and receives a dynamic
 
 The **DomainController/DHCP server**, named `SERVER`, has a static IP address set to `10.0.2.200` and controls the domain named `cybersec.units.it`.
 
+The following domain accounts (with related passwords) need to be created:
+		 - **`DomainUser`** (password: `User00!`), joining the `DomainUsers` group;
+		 - **`DomainUserNoAuth`** (password: `User00!`), joining the `DomainUsers` group, requires NO Kerberos pre-authentication;
+		 - **`DomainAdmin`** (password: `Admin00!`), joining the `DomainUsers`, `DomainAdmins`, `Administrators` groups;
+		 - **`DNSoperator`** (password: `Qwerty123`), joining the `DomainUsers`, `DnsAdmins`, `DnsUpdateProxy` groups, can login only on the DNS server;
+
 The **DNS/File server**, named `SERVERDNS`, has a static IP address set to `10.0.2.250`. Every machine in the domain is configured (via DHCP) to use this server as primary DNS.
 This server hosts a folder that is shared to all computers in the domain (via *[AD's GPOs](https://en.wikipedia.org/wiki/Group_Policy)*), which can be read by everyone while can be written only by `Administrators` and `DnsAdmins`.
 
@@ -77,18 +83,11 @@ This server hosts a folder that is shared to all computers in the domain (via *[
 	 - DHCP IP-addresses pool can be chosen arbitrarly (e.g. `10.0.2.10-190`); the DNS server must be set so it refers to "our" DNS server (yet to be installed);
 	 - The name of the machine is `SERVER`;
 	 - The domain name is `cybersec.units.it`;
-	 - The following domain accounts (with related passwords) need to be created:
-		 - **`DomainUser`** (password: `User00!`), joining the `DomainUsers` group;
-		 - **`DomainUserNoAuth`** (password: `User00!`), joining the `DomainUsers` group, requires NO Kerberos pre-authentication;
-		 - **`DomainAdmin`** (password: `Admin00!`), joining the `DomainUsers`, `DomainAdmins`, `Administrators` groups;
-		 - **`DNSoperator`** (password: `Qwerty123`), joining the `DomainUsers`, `DnsAdmins`, `DnsUpdateProxy` groups, can login only on the DNS server;
+	 - 
 		 - ACCOUNT ADMIN LOCALE
- - 
-==RIMANDO A CONFIGURAZIONI COME DA SCENARIO --> CITARE PRINCIPALI MODI PER REALIZZARE LO SCENARIO: utenti e come realizzare le ipotesi di lavoro (a grandi linee)==
 
-==impacket deve essere installato su Kali (in generale, tutti i pacchetti/comandi usati)==
+Every machine has a default local admin account named Administrator whose password
 
-==ACCOUNT ADMIN DI DEFAULT==
 
 ## Let's start Hacking!
 
@@ -241,11 +240,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjMyMTA0MTgsMTIzOTM2MjY3MCwxMT
-E2NTI1MzgsMTY5OTUxMDM3Miw1NTEyMDc5NzAsLTE2MjczOTEy
-NDEsLTMzMTU3NDI3MCwtMTcwNzU4NzE1MCwxNjIzMTEzNTkxLD
-c0MTc1MTUwOSwxNjk1MjAwMjY4LDE2Mjk0NTM5OTEsMTMyODYy
-Nzc2LDIzOTk3MTg2MywxMTQzMzU2NTQ1LC04MzEzNTYzMTAsLT
-I4NjE1NjY3Miw1MTk1MzQ0NjgsLTI5NzYzNzQ3LC00NTQyNjg3
-MzldfQ==
+eyJoaXN0b3J5IjpbMTM3ODIxMDczNiwxMjM5MzYyNjcwLDExMT
+Y1MjUzOCwxNjk5NTEwMzcyLDU1MTIwNzk3MCwtMTYyNzM5MTI0
+MSwtMzMxNTc0MjcwLC0xNzA3NTg3MTUwLDE2MjMxMTM1OTEsNz
+QxNzUxNTA5LDE2OTUyMDAyNjgsMTYyOTQ1Mzk5MSwxMzI4NjI3
+NzYsMjM5OTcxODYzLDExNDMzNTY1NDUsLTgzMTM1NjMxMCwtMj
+g2MTU2NjcyLDUxOTUzNDQ2OCwtMjk3NjM3NDcsLTQ1NDI2ODcz
+OV19
 -->
