@@ -57,6 +57,9 @@ It is clearly required that all these machines can communicate between each-othe
 
 Once all the machines and their OSs have been installed, it is necessary to properly configure them in order to practicaly realize the described scenario.
 
+Since the configuration of an OS is not the main goal of the document, many details will be omitted.
+It is strongly suggested to use the VMs images provided below 
+
 
 
 In this guide many details will be omitted since the configuration of an OS is not the main goal of the document; it will be just given an outline of the main settings that are needed for each machine and the ways to achieve them.
@@ -233,11 +236,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjU5NjI1OTUsMTY5OTUxMDM3Miw1NT
-EyMDc5NzAsLTE2MjczOTEyNDEsLTMzMTU3NDI3MCwtMTcwNzU4
-NzE1MCwxNjIzMTEzNTkxLDc0MTc1MTUwOSwxNjk1MjAwMjY4LD
-E2Mjk0NTM5OTEsMTMyODYyNzc2LDIzOTk3MTg2MywxMTQzMzU2
-NTQ1LC04MzEzNTYzMTAsLTI4NjE1NjY3Miw1MTk1MzQ0NjgsLT
-I5NzYzNzQ3LC00NTQyNjg3MzksLTU2MzY2MTA1LC0xODQzMzgy
-NjYzXX0=
+eyJoaXN0b3J5IjpbNTUwNTAzNzM4LDE2OTk1MTAzNzIsNTUxMj
+A3OTcwLC0xNjI3MzkxMjQxLC0zMzE1NzQyNzAsLTE3MDc1ODcx
+NTAsMTYyMzExMzU5MSw3NDE3NTE1MDksMTY5NTIwMDI2OCwxNj
+I5NDUzOTkxLDEzMjg2Mjc3NiwyMzk5NzE4NjMsMTE0MzM1NjU0
+NSwtODMxMzU2MzEwLC0yODYxNTY2NzIsNTE5NTM0NDY4LC0yOT
+c2Mzc0NywtNDU0MjY4NzM5LC01NjM2NjEwNSwtMTg0MzM4MjY2
+M119
 -->
