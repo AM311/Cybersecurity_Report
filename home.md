@@ -63,7 +63,7 @@ The **Kali** machine does not require particular configurations: it is only need
 
 The more complex and time-requiring configurations are related to the Active Directory domain environment. They will be briefly outlined here but, essentially, their final goal is to implement the scenario previously presented:
 
- - 
+ - The DomainController server
 
 ==RIMANDO A CONFIGURAZIONI COME DA SCENARIO --> CITARE PRINCIPALI MODI PER REALIZZARE LO SCENARIO: utenti e come realizzare le ipotesi di lavoro (a grandi linee)==
 
@@ -222,11 +222,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzgxOTEzMjYsLTE2MjczOTEyNDEsLT
-MzMTU3NDI3MCwtMTcwNzU4NzE1MCwxNjIzMTEzNTkxLDc0MTc1
-MTUwOSwxNjk1MjAwMjY4LDE2Mjk0NTM5OTEsMTMyODYyNzc2LD
-IzOTk3MTg2MywxMTQzMzU2NTQ1LC04MzEzNTYzMTAsLTI4NjE1
-NjY3Miw1MTk1MzQ0NjgsLTI5NzYzNzQ3LC00NTQyNjg3MzksLT
-U2MzY2MTA1LC0xODQzMzgyNjYzLC0yMTIwODYzMDI1LDc2ODMw
-MTc0NV19
+eyJoaXN0b3J5IjpbNDcxOTM0MDM2LC0xNjI3MzkxMjQxLC0zMz
+E1NzQyNzAsLTE3MDc1ODcxNTAsMTYyMzExMzU5MSw3NDE3NTE1
+MDksMTY5NTIwMDI2OCwxNjI5NDUzOTkxLDEzMjg2Mjc3NiwyMz
+k5NzE4NjMsMTE0MzM1NjU0NSwtODMxMzU2MzEwLC0yODYxNTY2
+NzIsNTE5NTM0NDY4LC0yOTc2Mzc0NywtNDU0MjY4NzM5LC01Nj
+M2NjEwNSwtMTg0MzM4MjY2MywtMjEyMDg2MzAyNSw3NjgzMDE3
+NDVdfQ==
 -->
