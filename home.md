@@ -57,8 +57,8 @@ It is clearly required that all these machines can communicate between each-othe
 
 Once all the machines and their OSs have been installed, it is necessary to properly configure them in order to practicaly realize the described scenario.
 
-In this guide, many details will 
-We will omit for brevity most of the technical steps for doing this, giving only the main 
+In this guide, many details will be omitted, ; it will be given just an outline of the main configurations that are needed for each machine and an overview of the way to achieve these.
+
 
 ==RIMANDO A CONFIGURAZIONI COME DA SCENARIO --> CITARE PRINCIPALI MODI PER REALIZZARE LO SCENARIO: utenti e come realizzare le ipotesi di lavoro (a grandi linee)==
 
@@ -217,7 +217,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzY2MDYzMTAsMTYyMzExMzU5MSw3ND
+eyJoaXN0b3J5IjpbLTE5MzM0ODgyMTIsMTYyMzExMzU5MSw3ND
 E3NTE1MDksMTY5NTIwMDI2OCwxNjI5NDUzOTkxLDEzMjg2Mjc3
 NiwyMzk5NzE4NjMsMTE0MzM1NjU0NSwtODMxMzU2MzEwLC0yOD
 YxNTY2NzIsNTE5NTM0NDY4LC0yOTc2Mzc0NywtNDU0MjY4NzM5
