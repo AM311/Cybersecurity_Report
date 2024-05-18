@@ -67,8 +67,8 @@ The more complex and time-requiring configurations are related to the Active Dir
 	 - DHCP IP-addresses pool can be chosen arbitrarly (e.g. `10.0.2.10-190`); the DNS server must be set so it refers to "our" DNS server (yet to be installed);
 	 - The domain name is `cybersec.units.it`;
 	 - The following domain accounts (with related passwords) need to be created:
-		 - **`DomainUser`** (password: `User00!`), joining the `DomainAccounts` group;
-		 - f
+		 - **`DomainUser`** (password: `User00!`), joining the `DomainUsers` group;
+		 - **`DomainUserNoAuth`** (password: `User00!`), joining the `DomainUsers` group, requires NO pre-authentication;
 		 - f
 		 - f
 		 - ACCOUNT ADMIN LOCALE
@@ -230,11 +230,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMDc5MDkxLDU1MTIwNzk3MCwtMTYyNz
-M5MTI0MSwtMzMxNTc0MjcwLC0xNzA3NTg3MTUwLDE2MjMxMTM1
-OTEsNzQxNzUxNTA5LDE2OTUyMDAyNjgsMTYyOTQ1Mzk5MSwxMz
-I4NjI3NzYsMjM5OTcxODYzLDExNDMzNTY1NDUsLTgzMTM1NjMx
-MCwtMjg2MTU2NjcyLDUxOTUzNDQ2OCwtMjk3NjM3NDcsLTQ1ND
-I2ODczOSwtNTYzNjYxMDUsLTE4NDMzODI2NjMsLTIxMjA4NjMw
-MjVdfQ==
+eyJoaXN0b3J5IjpbLTE0NzQyNjA5NTksNTUxMjA3OTcwLC0xNj
+I3MzkxMjQxLC0zMzE1NzQyNzAsLTE3MDc1ODcxNTAsMTYyMzEx
+MzU5MSw3NDE3NTE1MDksMTY5NTIwMDI2OCwxNjI5NDUzOTkxLD
+EzMjg2Mjc3NiwyMzk5NzE4NjMsMTE0MzM1NjU0NSwtODMxMzU2
+MzEwLC0yODYxNTY2NzIsNTE5NTM0NDY4LC0yOTc2Mzc0NywtND
+U0MjY4NzM5LC01NjM2NjEwNSwtMTg0MzM4MjY2MywtMjEyMDg2
+MzAyNV19
 -->
