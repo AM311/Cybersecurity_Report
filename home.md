@@ -57,9 +57,9 @@ It is clearly required that all these machines can communicate between each-othe
 
 Once all the machines and their OSs have been installed, it is necessary to properly configure them in order to practicaly realize the described scenario.
 
-In this guide, many details will be omitted since the configuration of an OS is not the main goal of this document; it will be just given an outline of the main settings that are needed for each machine and the ways to achieve them.
+In this guide many details will be omitted since the configuration of an OS is not the main goal of the document; it will be just given an outline of the main settings that are needed for each machine and the ways to achieve them.
 
-
+The **Kali** machine does not require particular configurations: it is only needed that i
 
 
 
@@ -220,11 +220,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDc1ODcxNTAsMTYyMzExMzU5MSw3ND
-E3NTE1MDksMTY5NTIwMDI2OCwxNjI5NDUzOTkxLDEzMjg2Mjc3
-NiwyMzk5NzE4NjMsMTE0MzM1NjU0NSwtODMxMzU2MzEwLC0yOD
-YxNTY2NzIsNTE5NTM0NDY4LC0yOTc2Mzc0NywtNDU0MjY4NzM5
-LC01NjM2NjEwNSwtMTg0MzM4MjY2MywtMjEyMDg2MzAyNSw3Nj
-gzMDE3NDUsMTY3ODM1MjcxNCwxNzU4NDUzMDM0LC0xNzU3Njc4
-NzcwXX0=
+eyJoaXN0b3J5IjpbMTExNDE5ODU4MSwtMTcwNzU4NzE1MCwxNj
+IzMTEzNTkxLDc0MTc1MTUwOSwxNjk1MjAwMjY4LDE2Mjk0NTM5
+OTEsMTMyODYyNzc2LDIzOTk3MTg2MywxMTQzMzU2NTQ1LC04Mz
+EzNTYzMTAsLTI4NjE1NjY3Miw1MTk1MzQ0NjgsLTI5NzYzNzQ3
+LC00NTQyNjg3MzksLTU2MzY2MTA1LC0xODQzMzgyNjYzLC0yMT
+IwODYzMDI1LDc2ODMwMTc0NSwxNjc4MzUyNzE0LDE3NTg0NTMw
+MzRdfQ==
 -->
