@@ -65,12 +65,13 @@ The more complex and time-requiring configurations are related to the Active Dir
 
  - The **DomainController/DHCP server** requires the installation of the OS with "default" settings. Then, *Active Directory Domain Services* and *DHCP* functionalities need also to be installed, again with default settings (except for what follows).
 	 - DHCP IP-addresses pool can be chosen arbitrarly (e.g. `10.0.2.10-190`); the DNS server must be set so it refers to "our" DNS server (yet to be installed);
+	 - The name of the machine is `SERVER`;
 	 - The domain name is `cybersec.units.it`;
 	 - The following domain accounts (with related passwords) need to be created:
 		 - **`DomainUser`** (password: `User00!`), joining the `DomainUsers` group;
 		 - **`DomainUserNoAuth`** (password: `User00!`), joining the `DomainUsers` group, requires NO Kerberos pre-authentication;
 		 - **`DomainAdmin`** (password: `Admin00!`), joining the `DomainUsers`, `DomainAdmins`, `Administrators` groups;
-		 - **`DNSoperator`** (password: `Qwerty123`), joining the `DomainUsers`, `DnsAdmins`, `DnsUpdateProxy` groups, can login only on the ;
+		 - **`DNSoperator`** (password: `Qwerty123`), joining the `DomainUsers`, `DnsAdmins`, `DnsUpdateProxy` groups, can login only on the DNS server;
 		 - ACCOUNT ADMIN LOCALE
  - 
 ==RIMANDO A CONFIGURAZIONI COME DA SCENARIO --> CITARE PRINCIPALI MODI PER REALIZZARE LO SCENARIO: utenti e come realizzare le ipotesi di lavoro (a grandi linee)==
@@ -230,11 +231,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDk0MzQ5MTIsNTUxMjA3OTcwLC0xNj
-I3MzkxMjQxLC0zMzE1NzQyNzAsLTE3MDc1ODcxNTAsMTYyMzEx
-MzU5MSw3NDE3NTE1MDksMTY5NTIwMDI2OCwxNjI5NDUzOTkxLD
-EzMjg2Mjc3NiwyMzk5NzE4NjMsMTE0MzM1NjU0NSwtODMxMzU2
-MzEwLC0yODYxNTY2NzIsNTE5NTM0NDY4LC0yOTc2Mzc0NywtND
-U0MjY4NzM5LC01NjM2NjEwNSwtMTg0MzM4MjY2MywtMjEyMDg2
-MzAyNV19
+eyJoaXN0b3J5IjpbMTY5OTUxMDM3Miw1NTEyMDc5NzAsLTE2Mj
+czOTEyNDEsLTMzMTU3NDI3MCwtMTcwNzU4NzE1MCwxNjIzMTEz
+NTkxLDc0MTc1MTUwOSwxNjk1MjAwMjY4LDE2Mjk0NTM5OTEsMT
+MyODYyNzc2LDIzOTk3MTg2MywxMTQzMzU2NTQ1LC04MzEzNTYz
+MTAsLTI4NjE1NjY3Miw1MTk1MzQ0NjgsLTI5NzYzNzQ3LC00NT
+QyNjg3MzksLTU2MzY2MTA1LC0xODQzMzgyNjYzLC0yMTIwODYz
+MDI1XX0=
 -->
