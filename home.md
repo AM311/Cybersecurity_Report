@@ -67,7 +67,7 @@ The more complex and time-requiring configurations are related to the Active Dir
 	 - DHCP IP-addresses pool can be chosen arbitrarly; the DNS server must be set so it refers to "our" DNS server (yet to be installed);
 	 - The domain name is `cybersec.units.it`;
 	 - The following domain accounts (with related passwords) need to be created:
-		 - `DomainUser`, password: `User00!`
+		 - **`DomainUser`** (password: `User00!`), joining the `DomainAccounts` group;
 		 - f
 		 - f
 		 - f
@@ -229,7 +229,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY4NzUzMTg0LC0xNjI3MzkxMjQxLC0zMz
+eyJoaXN0b3J5IjpbNTUxMjA3OTcwLC0xNjI3MzkxMjQxLC0zMz
 E1NzQyNzAsLTE3MDc1ODcxNTAsMTYyMzExMzU5MSw3NDE3NTE1
 MDksMTY5NTIwMDI2OCwxNjI5NDUzOTkxLDEzMjg2Mjc3NiwyMz
 k5NzE4NjMsMTE0MzM1NjU0NSwtODMxMzU2MzEwLC0yODYxNTY2
