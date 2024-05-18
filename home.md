@@ -68,6 +68,7 @@ The **Kali** machine has a statically configured IP address (`10.0.2.15`) so it 
 The **Windows 7** machine, named `WIN7`, joins the domain and receives a dynamical IP address via DHCP.
 
 The **DomainController/DHCP server**, named `SERVER`, has a static IP address set to `10.0.2.200` and controls the domain named `cybersec.units.it`.
+DHCP assignes only IPv4 addresses in the pool `10.0.2.10-190`; it assignes also the DNS, which is set to be  the DNS server must be set so it refers to "our" DNS server (yet to be installed);
 
 The following domain accounts (with related passwords) need to be created:
 		 - **`DomainUser`** (password: `User00!`), joining the `DomainUsers` group;
@@ -80,7 +81,7 @@ This server hosts a folder that is shared to all computers in the domain (via *[
 
 
  - The **DomainController/DHCP server** requires the installation of the OS with "default" settings. Then, *Active Directory Domain Services* and *DHCP* functionalities need also to be installed, again with default settings (except for what follows).
-	 - DHCP IP-addresses pool can be chosen arbitrarly (e.g. `10.0.2.10-190`); the DNS server must be set so it refers to "our" DNS server (yet to be installed);
+	 - 
 	 - The name of the machine is `SERVER`;
 	 - The domain name is `cybersec.units.it`;
 	 - 
@@ -239,11 +240,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDQ5MzY3NTEsMTIzOTM2MjY3MCwxMT
-E2NTI1MzgsMTY5OTUxMDM3Miw1NTEyMDc5NzAsLTE2MjczOTEy
-NDEsLTMzMTU3NDI3MCwtMTcwNzU4NzE1MCwxNjIzMTEzNTkxLD
-c0MTc1MTUwOSwxNjk1MjAwMjY4LDE2Mjk0NTM5OTEsMTMyODYy
-Nzc2LDIzOTk3MTg2MywxMTQzMzU2NTQ1LC04MzEzNTYzMTAsLT
-I4NjE1NjY3Miw1MTk1MzQ0NjgsLTI5NzYzNzQ3LC00NTQyNjg3
-MzldfQ==
+eyJoaXN0b3J5IjpbMTkzNDgxODc3NywxMjM5MzYyNjcwLDExMT
+Y1MjUzOCwxNjk5NTEwMzcyLDU1MTIwNzk3MCwtMTYyNzM5MTI0
+MSwtMzMxNTc0MjcwLC0xNzA3NTg3MTUwLDE2MjMxMTM1OTEsNz
+QxNzUxNTA5LDE2OTUyMDAyNjgsMTYyOTQ1Mzk5MSwxMzI4NjI3
+NzYsMjM5OTcxODYzLDExNDMzNTY1NDUsLTgzMTM1NjMxMCwtMj
+g2MTU2NjcyLDUxOTUzNDQ2OCwtMjk3NjM3NDcsLTQ1NDI2ODcz
+OV19
 -->
