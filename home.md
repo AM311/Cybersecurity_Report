@@ -67,9 +67,9 @@ The **Kali** machine runs a default OS with no changes. The IP address has been 
 
 The **Windows 7** machine, named `WIN7`, joins the domain and receives a dynamical IP address via DHCP.
 
-The **DomainController/DHCP server**, named `SERVER`, has a static IP address set to `10.0.2.200`.
-The DHCP service spawns 
+The **DomainController/DHCP server**, named `SERVER`, has a static IP address set to `10.0.2.200` and controls the domain named `cybersec.units.it`.
 
+The **DNS/File server**, named `DNSSERVER`, has a static IP address set to `10.0.2.200` and controls the domain named `cybersec.units.it`.
 
 
  - The **DomainController/DHCP server** requires the installation of the OS with "default" settings. Then, *Active Directory Domain Services* and *DHCP* functionalities need also to be installed, again with default settings (except for what follows).
@@ -240,7 +240,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxODA2MTcwNywxMTE2NTI1MzgsMTY5OT
+eyJoaXN0b3J5IjpbMjAxODcxMjc2OSwxMTE2NTI1MzgsMTY5OT
 UxMDM3Miw1NTEyMDc5NzAsLTE2MjczOTEyNDEsLTMzMTU3NDI3
 MCwtMTcwNzU4NzE1MCwxNjIzMTEzNTkxLDc0MTc1MTUwOSwxNj
 k1MjAwMjY4LDE2Mjk0NTM5OTEsMTMyODYyNzc2LDIzOTk3MTg2
