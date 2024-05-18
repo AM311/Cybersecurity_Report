@@ -55,17 +55,15 @@ It is clearly required that all these machines can communicate between each-othe
 
 ### Configuring the Machines
 
-Once all the machines and their OSs have been installed, it is necessary to properly configure them in order to practicaly realize the described scenario.
-
-Since the configuration of an OS is not the main goal of the document, many details will be omitted; moreover, no added value is given by this part of the guide since the only goal is to recreate the presented scenario.
-For these reasons, the images of the already-set-up VMs are provided below and it is strongly suggested to use them; just a few additional details will be given further down in order to being able to use them:
+Since the configuration of an OS is not the main goal of the document, many details will be omitted; moreover, no added value is given by this part of the guide since the only goal is to recreate the described scenario.
+For these reasons, the images of the already-set-up VMs are provided below and it is strongly suggested to use them; just a few additional details will be given further down:
 
  - **Kali Linux** machine: ==click here==;
  - **Windows 7** machine: ==click here==;
  - **DC/DHCP server**: ==click here==;
  -  **DNS/File server**: ==click here==;
 
-The **Kali** machine runs a default OS with no changes. The IP address has been statically configured to `10.0.2.15` in order to being able to communicate with the devices in the domain. Additional packets and libraries like `impacket` and `kiwi` have been installed in the `metasploit` framework.
+The **Kali** machine runs a default OS with no changes. The IP address has been statically configured to `10.0.2.15` so it can communicate with the devices in the domain. Additional packets and libraries like `impacket` and `kiwi` have been installed in the `metasploit` framework.
 
 The **Windows 7** machine, named `WIN7`, joins the domain and receives a dynamical IP address via DHCP.
 
@@ -241,7 +239,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkyMzY5NzI2LDE2OTk1MTAzNzIsNTUxMj
+eyJoaXN0b3J5IjpbMTExNjUyNTM4LDE2OTk1MTAzNzIsNTUxMj
 A3OTcwLC0xNjI3MzkxMjQxLC0zMzE1NzQyNzAsLTE3MDc1ODcx
 NTAsMTYyMzExMzU5MSw3NDE3NTE1MDksMTY5NTIwMDI2OCwxNj
 I5NDUzOTkxLDEzMjg2Mjc3NiwyMzk5NzE4NjMsMTE0MzM1NjU0
