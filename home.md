@@ -61,7 +61,7 @@ In this guide many details will be omitted since the configuration of an OS is n
 
 The **Kali** machine does not require particular configurations: it is only needed that it can communicate in the same network of the domain PCs, so it requires a proper IP address, either assigned statically or dinamically by the DHPC. Moreover, `metasploit` needs to be installed along with some additional packets and libraries like `impacket` and `kiwi`.
 
-d
+The more complex and time-requiring configurations are related to the Active Directory domain environment; they will be briefly outlin
 
 
 
@@ -222,11 +222,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMTU3NDI3MCwtMTcwNzU4NzE1MCwxNj
-IzMTEzNTkxLDc0MTc1MTUwOSwxNjk1MjAwMjY4LDE2Mjk0NTM5
-OTEsMTMyODYyNzc2LDIzOTk3MTg2MywxMTQzMzU2NTQ1LC04Mz
-EzNTYzMTAsLTI4NjE1NjY3Miw1MTk1MzQ0NjgsLTI5NzYzNzQ3
-LC00NTQyNjg3MzksLTU2MzY2MTA1LC0xODQzMzgyNjYzLC0yMT
-IwODYzMDI1LDc2ODMwMTc0NSwxNjc4MzUyNzE0LDE3NTg0NTMw
-MzRdfQ==
+eyJoaXN0b3J5IjpbLTk5MDQ4MTgyNSwtMzMxNTc0MjcwLC0xNz
+A3NTg3MTUwLDE2MjMxMTM1OTEsNzQxNzUxNTA5LDE2OTUyMDAy
+NjgsMTYyOTQ1Mzk5MSwxMzI4NjI3NzYsMjM5OTcxODYzLDExND
+MzNTY1NDUsLTgzMTM1NjMxMCwtMjg2MTU2NjcyLDUxOTUzNDQ2
+OCwtMjk3NjM3NDcsLTQ1NDI2ODczOSwtNTYzNjYxMDUsLTE4ND
+MzODI2NjMsLTIxMjA4NjMwMjUsNzY4MzAxNzQ1LDE2NzgzNTI3
+MTRdfQ==
 -->
