@@ -63,7 +63,7 @@ For these reasons, the images of the already-set-up VMs are provided below and i
  - **DC/DHCP server**: ==click here==;
  -  **DNS/File server**: ==click here==;
 
-The **Kali** machine runs a default OS with no changes. The IP address has been statically configured to `10.0.2.15` so it can communicate with the devices in the domain. Additional packets and libraries like `impacket` and `kiwi` have been installed in the `metasploit` framework.
+The **Kali** machine has a statically configured IP address (`10.0.2.15`) so it can communicate with the devices in the domain. Additional packets and libraries like `impacket` and `kiwi` have been installed in the `metasploit` framework.
 
 The **Windows 7** machine, named `WIN7`, joins the domain and receives a dynamical IP address via DHCP.
 
@@ -86,8 +86,7 @@ This server hosts a folder that is shared to all computers in the domain (via *[
 	 - 
 		 - ACCOUNT ADMIN LOCALE
 
-Every machine has a default local admin account named Administrator whose password
-
+Every machine has a default local admin account (out of this lab's scope) named `Administrator` whose password is `Qwerty123`.
 
 ## Let's start Hacking!
 
@@ -240,11 +239,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3ODIxMDczNiwxMjM5MzYyNjcwLDExMT
-Y1MjUzOCwxNjk5NTEwMzcyLDU1MTIwNzk3MCwtMTYyNzM5MTI0
-MSwtMzMxNTc0MjcwLC0xNzA3NTg3MTUwLDE2MjMxMTM1OTEsNz
-QxNzUxNTA5LDE2OTUyMDAyNjgsMTYyOTQ1Mzk5MSwxMzI4NjI3
-NzYsMjM5OTcxODYzLDExNDMzNTY1NDUsLTgzMTM1NjMxMCwtMj
-g2MTU2NjcyLDUxOTUzNDQ2OCwtMjk3NjM3NDcsLTQ1NDI2ODcz
-OV19
+eyJoaXN0b3J5IjpbLTEyNDQ5MzY3NTEsMTIzOTM2MjY3MCwxMT
+E2NTI1MzgsMTY5OTUxMDM3Miw1NTEyMDc5NzAsLTE2MjczOTEy
+NDEsLTMzMTU3NDI3MCwtMTcwNzU4NzE1MCwxNjIzMTEzNTkxLD
+c0MTc1MTUwOSwxNjk1MjAwMjY4LDE2Mjk0NTM5OTEsMTMyODYy
+Nzc2LDIzOTk3MTg2MywxMTQzMzU2NTQ1LC04MzEzNTYzMTAsLT
+I4NjE1NjY3Miw1MTk1MzQ0NjgsLTI5NzYzNzQ3LC00NTQyNjg3
+MzldfQ==
 -->
