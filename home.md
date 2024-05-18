@@ -64,7 +64,7 @@ The **Kali** machine does not require particular configurations: it is only need
 The more complex and time-requiring configurations are related to the Active Directory domain environment. They will be briefly outlined here but, essentially, their final goal is to implement the scenario previously presented:
 
  - The **DomainController/DHCP server** requires the installation of the OS with "default" settings. Then, *Active Directory Domain Services* and *DHCP* functionalities need also to be installed, again with default settings (except for what follows).
-	 - DHCP IP-addresses pool can be chosen arbitrarly; the DNS server must be set so it refers to "our" DNS server (yet to be installed);
+	 - DHCP IP-addresses pool can be chosen arbitrarly (e.g. `10.0.2.10-190`); the DNS server must be set so it refers to "our" DNS server (yet to be installed);
 	 - The domain name is `cybersec.units.it`;
 	 - The following domain accounts (with related passwords) need to be created:
 		 - **`DomainUser`** (password: `User00!`), joining the `DomainAccounts` group;
@@ -230,7 +230,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYzNTUxMDg3LDU1MTIwNzk3MCwtMTYyNz
+eyJoaXN0b3J5IjpbMTEwMDc5MDkxLDU1MTIwNzk3MCwtMTYyNz
 M5MTI0MSwtMzMxNTc0MjcwLC0xNzA3NTg3MTUwLDE2MjMxMTM1
 OTEsNzQxNzUxNTA5LDE2OTUyMDAyNjgsMTYyOTQ1Mzk5MSwxMz
 I4NjI3NzYsMjM5OTcxODYzLDExNDMzNTY1NDUsLTgzMTM1NjMx
