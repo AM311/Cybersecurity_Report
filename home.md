@@ -59,7 +59,9 @@ Once all the machines and their OSs have been installed, it is necessary to prop
 
 In this guide many details will be omitted since the configuration of an OS is not the main goal of the document; it will be just given an outline of the main settings that are needed for each machine and the ways to achieve them.
 
-The **Kali** machine does not require particular configurations: it is only needed that it can communicate in the same network of the domain PCs, so it requires a proper IP address, either assigned statically or dinamically by the DHPC. Moreover,  
+The **Kali** machine does not require particular configurations: it is only needed that it can communicate in the same network of the domain PCs, so it requires a proper IP address, either assigned statically or dinamically by the DHPC. Moreover, `metasploit` needs to be installed along with some additional packets and libraries like `impacket` and `kiwi`.
+
+d
 
 
 
@@ -220,11 +222,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQwMDI5MDM4LC0xNzA3NTg3MTUwLDE2Mj
-MxMTM1OTEsNzQxNzUxNTA5LDE2OTUyMDAyNjgsMTYyOTQ1Mzk5
-MSwxMzI4NjI3NzYsMjM5OTcxODYzLDExNDMzNTY1NDUsLTgzMT
-M1NjMxMCwtMjg2MTU2NjcyLDUxOTUzNDQ2OCwtMjk3NjM3NDcs
-LTQ1NDI2ODczOSwtNTYzNjYxMDUsLTE4NDMzODI2NjMsLTIxMj
-A4NjMwMjUsNzY4MzAxNzQ1LDE2NzgzNTI3MTQsMTc1ODQ1MzAz
-NF19
+eyJoaXN0b3J5IjpbLTMzMTU3NDI3MCwtMTcwNzU4NzE1MCwxNj
+IzMTEzNTkxLDc0MTc1MTUwOSwxNjk1MjAwMjY4LDE2Mjk0NTM5
+OTEsMTMyODYyNzc2LDIzOTk3MTg2MywxMTQzMzU2NTQ1LC04Mz
+EzNTYzMTAsLTI4NjE1NjY3Miw1MTk1MzQ0NjgsLTI5NzYzNzQ3
+LC00NTQyNjg3MzksLTU2MzY2MTA1LC0xODQzMzgyNjYzLC0yMT
+IwODYzMDI1LDc2ODMwMTc0NSwxNjc4MzUyNzE0LDE3NTg0NTMw
+MzRdfQ==
 -->
