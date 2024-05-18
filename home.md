@@ -63,7 +63,7 @@ The **Kali** machine does not require particular configurations: it is only need
 
 The more complex and time-requiring configurations are related to the Active Directory domain environment. They will be briefly outlined here but, essentially, their final goal is to implement the scenario previously presented:
 
- - The **DomainController/DHCP server** requires the installation of the OS with "default" settings. Then, *Active Directory Domain Services* and DHCP server functionalities need also to be installed
+ - The **DomainController/DHCP server** requires the installation of the OS with "default" settings. Then, *Active Directory Domain Services* and *DHCP* functionalities need also to be installed, again with default settings (except for what follows). DHCP addresses pool
 
 ==RIMANDO A CONFIGURAZIONI COME DA SCENARIO --> CITARE PRINCIPALI MODI PER REALIZZARE LO SCENARIO: utenti e come realizzare le ipotesi di lavoro (a grandi linee)==
 
@@ -222,7 +222,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NTYwMTUwNiwtMTYyNzM5MTI0MSwtMz
+eyJoaXN0b3J5IjpbMTM1NjU3MzIxMSwtMTYyNzM5MTI0MSwtMz
 MxNTc0MjcwLC0xNzA3NTg3MTUwLDE2MjMxMTM1OTEsNzQxNzUx
 NTA5LDE2OTUyMDAyNjgsMTYyOTQ1Mzk5MSwxMzI4NjI3NzYsMj
 M5OTcxODYzLDExNDMzNTY1NDUsLTgzMTM1NjMxMCwtMjg2MTU2
