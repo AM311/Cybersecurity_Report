@@ -58,11 +58,11 @@ It is clearly required that all these machines can communicate between each-othe
 Once all the machines and their OSs have been installed, it is necessary to properly configure them in order to practicaly realize the described scenario.
 
 Since the configuration of an OS is not the main goal of the document, many details will be omitted; moreover, no added value is given by this part of the guide since the only goal is to recreate the presented scenario.
-For these reasons, the images of the already-set-up VMs are provided below and it is strongly suggested to use them; just a few details will
+For these reasons, the images of the already-set-up VMs are provided below and it is strongly suggested to use them; just a few additional details will be given further down in order to be able to use them:
 
-It is strongly suggested to use the VMs images provided below 
-
-
+ - Kali Linux machine: click here;
+ - Windows 7 machine: click here;
+ - Win
 
 In this guide many details will be omitted since the configuration of an OS is not the main goal of the document; it will be just given an outline of the main settings that are needed for each machine and the ways to achieve them.
 
@@ -238,11 +238,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODU5MDU2MCwxNjk5NTEwMzcyLDU1MT
-IwNzk3MCwtMTYyNzM5MTI0MSwtMzMxNTc0MjcwLC0xNzA3NTg3
-MTUwLDE2MjMxMTM1OTEsNzQxNzUxNTA5LDE2OTUyMDAyNjgsMT
-YyOTQ1Mzk5MSwxMzI4NjI3NzYsMjM5OTcxODYzLDExNDMzNTY1
-NDUsLTgzMTM1NjMxMCwtMjg2MTU2NjcyLDUxOTUzNDQ2OCwtMj
-k3NjM3NDcsLTQ1NDI2ODczOSwtNTYzNjYxMDUsLTE4NDMzODI2
-NjNdfQ==
+eyJoaXN0b3J5IjpbNzEzODk1ODA3LDE2OTk1MTAzNzIsNTUxMj
+A3OTcwLC0xNjI3MzkxMjQxLC0zMzE1NzQyNzAsLTE3MDc1ODcx
+NTAsMTYyMzExMzU5MSw3NDE3NTE1MDksMTY5NTIwMDI2OCwxNj
+I5NDUzOTkxLDEzMjg2Mjc3NiwyMzk5NzE4NjMsMTE0MzM1NjU0
+NSwtODMxMzU2MzEwLC0yODYxNTY2NzIsNTE5NTM0NDY4LC0yOT
+c2Mzc0NywtNDU0MjY4NzM5LC01NjM2NjEwNSwtMTg0MzM4MjY2
+M119
 -->
