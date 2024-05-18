@@ -48,7 +48,7 @@ This activity requires the set-up of a virtual environment, in which the followi
  - **1** VM running **Windows 7**;
  - **1** VM running **Kali Linux**;
 
-Any virtualization software is good: just for reference, this activity has been built using **VirtualBox**.
+Any virtualization software is good: this activity has been built using **Oracle VirtualBox**, so it is necessary to use it if you want to use the provided VMs images.
 OS versions are not mandatory, but all the features that will be used must be available.
 
 It is clearly required that all these machines can communicate between each-other, so the virtualizator must be set up for allowing this.
@@ -56,6 +56,8 @@ It is clearly required that all these machines can communicate between each-othe
 ### Configuring the Machines
 
 Once all the machines and their OSs have been installed, it is necessary to properly configure them in order to practicaly realize the described scenario.
+
+
 
 In this guide many details will be omitted since the configuration of an OS is not the main goal of the document; it will be just given an outline of the main settings that are needed for each machine and the ways to achieve them.
 
@@ -231,11 +233,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5OTUxMDM3Miw1NTEyMDc5NzAsLTE2Mj
-czOTEyNDEsLTMzMTU3NDI3MCwtMTcwNzU4NzE1MCwxNjIzMTEz
-NTkxLDc0MTc1MTUwOSwxNjk1MjAwMjY4LDE2Mjk0NTM5OTEsMT
-MyODYyNzc2LDIzOTk3MTg2MywxMTQzMzU2NTQ1LC04MzEzNTYz
-MTAsLTI4NjE1NjY3Miw1MTk1MzQ0NjgsLTI5NzYzNzQ3LC00NT
-QyNjg3MzksLTU2MzY2MTA1LC0xODQzMzgyNjYzLC0yMTIwODYz
-MDI1XX0=
+eyJoaXN0b3J5IjpbLTE3MjU5NjI1OTUsMTY5OTUxMDM3Miw1NT
+EyMDc5NzAsLTE2MjczOTEyNDEsLTMzMTU3NDI3MCwtMTcwNzU4
+NzE1MCwxNjIzMTEzNTkxLDc0MTc1MTUwOSwxNjk1MjAwMjY4LD
+E2Mjk0NTM5OTEsMTMyODYyNzc2LDIzOTk3MTg2MywxMTQzMzU2
+NTQ1LC04MzEzNTYzMTAsLTI4NjE1NjY3Miw1MTk1MzQ0NjgsLT
+I5NzYzNzQ3LC00NTQyNjg3MzksLTU2MzY2MTA1LC0xODQzMzgy
+NjYzXX0=
 -->
