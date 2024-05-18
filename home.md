@@ -65,7 +65,12 @@ The more complex and time-requiring configurations are related to the Active Dir
 
  - The **DomainController/DHCP server** requires the installation of the OS with "default" settings. Then, *Active Directory Domain Services* and *DHCP* functionalities need also to be installed, again with default settings (except for what follows).
 	 - DHCP IP-addresses pool can be chosen arbitrarly; the DNS server must be set so it refers to "our" DNS server (yet to be installed);
-	 - The domain is called cybersec.units.it 
+	 - The domain name is `cybersec.units.it`;
+	 - The following domain accounts (with related passwords) need to be created:
+		 - `DomainUser`, password: `User00!`
+		 - f
+		 - f
+		 - f
  - 
 ==RIMANDO A CONFIGURAZIONI COME DA SCENARIO --> CITARE PRINCIPALI MODI PER REALIZZARE LO SCENARIO: utenti e come realizzare le ipotesi di lavoro (a grandi linee)==
 
@@ -224,11 +229,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNTgxMTM0MCwtMTYyNzM5MTI0MSwtMz
-MxNTc0MjcwLC0xNzA3NTg3MTUwLDE2MjMxMTM1OTEsNzQxNzUx
-NTA5LDE2OTUyMDAyNjgsMTYyOTQ1Mzk5MSwxMzI4NjI3NzYsMj
-M5OTcxODYzLDExNDMzNTY1NDUsLTgzMTM1NjMxMCwtMjg2MTU2
-NjcyLDUxOTUzNDQ2OCwtMjk3NjM3NDcsLTQ1NDI2ODczOSwtNT
-YzNjYxMDUsLTE4NDMzODI2NjMsLTIxMjA4NjMwMjUsNzY4MzAx
-NzQ1XX0=
+eyJoaXN0b3J5IjpbNjY4NzUzMTg0LC0xNjI3MzkxMjQxLC0zMz
+E1NzQyNzAsLTE3MDc1ODcxNTAsMTYyMzExMzU5MSw3NDE3NTE1
+MDksMTY5NTIwMDI2OCwxNjI5NDUzOTkxLDEzMjg2Mjc3NiwyMz
+k5NzE4NjMsMTE0MzM1NjU0NSwtODMxMzU2MzEwLC0yODYxNTY2
+NzIsNTE5NTM0NDY4LC0yOTc2Mzc0NywtNDU0MjY4NzM5LC01Nj
+M2NjEwNSwtMTg0MzM4MjY2MywtMjEyMDg2MzAyNSw3NjgzMDE3
+NDVdfQ==
 -->
