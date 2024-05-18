@@ -57,7 +57,10 @@ It is clearly required that all these machines can communicate between each-othe
 
 Once all the machines and their OSs have been installed, it is necessary to properly configure them in order to practicaly realize the described scenario.
 
-Since the configuration of an OS is not the main goal of the document, many details will be omitted. Moreover, no added value is given by this part of the guide since the only goal is to recreate the 
+Since the configuration of an OS is not the main goal of the document, many details will be omitted. 
+
+; mMoreover, no added value is given by this part of the guide since the only goal is to recreate the scenario presented before.
+For these reasons, the images of 
 It is strongly suggested to use the VMs images provided below 
 
 
@@ -236,7 +239,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDAwNDIzMjksMTY5OTUxMDM3Miw1NT
+eyJoaXN0b3J5IjpbLTExNDAzNTk5MTUsMTY5OTUxMDM3Miw1NT
 EyMDc5NzAsLTE2MjczOTEyNDEsLTMzMTU3NDI3MCwtMTcwNzU4
 NzE1MCwxNjIzMTEzNTkxLDc0MTc1MTUwOSwxNjk1MjAwMjY4LD
 E2Mjk0NTM5OTEsMTMyODYyNzc2LDIzOTk3MTg2MywxMTQzMzU2
