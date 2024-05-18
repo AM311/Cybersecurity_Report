@@ -58,19 +58,18 @@ It is clearly required that all these machines can communicate between each-othe
 Once all the machines and their OSs have been installed, it is necessary to properly configure them in order to practicaly realize the described scenario.
 
 Since the configuration of an OS is not the main goal of the document, many details will be omitted; moreover, no added value is given by this part of the guide since the only goal is to recreate the presented scenario.
-For these reasons, the images of the already-set-up VMs are provided below and it is strongly suggested to use them; just a few additional details will be given further down in order to be able to use them:
+For these reasons, the images of the already-set-up VMs are provided below and it is strongly suggested to use them; just a few additional details will be given further down in order to being able to use them:
 
  - Kali Linux machine: ==click here==;
  - Windows 7 machine: ==click here==;
  - DC/DHCP server: ==click here==;
  -  DNS/File server: ==click here==;
 
-The **Kali** machine runs a default OS with no changes. The IP address has been statically configured to `10.0.2.15` in order to being able to communicate with the devices in the domain. Additional packets and libraries like `impacket` and `kiwi`.
+The **Kali** machine runs a default OS with no changes. The IP address has been statically configured to `10.0.2.15` in order to being able to communicate with the devices in the domain. Additional packets and libraries like `impacket` and `kiwi` have been installed in the `metasploit` framework.
+
+The **Windows 7** joins the domain and 
 
 
- does not require particular configurations: it is only needed that it can communicate in the same network of the domain PCs, so it requires a proper IP address, either assigned statically or dinamically by the DHPC. Moreover, `metasploit` needs to be installed along with some additional packets and libraries like `impacket` and `kiwi`.
-
-The more complex and time-requiring configurations are related to the Active Directory domain environment. They will be briefly outlined here but, essentially, their final goal is to implement the scenario previously presented:
 
  - The **DomainController/DHCP server** requires the installation of the OS with "default" settings. Then, *Active Directory Domain Services* and *DHCP* functionalities need also to be installed, again with default settings (except for what follows).
 	 - DHCP IP-addresses pool can be chosen arbitrarly (e.g. `10.0.2.10-190`); the DNS server must be set so it refers to "our" DNS server (yet to be installed);
@@ -240,7 +239,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDU2NDM3NTksMTY5OTUxMDM3Miw1NT
+eyJoaXN0b3J5IjpbLTE4MjMzMjgxNDQsMTY5OTUxMDM3Miw1NT
 EyMDc5NzAsLTE2MjczOTEyNDEsLTMzMTU3NDI3MCwtMTcwNzU4
 NzE1MCwxNjIzMTEzNTkxLDc0MTc1MTUwOSwxNjk1MjAwMjY4LD
 E2Mjk0NTM5OTEsMTMyODYyNzc2LDIzOTk3MTg2MywxMTQzMzU2
