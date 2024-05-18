@@ -70,7 +70,7 @@ The **Windows 7** machine, named `WIN7`, joins the domain and receives a dynamic
 The **DomainController/DHCP server**, named `SERVER`, has a static IP address set to `10.0.2.200` and controls the domain named `cybersec.units.it`.
 
 The **DNS/File server**, named `SERVERDNS`, has a static IP address set to `10.0.2.250`. Every machine in the domain is configured (via DHCP) to use this server as primary DNS.
-This server hosts a folder that is shared to all computers in the domain (via *AD's GPOs*), which can be read by every account while can be written only by Administrators and DNSA
+This server hosts a folder that is shared to all computers in the domain (via *[AD's GPOs](https://en.wikipedia.org/wiki/Group_Policy)*), which can be read by everyone while can be written only by `Administrators` and `DnsAdmins`.
 
 
  - The **DomainController/DHCP server** requires the installation of the OS with "default" settings. Then, *Active Directory Domain Services* and *DHCP* functionalities need also to be installed, again with default settings (except for what follows).
@@ -241,11 +241,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk2MDIxNjg2LDEyMzkzNjI2NzAsMTExNj
-UyNTM4LDE2OTk1MTAzNzIsNTUxMjA3OTcwLC0xNjI3MzkxMjQx
-LC0zMzE1NzQyNzAsLTE3MDc1ODcxNTAsMTYyMzExMzU5MSw3ND
-E3NTE1MDksMTY5NTIwMDI2OCwxNjI5NDUzOTkxLDEzMjg2Mjc3
-NiwyMzk5NzE4NjMsMTE0MzM1NjU0NSwtODMxMzU2MzEwLC0yOD
-YxNTY2NzIsNTE5NTM0NDY4LC0yOTc2Mzc0NywtNDU0MjY4NzM5
-XX0=
+eyJoaXN0b3J5IjpbLTE3MjMyMTA0MTgsMTIzOTM2MjY3MCwxMT
+E2NTI1MzgsMTY5OTUxMDM3Miw1NTEyMDc5NzAsLTE2MjczOTEy
+NDEsLTMzMTU3NDI3MCwtMTcwNzU4NzE1MCwxNjIzMTEzNTkxLD
+c0MTc1MTUwOSwxNjk1MjAwMjY4LDE2Mjk0NTM5OTEsMTMyODYy
+Nzc2LDIzOTk3MTg2MywxMTQzMzU2NTQ1LC04MzEzNTYzMTAsLT
+I4NjE1NjY3Miw1MTk1MzQ0NjgsLTI5NzYzNzQ3LC00NTQyNjg3
+MzldfQ==
 -->
