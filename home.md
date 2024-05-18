@@ -77,14 +77,7 @@ The following domain accounts (with passwords between brackets) are available:
 
 The **DNS/File server**, named `SERVERDNS`, has a static IP address set to `10.0.2.250`. Every machine in the domain is configured (via DHCP) to use this server as primary DNS.
 This server hosts a folder that is shared to all computers in the domain (via *[AD's GPOs](https://en.wikipedia.org/wiki/Group_Policy)*), which can be read by everyone while can be written only by `Administrators` and `DnsAdmins`.
-
-
- - The **DomainController/DHCP server** requires the installation of the OS with "default" settings. Then, *Active Directory Domain Services* and *DHCP* functionalities need also to be installed, again with default settings (except for what follows).
-	 - 
-	 - The name of the machine is `SERVER`;
-	 - The domain name is `cybersec.units.it`;
-	 - 
-		 - ACCOUNT ADMIN LOCALE
+This device can be accessed and managed via Remote Desktop by `DnsAdmins` accounts.
 
 Every machine has a default local admin account (out of this lab's scope) named `Administrator` whose password is `Qwerty123`.
 
@@ -239,11 +232,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MTU1MzEwMCwxMjM5MzYyNjcwLDExMT
-Y1MjUzOCwxNjk5NTEwMzcyLDU1MTIwNzk3MCwtMTYyNzM5MTI0
-MSwtMzMxNTc0MjcwLC0xNzA3NTg3MTUwLDE2MjMxMTM1OTEsNz
-QxNzUxNTA5LDE2OTUyMDAyNjgsMTYyOTQ1Mzk5MSwxMzI4NjI3
-NzYsMjM5OTcxODYzLDExNDMzNTY1NDUsLTgzMTM1NjMxMCwtMj
-g2MTU2NjcyLDUxOTUzNDQ2OCwtMjk3NjM3NDcsLTQ1NDI2ODcz
-OV19
+eyJoaXN0b3J5IjpbOTI3MzAxMTU2LC02NzE1NTMxMDAsMTIzOT
+M2MjY3MCwxMTE2NTI1MzgsMTY5OTUxMDM3Miw1NTEyMDc5NzAs
+LTE2MjczOTEyNDEsLTMzMTU3NDI3MCwtMTcwNzU4NzE1MCwxNj
+IzMTEzNTkxLDc0MTc1MTUwOSwxNjk1MjAwMjY4LDE2Mjk0NTM5
+OTEsMTMyODYyNzc2LDIzOTk3MTg2MywxMTQzMzU2NTQ1LC04Mz
+EzNTYzMTAsLTI4NjE1NjY3Miw1MTk1MzQ0NjgsLTI5NzYzNzQ3
+XX0=
 -->
