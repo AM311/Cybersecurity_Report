@@ -68,13 +68,12 @@ The **Kali** machine has a statically configured IP address (`10.0.2.15`) so it 
 The **Windows 7** machine, named `WIN7`, joins the domain and receives a dynamical IP address via DHCP.
 
 The **DomainController/DHCP server**, named `SERVER`, has a static IP address set to `10.0.2.200` and controls the domain named `cybersec.units.it`.
-DHCP assignes only IPv4 addresses in the pool `10.0.2.10-190`; it assignes also the DNS, which is set to be  the DNS server must be set so it refers to "our" DNS server (yet to be installed);
-
-The following domain accounts (with related passwords) need to be created:
-		 - **`DomainUser`** (password: `User00!`), joining the `DomainUsers` group;
-		 - **`DomainUserNoAuth`** (password: `User00!`), joining the `DomainUsers` group, requires NO Kerberos pre-authentication;
-		 - **`DomainAdmin`** (password: `Admin00!`), joining the `DomainUsers`, `DomainAdmins`, `Administrators` groups;
-		 - **`DNSoperator`** (password: `Qwerty123`), joining the `DomainUsers`, `DnsAdmins`, `DnsUpdateProxy` groups, can login only on the DNS server;
+DHCP assignes only IPv4 addresses in the pool `10.0.2.10-190`; it assignes also the DNS, which is set to be `10.0.2.250`.
+The following domain accounts (with passwords between brackets) are available:
+		 - `DomainUser` (`User00!`), joining the `DomainUsers` group;
+		 - `DomainUserNoAuth` (`User00!`), joining the `DomainUsers` group, requires NO Kerberos pre-authentication;
+		 - `DomainAdmin` (`Admin00!`), joining the `DomainUsers`, `DomainAdmins`, `Administrators` groups;
+		 - `DNSoperator` (`Qwerty123`), joining the `DomainUsers`, `DnsAdmins`, `DnsUpdateProxy` groups, can login only on the DNS server;
 
 The **DNS/File server**, named `SERVERDNS`, has a static IP address set to `10.0.2.250`. Every machine in the domain is configured (via DHCP) to use this server as primary DNS.
 This server hosts a folder that is shared to all computers in the domain (via *[AD's GPOs](https://en.wikipedia.org/wiki/Group_Policy)*), which can be read by everyone while can be written only by `Administrators` and `DnsAdmins`.
@@ -240,7 +239,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNDgxODc3NywxMjM5MzYyNjcwLDExMT
+eyJoaXN0b3J5IjpbLTY3MTU1MzEwMCwxMjM5MzYyNjcwLDExMT
 Y1MjUzOCwxNjk5NTEwMzcyLDU1MTIwNzk3MCwtMTYyNzM5MTI0
 MSwtMzMxNTc0MjcwLC0xNzA3NTg3MTUwLDE2MjMxMTM1OTEsNz
 QxNzUxNTA5LDE2OTUyMDAyNjgsMTYyOTQ1Mzk5MSwxMzI4NjI3
