@@ -65,7 +65,9 @@ For these reasons, the images of the already-set-up VMs are provided below and i
  - DC/DHCP server: ==click here==;
  -  DNS/File server: ==click here==;
 
-The **Kali** machine runs a default OS with no changes.
+The **Kali** machine runs a default OS with no changes. The IP address has been statically configured to `10.0.2.15` in order to being able to communicate with the devices in the domain. Additional packets and libraries like `impacket` and `kiwi`.
+
+
  does not require particular configurations: it is only needed that it can communicate in the same network of the domain PCs, so it requires a proper IP address, either assigned statically or dinamically by the DHPC. Moreover, `metasploit` needs to be installed along with some additional packets and libraries like `impacket` and `kiwi`.
 
 The more complex and time-requiring configurations are related to the Active Directory domain environment. They will be briefly outlined here but, essentially, their final goal is to implement the scenario previously presented:
@@ -238,7 +240,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTM2MzQ4MjgsMTY5OTUxMDM3Miw1NT
+eyJoaXN0b3J5IjpbLTEzMDU2NDM3NTksMTY5OTUxMDM3Miw1NT
 EyMDc5NzAsLTE2MjczOTEyNDEsLTMzMTU3NDI3MCwtMTcwNzU4
 NzE1MCwxNjIzMTEzNTkxLDc0MTc1MTUwOSwxNjk1MjAwMjY4LD
 E2Mjk0NTM5OTEsMTMyODYyNzc2LDIzOTk3MTg2MywxMTQzMzU2
