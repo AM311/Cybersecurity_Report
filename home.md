@@ -1,12 +1,12 @@
 # Cybersecurity Hacking Lab: Report
 
-This document will present a complete and step-by-step guide to perform a hacking laboratory activity in a virtualized environment, reproducing a fake but realistic scenario.
+This document will present a complete and step-by-step guide to perform a hacking laboratory in a virtualized environment, reproducing a fake but realistic scenario.
 
 ## Introduction to the activity
 
 ### Scenario
 
-This laboratory tries to give an overview of the steps that might be performed by an attacker in a common organization running **Windows Active Directory** in order to take control of an high-privilege account.
+This laboratory overviewsof the steps that might be performed by an attacker in a common organization running **Windows Active Directory** in order to take control of an high-privilege account.
 
 The main characteristics of the hypotetical scenario are the following:
 
@@ -232,11 +232,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI3MzAxMTU2LC02NzE1NTMxMDAsMTIzOT
-M2MjY3MCwxMTE2NTI1MzgsMTY5OTUxMDM3Miw1NTEyMDc5NzAs
-LTE2MjczOTEyNDEsLTMzMTU3NDI3MCwtMTcwNzU4NzE1MCwxNj
-IzMTEzNTkxLDc0MTc1MTUwOSwxNjk1MjAwMjY4LDE2Mjk0NTM5
-OTEsMTMyODYyNzc2LDIzOTk3MTg2MywxMTQzMzU2NTQ1LC04Mz
-EzNTYzMTAsLTI4NjE1NjY3Miw1MTk1MzQ0NjgsLTI5NzYzNzQ3
-XX0=
+eyJoaXN0b3J5IjpbMTM5MDY4NjM0Miw5MjczMDExNTYsLTY3MT
+U1MzEwMCwxMjM5MzYyNjcwLDExMTY1MjUzOCwxNjk5NTEwMzcy
+LDU1MTIwNzk3MCwtMTYyNzM5MTI0MSwtMzMxNTc0MjcwLC0xNz
+A3NTg3MTUwLDE2MjMxMTM1OTEsNzQxNzUxNTA5LDE2OTUyMDAy
+NjgsMTYyOTQ1Mzk5MSwxMzI4NjI3NzYsMjM5OTcxODYzLDExND
+MzNTY1NDUsLTgzMTM1NjMxMCwtMjg2MTU2NjcyLDUxOTUzNDQ2
+OF19
 -->
