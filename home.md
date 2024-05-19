@@ -88,10 +88,10 @@ The attacker owns the credentials of `DomainUser`.
 
 Once set-up the environment, it is finally possible to begin the laboratory!
 
-Notice that, unless it is differently specified, all the actions are intended to be performed from the **Kali** machine.
+Notice that, unless otherwise specified, all the actions are intended to be performed from the **Kali** machine.
 
- 0. **Open a Shell:**
- In order to perform all the following actions, a shell needs to be available on the Kali Linux machine.
+ 0. **Open a Shell**;
+ 
  1. **Finding the IP address of the Domain Controller**:
  To begin, we need to find the IP address of the Domain Controller.
  For doing so, we execute the following command: 
@@ -233,7 +233,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MTUwMDI2OCwtMTExMDE3ODk3MywtNj
+eyJoaXN0b3J5IjpbLTUzOTgzMjk5MiwtMTExMDE3ODk3MywtNj
 AwNDE5MTMwLDkyNzMwMTE1NiwtNjcxNTUzMTAwLDEyMzkzNjI2
 NzAsMTExNjUyNTM4LDE2OTk1MTAzNzIsNTUxMjA3OTcwLC0xNj
 I3MzkxMjQxLC0zMzE1NzQyNzAsLTE3MDc1ODcxNTAsMTYyMzEx
