@@ -136,15 +136,15 @@ We now ask the DC to generate a **TGT** for each of the previous accounts and we
  
  4. **Perform AS-Rep Roasting:**
  As said, we will now try to crack the password used for encoding the response obtained together with the TGT, performing a so-called **AS-Rep Roasting** attack.
-	For doing so, we will use **John the Ripper**, password dictionary called `rockyou`.
+	For doing so, we will use **John the Ripper** providing a password dictionary called `rockyou`.
 	
     `john --wordlist=/usr/share/wordlists/rockyou.txt --format=krb5asrep ./Desktop/usernames.txt`
 
-	"Fortunately", the password is present in the dictionary, so *john* finds it immediately: it is **`Qwerty123`**.
+	"Fortunately", the password is in the dictionary, so *john* finds it immediately.
 	
 	![Result of the offline guessing with John the Ripper](https://github.com/AM311/Cybersecurity_Report/blob/main/img/asRepRoasting.png?raw=true)
 
-	 Thanks to this, we now know the credentials of an Admin account authorized to connect to the DNS/File server; so, we now try to do so.
+	 We now know the credentials of an account authorized to connect to the DNS/File server; so, we try to do so.
 
 	==VERIFICARE CHE SI POSSA FARE DESKTOP REMOTO==
  
@@ -233,7 +233,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNDQ5NjA3MiwxNDE0NjE5NzA0LC0xMT
+eyJoaXN0b3J5IjpbMTg1ODI3Nzg4NCwxNDE0NjE5NzA0LC0xMT
 EwMTc4OTczLC02MDA0MTkxMzAsOTI3MzAxMTU2LC02NzE1NTMx
 MDAsMTIzOTM2MjY3MCwxMTE2NTI1MzgsMTY5OTUxMDM3Miw1NT
 EyMDc5NzAsLTE2MjczOTEyNDEsLTMzMTU3NDI3MCwtMTcwNzU4
