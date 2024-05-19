@@ -92,7 +92,7 @@ Notice that, unless otherwise specified, all the actions are intended to be perf
 
  0. **Open a Shell**;
  
- 1. **Finding the IP address of the Domain Controller**:
+ 1. **Find the IP address of the Domain Controller**:
  To begin, we need to find the IP address of the Domain Controller.
  For doing so, we execute the following command: 
  
@@ -104,7 +104,7 @@ Notice that, unless otherwise specified, all the actions are intended to be perf
 	
 	 ![Response of the nmap request](https://raw.githubusercontent.com/AM311/Cybersecurity_Report/main/img/nmap_DC.png)
 
-2. **List of accounts which do not require Kerberos pre-authentication**:
+2. **List accounts which do not require Kerberos pre-authentication**:
 As first attempt, we ask the DomainController the list of all accounts that can authenticate via Kerberos without pre-authentication: hopefully, we will find a `DomainAdmins` account.
 
 	For doing this, we run a LDAP query to the DC from our legitimate account, using the following command:
@@ -116,7 +116,7 @@ As first attempt, we ask the DomainController the list of all accounts that can 
     
 	![Accounts that does not require pre-auth](https://github.com/AM311/Cybersecurity_Report/blob/main/img/noPreAuth.png?raw=true)
 
-	==DIMOSTRARE CHE QUELL'ACCOUNT PUÒ CONNETTERSI SOLO AL DNS (altrimenti basterebbe così!)==
+	==MOSTRARE GRUPPI --> ACCOUNT NON È ADMIN==
 	
  3. **Ask for a TGT for these accounts:**
  Using the following command we ask the DC for a TGT foreach of the previous accounts and we format them so that they are ready to be cracked using *John the Ripper*:
@@ -233,11 +233,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNDYxOTcwNCwtMTExMDE3ODk3MywtNj
-AwNDE5MTMwLDkyNzMwMTE1NiwtNjcxNTUzMTAwLDEyMzkzNjI2
-NzAsMTExNjUyNTM4LDE2OTk1MTAzNzIsNTUxMjA3OTcwLC0xNj
-I3MzkxMjQxLC0zMzE1NzQyNzAsLTE3MDc1ODcxNTAsMTYyMzEx
-MzU5MSw3NDE3NTE1MDksMTY5NTIwMDI2OCwxNjI5NDUzOTkxLD
-EzMjg2Mjc3NiwyMzk5NzE4NjMsMTE0MzM1NjU0NSwtODMxMzU2
-MzEwXX0=
+eyJoaXN0b3J5IjpbLTgxNTk4MzExNCwxNDE0NjE5NzA0LC0xMT
+EwMTc4OTczLC02MDA0MTkxMzAsOTI3MzAxMTU2LC02NzE1NTMx
+MDAsMTIzOTM2MjY3MCwxMTE2NTI1MzgsMTY5OTUxMDM3Miw1NT
+EyMDc5NzAsLTE2MjczOTEyNDEsLTMzMTU3NDI3MCwtMTcwNzU4
+NzE1MCwxNjIzMTEzNTkxLDc0MTc1MTUwOSwxNjk1MjAwMjY4LD
+E2Mjk0NTM5OTEsMTMyODYyNzc2LDIzOTk3MTg2MywxMTQzMzU2
+NTQ1XX0=
 -->
