@@ -88,7 +88,7 @@ The attacker owns the credentials of `DomainUser`.
 
 Once set-up the environment, it is finally possible to begin the laboratory!
 
-Please notice that, unless it is specifically reported, all the actions are intended to be performed from the **Kali Linux** machine, located in the same network of the other devices but NOT part of the Active Directory Domain Services.
+Notice that, unless it is differently specified, all the actions are intended to be performed from the **Kali** machine.
 
  0. **Open a Shell:**
  In order to perform all the following actions, a shell needs to be available on the Kali Linux machine.
@@ -233,7 +233,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MTAzNDgyOCwtMTExMDE3ODk3MywtNj
+eyJoaXN0b3J5IjpbMTY3MTUwMDI2OCwtMTExMDE3ODk3MywtNj
 AwNDE5MTMwLDkyNzMwMTE1NiwtNjcxNTUzMTAwLDEyMzkzNjI2
 NzAsMTExNjUyNTM4LDE2OTk1MTAzNzIsNTUxMjA3OTcwLC0xNj
 I3MzkxMjQxLC0zMzE1NzQyNzAsLTE3MDc1ODcxNTAsMTYyMzEx
