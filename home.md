@@ -22,7 +22,7 @@ The main characteristics of the scenario are the following:
 	 - The DNS server can be accessed only by accounts in `DnsAdmins` group, which can access only that specific machine;
 	 - Accounts in that group are configured to perform Kerberos login **without pre-authentication**;
 	 -  **Remote Desktop** access is allowed on the DNS server;
-	 - All accounts can **read** a **shared network folder**, which can be written only by `DomainAdmins` and `DnsOperators`;
+	 - All accounts can **read** a **shared network folder**, which can be written only by `Administrators` and `DnsOperators`;
 
 When not differently specified, all other settings are intented to be the "default" ones.
 
@@ -30,25 +30,26 @@ It is assumed that the organization follows a **bad passwords management**, usin
 
 ### Goal
 
-The main goal of this laboratory is to **gain access to the credentials of a domain administrator account**.
+The main goal of this laboratory is to **gain access to the credentials of a `DomainAdmins` account**.
 
 ### Threat Model
 
 It is assumed that the attacker:
 
- - is "located" inside the network and owns the credentials of a domain user account (with low privileges);
+ - is "inside" the network and owns the credentials of a `DomainUser` account;
  - can contact servers, also from a personal device which is not part of the domain;
 
 ## Setting up the Virtual Environment
 
 ### Installing the Virtual Machines
 
-This activity requires the set-up of a virtual environment, in which the following machines need to be installed:
+This activity requires the set-up of a virtual environment running the following machines:
  - **2** VMs running **Windows Server 2012**;
  - **1** VM running **Windows 7**;
  - **1** VM running **Kali Linux**;
 
 Any virtualization software is good: this activity has been built using **Oracle VirtualBox**, so it is necessary to use it if you want to use the provided VMs images.
+
 OS versions are not mandatory, but all the features that will be used must be available.
 
 It is clearly required that all these machines can communicate between each-other, so the virtualizator must be set up for allowing this.
@@ -232,7 +233,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NjQzNTAyNyw5MjczMDExNTYsLTY3MT
+eyJoaXN0b3J5IjpbLTQyNjAyNDk5OCw5MjczMDExNTYsLTY3MT
 U1MzEwMCwxMjM5MzYyNjcwLDExMTY1MjUzOCwxNjk5NTEwMzcy
 LDU1MTIwNzk3MCwtMTYyNzM5MTI0MSwtMzMxNTc0MjcwLC0xNz
 A3NTg3MTUwLDE2MjMxMTM1OTEsNzQxNzUxNTA5LDE2OTUyMDAy
