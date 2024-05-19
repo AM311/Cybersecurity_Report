@@ -221,9 +221,9 @@ To open a remote desktop connection, we use the following command:
 	![Privilege escalation on msfconsole](https://github.com/AM311/Cybersecurity_Report/blob/main/img/msfconsole_getuid-system.png?raw=true)
 
  10. **Steal the credentials of the logged account:**
-	 Now that we are running as SYSTEM, we can finally dump the credentials of all the logged-in accounts from the LSASS memory.
+	 Now that we are running as `SYSTEM`, we can finally dump the credentials of all the logged-in accounts from the LSASS memory.
 	 
-	 For doing so, we firstly need to run the **kiwi** extension, using the command `load kiwi`, then invoking `creds_all` we are finally able to gain all the available credentials in memory, some in a hashed form while other directly in clear text.
+	 For doing so, we first need to run the `meterpreter` **kiwi** extension, using the command `load kiwi`, then invoking `creds_all` we are finally able to gain all the available credentials in memory, some in a hashed form while other directly in clear text.
 
 		==SPECIFICARE VARIE TIPOLOGIE DI CREDENZIALI==
 		
@@ -235,11 +235,11 @@ To open a remote desktop connection, we use the following command:
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjcxMDk1NTUsLTIwMTU2NDM5NjAsMj
-A0MTM1ODI0NCwtODkwODI5MjYyLDE0MTQ2MTk3MDQsLTExMTAx
-Nzg5NzMsLTYwMDQxOTEzMCw5MjczMDExNTYsLTY3MTU1MzEwMC
-wxMjM5MzYyNjcwLDExMTY1MjUzOCwxNjk5NTEwMzcyLDU1MTIw
-Nzk3MCwtMTYyNzM5MTI0MSwtMzMxNTc0MjcwLC0xNzA3NTg3MT
-UwLDE2MjMxMTM1OTEsNzQxNzUxNTA5LDE2OTUyMDAyNjgsMTYy
-OTQ1Mzk5MV19
+eyJoaXN0b3J5IjpbODUzMTQxNzg3LC0xMTI3MTA5NTU1LC0yMD
+E1NjQzOTYwLDIwNDEzNTgyNDQsLTg5MDgyOTI2MiwxNDE0NjE5
+NzA0LC0xMTEwMTc4OTczLC02MDA0MTkxMzAsOTI3MzAxMTU2LC
+02NzE1NTMxMDAsMTIzOTM2MjY3MCwxMTE2NTI1MzgsMTY5OTUx
+MDM3Miw1NTEyMDc5NzAsLTE2MjczOTEyNDEsLTMzMTU3NDI3MC
+wtMTcwNzU4NzE1MCwxNjIzMTEzNTkxLDc0MTc1MTUwOSwxNjk1
+MjAwMjY4XX0=
 -->
