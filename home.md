@@ -90,8 +90,7 @@ Once set-up the environment, it is finally possible to begin the laboratory!
 
 > Unless otherwise specified, all the actions are intended to be performed from the **Kali** machine.
 
-> When referred to a DomainAdmins account, we
-
+> When briefly referring to a *`GroupName` account*, it has to be read as "any account joining the `GroupName` group".
  
 
 0. **Open a Shell**;
@@ -235,7 +234,7 @@ To open a remote desktop connection, we use the following command:
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE3MzI4MDk3LDIwNDEzNTgyNDQsLTg5MD
+eyJoaXN0b3J5IjpbMjcxMjU5NTcxLDIwNDEzNTgyNDQsLTg5MD
 gyOTI2MiwxNDE0NjE5NzA0LC0xMTEwMTc4OTczLC02MDA0MTkx
 MzAsOTI3MzAxMTU2LC02NzE1NTMxMDAsMTIzOTM2MjY3MCwxMT
 E2NTI1MzgsMTY5OTUxMDM3Miw1NTEyMDc5NzAsLTE2MjczOTEy
