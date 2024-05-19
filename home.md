@@ -56,15 +56,16 @@ OSs versions are not mandatory, but all the features that will be used must be a
 
 ### Configuring the Machines
 
-Since the configuration of an OS is not the main goal of the document, many details will be omitted; moreover, no added value is given by this part of the guide since the only goal is to recreate the described scenario.
-For these reasons, the images of the already-set-up VMs are provided below and it is strongly suggested to use them; just a few additional details will be given further down:
+The configuration of an OS is not the main goal of the document, so many details will be omitted; moreover, no added value is given by this part of the guide since the only goal is to recreate the described scenario.
+
+The images of the already-set-up VMs are provided below and it is strongly suggested to use them; just a few additional details will be given further down:
 
  - **Kali Linux** machine: ==click here==;
  - **Windows 7** machine: ==click here==;
  - **DC/DHCP server**: ==click here==;
  -  **DNS/File server**: ==click here==;
 
-The **Kali** machine has a statically configured IP address (`10.0.2.15`) so it can communicate with the devices in the domain. Additional packets and libraries like `impacket` and `kiwi` have been installed in the `metasploit` framework.
+The **Kali** machine has a statically configured IP address (`10.0.2.15`). Additional packets and libraries like `impacket` and `kiwi` have been installed in the `metasploit` framework.
 
 The **Windows 7** machine, named `WIN7`, joins the domain and receives a dynamical IP address via DHCP.
 
@@ -233,7 +234,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcxOTA2MTg1LDkyNzMwMTE1NiwtNjcxNT
+eyJoaXN0b3J5IjpbNzc2NTUwOTY0LDkyNzMwMTE1NiwtNjcxNT
 UzMTAwLDEyMzkzNjI2NzAsMTExNjUyNTM4LDE2OTk1MTAzNzIs
 NTUxMjA3OTcwLC0xNjI3MzkxMjQxLC0zMzE1NzQyNzAsLTE3MD
 c1ODcxNTAsMTYyMzExMzU5MSw3NDE3NTE1MDksMTY5NTIwMDI2
