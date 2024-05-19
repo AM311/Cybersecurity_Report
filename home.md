@@ -237,15 +237,15 @@ This activity has been developed autonomously.
 The following sources have been consulted:
 
  - https://www.forensicxs.com/active-directory-hacking-lab/
- - 
+ - https://medium.com/@jbtechmaven/hacking-active-directory-with-as-rep-roasting-15ca0d9fae5c
  - https://www.offsec.com/metasploit-unleashed/writing-meterpreter-scripts/
  - https://www.kali.org/tools/rdesktop/
  - https://book.hacktricks.xyz/windows-hardening/stealing-credentials
  - 
-
+Other useful information have been retrieved from official Microsoft guides.
 ==REFS==
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NjIzOTkwOSwxMzQyNjMyMzc5LC0xMT
+eyJoaXN0b3J5IjpbLTMxOTk5MTgwNywxMzQyNjMyMzc5LC0xMT
 I3MTA5NTU1LC0yMDE1NjQzOTYwLDIwNDEzNTgyNDQsLTg5MDgy
 OTI2MiwxNDE0NjE5NzA0LC0xMTEwMTc4OTczLC02MDA0MTkxMz
 AsOTI3MzAxMTU2LC02NzE1NTMxMDAsMTIzOTM2MjY3MCwxMTE2
