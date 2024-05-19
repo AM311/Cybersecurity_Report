@@ -144,13 +144,12 @@ We now ask the DC to generate a **TGT** for each of the previous accounts and we
 	
 	![Result of the offline guessing with John the Ripper](https://github.com/AM311/Cybersecurity_Report/blob/main/img/asRepRoasting.png?raw=true)
 
-	 We now know the credentials of an account authorized to connect to the DNS/File server; so, we try to do so.
+	 We now know the credentials of an account authorized to connect to the DNS/File server; so, we try to do so and perform some "useful" actions!
 
 	==VERIFICARE CHE SI POSSA FARE DESKTOP REMOTO==
  
  5. **Open a remote connection to the DNS/File Server:**
-Now that we know the credentials for an account that can logon to the DNS/File Server, we can open a connection to that machine and perform some "useful" actions!
-To open a remote desktop connection, we can use the following command directly from the Kali Linux machine:
+To open a remote desktop connection, we use the following command:
 
     `rdesktop 10.0.2.250 -u DNSoperator -p Qwerty123 -d cybersec.units.it -r disk:share=~/Desktop/share`
 
@@ -233,11 +232,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MDgyOTI2MiwxNDE0NjE5NzA0LC0xMT
-EwMTc4OTczLC02MDA0MTkxMzAsOTI3MzAxMTU2LC02NzE1NTMx
-MDAsMTIzOTM2MjY3MCwxMTE2NTI1MzgsMTY5OTUxMDM3Miw1NT
-EyMDc5NzAsLTE2MjczOTEyNDEsLTMzMTU3NDI3MCwtMTcwNzU4
-NzE1MCwxNjIzMTEzNTkxLDc0MTc1MTUwOSwxNjk1MjAwMjY4LD
-E2Mjk0NTM5OTEsMTMyODYyNzc2LDIzOTk3MTg2MywxMTQzMzU2
-NTQ1XX0=
+eyJoaXN0b3J5IjpbMjA0MTM1ODI0NCwtODkwODI5MjYyLDE0MT
+Q2MTk3MDQsLTExMTAxNzg5NzMsLTYwMDQxOTEzMCw5MjczMDEx
+NTYsLTY3MTU1MzEwMCwxMjM5MzYyNjcwLDExMTY1MjUzOCwxNj
+k5NTEwMzcyLDU1MTIwNzk3MCwtMTYyNzM5MTI0MSwtMzMxNTc0
+MjcwLC0xNzA3NTg3MTUwLDE2MjMxMTM1OTEsNzQxNzUxNTA5LD
+E2OTUyMDAyNjgsMTYyOTQ1Mzk5MSwxMzI4NjI3NzYsMjM5OTcx
+ODYzXX0=
 -->
