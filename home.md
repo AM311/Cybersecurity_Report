@@ -189,22 +189,23 @@ To open a remote desktop connection, we use the following command:
 	The script, basically, starts a generic payload handler and makes it listen on the default port of the current machine for incoming connections from a `windows/meterpreter/reverse_tcp` payload, which is the one that we have injected.
 	
  8. **"Convince" a Domain Administrator to run the executable:**
-	In order to make this whole system effectively work, we need to "convince" a `DomainAdmins` to run the executable: doing so, we will be able to communicate to a process (the reverse shell client) running with high-privileges (remember: all domain administrators are also local administrators), so we will be able to **steal the credentials** of the logged account.
+	In order to make this whole system effectively work, we need to "convince" a `DomainAdmins` account to run the executable: doing so, we will be able to communicate to a process (the reverse shell client) running with high privileges (*remember: all domain administrators are also local administrators*).
  
 	 To identify the target account, we run a LDAP query for listing all the domain accounts:
 
 	   `impacket-GetADUsers -dc-ip 10.0.2.200 -all -ts cybersec.units.it/DomainUser:User00!`
 
-	Which gives the following output:
+	which gives the following output:
 	
 	![All domain accounts](https://github.com/AM311/Cybersecurity_Report/blob/main/img/allUsers.png?raw=true)
 		
 	It seems quite obvious that **`DomainAdmin`** will be a good target, so we use the given email to send a spearphishing message:
+	
 	![Phishing email sent to the domain administrator](https://github.com/AM311/Cybersecurity_Report/blob/main/img/email.png?raw=true)
 
 	Hopefully, the user will anywhen run the process as instructed.
 
-	> 	The technical details for sending a phishing message with a credible/lookalike/spoofed sending address are out of this guide.
+	> 	The technical details for sending a phishing message with a credible/lookalike/spoofed sending address are out of scope.
 
 	==NOTE SU MOTIVO DI RUN AS ADMIN -- COLLEGAMENTO A NOTA ESPLICATIVA==
 	
@@ -234,11 +235,11 @@ To open a remote desktop connection, we use the following command:
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcxMjU5NTcxLDIwNDEzNTgyNDQsLTg5MD
-gyOTI2MiwxNDE0NjE5NzA0LC0xMTEwMTc4OTczLC02MDA0MTkx
-MzAsOTI3MzAxMTU2LC02NzE1NTMxMDAsMTIzOTM2MjY3MCwxMT
-E2NTI1MzgsMTY5OTUxMDM3Miw1NTEyMDc5NzAsLTE2MjczOTEy
-NDEsLTMzMTU3NDI3MCwtMTcwNzU4NzE1MCwxNjIzMTEzNTkxLD
-c0MTc1MTUwOSwxNjk1MjAwMjY4LDE2Mjk0NTM5OTEsMTMyODYy
-Nzc2XX0=
+eyJoaXN0b3J5IjpbLTIwMTU2NDM5NjAsMjA0MTM1ODI0NCwtOD
+kwODI5MjYyLDE0MTQ2MTk3MDQsLTExMTAxNzg5NzMsLTYwMDQx
+OTEzMCw5MjczMDExNTYsLTY3MTU1MzEwMCwxMjM5MzYyNjcwLD
+ExMTY1MjUzOCwxNjk5NTEwMzcyLDU1MTIwNzk3MCwtMTYyNzM5
+MTI0MSwtMzMxNTc0MjcwLC0xNzA3NTg3MTUwLDE2MjMxMTM1OT
+EsNzQxNzUxNTA5LDE2OTUyMDAyNjgsMTYyOTQ1Mzk5MSwxMzI4
+NjI3NzZdfQ==
 -->
