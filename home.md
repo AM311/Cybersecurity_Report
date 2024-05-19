@@ -88,9 +88,13 @@ The attacker owns the credentials of `DomainUser`.
 
 Once set-up the environment, it is finally possible to begin the laboratory!
 
-Notice that, unless otherwise specified, all the actions are intended to be performed from the **Kali** machine.
+> Unless otherwise specified, all the actions are intended to be performed from the **Kali** machine.
 
- 0. **Open a Shell**;
+> When referred to a DomainAdmins account, we
+
+ 
+
+0. **Open a Shell**;
  
  1. **Find the IP address of the Domain Controller**:
  To begin, we need to find the IP address of the Domain Controller.
@@ -186,7 +190,7 @@ To open a remote desktop connection, we use the following command:
 	The script, basically, starts a generic payload handler and makes it listen on the default port of the current machine for incoming connections from a `windows/meterpreter/reverse_tcp` payload, which is the one that we have injected.
 	
  8. **"Convince" a Domain Administrator to run the executable:**
-	In order to make this whole system effectively work, we need to "convince" a domain administrator to run the executable: doing so, we will be able to communicate to a process (the reverse shell client) running with high-privileges (remember: all domain administrators are also local administrators), so we will be able to **steal the credentials** of the logged account.
+	In order to make this whole system effectively work, we need to "convince" a `DomainAdmins` to run the executable: doing so, we will be able to communicate to a process (the reverse shell client) running with high-privileges (remember: all domain administrators are also local administrators), so we will be able to **steal the credentials** of the logged account.
  
 	 To identify the target account, we run a LDAP query for listing all the domain accounts:
 
@@ -231,11 +235,11 @@ To open a remote desktop connection, we use the following command:
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5Mzc0ODQ2OSwyMDQxMzU4MjQ0LC04OT
-A4MjkyNjIsMTQxNDYxOTcwNCwtMTExMDE3ODk3MywtNjAwNDE5
-MTMwLDkyNzMwMTE1NiwtNjcxNTUzMTAwLDEyMzkzNjI2NzAsMT
-ExNjUyNTM4LDE2OTk1MTAzNzIsNTUxMjA3OTcwLC0xNjI3Mzkx
-MjQxLC0zMzE1NzQyNzAsLTE3MDc1ODcxNTAsMTYyMzExMzU5MS
-w3NDE3NTE1MDksMTY5NTIwMDI2OCwxNjI5NDUzOTkxLDEzMjg2
-Mjc3Nl19
+eyJoaXN0b3J5IjpbNjE3MzI4MDk3LDIwNDEzNTgyNDQsLTg5MD
+gyOTI2MiwxNDE0NjE5NzA0LC0xMTEwMTc4OTczLC02MDA0MTkx
+MzAsOTI3MzAxMTU2LC02NzE1NTMxMDAsMTIzOTM2MjY3MCwxMT
+E2NTI1MzgsMTY5OTUxMDM3Miw1NTEyMDc5NzAsLTE2MjczOTEy
+NDEsLTMzMTU3NDI3MCwtMTcwNzU4NzE1MCwxNjIzMTEzNTkxLD
+c0MTc1MTUwOSwxNjk1MjAwMjY4LDE2Mjk0NTM5OTEsMTMyODYy
+Nzc2XX0=
 -->
