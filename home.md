@@ -76,15 +76,15 @@ The following domain accounts (with passwords between brackets) are available:
 		 - `DomainAdmin` (`Admin00!`), joining the `DomainUsers`, `DomainAdmins`, `Administrators` groups;
 		 - `DNSoperator` (`Qwerty123`), joining the `DomainUsers`, `DnsAdmins`, `DnsUpdateProxy` groups, can login only on the DNS server;
 
-The **DNS/File server**, named `SERVERDNS`, has a static IP address set to `10.0.2.250`. Every machine in the domain is configured (via DHCP) to use this server as primary DNS.
-This server hosts a folder that is shared to all computers in the domain (via *[AD's GPOs](https://en.wikipedia.org/wiki/Group_Policy)*), which can be read by everyone while can be written only by `Administrators` and `DnsAdmins`.
+The **DNS/File server**, named `SERVERDNS`, has a static IP address set to `10.0.2.250`. Every machine in the domain uses this server as default DNS server.
+It hosts a folder that is shared to all computers in the domain (via *[AD's GPOs](https://en.wikipedia.org/wiki/Group_Policy)*), which can be read by everyone while can be written only by `Administrators` and `DnsAdmins`.
 This device can be accessed and managed via Remote Desktop by `DnsAdmins` accounts.
 
 Every machine has a default local admin account (out of this lab's scope) named `Administrator` whose password is `Qwerty123`.
 
 ## Let's start Hacking!
 
-Once set-up the environment as reported, it is finally possible to begin the laboratory!
+Once set-up the environment, it is finally possible to begin the laboratory!
 
 Please notice that, unless it is specifically reported, all the actions are intended to be performed from the **Kali Linux** machine, located in the same network of the other devices but NOT part of the Active Directory Domain Services.
 
@@ -233,11 +233,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMDQxOTEzMCw5MjczMDExNTYsLTY3MT
-U1MzEwMCwxMjM5MzYyNjcwLDExMTY1MjUzOCwxNjk5NTEwMzcy
-LDU1MTIwNzk3MCwtMTYyNzM5MTI0MSwtMzMxNTc0MjcwLC0xNz
-A3NTg3MTUwLDE2MjMxMTM1OTEsNzQxNzUxNTA5LDE2OTUyMDAy
-NjgsMTYyOTQ1Mzk5MSwxMzI4NjI3NzYsMjM5OTcxODYzLDExND
-MzNTY1NDUsLTgzMTM1NjMxMCwtMjg2MTU2NjcyLDUxOTUzNDQ2
-OF19
+eyJoaXN0b3J5IjpbLTExMTAxNzg5NzMsLTYwMDQxOTEzMCw5Mj
+czMDExNTYsLTY3MTU1MzEwMCwxMjM5MzYyNjcwLDExMTY1MjUz
+OCwxNjk5NTEwMzcyLDU1MTIwNzk3MCwtMTYyNzM5MTI0MSwtMz
+MxNTc0MjcwLC0xNzA3NTg3MTUwLDE2MjMxMTM1OTEsNzQxNzUx
+NTA5LDE2OTUyMDAyNjgsMTYyOTQ1Mzk5MSwxMzI4NjI3NzYsMj
+M5OTcxODYzLDExNDMzNTY1NDUsLTgzMTM1NjMxMCwtMjg2MTU2
+NjcyXX0=
 -->
