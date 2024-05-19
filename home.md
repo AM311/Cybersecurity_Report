@@ -50,9 +50,9 @@ This activity requires the set-up of a virtual environment running the following
 
 It is suggested to use **Oracle VirtualBox** as virtualizator, so it is possible to use the provided VMs images; otherwise, any software is good.
 
-OSs versions are not mandatory, but all the features that will be used must be available.
+All the machines need to communicate between each-other, so the virtualizator must be set up for allowing this.
 
-It is clearly required that all these machines can communicate between each-other, so the virtualizator must be set up for allowing this.
+OSs versions are not mandatory, but all the features that will be used must be available.
 
 ### Configuring the Machines
 
@@ -233,11 +233,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NjM0MTAwMyw5MjczMDExNTYsLTY3MT
-U1MzEwMCwxMjM5MzYyNjcwLDExMTY1MjUzOCwxNjk5NTEwMzcy
-LDU1MTIwNzk3MCwtMTYyNzM5MTI0MSwtMzMxNTc0MjcwLC0xNz
-A3NTg3MTUwLDE2MjMxMTM1OTEsNzQxNzUxNTA5LDE2OTUyMDAy
-NjgsMTYyOTQ1Mzk5MSwxMzI4NjI3NzYsMjM5OTcxODYzLDExND
-MzNTY1NDUsLTgzMTM1NjMxMCwtMjg2MTU2NjcyLDUxOTUzNDQ2
-OF19
+eyJoaXN0b3J5IjpbOTcxOTA2MTg1LDkyNzMwMTE1NiwtNjcxNT
+UzMTAwLDEyMzkzNjI2NzAsMTExNjUyNTM4LDE2OTk1MTAzNzIs
+NTUxMjA3OTcwLC0xNjI3MzkxMjQxLC0zMzE1NzQyNzAsLTE3MD
+c1ODcxNTAsMTYyMzExMzU5MSw3NDE3NTE1MDksMTY5NTIwMDI2
+OCwxNjI5NDUzOTkxLDEzMjg2Mjc3NiwyMzk5NzE4NjMsMTE0Mz
+M1NjU0NSwtODMxMzU2MzEwLC0yODYxNTY2NzIsNTE5NTM0NDY4
+XX0=
 -->
