@@ -14,11 +14,11 @@ The main characteristics of the scenario are the following:
  - The domain mainly relies on two (physically and logically) different servers:
 	 - A server that acts as **Domain Controller** and **DHCP server**;
 	 - Another server that acts as **DNS server** and **File Server**;
- - Domain accounts are divided in two major "groups":
-	 - **Domain Administrators**, which have "high privileges" on *all* machines;
-	 - **Domain users**, which have "low privileges" on *all* machines;
+ - Domain accounts are mainly divided in two major groups:
+	 - **`DomainAdmins`**, which have "high privileges" on *all* machines;
+	 - **`DomainUsers`**, which have "low privileges" on *all* machines;
  - Also, the following policies and settings are enforced:
-	 - Domain Administrators are set up to be also **Local Administrators** on *all* the machines;
+	 - `DomainAdmins` are set up to be also **Local Administrators** on *all* the machines;
 	 - The DNS server can be accessed only by a specific user (with administrative privileges), who can access only that specific machine;
 	 - That last user is configured to perform login **without pre-authentication**;
 	 -  **Remote Desktop** access is allowed on the DNS server;
@@ -232,11 +232,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNTI2OCw5MjczMDExNTYsLTY3MTU1Mz
-EwMCwxMjM5MzYyNjcwLDExMTY1MjUzOCwxNjk5NTEwMzcyLDU1
-MTIwNzk3MCwtMTYyNzM5MTI0MSwtMzMxNTc0MjcwLC0xNzA3NT
-g3MTUwLDE2MjMxMTM1OTEsNzQxNzUxNTA5LDE2OTUyMDAyNjgs
-MTYyOTQ1Mzk5MSwxMzI4NjI3NzYsMjM5OTcxODYzLDExNDMzNT
-Y1NDUsLTgzMTM1NjMxMCwtMjg2MTU2NjcyLDUxOTUzNDQ2OF19
-
+eyJoaXN0b3J5IjpbMjIzODgzMDY4LDkyNzMwMTE1NiwtNjcxNT
+UzMTAwLDEyMzkzNjI2NzAsMTExNjUyNTM4LDE2OTk1MTAzNzIs
+NTUxMjA3OTcwLC0xNjI3MzkxMjQxLC0zMzE1NzQyNzAsLTE3MD
+c1ODcxNTAsMTYyMzExMzU5MSw3NDE3NTE1MDksMTY5NTIwMDI2
+OCwxNjI5NDUzOTkxLDEzMjg2Mjc3NiwyMzk5NzE4NjMsMTE0Mz
+M1NjU0NSwtODMxMzU2MzEwLC0yODYxNTY2NzIsNTE5NTM0NDY4
+XX0=
 -->
