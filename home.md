@@ -6,11 +6,11 @@ This document will present a complete and step-by-step guide to perform a hackin
 
 ### Scenario
 
-This laboratory overviewsof the steps that might be performed by an attacker in a common organization running **Windows Active Directory** in order to take control of an high-privilege account.
+This laboratory overviews the steps that might be performed by an attacker in an organization running **Windows Active Directory** in order to take control of a domain administrator account.
 
-The main characteristics of the hypotetical scenario are the following:
+The main characteristics of the scenario are the following:
 
- - All the computers and devices of the organization are part of a **domain**, based on **Windows Active Directory**;
+ - All the computers are part of a **Windows Active Directory Domain**;
  - The domain mainly relies on two (physically and logically) different servers:
 	 - A server that acts as **Domain Controller** and **DHCP server**;
 	 - Another server that acts as **DNS server** and **File Server**;
@@ -232,11 +232,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MDY4NjM0Miw5MjczMDExNTYsLTY3MT
-U1MzEwMCwxMjM5MzYyNjcwLDExMTY1MjUzOCwxNjk5NTEwMzcy
-LDU1MTIwNzk3MCwtMTYyNzM5MTI0MSwtMzMxNTc0MjcwLC0xNz
-A3NTg3MTUwLDE2MjMxMTM1OTEsNzQxNzUxNTA5LDE2OTUyMDAy
-NjgsMTYyOTQ1Mzk5MSwxMzI4NjI3NzYsMjM5OTcxODYzLDExND
-MzNTY1NDUsLTgzMTM1NjMxMCwtMjg2MTU2NjcyLDUxOTUzNDQ2
-OF19
+eyJoaXN0b3J5IjpbMTQwNTI2OCw5MjczMDExNTYsLTY3MTU1Mz
+EwMCwxMjM5MzYyNjcwLDExMTY1MjUzOCwxNjk5NTEwMzcyLDU1
+MTIwNzk3MCwtMTYyNzM5MTI0MSwtMzMxNTc0MjcwLC0xNzA3NT
+g3MTUwLDE2MjMxMTM1OTEsNzQxNzUxNTA5LDE2OTUyMDAyNjgs
+MTYyOTQ1Mzk5MSwxMzI4NjI3NzYsMjM5OTcxODYzLDExNDMzNT
+Y1NDUsLTgzMTM1NjMxMCwtMjg2MTU2NjcyLDUxOTUzNDQ2OF19
+
 -->
