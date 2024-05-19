@@ -18,9 +18,9 @@ The main characteristics of the scenario are the following:
 	 - **`DomainAdmins`**, which have "high privileges" on *all* machines;
 	 - **`DomainUsers`**, which have "low privileges" on *all* machines;
  - Also, the following policies and settings are enforced:
-	 - `DomainAdmins` are set up to be also **Local Administrators** on *all* the machines;
-	 - The DNS server can be accessed only by a specific user (with administrative privileges), who can access only that specific machine;
-	 - That last user is configured to perform login **without pre-authentication**;
+	 - `DomainAdmins` are set up to be also **local administrators** on *all* the workstations;
+	 - The DNS server can be accessed only by accounts in `DnsAdmins` group, which can access only that specific machine;
+	 - Accounts in that group are configured to perform Kerberos login **without pre-authentication**;
 	 -  **Remote Desktop** access is allowed on the DNS server;
 	 - All accounts can **read** a **shared network folder**, which can be written only by administrators;
 
@@ -232,11 +232,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzODgzMDY4LDkyNzMwMTE1NiwtNjcxNT
-UzMTAwLDEyMzkzNjI2NzAsMTExNjUyNTM4LDE2OTk1MTAzNzIs
-NTUxMjA3OTcwLC0xNjI3MzkxMjQxLC0zMzE1NzQyNzAsLTE3MD
-c1ODcxNTAsMTYyMzExMzU5MSw3NDE3NTE1MDksMTY5NTIwMDI2
-OCwxNjI5NDUzOTkxLDEzMjg2Mjc3NiwyMzk5NzE4NjMsMTE0Mz
-M1NjU0NSwtODMxMzU2MzEwLC0yODYxNTY2NzIsNTE5NTM0NDY4
-XX0=
+eyJoaXN0b3J5IjpbLTE2MDQ4OTE3NDUsOTI3MzAxMTU2LC02Nz
+E1NTMxMDAsMTIzOTM2MjY3MCwxMTE2NTI1MzgsMTY5OTUxMDM3
+Miw1NTEyMDc5NzAsLTE2MjczOTEyNDEsLTMzMTU3NDI3MCwtMT
+cwNzU4NzE1MCwxNjIzMTEzNTkxLDc0MTc1MTUwOSwxNjk1MjAw
+MjY4LDE2Mjk0NTM5OTEsMTMyODYyNzc2LDIzOTk3MTg2MywxMT
+QzMzU2NTQ1LC04MzEzNTYzMTAsLTI4NjE1NjY3Miw1MTk1MzQ0
+NjhdfQ==
 -->
