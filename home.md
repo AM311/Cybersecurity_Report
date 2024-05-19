@@ -118,8 +118,8 @@ As first attempt, we ask the DomainController the list of all accounts that can 
 
 	==MOSTRARE GRUPPI --> ACCOUNT NON È ADMIN==
 	
- 3. **Ask for a TGT for these accounts:**
- Using the following command we ask the DC for a TGT foreach of the previous accounts and we format them so that they are ready to be cracked using *John the Ripper*:
+ 3. **Ask for a TGT:**
+We now ask the DC to generate a **TGT** for each of the previous accounts and we format them so that they are ready to be cracked using *John the Ripper*:
 
     `impacket-GetNPUsers -dc-ip 10.0.2.200 cybersec.units.it/DomainUser:User00! -request -format john`
 
@@ -233,7 +233,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNTk4MzExNCwxNDE0NjE5NzA0LC0xMT
+eyJoaXN0b3J5IjpbLTM4ODgxNDY4MiwxNDE0NjE5NzA0LC0xMT
 EwMTc4OTczLC02MDA0MTkxMzAsOTI3MzAxMTU2LC02NzE1NTMx
 MDAsMTIzOTM2MjY3MCwxMTE2NTI1MzgsMTY5OTUxMDM3Miw1NT
 EyMDc5NzAsLTE2MjczOTEyNDEsLTMzMTU3NDI3MCwtMTcwNzU4
