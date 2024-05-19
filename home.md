@@ -82,13 +82,13 @@ This device can be accessed and managed via Remote Desktop by `DnsAdmins` accoun
 
 Every machine has a default local admin account (out of this lab's scope) named `Administrator` whose password is `Qwerty123`.
 
+The attacker owns the credentials of `DomainUser`.
+
 ## Let's start Hacking!
 
 Once set-up the environment, it is finally possible to begin the laboratory!
 
 Please notice that, unless it is specifically reported, all the actions are intended to be performed from the **Kali Linux** machine, located in the same network of the other devices but NOT part of the Active Directory Domain Services.
-
-==ACCOUNT CONTROLLATO DALL'UTENTE==
 
  0. **Open a Shell:**
  In order to perform all the following actions, a shell needs to be available on the Kali Linux machine.
@@ -233,11 +233,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTAxNzg5NzMsLTYwMDQxOTEzMCw5Mj
-czMDExNTYsLTY3MTU1MzEwMCwxMjM5MzYyNjcwLDExMTY1MjUz
-OCwxNjk5NTEwMzcyLDU1MTIwNzk3MCwtMTYyNzM5MTI0MSwtMz
-MxNTc0MjcwLC0xNzA3NTg3MTUwLDE2MjMxMTM1OTEsNzQxNzUx
-NTA5LDE2OTUyMDAyNjgsMTYyOTQ1Mzk5MSwxMzI4NjI3NzYsMj
-M5OTcxODYzLDExNDMzNTY1NDUsLTgzMTM1NjMxMCwtMjg2MTU2
-NjcyXX0=
+eyJoaXN0b3J5IjpbMTc1MTAzNDgyOCwtMTExMDE3ODk3MywtNj
+AwNDE5MTMwLDkyNzMwMTE1NiwtNjcxNTUzMTAwLDEyMzkzNjI2
+NzAsMTExNjUyNTM4LDE2OTk1MTAzNzIsNTUxMjA3OTcwLC0xNj
+I3MzkxMjQxLC0zMzE1NzQyNzAsLTE3MDc1ODcxNTAsMTYyMzEx
+MzU5MSw3NDE3NTE1MDksMTY5NTIwMDI2OCwxNjI5NDUzOTkxLD
+EzMjg2Mjc3NiwyMzk5NzE4NjMsMTE0MzM1NjU0NSwtODMxMzU2
+MzEwXX0=
 -->
