@@ -149,12 +149,12 @@ We now ask the DC to generate a **TGT** for each of the previous accounts and we
 	==VERIFICARE CHE SI POSSA FARE DESKTOP REMOTO==
  
  5. **Open a remote connection to the DNS/File Server:**
- Now that we know the credentials for an account that can logon to the DNS/File Server, we can open a connection to that machine and perform some "useful" actions!
+Now that we know the credentials for an account that can logon to the DNS/File Server, we can open a connection to that machine and perform some "useful" actions!
 To open a remote desktop connection, we can use the following command directly from the Kali Linux machine:
 
     `rdesktop 10.0.2.250 -u DNSoperator -p Qwerty123 -d cybersec.units.it -r disk:share=~/Desktop/share`
 
-	Using the option `-r disk:share=~/Desktop/share` we can share the folder `share` between the Kali Linux machine and the remote DNS/File Server, so we are able to easily move documents between the two devices.
+	Using the option `-r disk:share=~/Desktop/share` we can share the folder `share` between the Kali machine and the remote DNS/File Server, so we are able to easily move documents between the two devices.
  
  6. **Generation of a payload for starting a reverse shell and injection:**
 	In a different shell window, we now proceed with the generation of an exploit through which we will try to inject a reverse shell client to the computers of the organization.
@@ -233,7 +233,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1ODI3Nzg4NCwxNDE0NjE5NzA0LC0xMT
+eyJoaXN0b3J5IjpbLTg5MDgyOTI2MiwxNDE0NjE5NzA0LC0xMT
 EwMTc4OTczLC02MDA0MTkxMzAsOTI3MzAxMTU2LC02NzE1NTMx
 MDAsMTIzOTM2MjY3MCwxMTE2NTI1MzgsMTY5OTUxMDM3Miw1NT
 EyMDc5NzAsLTE2MjczOTEyNDEsLTMzMTU3NDI3MCwtMTcwNzU4
