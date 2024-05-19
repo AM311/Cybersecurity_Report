@@ -239,15 +239,17 @@ The following sources have been consulted:
  - https://www.forensicxs.com/active-directory-hacking-lab/
  - 
  - https://www.offsec.com/metasploit-unleashed/writing-meterpreter-scripts/
+ - https://www.kali.org/tools/rdesktop/
+ - https://book.hacktricks.xyz/windows-hardening/stealing-credentials
  - 
 
 ==REFS==
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTkxMzIzNTYsMTM0MjYzMjM3OSwtMT
-EyNzEwOTU1NSwtMjAxNTY0Mzk2MCwyMDQxMzU4MjQ0LC04OTA4
-MjkyNjIsMTQxNDYxOTcwNCwtMTExMDE3ODk3MywtNjAwNDE5MT
-MwLDkyNzMwMTE1NiwtNjcxNTUzMTAwLDEyMzkzNjI2NzAsMTEx
-NjUyNTM4LDE2OTk1MTAzNzIsNTUxMjA3OTcwLC0xNjI3MzkxMj
-QxLC0zMzE1NzQyNzAsLTE3MDc1ODcxNTAsMTYyMzExMzU5MSw3
-NDE3NTE1MDldfQ==
+eyJoaXN0b3J5IjpbMTc5NjIzOTkwOSwxMzQyNjMyMzc5LC0xMT
+I3MTA5NTU1LC0yMDE1NjQzOTYwLDIwNDEzNTgyNDQsLTg5MDgy
+OTI2MiwxNDE0NjE5NzA0LC0xMTEwMTc4OTczLC02MDA0MTkxMz
+AsOTI3MzAxMTU2LC02NzE1NTMxMDAsMTIzOTM2MjY3MCwxMTE2
+NTI1MzgsMTY5OTUxMDM3Miw1NTEyMDc5NzAsLTE2MjczOTEyND
+EsLTMzMTU3NDI3MCwtMTcwNzU4NzE1MCwxNjIzMTEzNTkxLDc0
+MTc1MTUwOV19
 -->
