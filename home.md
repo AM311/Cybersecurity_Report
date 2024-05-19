@@ -234,7 +234,7 @@ To open a remote desktop connection, we use the following command:
 ## Credits
 
 This activity has been developed autonomously.
-The following sources have been consulted:
+For doing this, the following sources have been consulted:
 
  - https://www.forensicxs.com/active-directory-hacking-lab/
  - https://medium.com/@jbtechmaven/hacking-active-directory-with-as-rep-roasting-15ca0d9fae5c
@@ -242,15 +242,16 @@ The following sources have been consulted:
  - https://www.offsec.com/metasploit-unleashed/writing-meterpreter-scripts/
  - https://www.kali.org/tools/rdesktop/
  - https://book.hacktricks.xyz/windows-hardening/stealing-credentials
- - 
-Other useful information have been retrieved from official Microsoft guides.
-==REFS==
+ - https://www.hackers-arise.com/post/2018/11/26/metasploit-basics-part-21-post-exploitation-with-mimikatz
+
+Other useful information about Active Directory have been retrieved from official Microsoft guides.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODg3MDk1ODQsMTM0MjYzMjM3OSwtMT
-EyNzEwOTU1NSwtMjAxNTY0Mzk2MCwyMDQxMzU4MjQ0LC04OTA4
-MjkyNjIsMTQxNDYxOTcwNCwtMTExMDE3ODk3MywtNjAwNDE5MT
-MwLDkyNzMwMTE1NiwtNjcxNTUzMTAwLDEyMzkzNjI2NzAsMTEx
-NjUyNTM4LDE2OTk1MTAzNzIsNTUxMjA3OTcwLC0xNjI3MzkxMj
-QxLC0zMzE1NzQyNzAsLTE3MDc1ODcxNTAsMTYyMzExMzU5MSw3
-NDE3NTE1MDldfQ==
+eyJoaXN0b3J5IjpbLTgwNDY5ODg3NSwtMTg4ODcwOTU4NCwxMz
+QyNjMyMzc5LC0xMTI3MTA5NTU1LC0yMDE1NjQzOTYwLDIwNDEz
+NTgyNDQsLTg5MDgyOTI2MiwxNDE0NjE5NzA0LC0xMTEwMTc4OT
+czLC02MDA0MTkxMzAsOTI3MzAxMTU2LC02NzE1NTMxMDAsMTIz
+OTM2MjY3MCwxMTE2NTI1MzgsMTY5OTUxMDM3Miw1NTEyMDc5Nz
+AsLTE2MjczOTEyNDEsLTMzMTU3NDI3MCwtMTcwNzU4NzE1MCwx
+NjIzMTEzNTkxXX0=
 -->
