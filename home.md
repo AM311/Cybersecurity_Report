@@ -57,7 +57,6 @@ OSs versions are not mandatory, but all the features that will be used must be a
 ### Configuring the Machines
 
 The configuration of an OS is not the main goal of the document, so many details will be omitted; moreover, no added value is given by this part of the guide since the only goal is to recreate the described scenario.
-
 The images of the already-set-up VMs are provided below and it is strongly suggested to use them; just a few additional details will be given further down:
 
  - **Kali Linux** machine: ==click here==;
@@ -234,11 +233,11 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc2NTUwOTY0LDkyNzMwMTE1NiwtNjcxNT
-UzMTAwLDEyMzkzNjI2NzAsMTExNjUyNTM4LDE2OTk1MTAzNzIs
-NTUxMjA3OTcwLC0xNjI3MzkxMjQxLC0zMzE1NzQyNzAsLTE3MD
-c1ODcxNTAsMTYyMzExMzU5MSw3NDE3NTE1MDksMTY5NTIwMDI2
-OCwxNjI5NDUzOTkxLDEzMjg2Mjc3NiwyMzk5NzE4NjMsMTE0Mz
-M1NjU0NSwtODMxMzU2MzEwLC0yODYxNTY2NzIsNTE5NTM0NDY4
-XX0=
+eyJoaXN0b3J5IjpbLTYwMDQxOTEzMCw5MjczMDExNTYsLTY3MT
+U1MzEwMCwxMjM5MzYyNjcwLDExMTY1MjUzOCwxNjk5NTEwMzcy
+LDU1MTIwNzk3MCwtMTYyNzM5MTI0MSwtMzMxNTc0MjcwLC0xNz
+A3NTg3MTUwLDE2MjMxMTM1OTEsNzQxNzUxNTA5LDE2OTUyMDAy
+NjgsMTYyOTQ1Mzk5MSwxMzI4NjI3NzYsMjM5OTcxODYzLDExND
+MzNTY1NDUsLTgzMTM1NjMxMCwtMjg2MTU2NjcyLDUxOTUzNDQ2
+OF19
 -->
