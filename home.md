@@ -234,13 +234,20 @@ To open a remote desktop connection, we use the following command:
 ## Credits
 
 This activity has been developed autonomously.
+The following sources have been consulted:
+
+ - https://www.forensicxs.com/active-directory-hacking-lab/
+ - 
+ - https://www.offsec.com/metasploit-unleashed/writing-meterpreter-scripts/
+ - 
+
 ==REFS==
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MjYzMjM3OSwtMTEyNzEwOTU1NSwtMj
-AxNTY0Mzk2MCwyMDQxMzU4MjQ0LC04OTA4MjkyNjIsMTQxNDYx
-OTcwNCwtMTExMDE3ODk3MywtNjAwNDE5MTMwLDkyNzMwMTE1Ni
-wtNjcxNTUzMTAwLDEyMzkzNjI2NzAsMTExNjUyNTM4LDE2OTk1
-MTAzNzIsNTUxMjA3OTcwLC0xNjI3MzkxMjQxLC0zMzE1NzQyNz
-AsLTE3MDc1ODcxNTAsMTYyMzExMzU5MSw3NDE3NTE1MDksMTY5
-NTIwMDI2OF19
+eyJoaXN0b3J5IjpbLTIwNTkxMzIzNTYsMTM0MjYzMjM3OSwtMT
+EyNzEwOTU1NSwtMjAxNTY0Mzk2MCwyMDQxMzU4MjQ0LC04OTA4
+MjkyNjIsMTQxNDYxOTcwNCwtMTExMDE3ODk3MywtNjAwNDE5MT
+MwLDkyNzMwMTE1NiwtNjcxNTUzMTAwLDEyMzkzNjI2NzAsMTEx
+NjUyNTM4LDE2OTk1MTAzNzIsNTUxMjA3OTcwLC0xNjI3MzkxMj
+QxLC0zMzE1NzQyNzAsLTE3MDc1ODcxNTAsMTYyMzExMzU5MSw3
+NDE3NTE1MDldfQ==
 -->
