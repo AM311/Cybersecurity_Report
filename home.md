@@ -214,7 +214,7 @@ To open a remote desktop connection, we use the following command:
 
 	Now that we are able to send requests to the infected machine, we firstly check the identity of the process that runs `meterpreter` on that device invoking the `getuid` command: as shown in the image below, the process is owned by the domain account `DomainAdmin`.
 	
-	In order to complete our future tasks, we need to run the process as `SYSTEM`. For doing so, we run the `getsystem` command[^1]. If the execution is successfully completed, running again `getuid` we will now be running as `SYSTEM`.
+	In order to complete our future tasks, we need to run the process as `SYSTEM`. For doing so, we run the `getsystem` command[^1]. If the execution is successfully completed, running again `getuid` we will see that now we are running as `SYSTEM`.
 
 	[^1]: `getsystem` requires the process to be run as administrator (to be "previously" authorized to run with high privileges, due to Windows UAC); then, it tries three techniques to achieve Privilege Escalation. More details [here](https://docs.rapid7.com/metasploit/meterpreter-getsystem/).
 
@@ -235,11 +235,11 @@ To open a remote desktop connection, we use the following command:
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTU2NDM5NjAsMjA0MTM1ODI0NCwtOD
-kwODI5MjYyLDE0MTQ2MTk3MDQsLTExMTAxNzg5NzMsLTYwMDQx
-OTEzMCw5MjczMDExNTYsLTY3MTU1MzEwMCwxMjM5MzYyNjcwLD
-ExMTY1MjUzOCwxNjk5NTEwMzcyLDU1MTIwNzk3MCwtMTYyNzM5
-MTI0MSwtMzMxNTc0MjcwLC0xNzA3NTg3MTUwLDE2MjMxMTM1OT
-EsNzQxNzUxNTA5LDE2OTUyMDAyNjgsMTYyOTQ1Mzk5MSwxMzI4
-NjI3NzZdfQ==
+eyJoaXN0b3J5IjpbLTExMjcxMDk1NTUsLTIwMTU2NDM5NjAsMj
+A0MTM1ODI0NCwtODkwODI5MjYyLDE0MTQ2MTk3MDQsLTExMTAx
+Nzg5NzMsLTYwMDQxOTEzMCw5MjczMDExNTYsLTY3MTU1MzEwMC
+wxMjM5MzYyNjcwLDExMTY1MjUzOCwxNjk5NTEwMzcyLDU1MTIw
+Nzk3MCwtMTYyNzM5MTI0MSwtMzMxNTc0MjcwLC0xNzA3NTg3MT
+UwLDE2MjMxMTM1OTEsNzQxNzUxNTA5LDE2OTUyMDAyNjgsMTYy
+OTQ1Mzk5MV19
 -->
