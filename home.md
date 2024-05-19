@@ -48,9 +48,9 @@ This activity requires the set-up of a virtual environment running the following
  - **1** VM running **Windows 7**;
  - **1** VM running **Kali Linux**;
 
-Any virtualization software is good: this activity has been built using **Oracle VirtualBox**, so it is necessary to use it if you want to use the provided VMs images.
+It is suggested to use **Oracle VirtualBox** as virtualizator, so it is possible to use the provided VMs images; otherwise, any software is good.
 
-OS versions are not mandatory, but all the features that will be used must be available.
+OSs versions are not mandatory, but all the features that will be used must be available.
 
 It is clearly required that all these machines can communicate between each-other, so the virtualizator must be set up for allowing this.
 
@@ -233,7 +233,7 @@ To open a remote desktop connection, we can use the following command directly f
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNjAyNDk5OCw5MjczMDExNTYsLTY3MT
+eyJoaXN0b3J5IjpbLTk0NjM0MTAwMyw5MjczMDExNTYsLTY3MT
 U1MzEwMCwxMjM5MzYyNjcwLDExMTY1MjUzOCwxNjk5NTEwMzcy
 LDU1MTIwNzk3MCwtMTYyNzM5MTI0MSwtMzMxNTc0MjcwLC0xNz
 A3NTg3MTUwLDE2MjMxMTM1OTEsNzQxNzUxNTA5LDE2OTUyMDAy
