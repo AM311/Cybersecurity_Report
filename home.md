@@ -233,8 +233,7 @@ To open a remote desktop connection, we use the following command:
 
 ## Credits
 
-This activity has been developed autonomously.
-For doing this, the following sources have been consulted:
+This activity has been developed autonomously, with the consultation of the following sources:
 
  - https://www.forensicxs.com/active-directory-hacking-lab/
  - https://medium.com/@jbtechmaven/hacking-active-directory-with-as-rep-roasting-15ca0d9fae5c
@@ -247,11 +246,11 @@ For doing this, the following sources have been consulted:
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNDY5ODg3NSwtMTg4ODcwOTU4NCwxMz
-QyNjMyMzc5LC0xMTI3MTA5NTU1LC0yMDE1NjQzOTYwLDIwNDEz
-NTgyNDQsLTg5MDgyOTI2MiwxNDE0NjE5NzA0LC0xMTEwMTc4OT
-czLC02MDA0MTkxMzAsOTI3MzAxMTU2LC02NzE1NTMxMDAsMTIz
-OTM2MjY3MCwxMTE2NTI1MzgsMTY5OTUxMDM3Miw1NTEyMDc5Nz
-AsLTE2MjczOTEyNDEsLTMzMTU3NDI3MCwtMTcwNzU4NzE1MCwx
-NjIzMTEzNTkxXX0=
+eyJoaXN0b3J5IjpbMjgwODQ0OTA1LC04MDQ2OTg4NzUsLTE4OD
+g3MDk1ODQsMTM0MjYzMjM3OSwtMTEyNzEwOTU1NSwtMjAxNTY0
+Mzk2MCwyMDQxMzU4MjQ0LC04OTA4MjkyNjIsMTQxNDYxOTcwNC
+wtMTExMDE3ODk3MywtNjAwNDE5MTMwLDkyNzMwMTE1NiwtNjcx
+NTUzMTAwLDEyMzkzNjI2NzAsMTExNjUyNTM4LDE2OTk1MTAzNz
+IsNTUxMjA3OTcwLC0xNjI3MzkxMjQxLC0zMzE1NzQyNzAsLTE3
+MDc1ODcxNTBdfQ==
 -->
