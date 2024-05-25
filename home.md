@@ -113,7 +113,11 @@ Once set-up the environment, it is finally possible to begin the laboratory!
 	 ![Response of the nmap request](https://raw.githubusercontent.com/AM311/Cybersecurity_Report/main/img/nmap_DC.png)
 
 2. **Understand the existing accounts and groups**:
-	d
+	ddd
+
+    `ldapsearch -x -b "cn=Users,dc=cybersec,dc=units,dc=it" -H "ldap://10.0.2.200" -D "cn=Utente Dominio,cn=Users,dc=cybersec,dc=units,dc=it" -w 'User00!'`
+
+
 	==MOSTRARE GRUPPI --> ACCOUNT NON È ADMIN==
 	
  3. **List accounts which do not require Kerberos pre-authentication**:
@@ -253,11 +257,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4NzQ3OTI1LDEwOTk5MzE3NDAsLTEyNT
-I1NjA3MTcsMTQ5MjI4NjY4MywyODA4NDQ5MDUsLTgwNDY5ODg3
-NSwtMTg4ODcwOTU4NCwxMzQyNjMyMzc5LC0xMTI3MTA5NTU1LC
-0yMDE1NjQzOTYwLDIwNDEzNTgyNDQsLTg5MDgyOTI2MiwxNDE0
-NjE5NzA0LC0xMTEwMTc4OTczLC02MDA0MTkxMzAsOTI3MzAxMT
-U2LC02NzE1NTMxMDAsMTIzOTM2MjY3MCwxMTE2NTI1MzgsMTY5
-OTUxMDM3Ml19
+eyJoaXN0b3J5IjpbLTE2NDc2ODc1OTIsMTA5OTkzMTc0MCwtMT
+I1MjU2MDcxNywxNDkyMjg2NjgzLDI4MDg0NDkwNSwtODA0Njk4
+ODc1LC0xODg4NzA5NTg0LDEzNDI2MzIzNzksLTExMjcxMDk1NT
+UsLTIwMTU2NDM5NjAsMjA0MTM1ODI0NCwtODkwODI5MjYyLDE0
+MTQ2MTk3MDQsLTExMTAxNzg5NzMsLTYwMDQxOTEzMCw5MjczMD
+ExNTYsLTY3MTU1MzEwMCwxMjM5MzYyNjcwLDExMTY1MjUzOCwx
+Njk5NTEwMzcyXX0=
 -->
