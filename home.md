@@ -114,9 +114,12 @@ Once set-up the environment, it is finally possible to begin the laboratory!
 
 2. **Understand the existing accounts and groups**:
 	To understand which are our targets, we need to be aware of what the domain accounts are and which groups they belong to.
-	For doing so, we run a LDAP query from the 
+	For doing so, we ask the Domain Controller, via a LDAP query, to  list us all the entries in the `Users` Active Directory default folder: 
 
     `ldapsearch -x -b "cn=Users,dc=cybersec,dc=units,dc=it" -H "ldap://10.0.2.200" -D "cn=Utente Dominio,cn=Users,dc=cybersec,dc=units,dc=it" -w 'User00!'`
+
+	f
+
 
 common name e non UID
 	==MOSTRARE GRUPPI --> ACCOUNT NON È ADMIN==
@@ -258,11 +261,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzQ0MTA0MzIsLTEzNTE2OTYxMTgsND
-g0MjU5MzAsLTE2NDc2ODc1OTIsMTA5OTkzMTc0MCwtMTI1MjU2
-MDcxNywxNDkyMjg2NjgzLDI4MDg0NDkwNSwtODA0Njk4ODc1LC
-0xODg4NzA5NTg0LDEzNDI2MzIzNzksLTExMjcxMDk1NTUsLTIw
-MTU2NDM5NjAsMjA0MTM1ODI0NCwtODkwODI5MjYyLDE0MTQ2MT
-k3MDQsLTExMTAxNzg5NzMsLTYwMDQxOTEzMCw5MjczMDExNTYs
-LTY3MTU1MzEwMF19
+eyJoaXN0b3J5IjpbMTE4OTQwMTc3LC0xMzUxNjk2MTE4LDQ4ND
+I1OTMwLC0xNjQ3Njg3NTkyLDEwOTk5MzE3NDAsLTEyNTI1NjA3
+MTcsMTQ5MjI4NjY4MywyODA4NDQ5MDUsLTgwNDY5ODg3NSwtMT
+g4ODcwOTU4NCwxMzQyNjMyMzc5LC0xMTI3MTA5NTU1LC0yMDE1
+NjQzOTYwLDIwNDEzNTgyNDQsLTg5MDgyOTI2MiwxNDE0NjE5Nz
+A0LC0xMTEwMTc4OTczLC02MDA0MTkxMzAsOTI3MzAxMTU2LC02
+NzE1NTMxMDBdfQ==
 -->
