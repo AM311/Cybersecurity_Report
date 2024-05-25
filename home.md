@@ -10,7 +10,7 @@ This laboratory overviews the steps that might be performed by an attacker in an
 
 The scenario has these main characteristics:
 
- - All the computers are part of a **Windows Active Directory Domain**;
+ - An organization uses **Windows Active Directory**; all its computers are part of a **Domain**;
  - The domain mainly relies on two (physically and logically) different servers:
 	 - A server that acts as **Domain Controller** and **DHCP server**;
 	 - Another server that acts as **DNS server** and **File Server**;
@@ -246,11 +246,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4NjkyNjU4LDI4MDg0NDkwNSwtODA0Nj
-k4ODc1LC0xODg4NzA5NTg0LDEzNDI2MzIzNzksLTExMjcxMDk1
-NTUsLTIwMTU2NDM5NjAsMjA0MTM1ODI0NCwtODkwODI5MjYyLD
-E0MTQ2MTk3MDQsLTExMTAxNzg5NzMsLTYwMDQxOTEzMCw5Mjcz
-MDExNTYsLTY3MTU1MzEwMCwxMjM5MzYyNjcwLDExMTY1MjUzOC
-wxNjk5NTEwMzcyLDU1MTIwNzk3MCwtMTYyNzM5MTI0MSwtMzMx
-NTc0MjcwXX0=
+eyJoaXN0b3J5IjpbMTA0MzkyNzQxMiwyODA4NDQ5MDUsLTgwND
+Y5ODg3NSwtMTg4ODcwOTU4NCwxMzQyNjMyMzc5LC0xMTI3MTA5
+NTU1LC0yMDE1NjQzOTYwLDIwNDEzNTgyNDQsLTg5MDgyOTI2Mi
+wxNDE0NjE5NzA0LC0xMTEwMTc4OTczLC02MDA0MTkxMzAsOTI3
+MzAxMTU2LC02NzE1NTMxMDAsMTIzOTM2MjY3MCwxMTE2NTI1Mz
+gsMTY5OTUxMDM3Miw1NTEyMDc5NzAsLTE2MjczOTEyNDEsLTMz
+MTU3NDI3MF19
 -->
