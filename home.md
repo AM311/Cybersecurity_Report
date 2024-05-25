@@ -123,22 +123,21 @@ Once set-up the environment, it is finally possible to begin the laboratory!
 	
 	The response is very verbose; the two major results are shown below:
 	 - The account `DomainAdmin` joins the group `DomainAdmins`, so it seems to be a good target;
-	 - The account `DNSoperator` 
+	 - The account `DNSoperator` joins the group `DnsAdmins` and can access only the machine named `SERVERDNS`;
 
 	![Accounts details](https://github.com/AM311/Cybersecurity_Report/blob/main/img/accountsLDAP.png?raw=true)
 
-common name e non UID
-	==MOSTRARE GRUPPI --> ACCOUNT NON È ADMIN==
+	All these information could be useful later.
 	
  3. **List accounts which do not require Kerberos pre-authentication**:
-As first attempt, we ask the DomainController the list of all accounts that can authenticate via Kerberos without pre-authentication: hopefully, we will find a `DomainAdmins` account.
+As first attempt, we ask the DomainController to list all the accounts that can authenticate via Kerberos without pre-authentication: hopefully, we will find a `DomainAdmins` account.
 
 	For doing this, we run a predefined LDAP query to the DC from our legitimate account, using the following command:
 	
     `impacket-GetNPUsers -dc-ip 10.0.2.200 cybersec.units.it/DomainUser:User00!`
     
     As shown below, there are two domain accounts that soddisfy the requests.
-    We will focus our efforts on `DNSoperator` since, as the name states, it will probably be authorized to operate on the **DNS/File Server**.
+    We will focus our efforts on `DNSoperator` since, as we have seen, it will probably be authorized to operate on the **DNS/File Server**.
     
 	![Accounts that does not require pre-auth](https://github.com/AM311/Cybersecurity_Report/blob/main/img/noKerbPreAuth.png?raw=true)
 	
@@ -267,11 +266,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MjY0Mzk5MSwtMTM1MTY5NjExOCw0OD
-QyNTkzMCwtMTY0NzY4NzU5MiwxMDk5OTMxNzQwLC0xMjUyNTYw
-NzE3LDE0OTIyODY2ODMsMjgwODQ0OTA1LC04MDQ2OTg4NzUsLT
-E4ODg3MDk1ODQsMTM0MjYzMjM3OSwtMTEyNzEwOTU1NSwtMjAx
-NTY0Mzk2MCwyMDQxMzU4MjQ0LC04OTA4MjkyNjIsMTQxNDYxOT
-cwNCwtMTExMDE3ODk3MywtNjAwNDE5MTMwLDkyNzMwMTE1Niwt
-NjcxNTUzMTAwXX0=
+eyJoaXN0b3J5IjpbLTE3MDAyNTc4NDAsLTEzNTE2OTYxMTgsND
+g0MjU5MzAsLTE2NDc2ODc1OTIsMTA5OTkzMTc0MCwtMTI1MjU2
+MDcxNywxNDkyMjg2NjgzLDI4MDg0NDkwNSwtODA0Njk4ODc1LC
+0xODg4NzA5NTg0LDEzNDI2MzIzNzksLTExMjcxMDk1NTUsLTIw
+MTU2NDM5NjAsMjA0MTM1ODI0NCwtODkwODI5MjYyLDE0MTQ2MT
+k3MDQsLTExMTAxNzg5NzMsLTYwMDQxOTEzMCw5MjczMDExNTYs
+LTY3MTU1MzEwMF19
 -->
