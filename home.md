@@ -24,7 +24,7 @@ The scenario has these main characteristics:
 	 -  **Remote Desktop** access is allowed on the DNS server;
 	 - All accounts can **read** a **shared network folder**, which can be written only by `Administrators` and `DnsAdmins`;
 
-When not differently specified, all other settings are intented to be the "default" ones; in particular, all domain Users and Computers are placed in the default **Organizational Units**.
+When not differently specified, all other settings are intented to be the "default" ones; in particular, all domain Users and Computers are placed in the default Active Directory folders.
 
 It is (realistically) assumed that some domain accounts use common and easily predictable passwords.
 
@@ -75,6 +75,7 @@ The following domain accounts (with passwords between brackets) are available:
 		 - `DomainUserNoAuth` (`User00!`), joining the `DomainUsers` group, requires NO Kerberos pre-authentication;
 		 - `DomainAdmin` (`Admin00!`), joining the `DomainUsers`, `DomainAdmins`, `Administrators` groups;
 		 - `DNSoperator` (`Qwerty123`), joining the `DomainUsers`, `DnsAdmins`, `DnsUpdateProxy` groups, can login only on the DNS server;
+All these accounts are stored in the default `Users` folder of the domain.
 
 The **DNS/File server**, named `SERVERDNS`, has a static IP address set to `10.0.2.250`. Every machine in the domain uses this server as default DNS server.
 It hosts a folder that is shared to all computers in the domain (via *[AD's GPOs](https://en.wikipedia.org/wiki/Group_Policy)*), which can be read by everyone while can be written only by `Administrators` and `DnsAdmins`.
@@ -246,7 +247,7 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2Nzc3NTQ5MiwxNDkyMjg2NjgzLDI4MD
+eyJoaXN0b3J5IjpbLTg3NzEwODMyNywxNDkyMjg2NjgzLDI4MD
 g0NDkwNSwtODA0Njk4ODc1LC0xODg4NzA5NTg0LDEzNDI2MzIz
 NzksLTExMjcxMDk1NTUsLTIwMTU2NDM5NjAsMjA0MTM1ODI0NC
 wtODkwODI5MjYyLDE0MTQ2MTk3MDQsLTExMTAxNzg5NzMsLTYw
