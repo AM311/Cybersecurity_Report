@@ -112,7 +112,11 @@ Once set-up the environment, it is finally possible to begin the laboratory!
 	
 	 ![Response of the nmap request](https://raw.githubusercontent.com/AM311/Cybersecurity_Report/main/img/nmap_DC.png)
 
-2. **List accounts which do not require Kerberos pre-authentication**:
+2. **Understand the existing accounts and groups**:
+	d
+	==MOSTRARE GRUPPI --> ACCOUNT NON È ADMIN==
+	
+ 3. **List accounts which do not require Kerberos pre-authentication**:
 As first attempt, we ask the DomainController the list of all accounts that can authenticate via Kerberos without pre-authentication: hopefully, we will find a `DomainAdmins` account.
 
 	For doing this, we run a LDAP query to the DC from our legitimate account, using the following command:
@@ -123,10 +127,8 @@ As first attempt, we ask the DomainController the list of all accounts that can 
     We will focus our efforts on `DNSoperator` since, as the name states, it will probably be authorized to operate on the **DNS/File Server**.
     
 	![Accounts that does not require pre-auth](https://github.com/AM311/Cybersecurity_Report/blob/main/img/noPreAuth.png?raw=true)
-
-	==MOSTRARE GRUPPI --> ACCOUNT NON È ADMIN==
 	
- 3. **Ask for a TGT:**
+ 4. **Ask for a TGT:**
 We now ask the DC to generate a **TGT** for each of the previous accounts and we format them so they are ready to be cracked using *John the Ripper*:
 
     `impacket-GetNPUsers -dc-ip 10.0.2.200 cybersec.units.it/DomainUser:User00! -request -format john`
@@ -251,11 +253,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5OTkzMTc0MCwtMTI1MjU2MDcxNywxND
-kyMjg2NjgzLDI4MDg0NDkwNSwtODA0Njk4ODc1LC0xODg4NzA5
-NTg0LDEzNDI2MzIzNzksLTExMjcxMDk1NTUsLTIwMTU2NDM5Nj
-AsMjA0MTM1ODI0NCwtODkwODI5MjYyLDE0MTQ2MTk3MDQsLTEx
-MTAxNzg5NzMsLTYwMDQxOTEzMCw5MjczMDExNTYsLTY3MTU1Mz
-EwMCwxMjM5MzYyNjcwLDExMTY1MjUzOCwxNjk5NTEwMzcyLDU1
-MTIwNzk3MF19
+eyJoaXN0b3J5IjpbNDE4NzQ3OTI1LDEwOTk5MzE3NDAsLTEyNT
+I1NjA3MTcsMTQ5MjI4NjY4MywyODA4NDQ5MDUsLTgwNDY5ODg3
+NSwtMTg4ODcwOTU4NCwxMzQyNjMyMzc5LC0xMTI3MTA5NTU1LC
+0yMDE1NjQzOTYwLDIwNDEzNTgyNDQsLTg5MDgyOTI2MiwxNDE0
+NjE5NzA0LC0xMTEwMTc4OTczLC02MDA0MTkxMzAsOTI3MzAxMT
+U2LC02NzE1NTMxMDAsMTIzOTM2MjY3MCwxMTE2NTI1MzgsMTY5
+OTUxMDM3Ml19
 -->
