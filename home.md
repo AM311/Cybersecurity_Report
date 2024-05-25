@@ -73,7 +73,8 @@ DHCP assignes only IPv4 addresses in the pool `10.0.2.10-190`; it assignes also 
 The following domain accounts (with passwords between brackets) are available:
 		 - `DomainUser` (`User00!`), joining the `DomainUsers` group;
 		 - `DomainUserNoAuth` (`User00!`), joining the `DomainUsers` group, requires NO Kerberos pre-authentication;
-		 - `DomainAdmin` (`Admin00!`), joining the `DomainUsers`, `DomainAdmins`, `Administrators` groups;
+		 - `DomainAdmin` (`#Admin00!`), joining the `DomainUsers`, `DomainAdmins`, `Administrators` groups;
+			 -r
 		 - `DNSoperator` (`Qwerty123`), joining the `DomainUsers`, `DnsAdmins`, `DnsUpdateProxy` groups, can login only on the DNS server;
 All these accounts are stored in the default `Users` folder of the domain.
 
@@ -247,11 +248,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk0MDA2NTg0LDE0OTIyODY2ODMsMjgwOD
-Q0OTA1LC04MDQ2OTg4NzUsLTE4ODg3MDk1ODQsMTM0MjYzMjM3
-OSwtMTEyNzEwOTU1NSwtMjAxNTY0Mzk2MCwyMDQxMzU4MjQ0LC
-04OTA4MjkyNjIsMTQxNDYxOTcwNCwtMTExMDE3ODk3MywtNjAw
-NDE5MTMwLDkyNzMwMTE1NiwtNjcxNTUzMTAwLDEyMzkzNjI2Nz
-AsMTExNjUyNTM4LDE2OTk1MTAzNzIsNTUxMjA3OTcwLC0xNjI3
-MzkxMjQxXX0=
+eyJoaXN0b3J5IjpbMTY0NDU5NzU2MCwxNDkyMjg2NjgzLDI4MD
+g0NDkwNSwtODA0Njk4ODc1LC0xODg4NzA5NTg0LDEzNDI2MzIz
+NzksLTExMjcxMDk1NTUsLTIwMTU2NDM5NjAsMjA0MTM1ODI0NC
+wtODkwODI5MjYyLDE0MTQ2MTk3MDQsLTExMTAxNzg5NzMsLTYw
+MDQxOTEzMCw5MjczMDExNTYsLTY3MTU1MzEwMCwxMjM5MzYyNj
+cwLDExMTY1MjUzOCwxNjk5NTEwMzcyLDU1MTIwNzk3MCwtMTYy
+NzM5MTI0MV19
 -->
