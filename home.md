@@ -249,6 +249,7 @@ To open a remote desktop connection, we use the following command:
 This activity has been developed autonomously, with the consultation of the following sources:
 
  - https://www.forensicxs.com/active-directory-hacking-lab/
+ - https://devconnected.com/how-to-search-ldap-using-ldapsearch-examples/
  - https://medium.com/@jbtechmaven/hacking-active-directory-with-as-rep-roasting-15ca0d9fae5c
  - https://www.securitynik.com/2022/01/beginning-as-rep-roasting-with-impacket.html
  - https://www.offsec.com/metasploit-unleashed/writing-meterpreter-scripts/
@@ -259,11 +260,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1Njg4MTQwNCwtMTM1MTY5NjExOCw0OD
-QyNTkzMCwtMTY0NzY4NzU5MiwxMDk5OTMxNzQwLC0xMjUyNTYw
-NzE3LDE0OTIyODY2ODMsMjgwODQ0OTA1LC04MDQ2OTg4NzUsLT
-E4ODg3MDk1ODQsMTM0MjYzMjM3OSwtMTEyNzEwOTU1NSwtMjAx
-NTY0Mzk2MCwyMDQxMzU4MjQ0LC04OTA4MjkyNjIsMTQxNDYxOT
-cwNCwtMTExMDE3ODk3MywtNjAwNDE5MTMwLDkyNzMwMTE1Niwt
-NjcxNTUzMTAwXX0=
+eyJoaXN0b3J5IjpbLTE3NDAxODc5NDEsLTEzNTE2OTYxMTgsND
+g0MjU5MzAsLTE2NDc2ODc1OTIsMTA5OTkzMTc0MCwtMTI1MjU2
+MDcxNywxNDkyMjg2NjgzLDI4MDg0NDkwNSwtODA0Njk4ODc1LC
+0xODg4NzA5NTg0LDEzNDI2MzIzNzksLTExMjcxMDk1NTUsLTIw
+MTU2NDM5NjAsMjA0MTM1ODI0NCwtODkwODI5MjYyLDE0MTQ2MT
+k3MDQsLTExMTAxNzg5NzMsLTYwMDQxOTEzMCw5MjczMDExNTYs
+LTY3MTU1MzEwMF19
 -->
