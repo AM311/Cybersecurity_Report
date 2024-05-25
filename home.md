@@ -212,17 +212,8 @@ To open a remote desktop connection, we use the following command:
  8. **"Convince" a Domain Administrator to run the executable:**
 	In order to make this whole system effectively work, we need to "convince" a `DomainAdmins` account to run the executable: doing so, we will be able to communicate to a process (the reverse shell client) running with high privileges (*remember: all domain administrators are also local administrators*).
  
-	 Our target will be the **DomainAdmin** since, as we have stated in step (2), it joins the **DomainAdmins** group
-	 
-	 To identify the target account, we run a LDAP query for listing all the domain accounts:
-
-	   `impacket-GetADUsers -dc-ip 10.0.2.200 -all -ts cybersec.units.it/DomainUser:User00!`
-
-	which gives the following output:
-	
-	![All domain accounts](https://github.com/AM311/Cybersecurity_Report/blob/main/img/allUsers.png?raw=true)
-		
-	It seems quite obvious that **`DomainAdmin`** will be a good target, so we use the given email to send a spearphishing message:
+	 Our target will be the **`DomainAdmin`** account since, as we have stated in step (2), it joins the `DomainAdmins` group.
+	 Moreover, we discovered also its email address, so we use it to send a spearphishing message:
 	
 	![Phishing email sent to the domain administrator](https://github.com/AM311/Cybersecurity_Report/blob/main/img/email.png?raw=true)
 
@@ -269,11 +260,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NTkwNTI0NywtMTM1MTY5NjExOCw0OD
-QyNTkzMCwtMTY0NzY4NzU5MiwxMDk5OTMxNzQwLC0xMjUyNTYw
-NzE3LDE0OTIyODY2ODMsMjgwODQ0OTA1LC04MDQ2OTg4NzUsLT
-E4ODg3MDk1ODQsMTM0MjYzMjM3OSwtMTEyNzEwOTU1NSwtMjAx
-NTY0Mzk2MCwyMDQxMzU4MjQ0LC04OTA4MjkyNjIsMTQxNDYxOT
-cwNCwtMTExMDE3ODk3MywtNjAwNDE5MTMwLDkyNzMwMTE1Niwt
-NjcxNTUzMTAwXX0=
+eyJoaXN0b3J5IjpbLTEzNzIzNzUwMDEsLTEzNTE2OTYxMTgsND
+g0MjU5MzAsLTE2NDc2ODc1OTIsMTA5OTkzMTc0MCwtMTI1MjU2
+MDcxNywxNDkyMjg2NjgzLDI4MDg0NDkwNSwtODA0Njk4ODc1LC
+0xODg4NzA5NTg0LDEzNDI2MzIzNzksLTExMjcxMDk1NTUsLTIw
+MTU2NDM5NjAsMjA0MTM1ODI0NCwtODkwODI5MjYyLDE0MTQ2MT
+k3MDQsLTExMTAxNzg5NzMsLTYwMDQxOTEzMCw5MjczMDExNTYs
+LTY3MTU1MzEwMF19
 -->
