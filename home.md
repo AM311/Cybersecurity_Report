@@ -75,7 +75,7 @@ The following domain accounts (with passwords between brackets) are available:
  - `DomainUser` (`User00!`), joining the `DomainUsers` group;
  - `DomainUserNoAuth` (`User00!`), joining the `DomainUsers` group, requires NO Kerberos pre-authentication;
  - `DomainAdmin` (`#Admin00!`), joining the `DomainUsers`, `DomainAdmins`, `Administrators` groups;
-	 - This password is NOT present in any passwords' dictionary! ==SEE 
+	 - This password is NOT present in any passwords' dictionary! ==SEE HAVEIBEENPWNED==
  - `DNSoperator` (`Qwerty123`), joining the `DomainUsers`, `DnsAdmins`, `DnsUpdateProxy` groups, can login only on the DNS server;
   	 - This password IS present in passwords' dictionaries!
 
@@ -260,11 +260,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4OTYyNjQ3NiwtMTc0MDE4Nzk0MSwtMT
-M1MTY5NjExOCw0ODQyNTkzMCwtMTY0NzY4NzU5MiwxMDk5OTMx
-NzQwLC0xMjUyNTYwNzE3LDE0OTIyODY2ODMsMjgwODQ0OTA1LC
-04MDQ2OTg4NzUsLTE4ODg3MDk1ODQsMTM0MjYzMjM3OSwtMTEy
-NzEwOTU1NSwtMjAxNTY0Mzk2MCwyMDQxMzU4MjQ0LC04OTA4Mj
-kyNjIsMTQxNDYxOTcwNCwtMTExMDE3ODk3MywtNjAwNDE5MTMw
-LDkyNzMwMTE1Nl19
+eyJoaXN0b3J5IjpbNjQwMDg5Mjk5LC0xNzQwMTg3OTQxLC0xMz
+UxNjk2MTE4LDQ4NDI1OTMwLC0xNjQ3Njg3NTkyLDEwOTk5MzE3
+NDAsLTEyNTI1NjA3MTcsMTQ5MjI4NjY4MywyODA4NDQ5MDUsLT
+gwNDY5ODg3NSwtMTg4ODcwOTU4NCwxMzQyNjMyMzc5LC0xMTI3
+MTA5NTU1LC0yMDE1NjQzOTYwLDIwNDEzNTgyNDQsLTg5MDgyOT
+I2MiwxNDE0NjE5NzA0LC0xMTEwMTc4OTczLC02MDA0MTkxMzAs
+OTI3MzAxMTU2XX0=
 -->
