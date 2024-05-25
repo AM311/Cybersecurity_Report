@@ -71,12 +71,13 @@ The **Windows 7** machine, named `WIN7`, joins the domain and receives a dynamic
 The **DomainController/DHCP server**, named `SERVER`, has a static IP address set to `10.0.2.200` and controls the domain named `cybersec.units.it`.
 DHCP assignes only IPv4 addresses in the pool `10.0.2.10-190`; it assignes also the default DNS, which is set to be `10.0.2.250`.
 The following domain accounts (with passwords between brackets) are available:
-		 - `DomainUser` (`User00!`), joining the `DomainUsers` group;
-		 - `DomainUserNoAuth` (`User00!`), joining the `DomainUsers` group, requires NO Kerberos pre-authentication;
-		 - `DomainAdmin` (`#Admin00!`), joining the `DomainUsers`, `DomainAdmins`, `Administrators` groups;
-			 -r
-		 - `DNSoperator` (`Qwerty123`), joining the `DomainUsers`, `DnsAdmins`, `DnsUpdateProxy` groups, can login only on the DNS server;
-All these accounts are stored in the default `Users` folder of the domain.
+
+ - `DomainUser` (`User00!`), joining the `DomainUsers` group;
+ - `DomainUserNoAuth` (`User00!`), joining the `DomainUsers` group, requires NO Kerberos pre-authentication;
+ - `DomainAdmin` (`#Admin00!`), joining the `DomainUsers`, `DomainAdmins`, `Administrators` groups;
+ - `DNSoperator` (`Qwerty123`), joining the `DomainUsers`, `DnsAdmins`, `DnsUpdateProxy` groups, can login only on the DNS server;
+
+All these accounts are stored in the domain's default folder `Users`.
 
 The **DNS/File server**, named `SERVERDNS`, has a static IP address set to `10.0.2.250`. Every machine in the domain uses this server as default DNS server.
 It hosts a folder that is shared to all computers in the domain, which can be read by everyone while can be written only by `Administrators` and `DnsAdmins`.
@@ -248,11 +249,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDU5NzU2MCwxNDkyMjg2NjgzLDI4MD
-g0NDkwNSwtODA0Njk4ODc1LC0xODg4NzA5NTg0LDEzNDI2MzIz
-NzksLTExMjcxMDk1NTUsLTIwMTU2NDM5NjAsMjA0MTM1ODI0NC
-wtODkwODI5MjYyLDE0MTQ2MTk3MDQsLTExMTAxNzg5NzMsLTYw
-MDQxOTEzMCw5MjczMDExNTYsLTY3MTU1MzEwMCwxMjM5MzYyNj
-cwLDExMTY1MjUzOCwxNjk5NTEwMzcyLDU1MTIwNzk3MCwtMTYy
-NzM5MTI0MV19
+eyJoaXN0b3J5IjpbLTEyNTI1NjA3MTcsMTQ5MjI4NjY4MywyOD
+A4NDQ5MDUsLTgwNDY5ODg3NSwtMTg4ODcwOTU4NCwxMzQyNjMy
+Mzc5LC0xMTI3MTA5NTU1LC0yMDE1NjQzOTYwLDIwNDEzNTgyND
+QsLTg5MDgyOTI2MiwxNDE0NjE5NzA0LC0xMTEwMTc4OTczLC02
+MDA0MTkxMzAsOTI3MzAxMTU2LC02NzE1NTMxMDAsMTIzOTM2Mj
+Y3MCwxMTE2NTI1MzgsMTY5OTUxMDM3Miw1NTEyMDc5NzAsLTE2
+MjczOTEyNDFdfQ==
 -->
