@@ -22,9 +22,9 @@ The scenario has these main characteristics:
 	 - The DNS server can be accessed only by accounts in `DnsAdmins` group, which can access only that specific machine;
 	 - Accounts in that group are configured to perform Kerberos login **without pre-authentication**;
 	 -  **Remote Desktop** access is allowed on the DNS server;
-	 - All accounts can **read** a **shared network folder**, which can be written only by `Administrators` and `DnsOperators`;
+	 - All accounts can **read** a **shared network folder**, which can be written only by `Administrators` and `DnsAdmins`;
 
-When not differently specified, all other settings are intented to be the "default" ones.
+When not differently specified, all other settings are intented to be the "default" ones; in particular, all domain Users and Computers are sto
 
 It is assumed that the organization follows a **bad passwords management**, using common and easily predictable passwords for all the accounts.
 
@@ -246,7 +246,7 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MzkyNzQxMiwyODA4NDQ5MDUsLTgwND
+eyJoaXN0b3J5IjpbMTg0MDE2NDczNCwyODA4NDQ5MDUsLTgwND
 Y5ODg3NSwtMTg4ODcwOTU4NCwxMzQyNjMyMzc5LC0xMTI3MTA5
 NTU1LC0yMDE1NjQzOTYwLDIwNDEzNTgyNDQsLTg5MDgyOTI2Mi
 wxNDE0NjE5NzA0LC0xMTEwMTc4OTczLC02MDA0MTkxMzAsOTI3
