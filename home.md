@@ -123,7 +123,7 @@ common name e non UID
  3. **List accounts which do not require Kerberos pre-authentication**:
 As first attempt, we ask the DomainController the list of all accounts that can authenticate via Kerberos without pre-authentication: hopefully, we will find a `DomainAdmins` account.
 
-	For doing this, we run a LDAP query to the DC from our legitimate account, using the following command:
+	For doing this, we run a predefined LDAP query to the DC from our legitimate account, using the following command:
 	
     `impacket-GetNPUsers -dc-ip 10.0.2.200 cybersec.units.it/DomainUser:User00!`
     
@@ -257,11 +257,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0MjU5MzAsLTE2NDc2ODc1OTIsMTA5OT
-kzMTc0MCwtMTI1MjU2MDcxNywxNDkyMjg2NjgzLDI4MDg0NDkw
-NSwtODA0Njk4ODc1LC0xODg4NzA5NTg0LDEzNDI2MzIzNzksLT
-ExMjcxMDk1NTUsLTIwMTU2NDM5NjAsMjA0MTM1ODI0NCwtODkw
-ODI5MjYyLDE0MTQ2MTk3MDQsLTExMTAxNzg5NzMsLTYwMDQxOT
-EzMCw5MjczMDExNTYsLTY3MTU1MzEwMCwxMjM5MzYyNjcwLDEx
-MTY1MjUzOF19
+eyJoaXN0b3J5IjpbLTEzNTE2OTYxMTgsNDg0MjU5MzAsLTE2ND
+c2ODc1OTIsMTA5OTkzMTc0MCwtMTI1MjU2MDcxNywxNDkyMjg2
+NjgzLDI4MDg0NDkwNSwtODA0Njk4ODc1LC0xODg4NzA5NTg0LD
+EzNDI2MzIzNzksLTExMjcxMDk1NTUsLTIwMTU2NDM5NjAsMjA0
+MTM1ODI0NCwtODkwODI5MjYyLDE0MTQ2MTk3MDQsLTExMTAxNz
+g5NzMsLTYwMDQxOTEzMCw5MjczMDExNTYsLTY3MTU1MzEwMCwx
+MjM5MzYyNjcwXX0=
 -->
