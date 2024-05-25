@@ -137,9 +137,10 @@ As first attempt, we ask the DomainController to list all the accounts that can 
     `impacket-GetNPUsers -dc-ip 10.0.2.200 cybersec.units.it/DomainUser:User00!`
     
     As shown below, there are two domain accounts that soddisfy the requests.
-    We will focus our efforts on `DNSoperator` since, as we have seen, it will probably be authorized to operate on the **DNS/File Server**.
     
 	![Accounts that does not require pre-auth](https://github.com/AM311/Cybersecurity_Report/blob/main/img/noKerbPreAuth.png?raw=true)
+
+	We will focus our efforts on `DNSoperator` since, as we have seen, it can login to the **DNS/File Server** and joins the `DnsAdmins` group, whose members have write rights on the network shared folder.
 	
  4. **Ask for a TGT:**
 We now ask the DC to generate a **TGT** for each of the previous accounts and we format them so they are ready to be cracked using *John the Ripper*:
@@ -266,7 +267,7 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDAyNTc4NDAsLTEzNTE2OTYxMTgsND
+eyJoaXN0b3J5IjpbLTExMzA4MTAyMDYsLTEzNTE2OTYxMTgsND
 g0MjU5MzAsLTE2NDc2ODc1OTIsMTA5OTkzMTc0MCwtMTI1MjU2
 MDcxNywxNDkyMjg2NjgzLDI4MDg0NDkwNSwtODA0Njk4ODc1LC
 0xODg4NzA5NTg0LDEzNDI2MzIzNzksLTExMjcxMDk1NTUsLTIw
