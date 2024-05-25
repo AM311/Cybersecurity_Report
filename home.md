@@ -1,4 +1,4 @@
-# Cybersecurity Hacking Lab: Report
+# Cybersecurity Hacking Lab
 
 This document will present a complete and step-by-step guide to perform a hacking laboratory in a virtualized environment, reproducing a fake but realistic scenario.
 
@@ -6,9 +6,9 @@ This document will present a complete and step-by-step guide to perform a hackin
 
 ### Scenario
 
-This laboratory overviews the steps that might be performed by an attacker in an organization running **Windows Active Directory** in order to take control of a domain administrator account.
+This laboratory overviews the steps that might be performed by an attacker in an organization running **Windows Active Directory** in order to **take control of a domain administrator account**.
 
-The main characteristics of the scenario are the following:
+The scenario has these main characteristics:
 
  - All the computers are part of a **Windows Active Directory Domain**;
  - The domain mainly relies on two (physically and logically) different servers:
@@ -246,11 +246,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgwODQ0OTA1LC04MDQ2OTg4NzUsLTE4OD
-g3MDk1ODQsMTM0MjYzMjM3OSwtMTEyNzEwOTU1NSwtMjAxNTY0
-Mzk2MCwyMDQxMzU4MjQ0LC04OTA4MjkyNjIsMTQxNDYxOTcwNC
-wtMTExMDE3ODk3MywtNjAwNDE5MTMwLDkyNzMwMTE1NiwtNjcx
-NTUzMTAwLDEyMzkzNjI2NzAsMTExNjUyNTM4LDE2OTk1MTAzNz
-IsNTUxMjA3OTcwLC0xNjI3MzkxMjQxLC0zMzE1NzQyNzAsLTE3
-MDc1ODcxNTBdfQ==
+eyJoaXN0b3J5IjpbMjY4NjkyNjU4LDI4MDg0NDkwNSwtODA0Nj
+k4ODc1LC0xODg4NzA5NTg0LDEzNDI2MzIzNzksLTExMjcxMDk1
+NTUsLTIwMTU2NDM5NjAsMjA0MTM1ODI0NCwtODkwODI5MjYyLD
+E0MTQ2MTk3MDQsLTExMTAxNzg5NzMsLTYwMDQxOTEzMCw5Mjcz
+MDExNTYsLTY3MTU1MzEwMCwxMjM5MzYyNjcwLDExMTY1MjUzOC
+wxNjk5NTEwMzcyLDU1MTIwNzk3MCwtMTYyNzM5MTI0MSwtMzMx
+NTc0MjcwXX0=
 -->
