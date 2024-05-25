@@ -78,10 +78,10 @@ The following domain accounts (with passwords between brackets) are available:
 All these accounts are stored in the default `Users` folder of the domain.
 
 The **DNS/File server**, named `SERVERDNS`, has a static IP address set to `10.0.2.250`. Every machine in the domain uses this server as default DNS server.
-It hosts a folder that is shared to all computers in the domain (via *[AD's GPOs](https://en.wikipedia.org/wiki/Group_Policy)*), which can be read by everyone while can be written only by `Administrators` and `DnsAdmins`.
+It hosts a folder that is shared to all computers in the domain, which can be read by everyone while can be written only by `Administrators` and `DnsAdmins`.
 This device can be accessed and managed via Remote Desktop by `DnsAdmins` accounts.
 
-Every machine has a default local admin account (out of this lab's scope) named `Administrator` whose password is `Qwerty123`.
+Every machine has a default local admin account (*out of this lab's scope*) named `Administrator` whose password is `Qwerty123`.
 
 The attacker owns the credentials of `DomainUser`.
 
@@ -247,11 +247,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NzEwODMyNywxNDkyMjg2NjgzLDI4MD
-g0NDkwNSwtODA0Njk4ODc1LC0xODg4NzA5NTg0LDEzNDI2MzIz
-NzksLTExMjcxMDk1NTUsLTIwMTU2NDM5NjAsMjA0MTM1ODI0NC
-wtODkwODI5MjYyLDE0MTQ2MTk3MDQsLTExMTAxNzg5NzMsLTYw
-MDQxOTEzMCw5MjczMDExNTYsLTY3MTU1MzEwMCwxMjM5MzYyNj
-cwLDExMTY1MjUzOCwxNjk5NTEwMzcyLDU1MTIwNzk3MCwtMTYy
-NzM5MTI0MV19
+eyJoaXN0b3J5IjpbNjk0MDA2NTg0LDE0OTIyODY2ODMsMjgwOD
+Q0OTA1LC04MDQ2OTg4NzUsLTE4ODg3MDk1ODQsMTM0MjYzMjM3
+OSwtMTEyNzEwOTU1NSwtMjAxNTY0Mzk2MCwyMDQxMzU4MjQ0LC
+04OTA4MjkyNjIsMTQxNDYxOTcwNCwtMTExMDE3ODk3MywtNjAw
+NDE5MTMwLDkyNzMwMTE1NiwtNjcxNTUzMTAwLDEyMzkzNjI2Nz
+AsMTExNjUyNTM4LDE2OTk1MTAzNzIsNTUxMjA3OTcwLC0xNjI3
+MzkxMjQxXX0=
 -->
