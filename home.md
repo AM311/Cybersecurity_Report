@@ -98,9 +98,9 @@ Once set-up the environment, it is finally possible to begin the laboratory!
 > When briefly referring to a *`GroupName` account*, it has to be read as "any account joining the `GroupName` group".
  
 
-0. **Open a Shell**;
+ - **Open a Shell**;
  
- 1. **Find the IP address of the Domain Controller**:
+ - **Find the IP address of the Domain Controller**:
  To begin, we need to find the IP address of the Domain Controller.
  For doing so, we execute the following command: 
  
@@ -112,15 +112,18 @@ Once set-up the environment, it is finally possible to begin the laboratory!
 	
 	 ![Response of the nmap request](https://raw.githubusercontent.com/AM311/Cybersecurity_Report/main/img/nmap_DC.png)
 
-2. **Understand the existing accounts and groups**:
+ - **Understand the existing accounts and groups**:
 	To understand which are our targets, we need to be aware of what the domain accounts are and which groups they belong to.
 	For doing so, we ask the Domain Controller, via a LDAP query, to  list us all the entries in the `Users` Active Directory default folder: 
 
     `ldapsearch -x -b "cn=Users,dc=cybersec,dc=units,dc=it" -H "ldap://10.0.2.200" -D "cn=Utente Dominio,cn=Users,dc=cybersec,dc=units,dc=it" -w 'User00!'`
 
 	To run the query, we need to authenticate providing the FullyQualifiedName and password of our legitimately controlled account.
+	It is (correctly) assumed that all the users are stored in the default `Users` folder.
 	
-	The response is very verbose; the main
+	The response is very verbose; the two major results are shown below:
+
+ - List item
 
 	![Accounts details](https://github.com/AM311/Cybersecurity_Report/blob/main/img/accountsLDAP.png?raw=true)
 
@@ -264,11 +267,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkzOTMxOTEyLC0xMzUxNjk2MTE4LDQ4ND
-I1OTMwLC0xNjQ3Njg3NTkyLDEwOTk5MzE3NDAsLTEyNTI1NjA3
-MTcsMTQ5MjI4NjY4MywyODA4NDQ5MDUsLTgwNDY5ODg3NSwtMT
-g4ODcwOTU4NCwxMzQyNjMyMzc5LC0xMTI3MTA5NTU1LC0yMDE1
-NjQzOTYwLDIwNDEzNTgyNDQsLTg5MDgyOTI2MiwxNDE0NjE5Nz
-A0LC0xMTEwMTc4OTczLC02MDA0MTkxMzAsOTI3MzAxMTU2LC02
-NzE1NTMxMDBdfQ==
+eyJoaXN0b3J5IjpbMTgzMzYyMjIzNiwtMTM1MTY5NjExOCw0OD
+QyNTkzMCwtMTY0NzY4NzU5MiwxMDk5OTMxNzQwLC0xMjUyNTYw
+NzE3LDE0OTIyODY2ODMsMjgwODQ0OTA1LC04MDQ2OTg4NzUsLT
+E4ODg3MDk1ODQsMTM0MjYzMjM3OSwtMTEyNzEwOTU1NSwtMjAx
+NTY0Mzk2MCwyMDQxMzU4MjQ0LC04OTA4MjkyNjIsMTQxNDYxOT
+cwNCwtMTExMDE3ODk3MywtNjAwNDE5MTMwLDkyNzMwMTE1Niwt
+NjcxNTUzMTAwXX0=
 -->
