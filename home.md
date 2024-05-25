@@ -130,7 +130,7 @@ As first attempt, we ask the DomainController the list of all accounts that can 
     As shown below, there are two domain accounts that soddisfy the requests.
     We will focus our efforts on `DNSoperator` since, as the name states, it will probably be authorized to operate on the **DNS/File Server**.
     
-	![Accounts that does not require pre-auth](https://github.com/AM311/Cybersecurity_Report/blob/main/img/noPreAuth.png?raw=true)
+	![Accounts that does not require pre-auth](https://github.com/AM311/Cybersecurity_Report/blob/main/img/noKerbPreAuth.png?raw=true)
 	
  4. **Ask for a TGT:**
 We now ask the DC to generate a **TGT** for each of the previous accounts and we format them so they are ready to be cracked using *John the Ripper*:
@@ -257,11 +257,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTE2OTYxMTgsNDg0MjU5MzAsLTE2ND
-c2ODc1OTIsMTA5OTkzMTc0MCwtMTI1MjU2MDcxNywxNDkyMjg2
-NjgzLDI4MDg0NDkwNSwtODA0Njk4ODc1LC0xODg4NzA5NTg0LD
-EzNDI2MzIzNzksLTExMjcxMDk1NTUsLTIwMTU2NDM5NjAsMjA0
-MTM1ODI0NCwtODkwODI5MjYyLDE0MTQ2MTk3MDQsLTExMTAxNz
-g5NzMsLTYwMDQxOTEzMCw5MjczMDExNTYsLTY3MTU1MzEwMCwx
-MjM5MzYyNjcwXX0=
+eyJoaXN0b3J5IjpbLTczMjUxNjYwLC0xMzUxNjk2MTE4LDQ4ND
+I1OTMwLC0xNjQ3Njg3NTkyLDEwOTk5MzE3NDAsLTEyNTI1NjA3
+MTcsMTQ5MjI4NjY4MywyODA4NDQ5MDUsLTgwNDY5ODg3NSwtMT
+g4ODcwOTU4NCwxMzQyNjMyMzc5LC0xMTI3MTA5NTU1LC0yMDE1
+NjQzOTYwLDIwNDEzNTgyNDQsLTg5MDgyOTI2MiwxNDE0NjE5Nz
+A0LC0xMTEwMTc4OTczLC02MDA0MTkxMzAsOTI3MzAxMTU2LC02
+NzE1NTMxMDBdfQ==
 -->
