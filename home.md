@@ -30,14 +30,14 @@ It is (realistically) assumed that some domain accounts use common and easily pr
 
 ### Goal
 
-The main goal of this laboratory is to **gain access to the credentials of a `DomainAdmins` account**.
+The main goal of this laboratory is to **gain access** to the credentials of an **account joining the `DomainAdmins` group**.
 
 ### Threat Model
 
 It is assumed that the attacker:
 
  - is "inside" the network and owns the credentials of a `DomainUser` account;
- - can contact servers, also from a personal device which is not part of the domain;
+ - can contact servers, also from a personal device which is not part of the domain, with all the needed protocols;
 
 ## Setting up the Virtual Environment
 
@@ -246,11 +246,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzMjAxODExLDI4MDg0NDkwNSwtODA0Nj
-k4ODc1LC0xODg4NzA5NTg0LDEzNDI2MzIzNzksLTExMjcxMDk1
-NTUsLTIwMTU2NDM5NjAsMjA0MTM1ODI0NCwtODkwODI5MjYyLD
-E0MTQ2MTk3MDQsLTExMTAxNzg5NzMsLTYwMDQxOTEzMCw5Mjcz
-MDExNTYsLTY3MTU1MzEwMCwxMjM5MzYyNjcwLDExMTY1MjUzOC
-wxNjk5NTEwMzcyLDU1MTIwNzk3MCwtMTYyNzM5MTI0MSwtMzMx
-NTc0MjcwXX0=
+eyJoaXN0b3J5IjpbMTQ5MjI4NjY4MywyODA4NDQ5MDUsLTgwND
+Y5ODg3NSwtMTg4ODcwOTU4NCwxMzQyNjMyMzc5LC0xMTI3MTA5
+NTU1LC0yMDE1NjQzOTYwLDIwNDEzNTgyNDQsLTg5MDgyOTI2Mi
+wxNDE0NjE5NzA0LC0xMTEwMTc4OTczLC02MDA0MTkxMzAsOTI3
+MzAxMTU2LC02NzE1NTMxMDAsMTIzOTM2MjY3MCwxMTE2NTI1Mz
+gsMTY5OTUxMDM3Miw1NTEyMDc5NzAsLTE2MjczOTEyNDEsLTMz
+MTU3NDI3MF19
 -->
