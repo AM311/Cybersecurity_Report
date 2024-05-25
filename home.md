@@ -240,7 +240,7 @@ To open a remote desktop connection, we use the following command:
 
 		==SPECIFICARE VARIE TIPOLOGIE DI CREDENZIALI==
 		
-		![All credentials stolen from the memory](https://github.com/AM311/Cybersecurity_Report/blob/main/img/credentials.png?raw=true)
+		![All credentials stolen from the memory](https://github.com/AM311/Cybersecurity_Report/blob/main/img/creds.png?raw=true)
 
 
 
@@ -260,11 +260,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQwMDg5Mjk5LC0xNzQwMTg3OTQxLC0xMz
-UxNjk2MTE4LDQ4NDI1OTMwLC0xNjQ3Njg3NTkyLDEwOTk5MzE3
-NDAsLTEyNTI1NjA3MTcsMTQ5MjI4NjY4MywyODA4NDQ5MDUsLT
-gwNDY5ODg3NSwtMTg4ODcwOTU4NCwxMzQyNjMyMzc5LC0xMTI3
-MTA5NTU1LC0yMDE1NjQzOTYwLDIwNDEzNTgyNDQsLTg5MDgyOT
-I2MiwxNDE0NjE5NzA0LC0xMTEwMTc4OTczLC02MDA0MTkxMzAs
-OTI3MzAxMTU2XX0=
+eyJoaXN0b3J5IjpbLTExOTUzMDI4MzgsNjQwMDg5Mjk5LC0xNz
+QwMTg3OTQxLC0xMzUxNjk2MTE4LDQ4NDI1OTMwLC0xNjQ3Njg3
+NTkyLDEwOTk5MzE3NDAsLTEyNTI1NjA3MTcsMTQ5MjI4NjY4My
+wyODA4NDQ5MDUsLTgwNDY5ODg3NSwtMTg4ODcwOTU4NCwxMzQy
+NjMyMzc5LC0xMTI3MTA5NTU1LC0yMDE1NjQzOTYwLDIwNDEzNT
+gyNDQsLTg5MDgyOTI2MiwxNDE0NjE5NzA0LC0xMTEwMTc4OTcz
+LC02MDA0MTkxMzBdfQ==
 -->
