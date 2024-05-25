@@ -122,8 +122,8 @@ Once set-up the environment, it is finally possible to begin the laboratory!
 	It is (correctly) assumed that all the users are stored in the default `Users` folder.
 	
 	The response is very verbose; the two major results are shown below:
-
- - List item
+	 - The account `DomainAdmin` joins the group `DomainAdmins`, so it seems to be a good target;
+	 - The account `DNSoperator` 
 
 	![Accounts details](https://github.com/AM311/Cybersecurity_Report/blob/main/img/accountsLDAP.png?raw=true)
 
@@ -267,7 +267,7 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzYyMjIzNiwtMTM1MTY5NjExOCw0OD
+eyJoaXN0b3J5IjpbLTM4MjY0Mzk5MSwtMTM1MTY5NjExOCw0OD
 QyNTkzMCwtMTY0NzY4NzU5MiwxMDk5OTMxNzQwLC0xMjUyNTYw
 NzE3LDE0OTIyODY2ODMsMjgwODQ0OTA1LC04MDQ2OTg4NzUsLT
 E4ODg3MDk1ODQsMTM0MjYzMjM3OSwtMTEyNzEwOTU1NSwtMjAx
