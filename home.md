@@ -117,8 +117,7 @@ Once set-up the environment, it is finally possible to begin the laboratory!
 
     `ldapsearch -x -b "cn=Users,dc=cybersec,dc=units,dc=it" -H "ldap://10.0.2.200" -D "cn=Utente Dominio,cn=Users,dc=cybersec,dc=units,dc=it" -w 'User00!'`
 
-comm
-
+common name e non UID
 	==MOSTRARE GRUPPI --> ACCOUNT NON È ADMIN==
 	
  3. **List accounts which do not require Kerberos pre-authentication**:
@@ -258,11 +257,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NjM5NzY5MCwtMTY0NzY4NzU5MiwxMD
-k5OTMxNzQwLC0xMjUyNTYwNzE3LDE0OTIyODY2ODMsMjgwODQ0
-OTA1LC04MDQ2OTg4NzUsLTE4ODg3MDk1ODQsMTM0MjYzMjM3OS
-wtMTEyNzEwOTU1NSwtMjAxNTY0Mzk2MCwyMDQxMzU4MjQ0LC04
-OTA4MjkyNjIsMTQxNDYxOTcwNCwtMTExMDE3ODk3MywtNjAwND
-E5MTMwLDkyNzMwMTE1NiwtNjcxNTUzMTAwLDEyMzkzNjI2NzAs
-MTExNjUyNTM4XX0=
+eyJoaXN0b3J5IjpbNDg0MjU5MzAsLTE2NDc2ODc1OTIsMTA5OT
+kzMTc0MCwtMTI1MjU2MDcxNywxNDkyMjg2NjgzLDI4MDg0NDkw
+NSwtODA0Njk4ODc1LC0xODg4NzA5NTg0LDEzNDI2MzIzNzksLT
+ExMjcxMDk1NTUsLTIwMTU2NDM5NjAsMjA0MTM1ODI0NCwtODkw
+ODI5MjYyLDE0MTQ2MTk3MDQsLTExMTAxNzg5NzMsLTYwMDQxOT
+EzMCw5MjczMDExNTYsLTY3MTU1MzEwMCwxMjM5MzYyNjcwLDEx
+MTY1MjUzOF19
 -->
