@@ -118,8 +118,11 @@ Once set-up the environment, it is finally possible to begin the laboratory!
 
     `ldapsearch -x -b "cn=Users,dc=cybersec,dc=units,dc=it" -H "ldap://10.0.2.200" -D "cn=Utente Dominio,cn=Users,dc=cybersec,dc=units,dc=it" -w 'User00!'`
 
-	f
+	To run the query, we need to authenticate providing the FullyQualifiedName and password of our legitimately controlled account.
+	
+	A
 
+![enter image description here](https://github.com/AM311/Cybersecurity_Report/blob/main/img/accountsLDAP.png?raw=true)
 
 common name e non UID
 	==MOSTRARE GRUPPI --> ACCOUNT NON È ADMIN==
@@ -261,11 +264,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4OTQwMTc3LC0xMzUxNjk2MTE4LDQ4ND
-I1OTMwLC0xNjQ3Njg3NTkyLDEwOTk5MzE3NDAsLTEyNTI1NjA3
-MTcsMTQ5MjI4NjY4MywyODA4NDQ5MDUsLTgwNDY5ODg3NSwtMT
-g4ODcwOTU4NCwxMzQyNjMyMzc5LC0xMTI3MTA5NTU1LC0yMDE1
-NjQzOTYwLDIwNDEzNTgyNDQsLTg5MDgyOTI2MiwxNDE0NjE5Nz
-A0LC0xMTEwMTc4OTczLC02MDA0MTkxMzAsOTI3MzAxMTU2LC02
-NzE1NTMxMDBdfQ==
+eyJoaXN0b3J5IjpbLTcxODIzOTIyMywtMTM1MTY5NjExOCw0OD
+QyNTkzMCwtMTY0NzY4NzU5MiwxMDk5OTMxNzQwLC0xMjUyNTYw
+NzE3LDE0OTIyODY2ODMsMjgwODQ0OTA1LC04MDQ2OTg4NzUsLT
+E4ODg3MDk1ODQsMTM0MjYzMjM3OSwtMTEyNzEwOTU1NSwtMjAx
+NTY0Mzk2MCwyMDQxMzU4MjQ0LC04OTA4MjkyNjIsMTQxNDYxOT
+cwNCwtMTExMDE3ODk3MywtNjAwNDE5MTMwLDkyNzMwMTE1Niwt
+NjcxNTUzMTAwXX0=
 -->
