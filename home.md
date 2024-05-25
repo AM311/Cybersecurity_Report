@@ -69,7 +69,7 @@ The **Kali** machine has a statically configured IP address (`10.0.2.15`). Addit
 The **Windows 7** machine, named `WIN7`, joins the domain and receives a dynamical IP address via DHCP.
 
 The **DomainController/DHCP server**, named `SERVER`, has a static IP address set to `10.0.2.200` and controls the domain named `cybersec.units.it`.
-DHCP assignes only IPv4 addresses in the pool `10.0.2.10-190`; it assignes also the DNS, which is set to be `10.0.2.250`.
+DHCP assignes only IPv4 addresses in the pool `10.0.2.10-190`; it assignes also the default DNS, which is set to be `10.0.2.250`.
 The following domain accounts (with passwords between brackets) are available:
 		 - `DomainUser` (`User00!`), joining the `DomainUsers` group;
 		 - `DomainUserNoAuth` (`User00!`), joining the `DomainUsers` group, requires NO Kerberos pre-authentication;
@@ -246,11 +246,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MjI4NjY4MywyODA4NDQ5MDUsLTgwND
-Y5ODg3NSwtMTg4ODcwOTU4NCwxMzQyNjMyMzc5LC0xMTI3MTA5
-NTU1LC0yMDE1NjQzOTYwLDIwNDEzNTgyNDQsLTg5MDgyOTI2Mi
-wxNDE0NjE5NzA0LC0xMTEwMTc4OTczLC02MDA0MTkxMzAsOTI3
-MzAxMTU2LC02NzE1NTMxMDAsMTIzOTM2MjY3MCwxMTE2NTI1Mz
-gsMTY5OTUxMDM3Miw1NTEyMDc5NzAsLTE2MjczOTEyNDEsLTMz
-MTU3NDI3MF19
+eyJoaXN0b3J5IjpbLTk2Nzc3NTQ5MiwxNDkyMjg2NjgzLDI4MD
+g0NDkwNSwtODA0Njk4ODc1LC0xODg4NzA5NTg0LDEzNDI2MzIz
+NzksLTExMjcxMDk1NTUsLTIwMTU2NDM5NjAsMjA0MTM1ODI0NC
+wtODkwODI5MjYyLDE0MTQ2MTk3MDQsLTExMTAxNzg5NzMsLTYw
+MDQxOTEzMCw5MjczMDExNTYsLTY3MTU1MzEwMCwxMjM5MzYyNj
+cwLDExMTY1MjUzOCwxNjk5NTEwMzcyLDU1MTIwNzk3MCwtMTYy
+NzM5MTI0MV19
 -->
