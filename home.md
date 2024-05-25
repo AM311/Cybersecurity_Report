@@ -75,8 +75,9 @@ The following domain accounts (with passwords between brackets) are available:
  - `DomainUser` (`User00!`), joining the `DomainUsers` group;
  - `DomainUserNoAuth` (`User00!`), joining the `DomainUsers` group, requires NO Kerberos pre-authentication;
  - `DomainAdmin` (`#Admin00!`), joining the `DomainUsers`, `DomainAdmins`, `Administrators` groups;
-	 - This password is NOT present in any dictionary!
+	 - This password is NOT present in any passwords' dictionary!
  - `DNSoperator` (`Qwerty123`), joining the `DomainUsers`, `DnsAdmins`, `DnsUpdateProxy` groups, can login only on the DNS server;
+  	 - This password IS present in passwords' dictionaries!
 
 All these accounts are stored in the domain's default folder `Users`.
 
@@ -250,7 +251,7 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzM3NjExNywtMTI1MjU2MDcxNywxND
+eyJoaXN0b3J5IjpbMTA5OTkzMTc0MCwtMTI1MjU2MDcxNywxND
 kyMjg2NjgzLDI4MDg0NDkwNSwtODA0Njk4ODc1LC0xODg4NzA5
 NTg0LDEzNDI2MzIzNzksLTExMjcxMDk1NTUsLTIwMTU2NDM5Nj
 AsMjA0MTM1ODI0NCwtODkwODI5MjYyLDE0MTQ2MTk3MDQsLTEx
