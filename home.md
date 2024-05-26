@@ -94,20 +94,20 @@ Once set-up the environment, it is finally possible to begin the laboratory!
  0. **Open a Shell**;
  
  1. **Find the IP address of the Domain Controller**:
- To begin, we need to find the IP address of the Domain Controller.
+ To begin, we need to find the IP address of the DomainController.
  For doing so, we execute the following command: 
  
     `nmap -p 389 -A -v -Pn 10.0.2.0/24`
     
     which tries to contact all the IP addresses in the range `10.0.2.0 - 10.0.2.255` on port  **389** (LDAP) to check whether it is open and the device is ready to accept requests.
 
-	From the response, we find out that the DomainController has IPv4 address **`10.0.2.200`**.
+	From the response, we find out that the DomainController has IPv4 address **`10.0.2.200`**:
 	
 	 ![Response of the nmap request](https://raw.githubusercontent.com/AM311/Cybersecurity_Report/main/img/nmap_DC.png)
 
  2. **Understand the existing accounts and groups**:
-	To understand which are our targets, we need to be aware of what the domain accounts are and which groups they belong to.
-	For doing so, we ask the Domain Controller, via a LDAP query, to  list us all the entries in the `Users` Active Directory default folder: 
+	In order to choose our targets, we need to be aware of what the domain accounts are and which groups they belong to.
+	For doing so, we ask the DomainController, via a LDAP query, to list us all the entries in the `Users` Active Directory default container: 
 
     `ldapsearch -x -b "cn=Users,dc=cybersec,dc=units,dc=it" -H "ldap://10.0.2.200" -D "cn=Utente Dominio,cn=Users,dc=cybersec,dc=units,dc=it" -w 'User00!'`
 
@@ -254,11 +254,11 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^2]: `getsystem` requires the process to be run as administrator (to be "previously" authorized to run with high privileges, due to Windows UAC); then, it tries three techniques to achieve Privilege Escalation. More details [here](https://docs.rapid7.com/metasploit/meterpreter-getsystem/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTk4OTY5MCw0OTI2NjY0MTcsLTExOT
-UzMDI4MzgsNjQwMDg5Mjk5LC0xNzQwMTg3OTQxLC0xMzUxNjk2
-MTE4LDQ4NDI1OTMwLC0xNjQ3Njg3NTkyLDEwOTk5MzE3NDAsLT
-EyNTI1NjA3MTcsMTQ5MjI4NjY4MywyODA4NDQ5MDUsLTgwNDY5
-ODg3NSwtMTg4ODcwOTU4NCwxMzQyNjMyMzc5LC0xMTI3MTA5NT
-U1LC0yMDE1NjQzOTYwLDIwNDEzNTgyNDQsLTg5MDgyOTI2Miwx
-NDE0NjE5NzA0XX0=
+eyJoaXN0b3J5IjpbLTE4NjgxOTk2MDIsNDkyNjY2NDE3LC0xMT
+k1MzAyODM4LDY0MDA4OTI5OSwtMTc0MDE4Nzk0MSwtMTM1MTY5
+NjExOCw0ODQyNTkzMCwtMTY0NzY4NzU5MiwxMDk5OTMxNzQwLC
+0xMjUyNTYwNzE3LDE0OTIyODY2ODMsMjgwODQ0OTA1LC04MDQ2
+OTg4NzUsLTE4ODg3MDk1ODQsMTM0MjYzMjM3OSwtMTEyNzEwOT
+U1NSwtMjAxNTY0Mzk2MCwyMDQxMzU4MjQ0LC04OTA4MjkyNjIs
+MTQxNDYxOTcwNF19
 -->
