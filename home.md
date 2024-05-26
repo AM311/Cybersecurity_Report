@@ -220,11 +220,9 @@ We will try to crack the `DNSoperator` password performing a so-called **AS-Rep 
 	![Privilege escalation on msfconsole](https://github.com/AM311/Cybersecurity_Report/blob/main/img/msfconsole_getuid-system.png?raw=true)
 
  10. **Steal the credentials of the logged account:**
-	 At this point, we can finally dump all the credentials of all the logged-in accounts from the LSASS memory.
+	 At this point, we can finally dump all the credentials currently stored from the LSASS memory.
 	 
-	 For doing so, we first need to run the `meterpreter` **kiwi** extension, using the command `load kiwi`; then, invoking `creds_all` we are finally able to gain all the available credentials in memory, some in a hashed form while other directly in clear text.
-
-		==SPECIFICARE VARIE TIPOLOGIE DI CREDENZIALI==
+	 For doing so, we first need to run the `meterpreter` **kiwi** extension, using the command `load kiwi`; then, invoking `creds_all` we are finally able to gain all the available credentials in memory, some in a hashed form while other directly in clear text^[3].
 		
 		![All credentials stolen from the memory](https://github.com/AM311/Cybersecurity_Report/blob/main/img/creds.png?raw=true)
 
@@ -248,12 +246,14 @@ Other useful information about Active Directory have been retrieved from officia
 [^1]: See [haveibeenpwned.com](https://haveibeenpwned.com/Passwords) 
 
 [^2]: `getsystem` requires the process to be run as administrator (to be "previously" authorized to run with high privileges, due to Windows UAC); then, it tries three techniques to achieve Privilege Escalation. More details [here](https://docs.rapid7.com/metasploit/meterpreter-getsystem/).
+
+[^3]: ggggg
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjUxNjc1NzAsLTMwNjA1MDM4NywxMj
-EyMzExODU2LDk3NzkxMjUxNiw0OTI2NjY0MTcsLTExOTUzMDI4
-MzgsNjQwMDg5Mjk5LC0xNzQwMTg3OTQxLC0xMzUxNjk2MTE4LD
-Q4NDI1OTMwLC0xNjQ3Njg3NTkyLDEwOTk5MzE3NDAsLTEyNTI1
-NjA3MTcsMTQ5MjI4NjY4MywyODA4NDQ5MDUsLTgwNDY5ODg3NS
-wtMTg4ODcwOTU4NCwxMzQyNjMyMzc5LC0xMTI3MTA5NTU1LC0y
-MDE1NjQzOTYwXX0=
+eyJoaXN0b3J5IjpbLTIwNjc1MTQ5MDUsLTE3NjUxNjc1NzAsLT
+MwNjA1MDM4NywxMjEyMzExODU2LDk3NzkxMjUxNiw0OTI2NjY0
+MTcsLTExOTUzMDI4MzgsNjQwMDg5Mjk5LC0xNzQwMTg3OTQxLC
+0xMzUxNjk2MTE4LDQ4NDI1OTMwLC0xNjQ3Njg3NTkyLDEwOTk5
+MzE3NDAsLTEyNTI1NjA3MTcsMTQ5MjI4NjY4MywyODA4NDQ5MD
+UsLTgwNDY5ODg3NSwtMTg4ODcwOTU4NCwxMzQyNjMyMzc5LC0x
+MTI3MTA5NTU1XX0=
 -->
