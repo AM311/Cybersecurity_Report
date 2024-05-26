@@ -107,13 +107,12 @@ Once set-up the environment, it is finally possible to begin the laboratory!
 
  2. **Understand the existing accounts and groups**:
 	In order to choose our targets, we need to be aware of what the domain accounts are and which groups they belong to.
-	For doing so, we ask the DomainController, via a LDAP query, to list us all the entries in the `Users` Active Directory default container: 
+	For doing so, we ask the DomainController, via a LDAP query, to list us all the entries in the `Users` Active Directory default container, where we (correctly) assume that all user accounts are stored:
 
     `ldapsearch -x -b "cn=Users,dc=cybersec,dc=units,dc=it" -H "ldap://10.0.2.200" -D "cn=Utente Dominio,cn=Users,dc=cybersec,dc=units,dc=it" -w 'User00!'`
 
 	To run the query, we need to authenticate providing the FullyQualifiedName and password of our legitimately controlled account.
-	It is (correctly) assumed that all the users are stored in the default `Users` folder.
-	
+		
 	The response is very verbose; the two major results are shown below:
 	 - The account `DomainAdmin` joins the group `DomainAdmins`, so it seems to be a good target;
 	 - The account `DNSoperator` joins the group `DnsAdmins` and can access only the machine named `SERVERDNS`;
@@ -254,7 +253,7 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^2]: `getsystem` requires the process to be run as administrator (to be "previously" authorized to run with high privileges, due to Windows UAC); then, it tries three techniques to achieve Privilege Escalation. More details [here](https://docs.rapid7.com/metasploit/meterpreter-getsystem/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjgxOTk2MDIsNDkyNjY2NDE3LC0xMT
+eyJoaXN0b3J5IjpbLTEzOTI1MTcwOTEsNDkyNjY2NDE3LC0xMT
 k1MzAyODM4LDY0MDA4OTI5OSwtMTc0MDE4Nzk0MSwtMTM1MTY5
 NjExOCw0ODQyNTkzMCwtMTY0NzY4NzU5MiwxMDk5OTMxNzQwLC
 0xMjUyNTYwNzE3LDE0OTIyODY2ODMsMjgwODQ0OTA1LC04MDQ2
