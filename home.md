@@ -220,7 +220,7 @@ We will try to crack the `DNSoperator` password performing a so-called **AS-Rep 
 	![Privilege escalation on msfconsole](https://github.com/AM311/Cybersecurity_Report/blob/main/img/msfconsole_getuid-system.png?raw=true)
 
  10. **Steal the credentials of the logged account:**
-	 At this point, we can finally dump the credentials of all the logged-in accounts from the LSASS memory.
+	 At this point, we can finally dump all the credentials of all the logged-in accounts from the LSASS memory.
 	 
 	 For doing so, we first need to run the `meterpreter` **kiwi** extension, using the command `load kiwi`; then, invoking `creds_all` we are finally able to gain all the available credentials in memory, some in a hashed form while other directly in clear text.
 
@@ -249,11 +249,11 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^2]: `getsystem` requires the process to be run as administrator (to be "previously" authorized to run with high privileges, due to Windows UAC); then, it tries three techniques to achieve Privilege Escalation. More details [here](https://docs.rapid7.com/metasploit/meterpreter-getsystem/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNjA1MDM4NywxMjEyMzExODU2LDk3Nz
-kxMjUxNiw0OTI2NjY0MTcsLTExOTUzMDI4MzgsNjQwMDg5Mjk5
-LC0xNzQwMTg3OTQxLC0xMzUxNjk2MTE4LDQ4NDI1OTMwLC0xNj
-Q3Njg3NTkyLDEwOTk5MzE3NDAsLTEyNTI1NjA3MTcsMTQ5MjI4
-NjY4MywyODA4NDQ5MDUsLTgwNDY5ODg3NSwtMTg4ODcwOTU4NC
-wxMzQyNjMyMzc5LC0xMTI3MTA5NTU1LC0yMDE1NjQzOTYwLDIw
-NDEzNTgyNDRdfQ==
+eyJoaXN0b3J5IjpbLTE3NjUxNjc1NzAsLTMwNjA1MDM4NywxMj
+EyMzExODU2LDk3NzkxMjUxNiw0OTI2NjY0MTcsLTExOTUzMDI4
+MzgsNjQwMDg5Mjk5LC0xNzQwMTg3OTQxLC0xMzUxNjk2MTE4LD
+Q4NDI1OTMwLC0xNjQ3Njg3NTkyLDEwOTk5MzE3NDAsLTEyNTI1
+NjA3MTcsMTQ5MjI4NjY4MywyODA4NDQ5MDUsLTgwNDY5ODg3NS
+wtMTg4ODcwOTU4NCwxMzQyNjMyMzc5LC0xMTI3MTA5NTU1LC0y
+MDE1NjQzOTYwXX0=
 -->
