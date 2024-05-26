@@ -8,7 +8,7 @@ This document will present a complete and step-by-step guide to perform a hackin
 
 This laboratory overviews the steps that might be performed by an attacker in an organization running **Windows Active Directory** in order to **take control of a domain administrator account**.
 
-The scenario has these main characteristics:
+The attacked environment has these main characteristics:
 
  - An organization uses **Windows Active Directory**; all its computers are part of a **Domain**;
  - The domain mainly relies on two (physically and logically) different servers:
@@ -20,7 +20,7 @@ The scenario has these main characteristics:
  - Also, the following policies and settings are enforced:
 	 - `DomainAdmins` are set up to be also **local `Administrators`** on *all* the workstations;
 	 - The DNS server can be accessed only by accounts in `DnsAdmins` group, which can access only that specific machine;
-	 - Accounts in that group are configured to perform Kerberos login **without pre-authentication**;
+		 - These accounts are configured to perform Kerberos login **without pre-authentication**;
 	 -  **Remote Desktop** access is allowed on the DNS server;
 	 - All accounts can **read** a **shared network folder**, which can be written only by `Administrators` and `DnsAdmins`;
 
@@ -260,7 +260,7 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTM3MjM1MzYsLTExOTUzMDI4MzgsNj
+eyJoaXN0b3J5IjpbLTE2MzAzNTE0MTQsLTExOTUzMDI4MzgsNj
 QwMDg5Mjk5LC0xNzQwMTg3OTQxLC0xMzUxNjk2MTE4LDQ4NDI1
 OTMwLC0xNjQ3Njg3NTkyLDEwOTk5MzE3NDAsLTEyNTI1NjA3MT
 csMTQ5MjI4NjY4MywyODA4NDQ5MDUsLTgwNDY5ODg3NSwtMTg4
