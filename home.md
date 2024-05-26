@@ -247,9 +247,9 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^2]: `getsystem` requires the process to be run as administrator (to be "previously" authorized to run with high privileges, due to Windows UAC); then, it tries three techniques to achieve Privilege Escalation. More details [here](https://docs.rapid7.com/metasploit/meterpreter-getsystem/).
 
-[^3]: To better understand the meaning of all the credentials stored by the different security packages, read
+[^3]: To better understand the meaning of all the credentials stored by the different security packages, read [this page](https://www.hackingarticles.in/metasploit-for-pentester-mimikatz/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNTk0OTg0MSwtMjA2NzUxNDkwNSwtMT
+eyJoaXN0b3J5IjpbLTg4ODgwOTY0NCwtMjA2NzUxNDkwNSwtMT
 c2NTE2NzU3MCwtMzA2MDUwMzg3LDEyMTIzMTE4NTYsOTc3OTEy
 NTE2LDQ5MjY2NjQxNywtMTE5NTMwMjgzOCw2NDAwODkyOTksLT
 E3NDAxODc5NDEsLTEzNTE2OTYxMTgsNDg0MjU5MzAsLTE2NDc2
