@@ -20,8 +20,8 @@ The attacked environment has these main characteristics:
  - Also, the following policies and settings are enforced:
 	 - `DomainAdmins` are set up to be also **local `Administrators`** on *all* the workstations;
 	 - The DNS server can be accessed only by accounts in `DnsAdmins` group, which can access only that specific machine;
-		 - These accounts are configured to perform Kerberos login **without pre-authentication**;
-	 -  **Remote Desktop** access is allowed on the DNS server;
+		 - These accounts can perform Kerberos login **without pre-authentication**;
+		 -  **Remote Desktop** access is allowed on the DNS server;
 	 - All accounts can **read** a **shared network folder**, which can be written only by `Administrators` and `DnsAdmins`;
 
 When not differently specified, all other settings are intented to be the "default" ones; in particular, all domain Users and Computers are placed in the default Active Directory folders.
@@ -260,11 +260,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzAzNTE0MTQsLTExOTUzMDI4MzgsNj
-QwMDg5Mjk5LC0xNzQwMTg3OTQxLC0xMzUxNjk2MTE4LDQ4NDI1
-OTMwLC0xNjQ3Njg3NTkyLDEwOTk5MzE3NDAsLTEyNTI1NjA3MT
-csMTQ5MjI4NjY4MywyODA4NDQ5MDUsLTgwNDY5ODg3NSwtMTg4
-ODcwOTU4NCwxMzQyNjMyMzc5LC0xMTI3MTA5NTU1LC0yMDE1Nj
-QzOTYwLDIwNDEzNTgyNDQsLTg5MDgyOTI2MiwxNDE0NjE5NzA0
-LC0xMTEwMTc4OTczXX0=
+eyJoaXN0b3J5IjpbNDkyNjY2NDE3LC0xMTk1MzAyODM4LDY0MD
+A4OTI5OSwtMTc0MDE4Nzk0MSwtMTM1MTY5NjExOCw0ODQyNTkz
+MCwtMTY0NzY4NzU5MiwxMDk5OTMxNzQwLC0xMjUyNTYwNzE3LD
+E0OTIyODY2ODMsMjgwODQ0OTA1LC04MDQ2OTg4NzUsLTE4ODg3
+MDk1ODQsMTM0MjYzMjM3OSwtMTEyNzEwOTU1NSwtMjAxNTY0Mz
+k2MCwyMDQxMzU4MjQ0LC04OTA4MjkyNjIsMTQxNDYxOTcwNCwt
+MTExMDE3ODk3M119
 -->
