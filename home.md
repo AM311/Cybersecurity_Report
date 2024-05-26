@@ -1,6 +1,6 @@
 # Cybersecurity Hacking Lab
 
-This document will present a complete and step-by-step guide to perform a hacking laboratory in a virtualized environment, reproducing a fake but realistic scenario.
+This document will present a complete and step-by-step guide to perform a hacking laboratory in a virtualized environment, reproducing a fake-but-realistic scenario.
 
 ## Introduction to the activity
 
@@ -260,11 +260,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTUzMDI4MzgsNjQwMDg5Mjk5LC0xNz
-QwMTg3OTQxLC0xMzUxNjk2MTE4LDQ4NDI1OTMwLC0xNjQ3Njg3
-NTkyLDEwOTk5MzE3NDAsLTEyNTI1NjA3MTcsMTQ5MjI4NjY4My
-wyODA4NDQ5MDUsLTgwNDY5ODg3NSwtMTg4ODcwOTU4NCwxMzQy
-NjMyMzc5LC0xMTI3MTA5NTU1LC0yMDE1NjQzOTYwLDIwNDEzNT
-gyNDQsLTg5MDgyOTI2MiwxNDE0NjE5NzA0LC0xMTEwMTc4OTcz
-LC02MDA0MTkxMzBdfQ==
+eyJoaXN0b3J5IjpbLTE4NTM3MjM1MzYsLTExOTUzMDI4MzgsNj
+QwMDg5Mjk5LC0xNzQwMTg3OTQxLC0xMzUxNjk2MTE4LDQ4NDI1
+OTMwLC0xNjQ3Njg3NTkyLDEwOTk5MzE3NDAsLTEyNTI1NjA3MT
+csMTQ5MjI4NjY4MywyODA4NDQ5MDUsLTgwNDY5ODg3NSwtMTg4
+ODcwOTU4NCwxMzQyNjMyMzc5LC0xMTI3MTA5NTU1LC0yMDE1Nj
+QzOTYwLDIwNDEzNTgyNDQsLTg5MDgyOTI2MiwxNDE0NjE5NzA0
+LC0xMTEwMTc4OTczXX0=
 -->
