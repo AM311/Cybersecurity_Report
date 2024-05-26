@@ -56,8 +56,8 @@ OSs versions are not mandatory, but all the features that will be used must be a
 
 ### Configuring the Machines
 
-Since the configuration of an Active Directory domain is not the main goal of this document, just a few remarks will be given further down while many details will be omitted.
-It is strongly suggested to use the 
+Since the configuration of an Active Directory domain is not the main goal of this document, just a few details will be given further down while many others will be omitted.
+It is strongly suggested to use the images of the **already-set-up VMs** that are provided [here](https://1drv.ms/f/s!Anl382FsL4Upiat8r6W9qhUUTo4hDw?e=fOHsvm).
 
 The configuration of an OS is not the main goal of the document, so many details will be omitted; moreover, no added value is given by this part of the guide since the only goal is to recreate the described scenario.
 The images of the already-set-up VMs are provided below and it is strongly suggested to use them; just a few additional details will be given further down:
@@ -263,11 +263,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1MDE1MDAyLDQ5MjY2NjQxNywtMTE5NT
-MwMjgzOCw2NDAwODkyOTksLTE3NDAxODc5NDEsLTEzNTE2OTYx
-MTgsNDg0MjU5MzAsLTE2NDc2ODc1OTIsMTA5OTkzMTc0MCwtMT
-I1MjU2MDcxNywxNDkyMjg2NjgzLDI4MDg0NDkwNSwtODA0Njk4
-ODc1LC0xODg4NzA5NTg0LDEzNDI2MzIzNzksLTExMjcxMDk1NT
-UsLTIwMTU2NDM5NjAsMjA0MTM1ODI0NCwtODkwODI5MjYyLDE0
-MTQ2MTk3MDRdfQ==
+eyJoaXN0b3J5IjpbLTgwMDg5ODM4Nyw0OTI2NjY0MTcsLTExOT
+UzMDI4MzgsNjQwMDg5Mjk5LC0xNzQwMTg3OTQxLC0xMzUxNjk2
+MTE4LDQ4NDI1OTMwLC0xNjQ3Njg3NTkyLDEwOTk5MzE3NDAsLT
+EyNTI1NjA3MTcsMTQ5MjI4NjY4MywyODA4NDQ5MDUsLTgwNDY5
+ODg3NSwtMTg4ODcwOTU4NCwxMzQyNjMyMzc5LC0xMTI3MTA5NT
+U1LC0yMDE1NjQzOTYwLDIwNDEzNTgyNDQsLTg5MDgyOTI2Miwx
+NDE0NjE5NzA0XX0=
 -->
