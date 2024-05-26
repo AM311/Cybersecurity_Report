@@ -226,7 +226,7 @@ We will try to crack the `DNSoperator` password performing a so-called **AS-Rep 
 		
 		![All credentials stolen from the memory](https://github.com/AM311/Cybersecurity_Report/blob/main/img/creds.png?raw=true)
 
- 11. **BINGO!**
+ 11. **GAME OVER!**
 	 F
 
 ## Credits
@@ -251,11 +251,11 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^3]: To better understand the meaning of all the credentials stored by the different security packages, read [this page](https://www.hackingarticles.in/metasploit-for-pentester-mimikatz/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcwMDIwODcwLC0yMDY3NTE0OTA1LC0xNz
-Y1MTY3NTcwLC0zMDYwNTAzODcsMTIxMjMxMTg1Niw5Nzc5MTI1
-MTYsNDkyNjY2NDE3LC0xMTk1MzAyODM4LDY0MDA4OTI5OSwtMT
-c0MDE4Nzk0MSwtMTM1MTY5NjExOCw0ODQyNTkzMCwtMTY0NzY4
-NzU5MiwxMDk5OTMxNzQwLC0xMjUyNTYwNzE3LDE0OTIyODY2OD
-MsMjgwODQ0OTA1LC04MDQ2OTg4NzUsLTE4ODg3MDk1ODQsMTM0
-MjYzMjM3OV19
+eyJoaXN0b3J5IjpbLTMxMjQzMzkzMyw0NzAwMjA4NzAsLTIwNj
+c1MTQ5MDUsLTE3NjUxNjc1NzAsLTMwNjA1MDM4NywxMjEyMzEx
+ODU2LDk3NzkxMjUxNiw0OTI2NjY0MTcsLTExOTUzMDI4MzgsNj
+QwMDg5Mjk5LC0xNzQwMTg3OTQxLC0xMzUxNjk2MTE4LDQ4NDI1
+OTMwLC0xNjQ3Njg3NTkyLDEwOTk5MzE3NDAsLTEyNTI1NjA3MT
+csMTQ5MjI4NjY4MywyODA4NDQ5MDUsLTgwNDY5ODg3NSwtMTg4
+ODcwOTU4NF19
 -->
