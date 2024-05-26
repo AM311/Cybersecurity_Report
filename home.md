@@ -56,6 +56,8 @@ OSs versions are not mandatory, but all the features that will be used must be a
 
 ### Configuring the Machines
 
+
+
 The configuration of an OS is not the main goal of the document, so many details will be omitted; moreover, no added value is given by this part of the guide since the only goal is to recreate the described scenario.
 The images of the already-set-up VMs are provided below and it is strongly suggested to use them; just a few additional details will be given further down:
 
@@ -260,11 +262,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg3ODc2MDkyLDQ5MjY2NjQxNywtMTE5NT
-MwMjgzOCw2NDAwODkyOTksLTE3NDAxODc5NDEsLTEzNTE2OTYx
-MTgsNDg0MjU5MzAsLTE2NDc2ODc1OTIsMTA5OTkzMTc0MCwtMT
-I1MjU2MDcxNywxNDkyMjg2NjgzLDI4MDg0NDkwNSwtODA0Njk4
-ODc1LC0xODg4NzA5NTg0LDEzNDI2MzIzNzksLTExMjcxMDk1NT
-UsLTIwMTU2NDM5NjAsMjA0MTM1ODI0NCwtODkwODI5MjYyLDE0
-MTQ2MTk3MDRdfQ==
+eyJoaXN0b3J5IjpbLTE2NTgyNDkxODQsNDkyNjY2NDE3LC0xMT
+k1MzAyODM4LDY0MDA4OTI5OSwtMTc0MDE4Nzk0MSwtMTM1MTY5
+NjExOCw0ODQyNTkzMCwtMTY0NzY4NzU5MiwxMDk5OTMxNzQwLC
+0xMjUyNTYwNzE3LDE0OTIyODY2ODMsMjgwODQ0OTA1LC04MDQ2
+OTg4NzUsLTE4ODg3MDk1ODQsMTM0MjYzMjM3OSwtMTEyNzEwOT
+U1NSwtMjAxNTY0Mzk2MCwyMDQxMzU4MjQ0LC04OTA4MjkyNjIs
+MTQxNDYxOTcwNF19
 -->
