@@ -59,12 +59,12 @@ OSs versions are not mandatory, but all the features that will be used must be a
 Since the configuration of an Active Directory domain is not the main goal of this document, just a few details will be given further down while many others will be omitted.
 It is strongly suggested to use the **images** of the VMs that are provided [here](https://1drv.ms/f/s!Anl382FsL4Upiat8r6W9qhUUTo4hDw?e=fOHsvm), since they are already configured to reproduce the described scenario.
 
-The **Kali** machine has a static IP address (`10.0.2.15`) and additional packets and libraries like `impacket` and `kiwi` have been installed in the `metasploit` framework.
+The **Kali** machine has a static IP address (`10.0.2.15`). Additional packets and libraries like `impacket` and `kiwi` have been installed in the `metasploit` framework.
 
 The **Windows 7** machine, named `WIN7`, joins the domain and receives a dynamical IP address via DHCP.
 
-The **DomainController/DHCP server**, named `SERVER`, has a static IP address set to `10.0.2.200` and controls the domain named `cybersec.units.it`.
-DHCP assignes only IPv4 addresses in the pool `10.0.2.10-190`; it assignes also the default DNS, which is set to be `10.0.2.250`.
+The **DomainController/DHCP server**, named `SERVER`, has a static IP address (`10.0.2.200`) and controls the domain named `cybersec.units.it`.
+DHCP assignes IPv4 addresses in the pool `10.0.2.10-190` and the default DNS, which is set to be `10.0.2.250`.
 The following domain accounts (with passwords between brackets) are available:
 
  - `DomainUser` (`User00!`), joining the `DomainUsers` group;
@@ -255,11 +255,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwODk5MDAzNCw0OTI2NjY0MTcsLTExOT
-UzMDI4MzgsNjQwMDg5Mjk5LC0xNzQwMTg3OTQxLC0xMzUxNjk2
-MTE4LDQ4NDI1OTMwLC0xNjQ3Njg3NTkyLDEwOTk5MzE3NDAsLT
-EyNTI1NjA3MTcsMTQ5MjI4NjY4MywyODA4NDQ5MDUsLTgwNDY5
-ODg3NSwtMTg4ODcwOTU4NCwxMzQyNjMyMzc5LC0xMTI3MTA5NT
-U1LC0yMDE1NjQzOTYwLDIwNDEzNTgyNDQsLTg5MDgyOTI2Miwx
-NDE0NjE5NzA0XX0=
+eyJoaXN0b3J5IjpbNzE0NTk3MDYsNDkyNjY2NDE3LC0xMTk1Mz
+AyODM4LDY0MDA4OTI5OSwtMTc0MDE4Nzk0MSwtMTM1MTY5NjEx
+OCw0ODQyNTkzMCwtMTY0NzY4NzU5MiwxMDk5OTMxNzQwLC0xMj
+UyNTYwNzE3LDE0OTIyODY2ODMsMjgwODQ0OTA1LC04MDQ2OTg4
+NzUsLTE4ODg3MDk1ODQsMTM0MjYzMjM3OSwtMTEyNzEwOTU1NS
+wtMjAxNTY0Mzk2MCwyMDQxMzU4MjQ0LC04OTA4MjkyNjIsMTQx
+NDYxOTcwNF19
 -->
