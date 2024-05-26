@@ -202,7 +202,7 @@ We will try to crack the `DNSoperator` password performing a so-called **AS-Rep 
 	In order to make this whole system effectively work, we need to "convince" a `DomainAdmins` account to run the executable: doing so, we will be able to communicate to a process (the reverse shell client) running with high privileges (*remember: all domain administrators are also local administrators*).
  
 	 Our target, as stated in step (2), is the **`DomainAdmin`** account.
-	 Also, we previoy also discovered its email address, so we use it to send a spearphishing message:
+	 Also, we previously discovered its email address, so we use it to send a spearphishing message:
 	
 	![Phishing email sent to the domain administrator](https://github.com/AM311/Cybersecurity_Report/blob/main/img/email.png?raw=true)
 
@@ -251,7 +251,7 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^2]: `getsystem` requires the process to be run as administrator (to be "previously" authorized to run with high privileges, due to Windows UAC); then, it tries three techniques to achieve Privilege Escalation. More details [here](https://docs.rapid7.com/metasploit/meterpreter-getsystem/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MDQyMzI3OSw5Nzc5MTI1MTYsNDkyNj
+eyJoaXN0b3J5IjpbMTA0MzY5MTU2Niw5Nzc5MTI1MTYsNDkyNj
 Y2NDE3LC0xMTk1MzAyODM4LDY0MDA4OTI5OSwtMTc0MDE4Nzk0
 MSwtMTM1MTY5NjExOCw0ODQyNTkzMCwtMTY0NzY4NzU5MiwxMD
 k5OTMxNzQwLC0xMjUyNTYwNzE3LDE0OTIyODY2ODMsMjgwODQ0
