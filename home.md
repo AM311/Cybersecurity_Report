@@ -24,7 +24,7 @@ The attacked environment has these main characteristics:
 		 -  **Remote Desktop** access is allowed on the DNS server;
 	 - All accounts can **read** a **shared network folder**, which can be written only by `Administrators` and `DnsAdmins`;
 
-When not differently specified, all other settings are intented to be the "default" ones; in particular, all domain Users and Computers are placed in the default Active Directory folders.
+When not differently specified, all other settings are intented to be the "default" ones; in particular, all domain Users and Computers are placed in the default Active Directory containers.
 
 It is (realistically) assumed that some domain accounts use common and easily predictable passwords.
 
@@ -260,11 +260,11 @@ This activity has been developed autonomously, with the consultation of the foll
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyNjY2NDE3LC0xMTk1MzAyODM4LDY0MD
-A4OTI5OSwtMTc0MDE4Nzk0MSwtMTM1MTY5NjExOCw0ODQyNTkz
-MCwtMTY0NzY4NzU5MiwxMDk5OTMxNzQwLC0xMjUyNTYwNzE3LD
-E0OTIyODY2ODMsMjgwODQ0OTA1LC04MDQ2OTg4NzUsLTE4ODg3
-MDk1ODQsMTM0MjYzMjM3OSwtMTEyNzEwOTU1NSwtMjAxNTY0Mz
-k2MCwyMDQxMzU4MjQ0LC04OTA4MjkyNjIsMTQxNDYxOTcwNCwt
-MTExMDE3ODk3M119
+eyJoaXN0b3J5IjpbMTQ5MTQxODM0Miw0OTI2NjY0MTcsLTExOT
+UzMDI4MzgsNjQwMDg5Mjk5LC0xNzQwMTg3OTQxLC0xMzUxNjk2
+MTE4LDQ4NDI1OTMwLC0xNjQ3Njg3NTkyLDEwOTk5MzE3NDAsLT
+EyNTI1NjA3MTcsMTQ5MjI4NjY4MywyODA4NDQ5MDUsLTgwNDY5
+ODg3NSwtMTg4ODcwOTU4NCwxMzQyNjMyMzc5LC0xMTI3MTA5NT
+U1LC0yMDE1NjQzOTYwLDIwNDEzNTgyNDQsLTg5MDgyOTI2Miwx
+NDE0NjE5NzA0XX0=
 -->
