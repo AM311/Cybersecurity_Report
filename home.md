@@ -70,7 +70,7 @@ The following domain accounts (with passwords between brackets) are available:
  - `DomainUser` (`User00!`), joining the `DomainUsers` group;
  - `DomainUserNoAuth` (`User00!`), joining the `DomainUsers` group, requires NO Kerberos pre-authentication;
  - `DomainAdmin` (`#Admin00!`), joining the `DomainUsers`, `DomainAdmins`, `Administrators` groups;
-	 - This password is NOT present in any passwords' dictionary! ==SEE HAVEIBEENPWNED==
+	 - This password is NOT present in any passwords' dictionary![^1] ==SEE HAVEIBEENPWNED==
  - `DNSoperator` (`Qwerty123`), joining the `DomainUsers`, `DnsAdmins`, `DnsUpdateProxy` groups, can login only on the DNS server;
   	 - This password IS present in passwords' dictionaries!
 
@@ -222,9 +222,7 @@ To open a remote desktop connection, we use the following command:
 
 	Now that we are able to send requests to the infected machine, we firstly check the identity of the process that runs `meterpreter` on that device invoking the `getuid` command: as shown in the image below, the process is owned by the domain account `DomainAdmin`.
 	
-	In order to complete our future tasks, we need to run the process as `SYSTEM`. For doing so, we run the `getsystem` command[^1]. If the execution is successfully completed, running again `getuid` we will see that now we are running as `SYSTEM`.
-
-	[^1]: `getsystem` requires the process to be run as administrator (to be "previously" authorized to run with high privileges, due to Windows UAC); then, it tries three techniques to achieve Privilege Escalation. More details [here](https://docs.rapid7.com/metasploit/meterpreter-getsystem/).
+	In order to complete our future tasks, we need to run the process as `SYSTEM`. For doing so, we run the `getsystem` command[^2]. If the execution is successfully completed, running again `getuid` we will see that now we are running as `SYSTEM`.
 
 	![Privilege escalation on msfconsole](https://github.com/AM311/Cybersecurity_Report/blob/main/img/msfconsole_getuid-system.png?raw=true)
 
@@ -254,12 +252,15 @@ This activity has been developed autonomously, with the consultation of the foll
 
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
+[^1]: See [haveibeenpwned.com](https://haveibeenpwned.com/Passwords) 
+
+[^2]: `getsystem` requires the process to be run as administrator (to be "previously" authorized to run with high privileges, due to Windows UAC); then, it tries three techniques to achieve Privilege Escalation. More details [here](https://docs.rapid7.com/metasploit/meterpreter-getsystem/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE0NTk3MDYsNDkyNjY2NDE3LC0xMTk1Mz
-AyODM4LDY0MDA4OTI5OSwtMTc0MDE4Nzk0MSwtMTM1MTY5NjEx
-OCw0ODQyNTkzMCwtMTY0NzY4NzU5MiwxMDk5OTMxNzQwLC0xMj
-UyNTYwNzE3LDE0OTIyODY2ODMsMjgwODQ0OTA1LC04MDQ2OTg4
-NzUsLTE4ODg3MDk1ODQsMTM0MjYzMjM3OSwtMTEyNzEwOTU1NS
-wtMjAxNTY0Mzk2MCwyMDQxMzU4MjQ0LC04OTA4MjkyNjIsMTQx
-NDYxOTcwNF19
+eyJoaXN0b3J5IjpbOTUxODc4OTkyLDQ5MjY2NjQxNywtMTE5NT
+MwMjgzOCw2NDAwODkyOTksLTE3NDAxODc5NDEsLTEzNTE2OTYx
+MTgsNDg0MjU5MzAsLTE2NDc2ODc1OTIsMTA5OTkzMTc0MCwtMT
+I1MjU2MDcxNywxNDkyMjg2NjgzLDI4MDg0NDkwNSwtODA0Njk4
+ODc1LC0xODg4NzA5NTg0LDEzNDI2MzIzNzksLTExMjcxMDk1NT
+UsLTIwMTU2NDM5NjAsMjA0MTM1ODI0NCwtODkwODI5MjYyLDE0
+MTQ2MTk3MDRdfQ==
 -->
