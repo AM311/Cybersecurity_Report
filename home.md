@@ -133,8 +133,10 @@ As first attempt, we ask the DomainController to list all the accounts that can 
 
 	We will focus our efforts on `DNSoperator` since, as seen, it can login to `SERVERDNS` and joins the `DnsAdmins` group, whose members have write rights on the network shared folder.
 	
- 4. **Ask for a TGT:**
-We now ask the DC to generate a **TGT** for each of the previous accounts and we format them so they are ready to be cracked using *John the Ripper*:
+ 4. **Perform AS-Rep Roasting:**
+We will try to crack the `DNSoperator` password performing a so-called **AS-Rep Roasting** attack.
+
+	For doing so, we firstly ask the DC to generate a **TGT** for each of the previous accounts and we format them so they are ready to be cracked using *John the Ripper*:
 
     `impacket-GetNPUsers -dc-ip 10.0.2.200 cybersec.units.it/DomainUser:User00! -request -format john`
 
@@ -252,11 +254,11 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^2]: `getsystem` requires the process to be run as administrator (to be "previously" authorized to run with high privileges, due to Windows UAC); then, it tries three techniques to achieve Privilege Escalation. More details [here](https://docs.rapid7.com/metasploit/meterpreter-getsystem/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDg5MDA5Nyw0OTI2NjY0MTcsLTExOT
-UzMDI4MzgsNjQwMDg5Mjk5LC0xNzQwMTg3OTQxLC0xMzUxNjk2
-MTE4LDQ4NDI1OTMwLC0xNjQ3Njg3NTkyLDEwOTk5MzE3NDAsLT
-EyNTI1NjA3MTcsMTQ5MjI4NjY4MywyODA4NDQ5MDUsLTgwNDY5
-ODg3NSwtMTg4ODcwOTU4NCwxMzQyNjMyMzc5LC0xMTI3MTA5NT
-U1LC0yMDE1NjQzOTYwLDIwNDEzNTgyNDQsLTg5MDgyOTI2Miwx
-NDE0NjE5NzA0XX0=
+eyJoaXN0b3J5IjpbLTEwNTI5ODkzMTYsNDkyNjY2NDE3LC0xMT
+k1MzAyODM4LDY0MDA4OTI5OSwtMTc0MDE4Nzk0MSwtMTM1MTY5
+NjExOCw0ODQyNTkzMCwtMTY0NzY4NzU5MiwxMDk5OTMxNzQwLC
+0xMjUyNTYwNzE3LDE0OTIyODY2ODMsMjgwODQ0OTA1LC04MDQ2
+OTg4NzUsLTE4ODg3MDk1ODQsMTM0MjYzMjM3OSwtMTEyNzEwOT
+U1NSwtMjAxNTY0Mzk2MCwyMDQxMzU4MjQ0LC04OTA4MjkyNjIs
+MTQxNDYxOTcwNF19
 -->
