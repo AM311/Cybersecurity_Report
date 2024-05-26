@@ -209,13 +209,11 @@ We will try to crack the `DNSoperator` password performing a so-called **AS-Rep 
 	Hopefully, the user will anywhen run the process as instructed.
 
 	> 	The technical details for sending a phishing message with a credible/lookalike/spoofed sending address are out of scope.
-
-	==NOTE SU MOTIVO DI RUN AS ADMIN -- COLLEGAMENTO A NOTA ESPLICATIVA==
 	
  9. **Communication between devices and Privilege Escalation:**
 	 Once the user has followed the instructions and run the exploit, on the Kali machine we should see that a new session (with a given numeric ID) has been opened. Typing `sessions -i <ID>` we launch the `meterpreter` CLI and are able to communicate with that endpoint.
 
-	As first operation, we check the identity of the process that runs `meterpreter` on that device invoking the `getuid` command: as shown in the image below, the process is owned by the domain account `DomainAdmin`.
+	As first operation, we check the identity of the process that runs `meterpreter` on that device invoking the `getuid` command: as shown in the image, the process is owned by the `DomainAdmin` account.
 	
 	In order to complete our future tasks, we need to run the process as `SYSTEM`. For doing so, we run the `getsystem` command[^2]. If the execution is successfully completed, running again `getuid` we will see that now we are running as `SYSTEM`.
 
@@ -251,11 +249,11 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^2]: `getsystem` requires the process to be run as administrator (to be "previously" authorized to run with high privileges, due to Windows UAC); then, it tries three techniques to achieve Privilege Escalation. More details [here](https://docs.rapid7.com/metasploit/meterpreter-getsystem/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzE2OTE1NjgsOTc3OTEyNTE2LDQ5Mj
-Y2NjQxNywtMTE5NTMwMjgzOCw2NDAwODkyOTksLTE3NDAxODc5
-NDEsLTEzNTE2OTYxMTgsNDg0MjU5MzAsLTE2NDc2ODc1OTIsMT
-A5OTkzMTc0MCwtMTI1MjU2MDcxNywxNDkyMjg2NjgzLDI4MDg0
-NDkwNSwtODA0Njk4ODc1LC0xODg4NzA5NTg0LDEzNDI2MzIzNz
-ksLTExMjcxMDk1NTUsLTIwMTU2NDM5NjAsMjA0MTM1ODI0NCwt
-ODkwODI5MjYyXX0=
+eyJoaXN0b3J5IjpbMTIxMjMxMTg1Niw5Nzc5MTI1MTYsNDkyNj
+Y2NDE3LC0xMTk1MzAyODM4LDY0MDA4OTI5OSwtMTc0MDE4Nzk0
+MSwtMTM1MTY5NjExOCw0ODQyNTkzMCwtMTY0NzY4NzU5MiwxMD
+k5OTMxNzQwLC0xMjUyNTYwNzE3LDE0OTIyODY2ODMsMjgwODQ0
+OTA1LC04MDQ2OTg4NzUsLTE4ODg3MDk1ODQsMTM0MjYzMjM3OS
+wtMTEyNzEwOTU1NSwtMjAxNTY0Mzk2MCwyMDQxMzU4MjQ0LC04
+OTA4MjkyNjJdfQ==
 -->
