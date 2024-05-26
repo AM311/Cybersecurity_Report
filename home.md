@@ -70,11 +70,9 @@ The following domain accounts (with passwords between brackets) are available:
  - `DomainUser` (`User00!`), joining the `DomainUsers` group;
  - `DomainUserNoAuth` (`User00!`), joining the `DomainUsers` group, requires NO Kerberos pre-authentication;
  - `DomainAdmin` (`#Admin00!`), joining the `DomainUsers`, `DomainAdmins`, `Administrators` groups;
-	 - This password is NOT present in any passwords' dictionary![^1] ==SEE HAVEIBEENPWNED==
- - `DNSoperator` (`Qwerty123`), joining the `DomainUsers`, `DnsAdmins`, `DnsUpdateProxy` groups, can login only on the DNS server;
-  	 - This password IS present in passwords' dictionaries!
-
-All these accounts are stored in the domain's default folder `Users`.
+	 - The password is NOT present in any passwords' dictionary![^1]
+ - `DNSoperator` (`Qwerty123`), joining the `DomainUsers`, `DnsAdmins`, `DnsUpdateProxy` groups;
+  	 - The password IS present in passwords' dictionaries![^1]
 
 The **DNS/File server**, named `SERVERDNS`, has a static IP address set to `10.0.2.250`. Every machine in the domain uses this server as default DNS server.
 It hosts a folder that is shared to all computers in the domain, which can be read by everyone while can be written only by `Administrators` and `DnsAdmins`.
@@ -256,11 +254,11 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^2]: `getsystem` requires the process to be run as administrator (to be "previously" authorized to run with high privileges, due to Windows UAC); then, it tries three techniques to achieve Privilege Escalation. More details [here](https://docs.rapid7.com/metasploit/meterpreter-getsystem/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUxODc4OTkyLDQ5MjY2NjQxNywtMTE5NT
-MwMjgzOCw2NDAwODkyOTksLTE3NDAxODc5NDEsLTEzNTE2OTYx
-MTgsNDg0MjU5MzAsLTE2NDc2ODc1OTIsMTA5OTkzMTc0MCwtMT
-I1MjU2MDcxNywxNDkyMjg2NjgzLDI4MDg0NDkwNSwtODA0Njk4
-ODc1LC0xODg4NzA5NTg0LDEzNDI2MzIzNzksLTExMjcxMDk1NT
-UsLTIwMTU2NDM5NjAsMjA0MTM1ODI0NCwtODkwODI5MjYyLDE0
-MTQ2MTk3MDRdfQ==
+eyJoaXN0b3J5IjpbLTE2NzExMDU0MzIsNDkyNjY2NDE3LC0xMT
+k1MzAyODM4LDY0MDA4OTI5OSwtMTc0MDE4Nzk0MSwtMTM1MTY5
+NjExOCw0ODQyNTkzMCwtMTY0NzY4NzU5MiwxMDk5OTMxNzQwLC
+0xMjUyNTYwNzE3LDE0OTIyODY2ODMsMjgwODQ0OTA1LC04MDQ2
+OTg4NzUsLTE4ODg3MDk1ODQsMTM0MjYzMjM3OSwtMTEyNzEwOT
+U1NSwtMjAxNTY0Mzk2MCwyMDQxMzU4MjQ0LC04OTA4MjkyNjIs
+MTQxNDYxOTcwNF19
 -->
