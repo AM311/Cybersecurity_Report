@@ -75,7 +75,7 @@ The following domain accounts (with passwords between brackets) are available:
   	 - The password IS present in passwords' dictionaries![^1]
 
 The **DNS/File server**, named `SERVERDNS`, has a static IP address (`10.0.2.250`) and acts as default DNS server for the domain.
-It hosts a folder that is shared to all computers in the domain, which can be read by everyone while can be written only by `Administrators` and `DnsAdmins`.
+It hosts a folder that is shared to all computers in the domain, ==which can be read by everyone while can be written only by `Administrators` and `DnsAdmins`.==
 This device can be accessed and managed via Remote Desktop by `DnsAdmins` accounts.
 
 Every machine has a default local admin account (*out of this lab's scope*) named `Administrator` whose password is `Qwerty123`.
@@ -254,11 +254,11 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^2]: `getsystem` requires the process to be run as administrator (to be "previously" authorized to run with high privileges, due to Windows UAC); then, it tries three techniques to achieve Privilege Escalation. More details [here](https://docs.rapid7.com/metasploit/meterpreter-getsystem/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMTk3NDIyMSw0OTI2NjY0MTcsLTExOT
-UzMDI4MzgsNjQwMDg5Mjk5LC0xNzQwMTg3OTQxLC0xMzUxNjk2
-MTE4LDQ4NDI1OTMwLC0xNjQ3Njg3NTkyLDEwOTk5MzE3NDAsLT
-EyNTI1NjA3MTcsMTQ5MjI4NjY4MywyODA4NDQ5MDUsLTgwNDY5
-ODg3NSwtMTg4ODcwOTU4NCwxMzQyNjMyMzc5LC0xMTI3MTA5NT
-U1LC0yMDE1NjQzOTYwLDIwNDEzNTgyNDQsLTg5MDgyOTI2Miwx
-NDE0NjE5NzA0XX0=
+eyJoaXN0b3J5IjpbMjQyOTQ5MTA3LDQ5MjY2NjQxNywtMTE5NT
+MwMjgzOCw2NDAwODkyOTksLTE3NDAxODc5NDEsLTEzNTE2OTYx
+MTgsNDg0MjU5MzAsLTE2NDc2ODc1OTIsMTA5OTkzMTc0MCwtMT
+I1MjU2MDcxNywxNDkyMjg2NjgzLDI4MDg0NDkwNSwtODA0Njk4
+ODc1LC0xODg4NzA5NTg0LDEzNDI2MzIzNzksLTExMjcxMDk1NT
+UsLTIwMTU2NDM5NjAsMjA0MTM1ODI0NCwtODkwODI5MjYyLDE0
+MTQ2MTk3MDRdfQ==
 -->
