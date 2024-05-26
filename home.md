@@ -201,7 +201,8 @@ We will try to crack the `DNSoperator` password performing a so-called **AS-Rep 
  8. **"Convince" a Domain Administrator to run the executable:**
 	In order to make this whole system effectively work, we need to "convince" a `DomainAdmins` account to run the executable: doing so, we will be able to communicate to a process (the reverse shell client) running with high privileges (*remember: all domain administrators are also local administrators*).
  
-	 Our target will be the **`DomainAdmin`** account since, as we have stated in step (2), it soddisfies this requirement. Moreover, we also discovered its email address, so we use it to send a spearphishing message:
+	 Our target, as stated in step (2), is the **`DomainAdmin`** account.
+	 Also, we previoy also discovered its email address, so we use it to send a spearphishing message:
 	
 	![Phishing email sent to the domain administrator](https://github.com/AM311/Cybersecurity_Report/blob/main/img/email.png?raw=true)
 
@@ -250,11 +251,11 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^2]: `getsystem` requires the process to be run as administrator (to be "previously" authorized to run with high privileges, due to Windows UAC); then, it tries three techniques to achieve Privilege Escalation. More details [here](https://docs.rapid7.com/metasploit/meterpreter-getsystem/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY1MjAyNTAxLDk3NzkxMjUxNiw0OTI2Nj
-Y0MTcsLTExOTUzMDI4MzgsNjQwMDg5Mjk5LC0xNzQwMTg3OTQx
-LC0xMzUxNjk2MTE4LDQ4NDI1OTMwLC0xNjQ3Njg3NTkyLDEwOT
-k5MzE3NDAsLTEyNTI1NjA3MTcsMTQ5MjI4NjY4MywyODA4NDQ5
-MDUsLTgwNDY5ODg3NSwtMTg4ODcwOTU4NCwxMzQyNjMyMzc5LC
-0xMTI3MTA5NTU1LC0yMDE1NjQzOTYwLDIwNDEzNTgyNDQsLTg5
-MDgyOTI2Ml19
+eyJoaXN0b3J5IjpbLTM0MDQyMzI3OSw5Nzc5MTI1MTYsNDkyNj
+Y2NDE3LC0xMTk1MzAyODM4LDY0MDA4OTI5OSwtMTc0MDE4Nzk0
+MSwtMTM1MTY5NjExOCw0ODQyNTkzMCwtMTY0NzY4NzU5MiwxMD
+k5OTMxNzQwLC0xMjUyNTYwNzE3LDE0OTIyODY2ODMsMjgwODQ0
+OTA1LC04MDQ2OTg4NzUsLTE4ODg3MDk1ODQsMTM0MjYzMjM3OS
+wtMTEyNzEwOTU1NSwtMjAxNTY0Mzk2MCwyMDQxMzU4MjQ0LC04
+OTA4MjkyNjJdfQ==
 -->
