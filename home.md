@@ -158,7 +158,7 @@ We will try to crack the `DNSoperator` password performing a so-called **AS-Rep 
 	
 	![Result of the offline guessing with John the Ripper](https://github.com/AM311/Cybersecurity_Report/blob/main/img/asRepRoasting.png?raw=true)
 
-	 We now know the credentials of an account authorized to connect to the DNS/File server; so, we try to do so and perform some "useful" actions!
+	 We are now able to legitimately login to SERVERDNS, so we will try to perform some "useful" actions!
 
 	==VERIFICARE CHE SI POSSA FARE DESKTOP REMOTO==
  
@@ -251,11 +251,11 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^2]: `getsystem` requires the process to be run as administrator (to be "previously" authorized to run with high privileges, due to Windows UAC); then, it tries three techniques to achieve Privilege Escalation. More details [here](https://docs.rapid7.com/metasploit/meterpreter-getsystem/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc3OTEyNTE2LDQ5MjY2NjQxNywtMTE5NT
-MwMjgzOCw2NDAwODkyOTksLTE3NDAxODc5NDEsLTEzNTE2OTYx
-MTgsNDg0MjU5MzAsLTE2NDc2ODc1OTIsMTA5OTkzMTc0MCwtMT
-I1MjU2MDcxNywxNDkyMjg2NjgzLDI4MDg0NDkwNSwtODA0Njk4
-ODc1LC0xODg4NzA5NTg0LDEzNDI2MzIzNzksLTExMjcxMDk1NT
-UsLTIwMTU2NDM5NjAsMjA0MTM1ODI0NCwtODkwODI5MjYyLDE0
-MTQ2MTk3MDRdfQ==
+eyJoaXN0b3J5IjpbMTExMTQzNjc2OCw5Nzc5MTI1MTYsNDkyNj
+Y2NDE3LC0xMTk1MzAyODM4LDY0MDA4OTI5OSwtMTc0MDE4Nzk0
+MSwtMTM1MTY5NjExOCw0ODQyNTkzMCwtMTY0NzY4NzU5MiwxMD
+k5OTMxNzQwLC0xMjUyNTYwNzE3LDE0OTIyODY2ODMsMjgwODQ0
+OTA1LC04MDQ2OTg4NzUsLTE4ODg3MDk1ODQsMTM0MjYzMjM3OS
+wtMTEyNzEwOTU1NSwtMjAxNTY0Mzk2MCwyMDQxMzU4MjQ0LC04
+OTA4MjkyNjJdfQ==
 -->
