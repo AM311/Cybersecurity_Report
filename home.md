@@ -246,7 +246,7 @@ The following sources have been consulted:
  - https://www.hackers-arise.com/post/2018/11/26/metasploit-basics-part-21-post-exploitation-with-mimikatz
 
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
-
+___
 [^1]: See [haveibeenpwned.com](https://haveibeenpwned.com/Passwords) 
 
 [^2]: `getsystem` requires the process to be run as administrator (to be "previously" authorized to run with high privileges, due to Windows UAC); then, it tries three techniques to achieve Privilege Escalation. More details [here](https://docs.rapid7.com/metasploit/meterpreter-getsystem/).
