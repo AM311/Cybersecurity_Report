@@ -134,7 +134,7 @@ As first attempt, we ask the DomainController to list all the accounts that can 
 	We will focus our efforts on `DNSoperator` since, as seen, it can login to `SERVERDNS` and joins the `DnsAdmins` group, whose members have write rights on the network shared folder.
 	
 
-	> Remember: the ACL of a folder is pubblicly readable by anyone who can 
+	> The ACL of a folder is readable by any account that can visualize it!
 
 	
  4. **Perform AS-Rep Roasting:**
@@ -255,11 +255,11 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^3]: To better understand the meaning of all the credentials stored by the different security packages, read [this page](https://www.hackingarticles.in/metasploit-for-pentester-mimikatz/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNDM2MTU0MCwxODczMDk5NjYzLC0zMT
-I0MzM5MzMsNDcwMDIwODcwLC0yMDY3NTE0OTA1LC0xNzY1MTY3
-NTcwLC0zMDYwNTAzODcsMTIxMjMxMTg1Niw5Nzc5MTI1MTYsND
-kyNjY2NDE3LC0xMTk1MzAyODM4LDY0MDA4OTI5OSwtMTc0MDE4
-Nzk0MSwtMTM1MTY5NjExOCw0ODQyNTkzMCwtMTY0NzY4NzU5Mi
-wxMDk5OTMxNzQwLC0xMjUyNTYwNzE3LDE0OTIyODY2ODMsMjgw
-ODQ0OTA1XX0=
+eyJoaXN0b3J5IjpbLTE1MTE5NTQ1NjMsMTg3MzA5OTY2MywtMz
+EyNDMzOTMzLDQ3MDAyMDg3MCwtMjA2NzUxNDkwNSwtMTc2NTE2
+NzU3MCwtMzA2MDUwMzg3LDEyMTIzMTE4NTYsOTc3OTEyNTE2LD
+Q5MjY2NjQxNywtMTE5NTMwMjgzOCw2NDAwODkyOTksLTE3NDAx
+ODc5NDEsLTEzNTE2OTYxMTgsNDg0MjU5MzAsLTE2NDc2ODc1OT
+IsMTA5OTkzMTc0MCwtMTI1MjU2MDcxNywxNDkyMjg2NjgzLDI4
+MDg0NDkwNV19
 -->
