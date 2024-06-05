@@ -210,7 +210,7 @@ We will try to crack the `DNSoperator` password performing a so-called **AS-Rep 
 
 	Hopefully, the user will anywhen run the process as instructed.
 
-	> 	The technical details for sending a phishing message with a credible/lookalike/spoofed sending address are out of scope.
+	> 	The technical details for sending a phishing message with a credible/lookalike/spoofed sending address are out of scope, as they are strongly dependant on the environment (technical settings, people, ...).
 	
  9. **Communication between devices and Privilege Escalation:**
 	 Once the user has followed the instructions and run the exploit, on the Kali machine we should see that a new session (with a given numeric ID) has been opened. Typing `sessions -i <ID>` we launch the `meterpreter` CLI and are able to communicate with that endpoint.
@@ -253,7 +253,7 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^3]: To better understand the meaning of all the credentials stored by the different security packages, read [this page](https://www.hackingarticles.in/metasploit-for-pentester-mimikatz/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTA4NDEyNywxODczMDk5NjYzLC0zMT
+eyJoaXN0b3J5IjpbLTM4MDk5MTY3NywxODczMDk5NjYzLC0zMT
 I0MzM5MzMsNDcwMDIwODcwLC0yMDY3NTE0OTA1LC0xNzY1MTY3
 NTcwLC0zMDYwNTAzODcsMTIxMjMxMTg1Niw5Nzc5MTI1MTYsND
 kyNjY2NDE3LC0xMTk1MzAyODM4LDY0MDA4OTI5OSwtMTc0MDE4
