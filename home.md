@@ -70,9 +70,9 @@ The following domain accounts (with passwords between brackets) are available:
  - `DomainUser` (`User00!`), joining the `DomainUsers` group;
  - `DomainUserNoAuth` (`User00!`), joining the `DomainUsers` group, requires NO Kerberos pre-authentication;
  - `DomainAdmin` (`#Admin00!`), joining the `DomainUsers`, `DomainAdmins`, `Administrators` groups;
-	 - The password is NOT present in any passwords' dictionary[^fn1]!
+	 - The password is NOT present in any passwords' dictionary[^1]!
  - `DNSoperator` (`Qwerty123`), joining the `DomainUsers`, `DnsAdmins`, `DnsUpdateProxy` groups;
-  	 - The password IS present in passwords' dictionaries[^fn1]!
+  	 - The password IS present in passwords' dictionaries[^1]!
 
 The **DNS/File server**, named `SERVERDNS`, has a static IP address (`10.0.2.250`) and acts as default DNS server for the domain.
 It hosts a folder that is shared to all computers in the domain, which can be read by everyone while can be written only by `Administrators` and `DnsAdmins`.
@@ -247,7 +247,7 @@ The following sources have been consulted:
 
 Other useful information about Active Directory have been retrieved from official Microsoft guides.
 
-[^fn1]: See [haveibeenpwned.com](https://haveibeenpwned.com/Passwords) 
+[^1]: See [haveibeenpwned.com](https://haveibeenpwned.com/Passwords) 
 
 [^2]: `getsystem` requires the process to be run as administrator (to be "previously" authorized to run with high privileges, due to Windows UAC); then, it tries three techniques to achieve Privilege Escalation. More details [here](https://docs.rapid7.com/metasploit/meterpreter-getsystem/).
 
