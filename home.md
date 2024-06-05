@@ -70,9 +70,9 @@ The following domain accounts (with passwords between brackets) are available:
  - `DomainUser` (`User00!`), joining the `DomainUsers` group;
  - `DomainUserNoAuth` (`User00!`), joining the `DomainUsers` group, requires NO Kerberos pre-authentication;
  - `DomainAdmin` (`#Admin00!`), joining the `DomainUsers`, `DomainAdmins`, `Administrators` groups;
-	 - The password is NOT present in any passwords' dictionary[^1]!
+	 - The password is NOT present in any passwords' dictionary[^1] !
  - `DNSoperator` (`Qwerty123`), joining the `DomainUsers`, `DnsAdmins`, `DnsUpdateProxy` groups;
-  	 - The password IS present in passwords' dictionaries[^1]!
+  	 - The password IS present in passwords' dictionaries[^1] !
 
 The **DNS/File server**, named `SERVERDNS`, has a static IP address (`10.0.2.250`) and acts as default DNS server for the domain.
 It hosts a folder that is shared to all computers in the domain, which can be read by everyone while can be written only by `Administrators` and `DnsAdmins`.
@@ -217,14 +217,14 @@ We will try to crack the `DNSoperator` password performing a so-called **AS-Rep 
 
 	As first operation, we check the identity of the process that runs `meterpreter` on that device invoking the `getuid` command: as shown in the image, the process is owned by the `DomainAdmin` account.
 	
-	In order to complete our future tasks, we need to run the process as `SYSTEM`. For doing so, we run the `getsystem` command[^2]. If the execution is successfully completed, running again `getuid` we will see that now we are running as `SYSTEM`.
+	In order to complete our future tasks, we need to run the process as `SYSTEM`. For doing so, we run the `getsystem` command[^2] . If the execution is successfully completed, running again `getuid` we will see that now we are running as `SYSTEM`.
 
 	![Privilege escalation on msfconsole](https://github.com/AM311/Cybersecurity_Report/blob/main/img/msfconsole_getuid-system.png?raw=true)
 
  10. **Steal the credentials of the logged account:**
 	 At this point, we can finally dump all the credentials currently stored from the LSASS memory.
 	 
-	 For doing so, we first need to run the `meterpreter` **kiwi** extension, using the command `load kiwi`; then, invoking `creds_all` we are finally able to gain all the available credentials in memory, some in a hashed form while other directly in clear text[^3].
+	 For doing so, we first need to run the `meterpreter` **kiwi** extension, using the command `load kiwi`; then, invoking `creds_all` we are finally able to gain all the available credentials in memory, some in a hashed form while other directly in clear text[^3] .
 		
 		![All credentials stolen from the memory](https://github.com/AM311/Cybersecurity_Report/blob/main/img/creds.png?raw=true)
 
