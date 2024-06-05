@@ -75,7 +75,7 @@ The following domain accounts (with passwords between brackets) are available:
   	 - The password IS present in passwords' dictionaries![^1]
 
 The **DNS/File server**, named `SERVERDNS`, has a static IP address (`10.0.2.250`) and acts as default DNS server for the domain.
-It hosts a folder that is shared to all computers in the domain, ==which can be read by everyone while can be written only by `Administrators` and `DnsAdmins`.==
+It hosts a folder that is shared to all computers in the domain, which can be read by everyone while can be written only by `Administrators` and `DnsAdmins`.
 This device can be accessed and managed via Remote Desktop by `DnsAdmins` accounts.
 
 Every machine has a default local admin account (*out of this lab's scope*) named `Administrator` whose password is `Qwerty123`.
@@ -132,6 +132,10 @@ As first attempt, we ask the DomainController to list all the accounts that can 
 	![Accounts that does not require pre-auth](https://github.com/AM311/Cybersecurity_Report/blob/main/img/noKerbPreAuth.png?raw=true)
 
 	We will focus our efforts on `DNSoperator` since, as seen, it can login to `SERVERDNS` and joins the `DnsAdmins` group, whose members have write rights on the network shared folder.
+	
+
+> Blockquote
+
 	
  4. **Perform AS-Rep Roasting:**
 We will try to crack the `DNSoperator` password performing a so-called **AS-Rep Roasting** attack.
@@ -251,11 +255,11 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^3]: To better understand the meaning of all the credentials stored by the different security packages, read [this page](https://www.hackingarticles.in/metasploit-for-pentester-mimikatz/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MzA5OTY2MywtMzEyNDMzOTMzLDQ3MD
-AyMDg3MCwtMjA2NzUxNDkwNSwtMTc2NTE2NzU3MCwtMzA2MDUw
-Mzg3LDEyMTIzMTE4NTYsOTc3OTEyNTE2LDQ5MjY2NjQxNywtMT
-E5NTMwMjgzOCw2NDAwODkyOTksLTE3NDAxODc5NDEsLTEzNTE2
-OTYxMTgsNDg0MjU5MzAsLTE2NDc2ODc1OTIsMTA5OTkzMTc0MC
-wtMTI1MjU2MDcxNywxNDkyMjg2NjgzLDI4MDg0NDkwNSwtODA0
-Njk4ODc1XX0=
+eyJoaXN0b3J5IjpbLTMwNTEwODY3NCwxODczMDk5NjYzLC0zMT
+I0MzM5MzMsNDcwMDIwODcwLC0yMDY3NTE0OTA1LC0xNzY1MTY3
+NTcwLC0zMDYwNTAzODcsMTIxMjMxMTg1Niw5Nzc5MTI1MTYsND
+kyNjY2NDE3LC0xMTk1MzAyODM4LDY0MDA4OTI5OSwtMTc0MDE4
+Nzk0MSwtMTM1MTY5NjExOCw0ODQyNTkzMCwtMTY0NzY4NzU5Mi
+wxMDk5OTMxNzQwLC0xMjUyNTYwNzE3LDE0OTIyODY2ODMsMjgw
+ODQ0OTA1XX0=
 -->
