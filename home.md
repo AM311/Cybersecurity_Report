@@ -1,4 +1,4 @@
-# Cybersecurity Hacking Lab
+# Hacking Lab: Privilege Escalation in Windows Active Directory
 
 This document will present a complete and step-by-step guide to perform a hacking laboratory in a virtualized environment, reproducing a fake-but-realistic scenario.
 
