@@ -261,3 +261,5 @@ Nzk0MSwtMTM1MTY5NjExOCw0ODQyNTkzMCwtMTY0NzY4NzU5Mi
 wxMDk5OTMxNzQwLC0xMjUyNTYwNzE3LDE0OTIyODY2ODMsMjgw
 ODQ0OTA1XX0=
 -->
+<script src="//cdn.jsdelivr.net/npm/@sy-records/docsify-footnotes/lib/index.min.js"></script>
+
