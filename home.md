@@ -210,7 +210,7 @@ We will try to crack the `DNSoperator` password performing a so-called **AS-Rep 
 
 	Hopefully, the user will anywhen run the process as instructed.
 
-	> 	The technical details for sending a phishing message with a credible/lookalike/spoofed sending address are out of scope, as they are strongly dependant on the environment (technical settings, people, ...).
+	> The technical details for sending a phishing message with a credible/lookalike/spoofed sending address are out of scope, as they are strongly dependant on the environment (technical settings, people, ...).
 	
  9. **Communication between devices and Privilege Escalation:**
 	 Once the user has followed the instructions and run the exploit, on the Kali machine we should see that a new session (with a given numeric ID) has been opened. Typing `sessions -i <ID>` we launch the `meterpreter` CLI and are able to communicate with that endpoint.
