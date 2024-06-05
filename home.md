@@ -154,8 +154,8 @@ We will try to crack the `DNSoperator` password performing a so-called **AS-Rep 
 	    2fb4d6d295a60b074e549aa6a7c0e24cccfd7dd96cfdb06f908d38de6cb775f4fa44b5eae69bc2452fdfb
 	    bfa6ca73a70233a2f64e778d3bd286047a69ddf6fd99379b264f747034c32c66971240bede9becb6150fc
 	    85d516545f661aef05c22fc5c26a210a4243627cf681ea61f45996fb8d235b3f9d972433c390ff3b4250f
-	    576c96c54d167a61a76717831eb320b84aa37acef60cd3f1c781bf6e`
-
+	    576c96c54d167a61a76717831eb320b84aa37acef60cd3f1c781bf6e` 
+	
 	
  	Now, we try to crack the hash using **John the Ripper**, providing a password dictionary called `rockyou`.
 	
