@@ -163,8 +163,6 @@ We will try to crack the `DNSoperator` password performing a so-called **AS-Rep 
 	![Result of the offline guessing with John the Ripper](https://github.com/AM311/Cybersecurity_Report/blob/main/img/asRepRoasting.png?raw=true)
 
 	 We are now able to legitimately login to `SERVERDNS`, so we will try to perform some "useful" actions!
-
-	==VERIFICARE CHE SI POSSA FARE DESKTOP REMOTO==
  
  5. **Open a remote connection to `SERVERDNS`:**
 		To open a remote desktop connection, we use the following command:
@@ -255,11 +253,11 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^3]: To better understand the meaning of all the credentials stored by the different security packages, read [this page](https://www.hackingarticles.in/metasploit-for-pentester-mimikatz/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTE5NTQ1NjMsMTg3MzA5OTY2MywtMz
-EyNDMzOTMzLDQ3MDAyMDg3MCwtMjA2NzUxNDkwNSwtMTc2NTE2
-NzU3MCwtMzA2MDUwMzg3LDEyMTIzMTE4NTYsOTc3OTEyNTE2LD
-Q5MjY2NjQxNywtMTE5NTMwMjgzOCw2NDAwODkyOTksLTE3NDAx
-ODc5NDEsLTEzNTE2OTYxMTgsNDg0MjU5MzAsLTE2NDc2ODc1OT
-IsMTA5OTkzMTc0MCwtMTI1MjU2MDcxNywxNDkyMjg2NjgzLDI4
-MDg0NDkwNV19
+eyJoaXN0b3J5IjpbMTc5OTA4NDEyNywxODczMDk5NjYzLC0zMT
+I0MzM5MzMsNDcwMDIwODcwLC0yMDY3NTE0OTA1LC0xNzY1MTY3
+NTcwLC0zMDYwNTAzODcsMTIxMjMxMTg1Niw5Nzc5MTI1MTYsND
+kyNjY2NDE3LC0xMTk1MzAyODM4LDY0MDA4OTI5OSwtMTc0MDE4
+Nzk0MSwtMTM1MTY5NjExOCw0ODQyNTkzMCwtMTY0NzY4NzU5Mi
+wxMDk5OTMxNzQwLC0xMjUyNTYwNzE3LDE0OTIyODY2ODMsMjgw
+ODQ0OTA1XX0=
 -->
