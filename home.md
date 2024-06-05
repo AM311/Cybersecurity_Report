@@ -262,15 +262,3 @@ wxMDk5OTMxNzQwLC0xMjUyNTYwNzE3LDE0OTIyODY2ODMsMjgw
 ODQ0OTA1XX0=
 -->
 
-<script>
-	window.$docsify = {
-  requestHeaders: {
-    'cache-control': 'no-cache',
-  },
-		{ executeScript: true,}
-};
-</script>
-
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/@sy-records/docsify-footnotes/lib/index.min.js"></script>
-
