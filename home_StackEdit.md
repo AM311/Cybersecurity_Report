@@ -257,11 +257,11 @@ ___
 
 [^3]: To better understand the meaning of all the credentials stored by the different security packages, read [this page](https://www.hackingarticles.in/metasploit-for-pentester-mimikatz/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MDk5MTY3NywxODczMDk5NjYzLC0zMT
-I0MzM5MzMsNDcwMDIwODcwLC0yMDY3NTE0OTA1LC0xNzY1MTY3
-NTcwLC0zMDYwNTAzODcsMTIxMjMxMTg1Niw5Nzc5MTI1MTYsND
-kyNjY2NDE3LC0xMTk1MzAyODM4LDY0MDA4OTI5OSwtMTc0MDE4
-Nzk0MSwtMTM1MTY5NjExOCw0ODQyNTkzMCwtMTY0NzY4NzU5Mi
-wxMDk5OTMxNzQwLC0xMjUyNTYwNzE3LDE0OTIyODY2ODMsMjgw
-ODQ0OTA1XX0=
+eyJoaXN0b3J5IjpbMjEwODA4MjkzNCwtMzgwOTkxNjc3LDE4Nz
+MwOTk2NjMsLTMxMjQzMzkzMyw0NzAwMjA4NzAsLTIwNjc1MTQ5
+MDUsLTE3NjUxNjc1NzAsLTMwNjA1MDM4NywxMjEyMzExODU2LD
+k3NzkxMjUxNiw0OTI2NjY0MTcsLTExOTUzMDI4MzgsNjQwMDg5
+Mjk5LC0xNzQwMTg3OTQxLC0xMzUxNjk2MTE4LDQ4NDI1OTMwLC
+0xNjQ3Njg3NTkyLDEwOTk5MzE3NDAsLTEyNTI1NjA3MTcsMTQ5
+MjI4NjY4M119
 -->
