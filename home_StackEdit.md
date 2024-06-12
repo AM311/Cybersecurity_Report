@@ -237,7 +237,7 @@ We will try to crack the `DNSoperator` password performing a so-called **AS-Rep 
 
 ## MITRE ATT&CK Mapping
 
-The described attack can be mapped in terms of **MITRE ATT&CK** Tactics and Techniques as follows:
+The described attack can be mapped in terms of **MITRE ATT&CK** Tactics and Techniques as follows: ==Valutare NAVIGATOR==
 
  - **Reconnaisance**: the adversary is trying to gather information they can use to plan future operations.
 	 - *Active Scanning > Scanning IP Blocks*: ==ToDo==
@@ -289,11 +289,11 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^3]: To better understand the meaning of all the credentials stored by the different security packages, read [this page](https://www.hackingarticles.in/metasploit-for-pentester-mimikatz/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjIyODgzMDMsNzQwMTg1OTMsMjEwOD
-A4MjkzNCwtMzgwOTkxNjc3LDE4NzMwOTk2NjMsLTMxMjQzMzkz
-Myw0NzAwMjA4NzAsLTIwNjc1MTQ5MDUsLTE3NjUxNjc1NzAsLT
-MwNjA1MDM4NywxMjEyMzExODU2LDk3NzkxMjUxNiw0OTI2NjY0
-MTcsLTExOTUzMDI4MzgsNjQwMDg5Mjk5LC0xNzQwMTg3OTQxLC
-0xMzUxNjk2MTE4LDQ4NDI1OTMwLC0xNjQ3Njg3NTkyLDEwOTk5
-MzE3NDBdfQ==
+eyJoaXN0b3J5IjpbODM4MjI0Mzg4LDc0MDE4NTkzLDIxMDgwOD
+I5MzQsLTM4MDk5MTY3NywxODczMDk5NjYzLC0zMTI0MzM5MzMs
+NDcwMDIwODcwLC0yMDY3NTE0OTA1LC0xNzY1MTY3NTcwLC0zMD
+YwNTAzODcsMTIxMjMxMTg1Niw5Nzc5MTI1MTYsNDkyNjY2NDE3
+LC0xMTk1MzAyODM4LDY0MDA4OTI5OSwtMTc0MDE4Nzk0MSwtMT
+M1MTY5NjExOCw0ODQyNTkzMCwtMTY0NzY4NzU5MiwxMDk5OTMx
+NzQwXX0=
 -->
