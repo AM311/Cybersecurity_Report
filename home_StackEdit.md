@@ -242,7 +242,9 @@ The described attack can be mapped in terms of **MITRE ATT&CK** Tactics and Tech
  - **Reconnaisance**: the adversary is trying to gather information they can use to plan future operations.
 	 - *Active Scanning > Scanning IP Blocks*: ==ToDo==
 	 -  *Gather Victim Identity Information > Email Addresses*: ==ToDo==
-	 -  *Gather Victim Network Information > Email Addresses*: ==ToDo==
+	 -  *Gather Victim Network Information > Domain Properties*: ==ToDo==
+	 -  *Gather Victim Network Information > IP Addresses*: ==ToDo==
+	 -  *Gather Victim Org Information > Identify Roles*: ==ToDo==
  - **Resource Development**: d
  - **Initial Access**: d
  - **Execution**: d
@@ -285,7 +287,7 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^3]: To better understand the meaning of all the credentials stored by the different security packages, read [this page](https://www.hackingarticles.in/metasploit-for-pentester-mimikatz/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2Mjg1NTY1OSw3NDAxODU5MywyMTA4MD
+eyJoaXN0b3J5IjpbMTY1NjA0MjgwMiw3NDAxODU5MywyMTA4MD
 gyOTM0LC0zODA5OTE2NzcsMTg3MzA5OTY2MywtMzEyNDMzOTMz
 LDQ3MDAyMDg3MCwtMjA2NzUxNDkwNSwtMTc2NTE2NzU3MCwtMz
 A2MDUwMzg3LDEyMTIzMTE4NTYsOTc3OTEyNTE2LDQ5MjY2NjQx
