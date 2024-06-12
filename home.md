@@ -30,7 +30,7 @@ It is (realistically) assumed that some domain accounts use common and easily pr
 
 ### Goal
 
-The main goal of this laboratory is to **gain access** to the credentials of an **account joining the `DomainAdmins` group**.
+The main goal of this laboratory is to **gain access** to the credentials of an **account belonging to the `DomainAdmins` group**.
 
 ### Threat Model
 
@@ -61,17 +61,17 @@ It is strongly suggested to use the **images** of the VMs that are provided [her
 
 The **Kali** machine has a static IP address (`10.0.2.15`). Additional packets and libraries like `impacket` and `kiwi` have been installed in the `metasploit` framework.
 
-The **Windows 7** machine, named `WIN7`, joins the domain and receives a dynamical IP address via DHCP.
+The **Windows 7** machine, named `WIN7`, belongs to the domain and receives a dynamical IP address via DHCP.
 
 The **DomainController/DHCP server**, named `SERVER`, has a static IP address (`10.0.2.200`) and controls the domain named `cybersec.units.it`.
 DHCP assignes IPv4 addresses in the pool `10.0.2.10-190` and the default DNS, which is set to be `10.0.2.250`.
 The following domain accounts (with passwords between brackets) are available:
 
- - `DomainUser` (`User00!`), joining the `DomainUsers` group;
- - `DomainUserNoAuth` (`User00!`), joining the `DomainUsers` group, requires NO Kerberos pre-authentication;
- - `DomainAdmin` (`#Admin00!`), joining the `DomainUsers`, `DomainAdmins`, `Administrators` groups;
+ - `DomainUser` (`User00!`), belonging to the `DomainUsers` group;
+ - `DomainUserNoAuth` (`User00!`), belonging to the `DomainUsers` group, requires NO Kerberos pre-authentication;
+ - `DomainAdmin` (`#Admin00!`), belonging to the `DomainUsers`, `DomainAdmins`, `Administrators` groups;
 	 - The password is NOT present in any passwords' dictionary[^1] !
- - `DNSoperator` (`Qwerty123`), joining the `DomainUsers`, `DnsAdmins`, `DnsUpdateProxy` groups;
+ - `DNSoperator` (`Qwerty123`), belonging to the `DomainUsers`, `DnsAdmins`, `DnsUpdateProxy` groups;
   	- The password IS present in passwords' dictionaries[^1] !
 
 The **DNS/File server**, named `SERVERDNS`, has a static IP address (`10.0.2.250`) and acts as default DNS server for the domain.
@@ -88,7 +88,7 @@ Once set-up the environment, it is finally possible to begin the laboratory!
 
 > Unless otherwise specified, all the actions are intended to be performed from the **Kali** machine.
 
-> When referring to a "*`GroupName`* account", it has to be read as "any account joining the *`GroupName`* group".
+> When referring to a "*`GroupName`* account", it has to be read as "any account belonging to the *`GroupName`* group".
  
 
  0. **Open a Shell**;
@@ -116,8 +116,8 @@ Once set-up the environment, it is finally possible to begin the laboratory!
 	To run the query, we need to authenticate providing the FullyQualifiedName and password of our legitimately controlled account.
 		
 	The response is very verbose; the two major results are shown below:
-	 - The account `DomainAdmin` joins the group `DomainAdmins`, so it seems to be a good target;
-	 - The account `DNSoperator` joins the group `DnsAdmins` and can access only the machine named `SERVERDNS`;
+	 - The account `DomainAdmin` belongs to the group `DomainAdmins`, so it seems to be a good target;
+	 - The account `DNSoperator` belongs to the group `DnsAdmins` and can access only the machine named `SERVERDNS`;
 
 	![Accounts details](https://github.com/AM311/Cybersecurity_Report/blob/main/img/accountsLDAP.png?raw=true)
 
@@ -133,7 +133,7 @@ As first attempt, we ask the DomainController to list all the accounts that can 
     
 	![Accounts that does not require pre-auth](https://github.com/AM311/Cybersecurity_Report/blob/main/img/noKerbPreAuth.png?raw=true)
 
-	We will focus our efforts on `DNSoperator` since, as seen, it can login to `SERVERDNS` and joins the `DnsAdmins` group, whose members have write rights on the network shared folder.
+	We will focus our efforts on `DNSoperator` since, as seen, it can login to `SERVERDNS` and belongs to the `DnsAdmins` group, whose members have write rights on the network shared folder.
 	
 
 	> The ACL of a folder is readable by any account that can visualize it!
@@ -233,7 +233,7 @@ We will try to crack the `DNSoperator` password performing a so-called **AS-Rep 
 		![All credentials stolen from the memory](https://github.com/AM311/Cybersecurity_Report/blob/main/img/creds.png?raw=true)
 
  11. **GAME OVER!**
-	 We are finally in possession of the credentials of an account joining the DomainAdmins group, so we are now able to perform any (malicious) activity within the domain!
+	 We are finally in possession of the credentials of an account belonging to the DomainAdmins group, so we are now able to perform any (malicious) activity within the domain!
 
 ## Credits
 
