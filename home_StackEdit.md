@@ -239,7 +239,7 @@ We will try to crack the `DNSoperator` password performing a so-called **AS-Rep 
 
 The described attack can be mapped in terms of **MITRE ATT&CK** Tactics and Techniques as follows: ==Valutare NAVIGATOR==
 
- - **Reconnaisance**: the adversary is trying to gather information they can use to plan future operations.
+ - **Reconnaisance**: the adversary is trying to gather information they can use to plan future operations. ==valutare con discovery==
 	 - *Active Scanning > Scanning IP Blocks*: ==ToDo==
 	 - *Gather Victim Identity Information > Email Addresses*: ==ToDo==
 	 - *Gather Victim Network Information > Domain Properties*: ==ToDo==
@@ -262,7 +262,9 @@ The described attack can be mapped in terms of **MITRE ATT&CK** Tactics and Tech
  - **Credential Access**: the adversary is trying to steal account names and passwords.
 	 - *Steal or Forge Kerberos Tickets > AS-REP Roasting*: ==ToDo (DNS)==
 	 - *OS Credential Dumping > LSASS Memory*: ==ToDo (Admin), CHECK...==
- - **Discovery**: he adversary is trying to figure out your environment
+ - **Discovery**: the adversary is trying to figure out your environment.
+	 - *Account Discovery > Domain Account*: ==ToDo==
+	 - 
  - **Lateral Movement**: d ==sia DNS ~~che Admin~~==
  - **Collection**: d
  - **Command and Control**: d
@@ -297,7 +299,7 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^3]: To better understand the meaning of all the credentials stored by the different security packages, read [this page](https://www.hackingarticles.in/metasploit-for-pentester-mimikatz/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzOTQxNTE3NSw4MzgyMjQzODgsNzQwMT
+eyJoaXN0b3J5IjpbMTI3NTExNjU2OSw4MzgyMjQzODgsNzQwMT
 g1OTMsMjEwODA4MjkzNCwtMzgwOTkxNjc3LDE4NzMwOTk2NjMs
 LTMxMjQzMzkzMyw0NzAwMjA4NzAsLTIwNjc1MTQ5MDUsLTE3Nj
 UxNjc1NzAsLTMwNjA1MDM4NywxMjEyMzExODU2LDk3NzkxMjUx
