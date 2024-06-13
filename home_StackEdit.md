@@ -254,13 +254,13 @@ The described attack can be mapped in terms of **MITRE ATT&CK** Tactics and Tech
 	 - *User Execution > Malicious File*: ==ToDo==
 	 - *Command and Scripting Interpreter > ==???==*: ==ToDo - QUALE DELLE DUE???==
  - **Persistence**: The adversary is trying to maintain their foothold.
-	 - *Valid Accounts > Domain Accounts*: ==ToDo==
+	 - *Valid Accounts > Domain Accounts*: ==ToDo (sia DNS che Admin)==
  - **Privilege Escalation**: the adversary is trying to gain higher-level permissions.
-	 - fffff
+	 - *Valid Accounts > Domain Accounts*: ==ToDo (sia DNS che Admin)==
  - **Defense Evasion**: d
  - **Credential Access**: d
  - **Discovery**: d
- - **Lateral Movement**: d
+ - **Lateral Movement**: d ==sia DNS ~~che Admin~~==
  - **Collection**: d
  - **Command and Control**: d
  - **Exfiltration**: d
@@ -294,7 +294,7 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^3]: To better understand the meaning of all the credentials stored by the different security packages, read [this page](https://www.hackingarticles.in/metasploit-for-pentester-mimikatz/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTU1NzUyNTQsODM4MjI0Mzg4LDc0MD
+eyJoaXN0b3J5IjpbLTIxMDUyNTIxNTEsODM4MjI0Mzg4LDc0MD
 E4NTkzLDIxMDgwODI5MzQsLTM4MDk5MTY3NywxODczMDk5NjYz
 LC0zMTI0MzM5MzMsNDcwMDIwODcwLC0yMDY3NTE0OTA1LC0xNz
 Y1MTY3NTcwLC0zMDYwNTAzODcsMTIxMjMxMTg1Niw5Nzc5MTI1
