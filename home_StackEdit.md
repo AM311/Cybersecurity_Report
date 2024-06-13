@@ -248,8 +248,10 @@ The described attack can be mapped in terms of **MITRE ATT&CK** Tactics and Tech
  - **Resource Development**: the adversary is trying to establish resources they can use to support operations.
 	 - *Obtain Capabilities > Exploits*: ==ToDo==
 	 - *Obtain Capabilities > Tool*: ==ToDo==
- - **Initial Access**: d
- - **Execution**: d
+ - **Initial Access**: the adversary is trying to get into your network.
+	 - *Valid Accounts > Domain Accounts*: ==ToDo==
+ - **Execution**: the adversary is trying to run malicious code.
+	 - 
  - **Persistence**: d
  - **Privilege Escalation**: d
  - **Defense Evasion**: d
@@ -289,11 +291,11 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^3]: To better understand the meaning of all the credentials stored by the different security packages, read [this page](https://www.hackingarticles.in/metasploit-for-pentester-mimikatz/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM4MjI0Mzg4LDc0MDE4NTkzLDIxMDgwOD
-I5MzQsLTM4MDk5MTY3NywxODczMDk5NjYzLC0zMTI0MzM5MzMs
-NDcwMDIwODcwLC0yMDY3NTE0OTA1LC0xNzY1MTY3NTcwLC0zMD
-YwNTAzODcsMTIxMjMxMTg1Niw5Nzc5MTI1MTYsNDkyNjY2NDE3
-LC0xMTk1MzAyODM4LDY0MDA4OTI5OSwtMTc0MDE4Nzk0MSwtMT
-M1MTY5NjExOCw0ODQyNTkzMCwtMTY0NzY4NzU5MiwxMDk5OTMx
-NzQwXX0=
+eyJoaXN0b3J5IjpbNDgwODE2NDkxLDgzODIyNDM4OCw3NDAxOD
+U5MywyMTA4MDgyOTM0LC0zODA5OTE2NzcsMTg3MzA5OTY2Mywt
+MzEyNDMzOTMzLDQ3MDAyMDg3MCwtMjA2NzUxNDkwNSwtMTc2NT
+E2NzU3MCwtMzA2MDUwMzg3LDEyMTIzMTE4NTYsOTc3OTEyNTE2
+LDQ5MjY2NjQxNywtMTE5NTMwMjgzOCw2NDAwODkyOTksLTE3ND
+AxODc5NDEsLTEzNTE2OTYxMTgsNDg0MjU5MzAsLTE2NDc2ODc1
+OTJdfQ==
 -->
