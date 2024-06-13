@@ -273,8 +273,11 @@ The described attack can be mapped in terms of **MITRE ATT&CK** Tactics and Tech
  - **Collection**: ==NO==
  - **Command and Control**: the adversary is trying to communicate with compromised systems to control them.
 	 - *Remote Services > Remote Desktop Protocol*: ==ToDo, DNS==
- - **Exfiltration**: d
- - **Impatc**: d
+	 - ==Meterpreter???==
+ - **Exfiltration**: ==NO==
+ - **Impatc**: ==NO==
+
+==manca Privilege Escalation da Admin a SYSTEM==
 
 Please notice that not all the tactics are covered.
 ==dire che se anche non sono tutte usate esplicitamente nella guida, si aprono molte possibilità per tecniche "future"==
@@ -304,11 +307,11 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^3]: To better understand the meaning of all the credentials stored by the different security packages, read [this page](https://www.hackingarticles.in/metasploit-for-pentester-mimikatz/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE2ODQxNDg0LDE3MzU0NTYwMTcsODM4Mj
-I0Mzg4LDc0MDE4NTkzLDIxMDgwODI5MzQsLTM4MDk5MTY3Nywx
-ODczMDk5NjYzLC0zMTI0MzM5MzMsNDcwMDIwODcwLC0yMDY3NT
-E0OTA1LC0xNzY1MTY3NTcwLC0zMDYwNTAzODcsMTIxMjMxMTg1
-Niw5Nzc5MTI1MTYsNDkyNjY2NDE3LC0xMTk1MzAyODM4LDY0MD
-A4OTI5OSwtMTc0MDE4Nzk0MSwtMTM1MTY5NjExOCw0ODQyNTkz
-MF19
+eyJoaXN0b3J5IjpbLTg4MTA3NjEzOSw5MTY4NDE0ODQsMTczNT
+Q1NjAxNyw4MzgyMjQzODgsNzQwMTg1OTMsMjEwODA4MjkzNCwt
+MzgwOTkxNjc3LDE4NzMwOTk2NjMsLTMxMjQzMzkzMyw0NzAwMj
+A4NzAsLTIwNjc1MTQ5MDUsLTE3NjUxNjc1NzAsLTMwNjA1MDM4
+NywxMjEyMzExODU2LDk3NzkxMjUxNiw0OTI2NjY0MTcsLTExOT
+UzMDI4MzgsNjQwMDg5Mjk5LC0xNzQwMTg3OTQxLC0xMzUxNjk2
+MTE4XX0=
 -->
