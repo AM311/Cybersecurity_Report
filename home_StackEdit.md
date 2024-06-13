@@ -271,7 +271,8 @@ The described attack can be mapped in terms of **MITRE ATT&CK** Tactics and Tech
 	 - *Internal Spearphishing*: ==ToDo, Admin==
 	 - *Remote Services > Remote Desktop Protocol*: ==ToDo, DNS==
  - **Collection**: ==NO==
- - **Command and Control**: d
+ - **Command and Control**: the adversary is trying to communicate with compromised systems to control them.
+	 - *Remote Services > Remote Desktop Protocol*: ==ToDo, DNS==
  - **Exfiltration**: d
  - **Impatc**: d
 
@@ -303,11 +304,11 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^3]: To better understand the meaning of all the credentials stored by the different security packages, read [this page](https://www.hackingarticles.in/metasploit-for-pentester-mimikatz/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNTQ1NjAxNyw4MzgyMjQzODgsNzQwMT
-g1OTMsMjEwODA4MjkzNCwtMzgwOTkxNjc3LDE4NzMwOTk2NjMs
-LTMxMjQzMzkzMyw0NzAwMjA4NzAsLTIwNjc1MTQ5MDUsLTE3Nj
-UxNjc1NzAsLTMwNjA1MDM4NywxMjEyMzExODU2LDk3NzkxMjUx
-Niw0OTI2NjY0MTcsLTExOTUzMDI4MzgsNjQwMDg5Mjk5LC0xNz
-QwMTg3OTQxLC0xMzUxNjk2MTE4LDQ4NDI1OTMwLC0xNjQ3Njg3
-NTkyXX0=
+eyJoaXN0b3J5IjpbOTE2ODQxNDg0LDE3MzU0NTYwMTcsODM4Mj
+I0Mzg4LDc0MDE4NTkzLDIxMDgwODI5MzQsLTM4MDk5MTY3Nywx
+ODczMDk5NjYzLC0zMTI0MzM5MzMsNDcwMDIwODcwLC0yMDY3NT
+E0OTA1LC0xNzY1MTY3NTcwLC0zMDYwNTAzODcsMTIxMjMxMTg1
+Niw5Nzc5MTI1MTYsNDkyNjY2NDE3LC0xMTk1MzAyODM4LDY0MD
+A4OTI5OSwtMTc0MDE4Nzk0MSwtMTM1MTY5NjExOCw0ODQyNTkz
+MF19
 -->
