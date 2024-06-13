@@ -270,7 +270,7 @@ The described attack can be mapped in terms of **MITRE ATT&CK** Tactics and Tech
  - **Lateral Movement**: the adversary is trying to move through your environment. ==sia DNS ~~che Admin~~==
 	 - *Internal Spearphishing*: ==ToDo, Admin==
 	 - *Remote Services > Remote Desktop Protocol*: ==ToDo, DNS==
- - **Collection**: d
+ - **Collection**: ==NO==
  - **Command and Control**: d
  - **Exfiltration**: d
  - **Impatc**: d
@@ -303,7 +303,7 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^3]: To better understand the meaning of all the credentials stored by the different security packages, read [this page](https://www.hackingarticles.in/metasploit-for-pentester-mimikatz/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4Njc2MDI3OCw4MzgyMjQzODgsNzQwMT
+eyJoaXN0b3J5IjpbMTczNTQ1NjAxNyw4MzgyMjQzODgsNzQwMT
 g1OTMsMjEwODA4MjkzNCwtMzgwOTkxNjc3LDE4NzMwOTk2NjMs
 LTMxMjQzMzkzMyw0NzAwMjA4NzAsLTIwNjc1MTQ5MDUsLTE3Nj
 UxNjc1NzAsLTMwNjA1MDM4NywxMjEyMzExODU2LDk3NzkxMjUx
