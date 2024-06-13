@@ -241,17 +241,17 @@ The described attack can be mapped in terms of **MITRE ATT&CK** Tactics and Tech
 
  - **Reconnaisance**: the adversary is trying to gather information they can use to plan future operations.
 	 - *Active Scanning > Scanning IP Blocks*: ==ToDo==
-	 -  *Gather Victim Identity Information > Email Addresses*: ==ToDo==
-	 -  *Gather Victim Network Information > Domain Properties*: ==ToDo==
-	 -  *Gather Victim Network Information > IP Addresses*: ==ToDo==
-	 -  *Gather Victim Org Information > Identify Roles*: ==ToDo==
+	 - *Gather Victim Identity Information > Email Addresses*: ==ToDo==
+	 - *Gather Victim Network Information > Domain Properties*: ==ToDo==
+	 - *Gather Victim Network Information > IP Addresses*: ==ToDo==
+	 - *Gather Victim Org Information > Identify Roles*: ==ToDo==
  - **Resource Development**: the adversary is trying to establish resources they can use to support operations.
 	 - *Obtain Capabilities > Exploits*: ==ToDo==
 	 - *Obtain Capabilities > Tool*: ==ToDo==
  - **Initial Access**: the adversary is trying to get into your network.
 	 - *Valid Accounts > Domain Accounts*: ==ToDo==
  - **Execution**: the adversary is trying to run malicious code.
-	 - 
+	 - *User Execution > Malicious File*: ==ToDo==
  - **Persistence**: d
  - **Privilege Escalation**: d
  - **Defense Evasion**: d
@@ -291,11 +291,11 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^3]: To better understand the meaning of all the credentials stored by the different security packages, read [this page](https://www.hackingarticles.in/metasploit-for-pentester-mimikatz/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgwODE2NDkxLDgzODIyNDM4OCw3NDAxOD
-U5MywyMTA4MDgyOTM0LC0zODA5OTE2NzcsMTg3MzA5OTY2Mywt
-MzEyNDMzOTMzLDQ3MDAyMDg3MCwtMjA2NzUxNDkwNSwtMTc2NT
-E2NzU3MCwtMzA2MDUwMzg3LDEyMTIzMTE4NTYsOTc3OTEyNTE2
-LDQ5MjY2NjQxNywtMTE5NTMwMjgzOCw2NDAwODkyOTksLTE3ND
-AxODc5NDEsLTEzNTE2OTYxMTgsNDg0MjU5MzAsLTE2NDc2ODc1
-OTJdfQ==
+eyJoaXN0b3J5IjpbMTg5NzM2NDE3Miw4MzgyMjQzODgsNzQwMT
+g1OTMsMjEwODA4MjkzNCwtMzgwOTkxNjc3LDE4NzMwOTk2NjMs
+LTMxMjQzMzkzMyw0NzAwMjA4NzAsLTIwNjc1MTQ5MDUsLTE3Nj
+UxNjc1NzAsLTMwNjA1MDM4NywxMjEyMzExODU2LDk3NzkxMjUx
+Niw0OTI2NjY0MTcsLTExOTUzMDI4MzgsNjQwMDg5Mjk5LC0xNz
+QwMTg3OTQxLC0xMzUxNjk2MTE4LDQ4NDI1OTMwLC0xNjQ3Njg3
+NTkyXX0=
 -->
