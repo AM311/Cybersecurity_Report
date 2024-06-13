@@ -252,7 +252,8 @@ The described attack can be mapped in terms of **MITRE ATT&CK** Tactics and Tech
 	 - *Valid Accounts > Domain Accounts*: ==ToDo==
  - **Execution**: the adversary is trying to run malicious code.
 	 - *User Execution > Malicious File*: ==ToDo==
- - **Persistence**: d
+	 - *Command and Scripting Interpreter > ==???==*: ==ToDo - QUALE DELLE DUE???==
+ - **Persistence**: The adversary is trying to maintain their foothold.
  - **Privilege Escalation**: d
  - **Defense Evasion**: d
  - **Credential Access**: d
@@ -291,11 +292,11 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^3]: To better understand the meaning of all the credentials stored by the different security packages, read [this page](https://www.hackingarticles.in/metasploit-for-pentester-mimikatz/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NzM2NDE3Miw4MzgyMjQzODgsNzQwMT
-g1OTMsMjEwODA4MjkzNCwtMzgwOTkxNjc3LDE4NzMwOTk2NjMs
-LTMxMjQzMzkzMyw0NzAwMjA4NzAsLTIwNjc1MTQ5MDUsLTE3Nj
-UxNjc1NzAsLTMwNjA1MDM4NywxMjEyMzExODU2LDk3NzkxMjUx
-Niw0OTI2NjY0MTcsLTExOTUzMDI4MzgsNjQwMDg5Mjk5LC0xNz
-QwMTg3OTQxLC0xMzUxNjk2MTE4LDQ4NDI1OTMwLC0xNjQ3Njg3
-NTkyXX0=
+eyJoaXN0b3J5IjpbNjQ5MjEzOTk3LDgzODIyNDM4OCw3NDAxOD
+U5MywyMTA4MDgyOTM0LC0zODA5OTE2NzcsMTg3MzA5OTY2Mywt
+MzEyNDMzOTMzLDQ3MDAyMDg3MCwtMjA2NzUxNDkwNSwtMTc2NT
+E2NzU3MCwtMzA2MDUwMzg3LDEyMTIzMTE4NTYsOTc3OTEyNTE2
+LDQ5MjY2NjQxNywtMTE5NTMwMjgzOCw2NDAwODkyOTksLTE3ND
+AxODc5NDEsLTEzNTE2OTYxMTgsNDg0MjU5MzAsLTE2NDc2ODc1
+OTJdfQ==
 -->
