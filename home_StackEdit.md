@@ -265,8 +265,10 @@ The described attack can be mapped in terms of **MITRE ATT&CK** Tactics and Tech
  - **Discovery**: the adversary is trying to figure out your environment.
 	 - *Account Discovery > Domain Account*: ==ToDo==
 	 - *Network Share Discovery*: ==ToDo==
-	 - *Group Policy Discovery*: ==ToDo (tutti vedono c==
- - **Lateral Movement**: d ==sia DNS ~~che Admin~~==
+	 - *~~Group Policy Discovery~~*: ==ToDo (tutti vedono cartella... implicito o esplicito?)==
+	 - *Permission Groups Discovery*: ==ToDo==
+ - **Lateral Movement**: the adversary is trying to move through your environment. ==sia DNS ~~che Admin~~==
+	 - *Permission Groups Discovery*: ==ToDo==
  - **Collection**: d
  - **Command and Control**: d
  - **Exfiltration**: d
@@ -300,11 +302,11 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^3]: To better understand the meaning of all the credentials stored by the different security packages, read [this page](https://www.hackingarticles.in/metasploit-for-pentester-mimikatz/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzc5NTIxODYsODM4MjI0Mzg4LDc0MD
-E4NTkzLDIxMDgwODI5MzQsLTM4MDk5MTY3NywxODczMDk5NjYz
-LC0zMTI0MzM5MzMsNDcwMDIwODcwLC0yMDY3NTE0OTA1LC0xNz
-Y1MTY3NTcwLC0zMDYwNTAzODcsMTIxMjMxMTg1Niw5Nzc5MTI1
-MTYsNDkyNjY2NDE3LC0xMTk1MzAyODM4LDY0MDA4OTI5OSwtMT
-c0MDE4Nzk0MSwtMTM1MTY5NjExOCw0ODQyNTkzMCwtMTY0NzY4
-NzU5Ml19
+eyJoaXN0b3J5IjpbLTIxNzk5MTI5OCw4MzgyMjQzODgsNzQwMT
+g1OTMsMjEwODA4MjkzNCwtMzgwOTkxNjc3LDE4NzMwOTk2NjMs
+LTMxMjQzMzkzMyw0NzAwMjA4NzAsLTIwNjc1MTQ5MDUsLTE3Nj
+UxNjc1NzAsLTMwNjA1MDM4NywxMjEyMzExODU2LDk3NzkxMjUx
+Niw0OTI2NjY0MTcsLTExOTUzMDI4MzgsNjQwMDg5Mjk5LC0xNz
+QwMTg3OTQxLC0xMzUxNjk2MTE4LDQ4NDI1OTMwLC0xNjQ3Njg3
+NTkyXX0=
 -->
