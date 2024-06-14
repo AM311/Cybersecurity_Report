@@ -54,7 +54,7 @@ All the machines need to communicate between each-other, so the virtualizator mu
 
 OSs versions are not mandatory, but all the features that will be used must be available.
 
-### Configuring the Machines
+### Configuring the Machines 
 
 Since the configuration of an Active Directory domain is not the main goal of this document, just a few details will be given further down while many others will be omitted.
 It is strongly suggested to use the **images** of the VMs that are provided [here](https://1drv.ms/f/s!Anl382FsL4Upiat8r6W9qhUUTo4hDw?e=fOHsvm), since they are already configured to reproduce the described scenario.
@@ -307,11 +307,11 @@ Other useful information about Active Directory have been retrieved from officia
 
 [^3]: To better understand the meaning of all the credentials stored by the different security packages, read [this page](https://www.hackingarticles.in/metasploit-for-pentester-mimikatz/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MTA3NjEzOSw5MTY4NDE0ODQsMTczNT
-Q1NjAxNyw4MzgyMjQzODgsNzQwMTg1OTMsMjEwODA4MjkzNCwt
-MzgwOTkxNjc3LDE4NzMwOTk2NjMsLTMxMjQzMzkzMyw0NzAwMj
-A4NzAsLTIwNjc1MTQ5MDUsLTE3NjUxNjc1NzAsLTMwNjA1MDM4
-NywxMjEyMzExODU2LDk3NzkxMjUxNiw0OTI2NjY0MTcsLTExOT
-UzMDI4MzgsNjQwMDg5Mjk5LC0xNzQwMTg3OTQxLC0xMzUxNjk2
-MTE4XX0=
+eyJoaXN0b3J5IjpbMTgzNzEwMjQ3MSwtODgxMDc2MTM5LDkxNj
+g0MTQ4NCwxNzM1NDU2MDE3LDgzODIyNDM4OCw3NDAxODU5Mywy
+MTA4MDgyOTM0LC0zODA5OTE2NzcsMTg3MzA5OTY2MywtMzEyND
+MzOTMzLDQ3MDAyMDg3MCwtMjA2NzUxNDkwNSwtMTc2NTE2NzU3
+MCwtMzA2MDUwMzg3LDEyMTIzMTE4NTYsOTc3OTEyNTE2LDQ5Mj
+Y2NjQxNywtMTE5NTMwMjgzOCw2NDAwODkyOTksLTE3NDAxODc5
+NDFdfQ==
 -->
